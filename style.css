@@ -32,7 +32,7 @@ body {
     font-family: 'Heebo', Arial, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
-    background-color: #ffffff;
+    background-color: #fff;
     direction: rtl;
 }
 
@@ -126,7 +126,8 @@ header {
 }
 
 .logo {
-
+    /* position: absolute; */
+        /* left:50%; */
 }
 
 .logo img {
@@ -137,7 +138,9 @@ nav {
     position: absolute ;
     display: flex;
     justify-content: space-between;
+    /* left: -235px ; */
     top: 50% ;
+    /* transform: translateY(-50%) ; */
 }
 
 nav ul {
@@ -147,6 +150,9 @@ nav ul {
     padding: 0;
     margin: 0;
     align-items: center;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.394); */
+    /* margin-left: -265px;
+    margin-right: 461px; */
 }
 
 nav ul li {
@@ -170,7 +176,7 @@ nav ul li a:hover {
 }
 
 .hamburger-menu {
-    display: block;
+    display: block; /* מוסתר כברירת מחדל */
     background: none;
     border: none;
     cursor: pointer;
@@ -193,7 +199,7 @@ main {
 .blog-page main {
     background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
     min-height: 100vh;
-    padding-top: 20px;
+    padding-top: 20px; /* להתאמה עם ה-header הקבוע */
 }
 
 section {
@@ -301,12 +307,6 @@ section {
     padding: 1rem;
 }
 
-/* Contact Section */
-.bg-dark {
-    background-color: var(--primary-color);
-    color: var(--white);
-}
-
 form {
     display: grid;
     gap: 1rem;
@@ -345,13 +345,6 @@ textarea {
     margin: auto;
 }
 
-.bg-dark p strong {
-    display: block;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 1.5rem;
-}
 
 .contact-cta {
     text-align: center;
@@ -499,6 +492,7 @@ ul.benefits-list {
     color: var(--secondary-color);
     font-weight: bold;
 }
+
 li.leftArrow,
 li.leftArrow,
 li.leftArrow {
@@ -506,7 +500,6 @@ li.leftArrow {
     padding-left: 20px;
     position: relative;
 }
-
 
 li.leftArrow::before,
 li.leftArrow::before,
@@ -670,11 +663,11 @@ li.leftArrow::before {
     }
 
     .cta-button{
-        /*display: none;*/
+     
     }
 
     nav {
-
+    
     }
 
 
@@ -705,35 +698,6 @@ li.leftArrow::before {
     }
 }
 
-/* Dark Mode Support */
-/*@media (prefers-color-scheme: dark) {
-    :root {
-        --background-color: #333;
-        --text-color: #ffffff;
-    }
-
-    .bg-light {
-        background-color: #444;
-    }
-
-    .service-card, .industry-card, #blog .blog-post, .blog-post-page .full-post {
-        background-color: #ffffff;
-        color: var(--text-color);
-    }
-
-    .language-dropdown {
-        background-color: #444;
-    }
-
-    .language-option {
-        color: #000000;
-    }
-
-    .language-option:hover {
-        background-color: #555;
-    }
-}*/
-
 main.blog-page {
     background: linear-gradient(to bottom, #0a2342d9, #ffffff);
     min-height: calc(100vh - 60px); /* מניח שהכותרת היא בערך 60px גבוהה */
@@ -750,6 +714,10 @@ main.blog-page {
 
 .blog-page h1, .blog-page h2, .blog-page .post-meta, .blog-page p {
     color: #0a2342;
+}
+
+.post-page h2 {
+    color: var(--white);
 }
 
 .blog-page .read-more {
@@ -856,26 +824,31 @@ body[lang="en"], body[lang="es"] {
 }
 @supports (-webkit-touch-callout: none) {
     /* iOS-specific styles */
+    :root {
+        color-scheme: light !important;
+    }
     header {
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
         width: 100%;
-        z-index: 9999;
+        z-index: 9999; 
         padding: 0px;
         box-sizing: border-box;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #0a2342;
+        background-color: #0a2342; 
         height: 60px;
     }
 
     body {
         padding-top: 0px;
+        background-color: #ffffff!important;
+        color: var(--text-color) !important;
     }
-
+    
     .header-container {
         display: flex;
         justify-content: space-between;
@@ -884,7 +857,6 @@ body[lang="en"], body[lang="es"] {
         padding: 0;
         margin: 0;
     }
-
     .logo {
         display: flex;
         align-items: center;
@@ -892,13 +864,14 @@ body[lang="en"], body[lang="es"] {
         margin: 0;
         padding: 0;
     }
+    
     .logo img {
         max-height: 40px;
         width: auto;
         margin-top: -50px;
         margin-left: 40px;
     }
-
+    
     .hamburger {
         display: flex;
         align-items: center;
@@ -908,7 +881,7 @@ body[lang="en"], body[lang="es"] {
         margin-top: -50px;
         margin-right: 5px;
     }
-
+    
     .hamburger-menu {
         display: flex;
         flex-direction: column;
@@ -917,14 +890,14 @@ body[lang="en"], body[lang="es"] {
         margin: 0;
         padding: 0;
     }
-
+    
     .hamburger-menu span {
         width: 25px;
         height: 3px;
         background-color: white;
         margin: 4px 0;
     }
-
+    
     .language-selector {
         display: flex;
         align-items: center;
@@ -985,7 +958,7 @@ body[lang="en"], body[lang="es"] {
         text-decoration: none;
         transition: color 0.3s ease;
     }
-
+    
     .main-menu-mobile {
         position: fixed;
         top: 60px;
@@ -999,11 +972,14 @@ body[lang="en"], body[lang="es"] {
 
     .hero, .main-content {
         margin-top: 60px;
+        background-image: linear-gradient(#0a2342, rgba(10, 35, 66, 0.8)), url(images/cyber-security-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
     }
-
+    
     @media (max-width: 768px) {
         .main-menu ul {
             display: none;
         }
     }
-}

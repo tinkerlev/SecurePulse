@@ -259,31 +259,31 @@
     "en": "? Why Secure Pulse",
     "es": "?Por qué Secure Pulse¿"
   },
-  "about_description": {
-    "he": "בSecure Pulse, אנו מבינים שאבטחת המידע היא קריטית בעידן הדיגיטלי. צוות המומחים שלנו משלב ידע טכני מעמיק עם הבנה עסקית, כדי לספק פתרונות אבטחה מקיפים ומותאמים אישית.",
-    "en": "At Secure Pulse, we understand that information security is critical in the digital age. Our team of experts combines deep technical knowledge with business understanding to provide comprehensive and customized security solutions.",
-    "es": "En Secure Pulse, entendemos que la seguridad de la información es crítica en la era digital. Nuestro equipo de expertos combina un profundo conocimiento técnico con una comprensión empresarial para proporcionar soluciones de seguridad integrales y personalizadas."
-  },
-  "about_expertise": {
-    "he": "מומחיות ייחודית בבריאות דיגיטלית וקמעונאות אונליין בעולם המתחדש של הבריאות והקמעונאות המקוונת, אבטחת המידע היא אתגר מרכזי. צוות Secure Pulse מתמחה בפתרונות מותאמים אישית עבור ענפים אלה, המתמודדים עם איומי סייבר ייחודיים. אנו מבינים את הצרכים הספציפיים של ארגונים רפואיים וקמעונאות אונליין, ומפתחים פתרונות המשלבים הגנה חזקה עם זרימת עבודה יעילה.",
-    "en": "Unique expertise in digital health and online retail In the evolving world of health and online retail, information security is a central challenge. The Secure Pulse team specializes in customized solutions for these industries, which face unique cyber threats. We understand the specific needs of healthcare organizations and online retailers, and develop solutions that combine strong protection with efficient workflow.",
-    "es": "Experiencia única en salud digital y comercio minorista en línea En el mundo en evolución de la salud y el comercio minorista en línea, la seguridad de la información es un desafío central. El equipo de Secure Pulse se especializa en soluciones personalizadas para estas industrias, que enfrentan amenazas cibernéticas únicas. Entendemos las necesidades específicas de las organizaciones de atención médica y los minoristas en línea, y desarrollamos soluciones que combinan una protección sólida con un flujo de trabajo eficiente."
-  },
-  "about_team": {
-    "he": "צוות מנוסה עם הסמכות מובילות בתעשייה הצוות המקצועי של Secure Pulse כולל מומחים בעלי ניסיון עשיר בתחום אבטחת המידע. המעידות על הידע והמיומנויות הנדרשים להגנה יעילה על מערכות קריטיות. הצוות שלנו מעודכן תמיד בטכנולוגיות חדשניות ובשיטות התקפה והגנה מתקדמות.",
-    "en": "Experienced team with industry-leading certifications The Secure Pulse professional team includes experts with extensive experience in information security. These certify the knowledge and skills required for effective protection of critical systems. Our team is always up-to-date with innovative technologies and advanced attack and defense methods.",
-    "es": "Equipo experimentado con certificaciones líderes en la industria El equipo profesional de Secure Pulse incluye expertos con amplia experiencia en seguridad de la información. Estos certifican el conocimiento y las habilidades necesarias para la protección efectiva de sistemas críticos. Nuestro equipo está siempre actualizado con tecnologías innovadoras y métodos avanzados de ataque y defensa."
-  },
-  "about_proactive": {
-    "he": "גישה פרואקטיבית לזיהוי ומניעת איומים אנו לא מחכים לאירועי אבטחה כדי לפעול. הצוות שלנו נוקט בגישה פרואקטיבית של ניטור, זיהוי והערכה של סיכונים, כדי למנוע פריצות וגניבת מידע מלכתחילה. אנו משתמשים במערכות מתקדמות לבדיקת חדירות, ניתוח איומים, וביצוע הערכות סיכונים שיטתיות עבור כל לקוח.",
-    "en": "Proactive approach to threat identification and prevention We do not wait for security events to act. Our team takes a proactive approach of monitoring, identifying and assessing risks to prevent breaches and data theft from the outset. We use advanced systems for penetration testing, threat analysis, and performing systematic risk assessments for each client.",
-    "es": "Enfoque proactivo para la identificación y prevención de amenazas No esperamos a que ocurran eventos de seguridad para actuar. Nuestro equipo adopta un enfoque proactivo de monitoreo, identificación y evaluación de riesgos para prevenir infracciones y robo de datos desde el principio. Utilizamos sistemas avanzados para pruebas de penetración, análisis de amenazas y realización de evaluaciones de riesgo sistemáticas para cada cliente."
-  },
-  "about_reports": {
-    "he": "דוחות מפורטים עם המלצות מעשיות בסיום כל פרויקט, אנו מעניקים דוח מפורט הכולל ניתוח מקיף של הממצאים, הסיכונים שזוהו, והמלצות מעשיות לשיפור האבטחה. הדוח מספק תמונה שלמה של מצב האבטחה והצעדים הנדרשים לחיזוקה, כדי לסייע ללקוחות לקבל החלטות מושכלות.",
-    "en": "Detailed reports with practical recommendations At the end of each project, we provide a detailed report including a comprehensive analysis of the findings, identified risks, and practical recommendations for improving security. The report provides a complete picture of the security situation and the steps needed to strengthen it, to help clients make informed decisions.",
-    "es": "Informes detallados con recomendaciones prácticas Al final de cada proyecto, proporcionamos un informe detallado que incluye un análisis exhaustivo de los hallazgos, los riesgos identificados y recomendaciones prácticas para mejorar la seguridad. El informe proporciona una imagen completa de la situación de seguridad y los pasos necesarios para fortalecerla, para ayudar a los clientes a tomar decisiones informadas."
-  },
+    "about_description": {
+      "he": "ב-Secure Pulse, אנו מבינים שאבטחת המידע היא קריטית בעידן הדיגיטלי. צוות המומחים שלנו משלב ידע טכני מעמיק עם הבנה עסקית, כדי לספק פתרונות אבטחה מקיפים ומותאמים אישית.",
+      "en": "At Secure Pulse, we understand that information security is critical in the digital age. Our team of experts combines deep technical knowledge with business understanding to provide comprehensive and customized security solutions.",
+      "es": "En Secure Pulse, entendemos que la seguridad de la información es crítica en la era digital. Nuestro equipo de expertos combina un profundo conocimiento técnico con una comprensión empresarial para proporcionar soluciones de seguridad integrales y personalizadas."
+    },
+    "about_expertise": {
+      "he": "מומחיות ייחודית בבריאות דיגיטלית, קמעונאות אונליין ובתים חכמים בעולם המתחדש של הבריאות, הקמעונאות המקוונת והבתים החכמים, אבטחת המידע היא אתגר מרכזי. צוות Secure Pulse מתמחה בפתרונות מותאמים אישית עבור ענפים אלה, המתמודדים עם איומי סייבר ייחודיים. הבנת הצרכים הספציפיים של ארגונים רפואיים, קמעונאות אונליין ובתים חכמים מאפשרת לנו לפתח פתרונות המשלבים הגנה חזקה עם זרימת עבודה יעילה.",
+      "en": "Unique expertise in digital health, online retail, and smart homes In the evolving world of health, online retail, and smart homes, information security is a central challenge. The Secure Pulse team specializes in customized solutions for these industries, which face unique cyber threats. Understanding the specific needs of healthcare organizations, online retailers, and smart homes enables us to develop solutions that combine strong protection with efficient workflow.",
+      "es": "Experiencia única en salud digital, comercio minorista en línea y hogares inteligentes En el mundo en evolución de la salud, el comercio minorista en línea y los hogares inteligentes, la seguridad de la información es un desafío central. El equipo de Secure Pulse se especializa en soluciones personalizadas para estas industrias, que enfrentan amenazas cibernéticas únicas. Comprender las necesidades específicas de las organizaciones de atención médica, los minoristas en línea y los hogares inteligentes nos permite desarrollar soluciones que combinan una protección sólida con un flujo de trabajo eficiente."
+    },
+    "about_team": {
+      "he": "צוות מנוסה עם הסמכות מובילות בתעשייה הצוות המקצועי של Secure Pulse כולל מומחים בעלי ניסיון עשיר בתחום אבטחת המידע והסמכות המעידות על הידע והמיומנויות הנדרשים להגנה יעילה על מערכות קריטיות. הצוות שלנו מתעדכן תמיד בטכנולוגיות חדשניות ובשיטות התקפה והגנה מתקדמות.",
+      "en": "Experienced team with industry-leading certifications The Secure Pulse professional team includes experts with extensive experience in information security. These certify the knowledge and skills required for effective protection of critical systems. Our team is always up-to-date with innovative technologies and advanced attack and defense methods.",
+      "es": "Equipo experimentado con certificaciones líderes en la industria El equipo profesional de Secure Pulse incluye expertos con amplia experiencia en seguridad de la información. Estos certifican el conocimiento y las habilidades necesarias para la protección efectiva de sistemas críticos. Nuestro equipo está siempre actualizado con tecnologías innovadoras y métodos avanzados de ataque y defensa."
+    },
+    "about_proactive": {
+      "he": "גישה פרואקטיבית לזיהוי ומניעת איומים אנו לא מחכים לאירועי אבטחה כדי לפעול. הצוות שלנו נוקט בגישה פרואקטיבית של ניטור, זיהוי והערכה של סיכונים, כדי למנוע פריצות וגניבת מידע מלכתחילה. אנו משתמשים במערכות מתקדמות לבדיקת חדירות, ניתוח איומים, וביצוע הערכות סיכונים שיטתיות עבור כל לקוח.",
+      "en": "Proactive approach to threat identification and prevention We do not wait for security events to act. Our team takes a proactive approach of monitoring, identifying and assessing risks to prevent breaches and data theft from the outset. We use advanced systems for penetration testing, threat analysis, and performing systematic risk assessments for each client.",
+      "es": "Enfoque proactivo para la identificación y prevención de amenazas No esperamos a que ocurran eventos de seguridad para actuar. Nuestro equipo adopta un enfoque proactivo de monitoreo, identificación y evaluación de riesgos para prevenir infracciones y robo de datos desde el principio. Utilizamos sistemas avanzados para pruebas de penetración, análisis de amenazas y realización de evaluaciones de riesgo sistemáticas para cada cliente."
+    },
+    "about_reports": {
+      "he": "דוחות מפורטים עם המלצות מעשיות בסיום כל פרויקט, Secure Pulse מעניקה דוח מפורט הכולל ניתוח מקיף של הממצאים, הסיכונים שזוהו והמלצות מעשיות לשיפור האבטחה. הדוח מספק תמונה שלמה של מצב האבטחה והצעדים הנדרשים לחיזוקה, כדי לסייע ללקוחות לקבל החלטות מושכלות.",
+      "en": "Detailed reports with practical recommendations At the end of each project, Secure Pulse provides a detailed report including a comprehensive analysis of the findings, identified risks, and practical recommendations for improving security. The report provides a complete picture of the security situation and the steps needed to strengthen it, to help clients make informed decisions.",
+      "es": "Informes detallados con recomendaciones prácticas Al final de cada proyecto, Secure Pulse proporciona un informe detallado que incluye un análisis exhaustivo de los hallazgos, los riesgos identificados y recomendaciones prácticas para mejorar la seguridad. El informe proporciona una imagen completa de la situación de seguridad y los pasos necesarios para fortalecerla, para ayudar a los clientes a tomar decisiones informadas."
+    },
   "industries_title": {
     "he": "התמחות בתעשיות מובילות",
     "en": "Specialization in Leading Industries",
@@ -948,5 +948,105 @@
       "he": "שתפו את הפוסט הזה כדי להגביר את המודעות ולהגן על אחרים מפני תרמיות דומות.",
       "en": "Share this post to raise awareness and protect others from similar scams.",
       "es": "Comparte esta publicación para aumentar la conciencia y proteger a otros de estafas similares."
-    }
-}
+    },
+      "services_smart_home_security_title": {
+        "he": "אבטחת בתים חכמים",
+        "en": "Smart Home Security",
+        "es": "Seguridad para Hogares Inteligentes"
+      },
+      "services_smart_home_security_description": {
+        "he": "אבטחת בתים חכמים היא תהליך מקיף להגנה על מערכות הבית החכם שלך מפני איומי סייבר ופרצות אבטחה. אנו מבצעים סקירה מעמיקה של כל המכשירים והמערכות המחוברות, מזהים נקודות תורפה, ומיישמים אמצעי הגנה מתקדמים כדי להבטיח את פרטיותך ובטיחותך בעידן ה-IoT.",
+        "en": "Smart home security is a comprehensive process to protect your smart home systems from cyber threats and security breaches. We conduct an in-depth review of all connected devices and systems, identify vulnerabilities, and implement advanced protection measures to ensure your privacy and safety in the IoT era.",
+        "es": "La seguridad para hogares inteligentes es un proceso integral para proteger tus sistemas domésticos inteligentes contra amenazas cibernéticas y brechas de seguridad. Realizamos una revisión exhaustiva de todos los dispositivos y sistemas conectados, identificamos vulnerabilidades e implementamos medidas de protección avanzadas para garantizar tu privacidad y seguridad en la era del IoT."
+      },
+      "smart_home_importance": {
+        "he": "בעידן הדיגיטלי של היום, בתים חכמים הופכים למטרה אטרקטיבית עבור האקרים. פרצת אבטחה יכולה לחשוף מידע אישי רגיש, לאפשר גישה לא מורשית למצלמות ומנעולים חכמים, ואפילו לשבש את מערכות הבית. אבטחה נאותה לא רק מגנה על פרטיותך ובטיחותך, אלא גם מבטיחה את השלווה והנוחות שבית חכם אמור לספק.",
+        "en": "In today's digital age, smart homes are becoming an attractive target for hackers. A security breach can expose sensitive personal information, allow unauthorized access to cameras and smart locks, and even disrupt home systems. Proper security not only protects your privacy and safety but also ensures the peace of mind and comfort that a smart home should provide.",
+        "es": "En la era digital actual, los hogares inteligentes se están convirtiendo en un objetivo atractivo para los hackers. Una brecha de seguridad puede exponer información personal sensible, permitir acceso no autorizado a cámaras y cerraduras inteligentes, e incluso interrumpir los sistemas del hogar. Una seguridad adecuada no solo protege tu privacidad y seguridad, sino que también garantiza la tranquilidad y comodidad que un hogar inteligente debe proporcionar."
+      },
+      "benefit_privacy": {
+        "he": "הגנה מקיפה על פרטיותך ובטיחות משפחתך בסביבה הביתית החכמה.",
+        "en": "Comprehensive protection of your privacy and family safety in the smart home environment.",
+        "es": "Protección integral de tu privacidad y la seguridad de tu familia en el entorno del hogar inteligente."
+      },
+      "benefit_unauthorized_access": {
+        "he": "מניעת גישה לא מורשית למצלמות, מנעולים חכמים ומכשירי בית אחרים.",
+        "en": "Prevention of unauthorized access to cameras, smart locks, and other home devices.",
+        "es": "Prevención de acceso no autorizado a cámaras, cerraduras inteligentes y otros dispositivos domésticos."
+      },
+      "benefit_data_protection": {
+        "he": "הגנה משופרת על מידע אישי ורגיש המאוחסן במכשירים חכמים.",
+        "en": "Enhanced protection of personal and sensitive information stored on smart devices.",
+        "es": "Protección mejorada de la información personal y sensible almacenada en dispositivos inteligentes."
+      },
+      "benefit_reliability": {
+        "he": "שיפור האמינות והיציבות של מערכת הבית החכם.",
+        "en": "Improved reliability and stability of the smart home system.",
+        "es": "Mayor fiabilidad y estabilidad del sistema de hogar inteligente."
+      },
+      "benefit_peace_of_mind": {
+        "he": "שקט נפשי ביודעך שביתך מוגן מפני איומי סייבר מתקדמים.",
+        "en": "Peace of mind knowing your home is protected against advanced cyber threats.",
+        "es": "Tranquilidad al saber que tu hogar está protegido contra amenazas cibernéticas avanzadas."
+      },
+      "benefit_technology_enjoyment": {
+        "he": "יכולת ליהנות מיתרונות הטכנולוגיה החכמה ללא דאגות אבטחה.",
+        "en": "Ability to enjoy the benefits of smart technology without security concerns.",
+        "es": "Capacidad de disfrutar de los beneficios de la tecnología inteligente sin preocupaciones de seguridad."
+      },
+      "process_system_review": {
+        "he": "סקירת מערכות: מיפוי מקיף של כל המכשירים והמערכות המחוברות בביתך.",
+        "en": "System review: Comprehensive mapping of all connected devices and systems in your home.",
+        "es": "Revisión del sistema: Mapeo completo de todos los dispositivos y sistemas conectados en tu hogar."
+      },
+      "process_vulnerability_check": {
+        "he": "בדיקת פגיעויות: זיהוי נקודות תורפה במערכת הבית החכם ובמכשירים המחוברים.",
+        "en": "Vulnerability check: Identifying weak points in the smart home system and connected devices.",
+        "es": "Verificación de vulnerabilidades: Identificación de puntos débiles en el sistema de hogar inteligente y dispositivos conectados."
+      },
+      "process_risk_assessment": {
+        "he": "הערכת סיכונים: ניתוח מעמיק של הסיכונים הפוטנציאליים לפרטיות ואבטחה.",
+        "en": "Risk assessment: In-depth analysis of potential privacy and security risks.",
+        "es": "Evaluación de riesgos: Análisis profundo de los riesgos potenciales para la privacidad y la seguridad."
+      },
+      "process_security_recommendations": {
+        "he": "המלצות אבטחה: פיתוח אסטרטגיות מותאמות אישית להגנה על מערכות הבית החכם.",
+        "en": "Security recommendations: Developing customized strategies to protect smart home systems.",
+        "es": "Recomendaciones de seguridad: Desarrollo de estrategias personalizadas para proteger los sistemas de hogar inteligente."
+      },
+      "process_implementation": {
+        "he": "יישום הגנות: סיוע בהטמעת אמצעי אבטחה מתקדמים, כולל הצפנה ואימות דו-שלבי.",
+        "en": "Implementation of protections: Assistance in implementing advanced security measures, including encryption and two-factor authentication.",
+        "es": "Implementación de protecciones: Asistencia en la implementación de medidas de seguridad avanzadas, incluyendo encriptación y autenticación de dos factores."
+      },
+      "process_system_update": {
+        "he": "עדכון וטלאי מערכות: וידוא שכל המכשירים והתוכנות מעודכנים עם טלאי האבטחה האחרונים.",
+        "en": "System updates and patching: Ensuring all devices and software are updated with the latest security patches.",
+        "es": "Actualización y parcheo de sistemas: Asegurar que todos los dispositivos y software estén actualizados con los últimos parches de seguridad."
+      },
+      "process_training": {
+        "he": "הדרכות: מתן כלים וידע לבני הבית לשימוש בטוח במערכות הבית החכם.",
+        "en": "Training: Providing tools and knowledge to household members for safe use of smart home systems.",
+        "es": "Capacitación: Proporcionar herramientas y conocimientos a los miembros del hogar para el uso seguro de los sistemas de hogar inteligente."
+      },
+      "process_monitoring": {
+        "he": "ניטור מתמשך: הגדרת מערכות לזיהוי ומניעת איומים בזמן אמת.",
+        "en": "Continuous monitoring: Setting up systems for real-time threat detection and prevention.",
+        "es": "Monitoreo continuo: Configuración de sistemas para la detección y prevención de amenazas en tiempo real."
+      },
+      "process_periodic_testing": {
+        "he": "בדיקות תקופתיות: ביצוע סריקות אבטחה שוטפות ועדכון של מערכות ההגנה.",
+        "en": "Periodic testing: Conducting regular security scans and updating protection systems.",
+        "es": "Pruebas periódicas: Realización de escaneos de seguridad regulares y actualización de los sistemas de protección."
+      },
+        "industries_smart_home_title": {
+          "he": "בתים חכמים",
+          "en": "Smart Homes",
+          "es": "Hogares Inteligentes"
+        },
+        "industries_smart_home_description": {
+          "he": "אבטחת מערכות IoT ביתיות והגנה על פרטיות המשתמשים בעידן הבית החכם",
+          "en": "Securing home IoT systems and protecting user privacy in the smart home era",
+          "es": "Asegurando sistemas IoT domésticos y protegiendo la privacidad del usuario en la era del hogar inteligente"
+        }
+      }
