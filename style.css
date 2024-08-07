@@ -249,7 +249,7 @@ section {
     background-color: var(--white);
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 6px rgba(10, 35, 66, 0.8);
     transition: transform 0.3s ease;
 }
 

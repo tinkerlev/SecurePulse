@@ -20,5 +20,6 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
-
+#srcure
+.htaccess
 /node_moudles
