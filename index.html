@@ -19,15 +19,13 @@
     <meta http-equiv="Content-Security-Policy" content="
         default-src 'self';
         script-src 'self' 'unsafe-inline' https://cdn.userway.org;
-        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com;
-        font-src https://fonts.gstatic.com;
-        img-src 'self' https://flagcdn.com;
-        frame-ancestors 'none';
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://cdn.userway.org;
+        font-src https://fonts.gstatic.com https://cdn.userway.org;
+        img-src 'self' https://flagcdn.com https://cdn.userway.org data:;
+        connect-src 'self' https://api.userway.org https://cdn.userway.org;
+        frame-src 'self' https://cdn.userway.org;
         upgrade-insecure-requests;
-        object-src 'none';
-        geolocation 'none';
-        microphone 'none';
-        camera 'none'
+        object-src 'none'; 
     ">
     <link rel="icon" href="pic/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="pic/favicon.ico" type="image/x-icon">
@@ -264,7 +262,7 @@
                         <h3 data-translate="post_title_smart_home_security">אבטחת הבית החכם שלכם: למה זה קריטי ואיך לעשות זאת נכון</h3>
                         <p class="post-meta" data-translate="post_date2">תאריך: <time datetime="2024-08-7">7 באוגוסט, 2024</time></p>
                         <p data-translate="post_intro2"> ב</p>
-                        <a href="blog/post2.html" class="read-more" data-translate="read_more">קרא עוד</a>
+                        <a href="blog/smart_home_security.html" class="read-more" data-translate="read_more">קרא עוד</a>
                     </article>
                 </div>
                 <a href="./blog/blog.html" class="cta-button" data-translate="view_all_posts">לכל הפוסטים</a>

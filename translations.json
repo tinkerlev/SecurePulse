@@ -14,6 +14,11 @@
     "en": "Blog",
     "es": "Blog"
   },
+  "blog": {
+    "he": "Secure Pulse - בלוג",
+    "en": "Blog - Secure Pulse",
+    "es": "Blog - Secure Pulse"
+  },
   "nav_services": {
     "he": "שירותים",
     "en": "Services",
@@ -435,7 +440,7 @@
     "es": "Nuestro Blog"
   },
   "post_title_health": {
-    "he": "הבריאות שלך בעידן הדיגיטלי: למה אבטחת מידע חשובה לכולנו",
+    "he": "הבריאות שלנו בעידן הדיגיטלי: למה אבטחת מידע חשובה לכולנו",
     "en": "Your Health in the Digital Age: Why Information Security Matters to Us All",
     "es": "Tu Salud en la Era Digital: Por Qué la Seguridad de la Información Nos Importa a Todos"
   },
@@ -450,7 +455,7 @@
     "es": "30 de julio de 2024"
   },
   "post_summary_health": {
-    "he": "בעידן הדיגיטלי, המידע הרפואי שלנו הופך לנגיש יותר מאי פעם. אך עם היתרונות הרבים מגיעים גם סיכונים. גלה למה אבטחת מידע רפואי היא קריטית עבור כולנו.",
+    "he": "בעידן הדיגיטלי, המידע הרפואי שלנו הופך לנגיש יותר מאי פעם. אך עם היתרונות הרבים מגיעים גם סיכונים. גלו למה אבטחת מידע רפואי היא קריטית עבור כולנו.",
     "en": "In the digital age, our medical information is becoming more accessible than ever. But with many advantages come risks as well. Discover why medical information security is critical for all of us.",
     "es": "En la era digital, nuestra información médica se está volviendo más accesible que nunca. Pero con muchas ventajas también vienen riesgos. Descubre por qué la seguridad de la información médica es crítica para todos nosotros."
   },
@@ -1208,5 +1213,70 @@
     "he": "אל תחכו עד שיהיה מאוחר מדי. צרו איתנו קשר היום לקבלת ייעוץ אישי בנושא אבטחת הבית החכם שלכם. הצוות הגלובלי שלנו מוכן לספק פתרונות מותאמים אישית לצרכים הייחודיים שלכם, ללא קשר למיקומכם בעולם.",
     "en": "Don't wait until it's too late. Contact us today for personalized advice on securing your smart home. Our global team is ready to provide customized solutions for your unique needs, no matter where you are in the world.",
     "es": "No esperes hasta que sea demasiado tarde. Contáctanos hoy para obtener asesoramiento personalizado sobre cómo asegurar tu hogar inteligente. Nuestro equipo global está listo para proporcionar soluciones personalizadas para tus necesidades únicas, sin importar dónde te encuentres en el mundo."
+  },
+  "blog_description": {
+    "he": "בלוג Secure Pulse מספק מידע עדכני ותובנות בנושאי אבטחת מידע, Penetration Testing, ואבטחה דיגיטלית.",
+    "en": "The Secure Pulse blog provides up-to-date information and insights on information security, penetration testing, and digital security.",
+    "es": "El blog de Secure Pulse ofrece información actualizada y perspectivas sobre seguridad de la información, pruebas de penetración y seguridad digital."
+  },
+  "og_blog_description": {
+    "he": "בלוג Secure Pulse מספק מידע עדכני ותובנות בנושאי אבטחת מידע, Penetration Testing, ואבטחה דיגיטלית.",
+    "en": "The Secure Pulse blog provides up-to-date information and insights on information security, penetration testing, and digital security.",
+    "es": "El blog de Secure Pulse ofrece información actualizada y perspectivas sobre seguridad de la información, pruebas de penetración y seguridad digital."
+  },
+  "og_blog": {
+    "he": "Secure Pulse - בלוג אבטחת מידע",
+    "en": "Secure Pulse - Information Security Blog",
+    "es": "Secure Pulse - Blog de Seguridad de la Información"
+  },
+  "post_smart_home": {
+    "he": "Secure Pulse - פוסט אבטחת מידע לבתים חכמים",
+    "en": "Secure Pulse - Smart Home Information Security Post",
+    "es": "Secure Pulse - Publicación sobre Seguridad de la Información para Hogares Inteligentes"
+  },
+  "og_smart_home": {
+    "he": "Secure Pulse - אבטחת מידע לבתים חכמים",
+    "en": "Secure Pulse - Smart Home Information Security",
+    "es": "Secure Pulse - Seguridad de la Información para Hogares Inteligentes"
+  },
+  "og_smart_home_description": {
+    "he": "אבטחה מקיפה של בית חכם דורשת שילוב של אמצעים טכנולוגיים, הגדרות אבטחה נכונות ומודעות משתמשים",
+    "en": "Comprehensive smart home security requires a combination of technological measures, proper security settings, and user awareness.",
+    "es": "La seguridad integral del hogar inteligente requiere una combinación de medidas tecnológicas, configuraciones de seguridad adecuadas y conciencia del usuario."
+  },
+  "post_digital": {
+    "he": "Secure Pulse - אבטחה מתקדמת בקמעונאות הדיגיטלית",
+    "en": "Secure Pulse - Advanced Security in Digital Retail",
+    "es": "Secure Pulse - Seguridad Avanzada en el Comercio Digital"
+  },
+  "post_digital_description": {
+    "he": "הגנו על העולם הדיגיטלי שלכם עם הפתרונות המתקדמים ביותר בתחום אבטחת הסייבר!",
+    "en": "Protect your digital world with the most advanced cybersecurity solutions!",
+    "es": "¡Protege tu mundo digital con las soluciones de ciberseguridad más avanzadas!"
+  },
+  "og_post_digital_description": {
+    "he": "אל תתנו לאיומי סייבר להפתיע אתכם! תגלו איך להגן על המידע שלכם בצורה הטובה ביותר.",
+    "en": "Don't let cyber threats catch you off guard! Discover how to protect your data in the best possible way.",
+    "es": "¡No dejes que las amenazas cibernéticas te tomen por sorpresa! Descubre cómo proteger tu información de la mejor manera posible."
+  },
+  "post_whatsapp": {
+    "he": "Secure Pulse - פישינג בווצאפ",
+    "en": "Secure Pulse - WhatsApp Phishing",
+    "es": "Secure Pulse - Phishing en WhatsApp"
+  },
+  "og_post_whatsapp": {
+    "he": "Secure Pulse - לדעת איך לשמור על אבטחת המכישר שלך זה חשוב",
+    "en": "Secure Pulse - Knowing How to Secure Your WhatsApp is Crucial",
+    "es": "Secure Pulse - Saber cómo proteger tu WhatsApp es crucial"
+  },
+  "post_health": {
+    "he": "Secure Pulse - הבריאות שלנו בעידן הדיגיטלי",
+    "en": "Secure Pulse - Our Health in the Digital Age",
+    "es": "Secure Pulse - Nuestra Salud en la Era Digital"
+  },
+  "og_post_health": {
+    "he": "Secure Pulse - אבטחת הבריאות הדיגיטלית שלנו",
+    "en": "Secure Pulse - Securing Our Digital Health",
+    "es": "Secure Pulse - Protegiendo Nuestra Salud Digital"
   }
 }

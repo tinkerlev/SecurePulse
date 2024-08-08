@@ -241,13 +241,14 @@ section {
 /* Services Section */
 .services-grid {
     display: flex;
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
     gap: 2rem;
+    padding: 37px;
 }
 
-.service-card, .industry-card, #blog .blog-post, .blog-post-page .full-post {
+.industry-card {
+    flex: 1px;
     background-color: var(--white);
-    padding: 2rem;
+   /* padding: 2rem;*/
     border-radius: 10px;
     box-shadow: 0 10px 6px rgba(10, 35, 66, 0.8);
     transition: transform 0.3s ease;
@@ -259,6 +260,10 @@ section {
     flex-basis: 1;
     transform: scale(var(--card-scale));
     transition: --card-scale 0.3s ease, transform 0.3s ease;
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 6px rgba(10, 35, 66, 0.8);
 }
 
 .service-card:hover, .industry-card:hover {
@@ -300,7 +305,7 @@ section {
 /* Industries Section */
 .industry-cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 2rem;
 }
 
@@ -427,9 +432,23 @@ footer {
     flex-wrap: wrap;
 }
 
+/* Full Post in Blog Post Page */
+.blog-post-page .full-post {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 6px rgba(10, 35, 66, 0.8);
+    transition: transform 0.3s ease;
+}
+
 #blog .blog-post {
     width: calc(50% - 20px);
     margin-bottom: 40px;
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 6px rgba(10, 35, 66, 0.8);
+    transition: transform 0.3s ease;
 }
 
 #blog .post-meta {
@@ -450,16 +469,8 @@ footer {
     text-decoration: underline;
 }
 
-.blog-page .blog-post {
-    background-color: rgba(255, 255, 255, 0.9); /* רקע לבן שקוף מעט */
-    margin-bottom: 3rem;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
 .blog-page h1, .blog-page h2 {
-    color: var(--white);
+    color: #0a2342;
 }
 
 .blog-page .blog-post:last-child {
@@ -683,13 +694,14 @@ li.leftArrow::before {
     }
 
     .language-selector {
-        /* position: static; */
-        /* transform: none;
+        /* position: static; 
+        transform: none;
         margin-top: 1rem; */
     }
 
     .about-grid, .industry-cards {
         grid-template-columns: 1fr;
+        flex-direction: column;
     }
 
     .hero h1 {
@@ -739,14 +751,29 @@ main.blog-page {
 
 .blog-page .blog-post {
     background-color: rgba(255, 255, 255, 0.1);
-    padding: 1rem;
+    overflow: hidden;
     border-radius: 10px;
     margin-bottom: 2rem;
+    box-shadow:0 10px 6px rgba(10, 35, 66, 0.8);
+}
+
+.blog-page .blog-post > *:not(img) {
+    padding: 1rem;
+}
+
+.blog-page .blog-post img {
+    width: 100%;
+    display: block;
 }
 
 .always-ltr {
     direction: ltr !important;
     text-align: embed;
+}
+
+.blog-page .blog-post .read-more {
+    display: inline-block;
+    margin: 0 1rem 1rem;
 }
 
 .blog-post-page h1 {
