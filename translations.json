@@ -19,6 +19,11 @@
     "en": "Blog - Secure Pulse",
     "es": "Blog - Secure Pulse"
   },
+  "blog_header": {
+    "he": "גלו את התובנות והטיפים שמומחי אבטחת המידע שלנו משתפים",
+    "en": "Discover the insights and tips shared by our cybersecurity experts",
+    "es": "Descubre las ideas y consejos que nuestros expertos en ciberseguridad comparten"
+  },
   "nav_services": {
     "he": "שירותים",
     "en": "Services",
@@ -452,7 +457,7 @@
   "post_date_health": {
     "he": "30 ביולי, 2024",
     "en": "July 30, 2024",
-    "es": "30 de julio de 2024"
+    "es": "30 julio 2024"
   },
   "post_summary_health": {
     "he": "בעידן הדיגיטלי, המידע הרפואי שלנו הופך לנגיש יותר מאי פעם. אך עם היתרונות הרבים מגיעים גם סיכונים. גלו למה אבטחת מידע רפואי היא קריטית עבור כולנו.",

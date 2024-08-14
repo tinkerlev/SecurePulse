@@ -45,7 +45,7 @@ async function loadTranslations(lang) {
         console.log('Translations loaded:', translations);
     } catch (error) {
         console.error('Error loading translations:', error);
-        translations = {}; // או אובייקט עם תרגומים בסיסיים
+        translations = {}; 
     }
 }
 
@@ -159,7 +159,6 @@ function initVoiceInput() {
 }
 
 function initLanguageSelector() {
-    console.log('ok');
     const languageToggle = document.getElementById('language-toggle');
     const languageDropdown = document.getElementById('language-dropdown');
     if (languageToggle && languageDropdown) {
@@ -205,7 +204,6 @@ function toggleHamburger(e){
 }
 
 function toggleLanguageDropdown(e) {
-    console.log('Here')
     e.stopPropagation();
     const languageDropdown = document.getElementById('language-dropdown');
     if (languageDropdown) {
