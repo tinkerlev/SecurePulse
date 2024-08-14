@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <title data-translate="page_title">Secure Pulse - אבטחה מתקדמת לעולם הדיגיטלי</title>
+    <meta name="description" data-translate="meta_description" content="Secure Pulse מספקת שירותי Penetration Testing מתקדמים המתמחים בבריאות דיגיטלית וקמעונאות אונליין. הגנו על הנכסים הדיגיטליים שלכם עם המומחים שלנו.">
+    <meta property="og:title" data-translate="page_title" content="Secure Pulse - אבטחה מתקדמת לעולם הדיגיטלי">
+    <meta property="og:description" data-translate="og_description" content="Secure Pulse מספקת שירותי Penetration Testing מתקדמים המתמחים בבריאות דיגיטלית וקמעונאות אונליין.">
+    <meta property="og:image" content="https://www.securepulses.com/pic/logo-secure-pulse@2x.png">
+    <meta property="og:url" content="https://www.securepulses.com">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self';
+        script-src 'self' 'unsafe-inline' https://cdn.userway.org;
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://cdn.userway.org;
+        font-src https://fonts.gstatic.com https://cdn.userway.org;
+        img-src 'self' https://flagcdn.com https://cdn.userway.org data:;
+        connect-src 'self' https://api.userway.org https://cdn.userway.org https://formspree.io/f/mldrdggd;
+        frame-src 'self' https://cdn.userway.org;
+        upgrade-insecure-requests;
+        object-src 'none'; 
+    ">
+    <link rel="icon" href="pic/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="pic/favicon.ico" type="image/x-icon">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <script async src="https://cdn.userway.org/widget.js" data-account="lLYHLLp4WE"></script>
+    <script type="application/ld+json" data-translate="structured_data">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Secure Pulse",
+          "description": "אבטחה מתקדמת לעולם הדיגיטלי",
+          "url": "https://www.securepulses.com",
+          "logo": "https://www.securepulses.com/pic/logo-secure-pulse@2x.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+972-52-828-1958",
+            "contactType": "customer service",
+            "email": "info@securepulses.com",
+            "availableLanguage": ["Hebrew", "English", "Spanish"]
+          },
+          "areaServed": {
+            "@type": "Place",
+            "name": "Worldwide"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/company/securepulse"
+          ]
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="header-container">
+            <div class="hamburger">
+                <button onclick="toggleHamburger(this)" class="hamburger-menu" aria-label="תפריט">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="language-selector mobile">
+                <button class="language-btn" id="language-toggle">
+                    <img src="https://flagcdn.com/w40/il.png" alt="current language" id="current-language-flag">
+                </button>
+                <div class="language-dropdown" id="language-dropdown">
+                    <a href="#" class="language-option" data-lang="he">
+                        <img src="https://flagcdn.com/w40/il.png" alt="עברית">
+                        <span>עברית</span>
+                    </a>
+                    <a href="#" class="language-option" data-lang="en">
+                        <img src="https://flagcdn.com/w40/us.png" alt="English">
+                        <span>English</span>
+                    </a>
+                    <a href="#" class="language-option" data-lang="es">
+                        <img src="https://flagcdn.com/w40/es.png" alt="Español">
+                        <span>Español</span>
+                    </a>
+                </div>
+            </div>
+            <div class="main-menu">
+                <ul>
+                    <li><a href="./index.html" data-translate="nav_home">בית</a></li>
+                    <li><a href="./blog/blog.html" data-translate="nav_blog">בלוג</a></li>
+                    <li><a href="./index.html#services" data-translate="nav_services">שירותים</a></li>
+                    <li><a href="./index.html#about" data-translate="nav_about">אודות</a></li>
+                    <li><a href="./index.html#industries" data-translate="nav_industries">תעשיות</a></li>
+                    <li><a href="./index.html#contact" data-translate="nav_contact">צור קשר</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="pic/logo-secure-pulse@2x.png" alt="Secure Pulse Logo">
+            </div>
+        </nav>
+    </header>
+    <div id="mobileDropDownMenu" class="main-menu-mobile hidden">
+        <ul>
+            <li><a href="./index.html" data-translate="nav_home">בית</a></li>
+            <li><a href="./blog/blog.html" data-translate="nav_blog">בלוג</a></li>
+            <li><a href="./index.html#services" data-translate="nav_services">שירותים</a></li>
+            <li><a href="./index.html#about" data-translate="nav_about">אודות</a></li>
+            <li><a href="./index.html#industries" data-translate="nav_industries">תעשיות</a></li>
+            <li><a href="./index.html#contact" data-translate="nav_contact">צור קשר</a></li>
+        </ul>
+    </div>
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1 class="no-direction-change" data-translate="hero_title">אבטחה מתקדמת לעולם הדיגיטלי שלכם</h1>
+                <p class="no-direction-change" data-translate="hero_description">הגנו על המידע הרגיש שלכם עם שירותי Penetration Testing מותאמים אישית</p>
+                <a href="#contact" class="cta-button" data-translate="hero_cta">הזמן בדיקת אבטחה חינם</a>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2 class="no-direction-change" data-translate="services_title">השירותים שלנו</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3 data-translate="services_web_pentesting_title">בדיקות חדירה לאפליקציות WEB </h3>
+                        <p data-translate="services_web_pentesting_description">בדיקות חדירה לאפליקציות WEB הן תהליך מקיף לזיהוי ותיקון פרצות אבטחה באתרים ואפליקציות מבוססות דפדפן. אנחנו מדמים התקפות של האקרים אמיתיים כדי לחשוף נקודות תורפה לפני שפורצים אמיתיים מנצלים אותן.</p>
+                        <button class="read-more" onclick="toggleServiceDetails('web-pentesting')" data-translate="read_more">קרא עוד</button>
+                        <div id="web-pentesting-details" class="service-details">
+                            <h4 data-translate="why_important">למה זה חשוב?</h4>
+                            <p data-translate="web_pentesting_importance">בעידן הדיגיטלי, אפליקציות WEB הן חזית העסק שלך. פרצת אבטחה יכולה לגרום לנזק כלכלי משמעותי, פגיעה במוניטין, אובדן אמון הלקוחות וגם אובדן פרטיות של הלקוחות שלך. בדיקות חדירה מונעות סיכונים אלו ומבטיחות שהנכסים הדיגיטליים שלך מוגנים מפני איומים רבים.</p>
+                            <h4 data-translate="process_includes">מה כולל התהליך?</h4>
+                            <ul id="infoList" class="process-list">
+                                <li data-translate="process_step1">סקירה ראשונית: מיפוי האפליקציה או האתר שלך והבנת הארכיטקטורה שלה.</li>
+                                <li data-translate="process_step2">סריקה אוטומטית: שימוש בכלים מתקדמים לזיהוי פגיעויות ידועות וגם כאלה שלא ידועות.</li>
+                                <li data-translate="process_step3">בדיקה ידנית: מומחי האבטחה שלנו מבצעים ניסיונות חדירה מותאמים אישית.</li>
+                                <li data-translate="process_step4">ניתוח ממצאים: הערכת חומרת הפגיעויות שנמצאו והשלכותיהן.</li>
+                                <li data-translate="process_step5">דו"ח מפורט: מסמך מקיף עם כל הממצאים והמלצות לתיקון.</li>
+                                <li data-translate="process_step6">ליווי בתיקונים: תמיכה בצוות הפיתוח שלך בתהליך סגירת הפרצות.</li>
+                                <li data-translate="process_step7">הדרכות: הדרכת הצוות שלך על אבטחת מידע בשביל למזער פגיעויות עתידיות.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <h3 data-translate="services_mobile_security_title">בדיקות אבטחה למערכות מובייל</h3>
+                        <p data-translate="services_mobile_security_description">בדיקות אבטחה למערכות מובייל הן תהליך מקיף לזיהוי ותיקון פרצות אבטחה באפליקציות לטלפונים חכמים וטאבלטים. אנחנו מדמים התקפות של האקרים אמיתיים כדי לחשוף נקודות תורפה לפני שפורצים אמיתיים מנצלים אותן.</p>
+                        <button class="read-more" onclick="toggleServiceDetails('mobile-security')" data-translate="read_more">קרא עוד</button>
+                        <div id="mobile-security-details" class="service-details">
+                            <h4 data-translate="why_important">למה זה חשוב?</h4>
+                            <p data-translate="mobile_security_importance">בעולם שבו השימוש במכשירים ניידים הולך וגובר, אבטחת אפליקציות מובייל הפכה לקריטית. פרצות אבטחה באפליקציות מובייל יכולות לחשוף מידע אישי רגיש, לפגוע במוניטין החברה ולגרום לאובדן אמון הלקוחות.</p>
+                            <h4 data-translate="process_includes">מה כולל התהליך?</h4>
+                            <ul id="infoList" class="process-list">
+                                <li data-translate="mobile_process_step1">ניתוח סטטי: בדיקת קוד המקור של האפליקציה לזיהוי בעיות אבטחה פוטנציאליות.</li>
+                                <li data-translate="mobile_process_step2">בדיקה דינמית: הרצת האפליקציה וביצוע ניסיונות חדירה בזמן אמת.</li>
+                                <li data-translate="mobile_process_step3">בדיקת אחסון מקומי: בחינת אופן שמירת המידע במכשיר ואבטחתו.</li>
+                                <li data-translate="mobile_process_step4">בדיקת תקשורת: ניתוח התקשורת בין האפליקציה לשרתים לזיהוי דליפות מידע.</li>
+                                <li data-translate="mobile_process_step5">סימולציית התקפות: ניסיונות לעקוף מנגנוני אבטחה כמו אימות משתמשים והצפנה.</li>
+                                <li data-translate="mobile_process_step6">דו"ח מפורט: מסמך מקיף עם כל הממצאים והמלצות לתיקון.</li>
+                                <li data-translate="mobile_process_step7">ליווי בתיקונים: תמיכה בצוות הפיתוח שלך בתהליך סגירת הפרצות.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <h3 data-translate="services_compliance_title">בדיקת עמידה ברגולציה</h3>
+                        <p data-translate="services_compliance_description">בדיקת עמידה ברגולציה היא תהליך מקיף לוידוא שהמערכות והתהליכים שלך עומדים בתקנים ובדרישות החוקיות הרלוונטיות לתעשייה שלך. אנחנו מבצעים סקירה מעמיקה כדי לזהות פערים ולהבטיח עמידה בתקנים כמו HIPAA, PCI DSS, GDPR ואחרים.</p>
+                        <button class="read-more" onclick="toggleServiceDetails('compliance')" data-translate="read_more">קרא עוד</button>
+                        <div id="compliance-details" class="service-details">
+                            <h4 data-translate="why_important">למה זה חשוב?</h4>
+                            <p data-translate="compliance_importance">בעולם הדיגיטלי של היום, אי-עמידה ברגולציות יכולה לגרור קנסות כבדים, פגיעה במוניטין, ואובדן אמון הלקוחות. עמידה ברגולציות לא רק מגנה על העסק שלך מבחינה משפטית, אלא גם מבטיחה את אמון הלקוחות ומחזקת את המוניטין שלך כעסק אחראי ואמין.</p>
+                            <h4 data-translate="your_benefits">היתרונות שלך</h4>
+                            <ul id="infoList" class="benefits-list">
+                                <li data-translate="compliance_benefit1">מניעת קנסות ועונשים הקשורים לאי-עמידה ברגולציות.</li>
+                                <li data-translate="compliance_benefit2">שיפור האמינות והמוניטין של העסק בעיני לקוחות ורגולטורים.</li>
+                                <li data-translate="compliance_benefit3">הגנה משופרת על מידע רגיש של לקוחות ושל העסק.</li>
+                                <li data-translate="compliance_benefit4">יתרון תחרותי בשוק שמעריך יותר ויותר אבטחת מידע ופרטיות.</li>
+                                <li data-translate="compliance_benefit5">שקט נפשי ביודעך שהעסק שלך עומד בכל הדרישות החוקיות.</li>
+                            </ul>
+                            <h4 data-translate="process_includes">מה כולל התהליך?</h4>
+                            <ul id="infoList" class="process-list">
+                                <li data-translate="compliance_process_step1">סקירת רגולציות: זיהוי כל התקנות והחוקים הרלוונטיים לעסק שלך.</li>
+                                <li data-translate="compliance_process_step2">מיפוי תהליכים: בחינה מקיפה של תהליכי העבודה והמערכות שלך.</li>
+                                <li data-translate="compliance_process_step3">ניתוח פערים: זיהוי אזורים שאינם עומדים בדרישות הרגולטוריות.</li>
+                                <li data-translate="compliance_process_step4">בדיקות אבטחה: ביצוע סריקות ובדיקות לוודא עמידה בדרישות אבטחת מידע.</li>
+                                <li data-translate="compliance_process_step5">דו"ח מפורט: מסמך מקיף עם כל הממצאים והמלצות לתיקון.</li>
+                                <li data-translate="compliance_process_step6">תכנית פעולה: פיתוח אסטרטגיה לסגירת פערים ושיפור התאימות.</li>
+                                <li data-translate="compliance_process_step7">ליווי ביישום: תמיכה בצוות שלך בתהליך יישום ההמלצות.</li>
+                                <li data-translate="compliance_process_step8">הדרכות: הכשרת הצוות שלך בנושאי רגולציה ואבטחת מידע.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <h3 data-translate="services_smart_home_security_title">אבטחת בתים חכמים</h3>
+                        <p data-translate="services_smart_home_security_description">אבטחת בתים חכמים היא תהליך מקיף להגנה על מערכות הבית החכם שלך מפני איומי סייבר ופרצות אבטחה. אנו מבצעים סקירה מעמיקה של כל המכשירים והמערכות המחוברות, מזהים נקודות תורפה, ומיישמים אמצעי הגנה מתקדמים כדי להבטיח את פרטיותך ובטיחותך בעידן ה-IoT.</p>
+                        <button class="read-more" onclick="toggleServiceDetails('smart-home-security')" data-translate="read_more">קרא עוד</button>
+                        <div id="smart-home-security-details" class="service-details">
+                            <h4 data-translate="why_important">למה זה חשוב?</h4>
+                            <p data-translate="smart_home_importance">בעידן הדיגיטלי של היום, בתים חכמים הופכים למטרה אטרקטיבית עבור האקרים. פרצת אבטחה יכולה לחשוף מידע אישי רגיש, לאפשר גישה לא מורשית למצלמות ומנעולים חכמים, ואפילו לשבש את מערכות הבית. אבטחה נאותה לא רק מגנה על פרטיותך ובטיחותך, אלא גם מבטיחה את השלווה והנוחות שבית חכם אמור לספק.</p>
+                    
+                            <h4 data-translate="your_benefits">היתרונות שלך</h4>
+                            <ul id="infoList" class="process-list">
+                                <li data-translate="benefit_privacy">הגנה מקיפה על פרטיותך ובטיחות משפחתך בסביבה הביתית החכמה.</li>
+                                <li data-translate="benefit_unauthorized_access">מניעת גישה לא מורשית למצלמות, מנעולים חכמים ומכשירי בית אחרים.</li>
+                                <li data-translate="benefit_data_protection">הגנה משופרת על מידע אישי ורגיש המאוחסן במכשירים חכמים.</li>
+                                <li data-translate="benefit_reliability">שיפור האמינות והיציבות של מערכת הבית החכם.</li>
+                                <li data-translate="benefit_peace_of_mind">שקט נפשי ביודעך שביתך מוגן מפני איומי סייבר מתקדמים.</li>
+                                <li data-translate="benefit_technology_enjoyment">יכולת ליהנות מיתרונות הטכנולוגיה החכמה ללא דאגות אבטחה.</li>
+                            </ul>
+                    
+                            <h4 data-translate="process_includes">מה כולל התהליך?</h4>
+                            <ul id="infoList" class="process-list">
+                                <li data-translate="process_system_review">סקירת מערכות: מיפוי מקיף של כל המכשירים והמערכות המחוברות בביתך.</li>
+                                <li data-translate="process_vulnerability_check">בדיקת פגיעויות: זיהוי נקודות תורפה במערכת הבית החכם ובמכשירים המחוברים.</li>
+                                <li data-translate="process_risk_assessment">הערכת סיכונים: ניתוח מעמיק של הסיכונים הפוטנציאליים לפרטיות ואבטחה.</li>
+                                <li data-translate="process_security_recommendations">המלצות אבטחה: פיתוח אסטרטגיות מותאמות אישית להגנה על מערכות הבית החכם.</li>
+                                <li data-translate="process_implementation">יישום הגנות: סיוע בהטמעת אמצעי אבטחה מתקדמים, כולל הצפנה ואימות דו-שלבי.</li>
+                                <li data-translate="process_system_update">עדכון וטלאי מערכות: וידוא שכל המכשירים והתוכנות מעודכנים עם טלאי האבטחה האחרונים.</li>
+                                <li data-translate="process_training">הדרכות: מתן כלים וידע לבני הבית לשימוש בטוח במערכות הבית החכם.</li>
+                                <li data-translate="process_monitoring">ניטור מתמשך: הגדרת מערכות לזיהוי ומניעת איומים בזמן אמת.</li>
+                                <li data-translate="process_periodic_testing">בדיקות תקופתיות: ביצוע סריקות אבטחה שוטפות ועדכון של מערכות ההגנה.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="bg-light">
+            <div class="container">
+                <h2 class="no-direction-change" data-translate="about_title">למה Secure Pulse<span class="question-mark" style="direction: auto;">?</span></h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p data-translate="about_description">ב-Secure Pulse, אנו מבינים שאבטחת המידע היא קריטית בעידן הדיגיטלי. צוות המומחים שלנו משלב ידע טכני מעמיק עם הבנה עסקית, כדי לספק פתרונות אבטחה מקיפים ומותאמים אישית.</p>
+                        <ul id="infoList" class="about-list">
+                            <li data-translate="about_expertise"><b>מומחיות ייחודית בבריאות דיגיטלית, קמעונאות אונליין ובתים חכמים</b> בעולם המתחדש של הבריאות, הקמעונאות המקוונת והבתים החכמים, אבטחת המידע היא אתגר מרכזי. צוות Secure Pulse מתמחה בפתרונות מותאמים אישית עבור ענפים אלה, המתמודדים עם איומי סייבר ייחודיים. הבנת הצרכים הספציפיים של ארגונים רפואיים, קמעונאות אונליין ובתים חכמים מאפשרת לנו לפתח פתרונות המשלבים הגנה חזקה עם זרימת עבודה יעילה.</li>
+                            <li data-translate="about_team"><b>צוות מנוסה עם הסמכות מובילות בתעשייה</b> הצוות המקצועי של Secure Pulse כולל מומחים בעלי ניסיון עשיר בתחום אבטחת המידע והסמכות המעידות על הידע והמיומנויות הנדרשים להגנה יעילה על מערכות קריטיות. הצוות שלנו מתעדכן תמיד בטכנולוגיות חדשניות ובשיטות התקפה והגנה מתקדמות.</li>
+                            <li data-translate="about_proactive"><b>גישה פרואקטיבית לזיהוי ומניעת איומים</b> ב-Secure Pulse נוקטות בגישה פרואקטיבית לניטור, זיהוי והערכה של סיכונים, כדי למנוע פריצות וגניבת מידע מלכתחילה. שימוש במערכות מתקדמות לבדיקת חדירות, ניתוח איומים, וביצוע הערכות סיכונים שיטתיות מבטיח מניעה מוקדמת של איומים פוטנציאליים.</li>
+                            <li data-translate="about_reports"><b>דוחות מפורטים עם המלצות מעשיות</b> בסיום כל פרויקט, Secure Pulse מעניקה דוח מפורט הכולל ניתוח מקיף של הממצאים, הסיכונים שזוהו והמלצות מעשיות לשיפור האבטחה. הדוח מספק תמונה שלמה של מצב האבטחה והצעדים הנדרשים לחיזוקה, כדי לסייע ללקוחות לקבל החלטות מושכלות.</li>
+                        </ul>
+                    </div>
+                    <div class="about-image">
+                        <img src="pic/0.jpg" alt="מומחה אבטחה של Secure Pulse">
+                    </div>
+                </div>
+            </div>
+        </section>        
+        <section id="industries">
+            <div class="container">
+                <h2 class="no-direction-change" data-translate="industries_title">התמחות בתעשיות מובילות</h2>
+                <div class="industry-cards">
+                    <div class="industry-card">
+                        <img src="pic/3.jpg" alt="בריאות דיגיטלית">
+                        <h3 class="no-direction-change" data-translate="industries_digital_health_title">בריאות דיגיטלית</h3>
+                        <p data-translate="industries_digital_health_description">הגנה על מידע רפואי רגיש ועמידה בתקני HIPAA</p>
+                    </div>
+                    <div class="industry-card">
+                        <img src="pic/1.jpg" alt="קמעונאות אונליין">
+                        <h3 class="no-direction-change" data-translate="industries_online_retail_title">קמעונאות אונליין</h3>
+                        <p data-translate="industries_online_retail_description">אבטחת פלטפורמות מסחר אלקטרוני ועמידה בתקני PCI DSS</p>
+                    </div>
+                    <div class="industry-card">
+                        <img src="pic/smarthome.jpg" alt="בתים חכמים">
+                        <h3 class="no-direction-change" data-translate="industries_smart_home_title">בתים חכמים</h3>
+                        <p data-translate="industries_smart_home_description">אבטחת מערכות IoT ביתיות והגנה על פרטיות המשתמשים בעידן הבית החכם</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="blog" class="bg-light">
+            <div class="container">
+                <h2 class="no-direction-change" data-translate="blog_title">הבלוג שלנו</h2>
+                <div class="blog-preview">
+                    <article class="blog-post">
+                        <h3 data-translate="post_title_health">הבריאות שלך בעידן הדיגיטלי: למה אבטחת מידע חשובה לכולנו</h3>
+                        <p class="post-meta" data-translate="post_date_health">תאריך: <time datetime="2024-07-30">30 ביולי, 2024</time></p>
+                        <p data-translate="post_summary_health">בעידן הדיגיטלי, המידע הרפואי שלנו הופך לנגיש יותר מאי פעם. אך עם היתרונות הרבים מגיעים גם סיכונים. גלה למה אבטחת מידע רפואי היא קריטית עבור כולנו.</p>
+                        <a href="blog/health-digital-age.html" class="read-more" data-translate="read_more">קרא עוד</a>
+                    </article>
+                    <article class="blog-post">
+                        <h3 data-translate="hero_title">אבטחה מתקדמת לעולם הדיגיטלי שלכם</h3>
+                        <p class="post-meta"><time datetime="2024-07-16" data-translate="post_date_health" data-date="2024-07-16">16 ביולי, 2024</time></p>
+                        <p data-translate="blog_new_post_intro_shopping">בעידן הדיגיטלי, קניות אונליין הפכו לחלק בלתי נפרד מחיי היומיום שלנו. מרכישת מוצרי מזון ועד לקניית מוצרי אלקטרוניקה - הכל נמצא במרחק קליק. אבל האם אנחנו מודעים לסיכונים הכרוכים בכך?</p>
+                        <a href="blog/post2.html" class="read-more" data-translate="read_more">קרא עוד</a>
+                    </article>
+                    <article class="blog-post">
+                        <h3 data-translate="post_title_smart_home_security">אבטחת הבית החכם שלכם: למה זה קריטי ואיך לעשות זאת נכון</h3>
+                        <p class="post-meta" data-translate="post_date2" data-date="2024-08-07">תאריך: <time datetime="2024-08-07">7 באוגוסט, 2024</time></p>
+                        <p data-translate="post_intro2"> ב</p>
+                        <a href="blog/smart_home_security.html" class="read-more" data-translate="read_more">קרא עוד</a>
+                    </article>
+                </div>
+                <a href="./blog/blog.html" class="cta-button" data-translate="view_all_posts">לכל הפוסטים</a>
+            </div>
+        </section>
+
+        <section id="contact" class="bg-dark">
+            <div class="container">
+                <h2 class="no-direction-change" data-translate="contact_form_title">צור קשר</h2>
+                <div class="contact-cta">
+                    <p><b data-translate="contact_cta_text" dir="auto">מוכנים להגן על הנכסים הדיגיטליים שלכם? צרו קשר עוד היום!</b></p>
+                </div>
+
+                <form id="contactForm" >
+                    <label>
+                        <span data-translate="contact_form_email">אימייל:</span>
+                        <input required placeholder="" onfocus="this.placeholder=''" type="email" name="email">
+                    </label>
+                    <label>
+                        <span data-translate="contact_form_name">שם:</span>
+                        <input required placeholder="" onfocus="this.placeholder=''" type="text" name="name"></input>
+                    </label>
+                    <label>
+                        <span data-translate="contact_form_message">הודעה:</span>
+                        <textarea required placeholder="" onfocus="this.placeholder=''" name="message"></textarea>
+                    </label>
+                    <button class="no-direction-change" type="submit" data-translate="contact_form_submit">שלח</button>
+                </form>
+                <div id="submitMsg" class="contact-form-response hidden">
+                    <p data-translate="contact_form_response">תודה שפנית אלינו! נחזור אליך בהקדם.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="pic/logo-footer.png" alt="Secure Pulse Logo">
+                </div>
+                <div class="footer-links">
+                    <h4 data-translate="footer_quick_links">קישורים מהירים</h4>
+                    <ul>
+                        <li><a href="./index.html" data-translate="nav_home">בית</a></li>
+                        <li><a href="./blog/blog.html" data-translate="nav_blog">בלוג</a></li>
+                        <li><a href="./index.html#services" data-translate="nav_services">שירותים</a></li>
+                        <li><a href="./index.html#about" data-translate="nav_about">אודות</a></li>
+                        <li><a href="./index.html#industries" data-translate="nav_industries">תעשיות</a></li>
+                        <li><a href="./index.html#contact" data-translate="nav_contact">צור קשר</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 data-translate="footer_contact_us">צור קשר</h4>
+                    <p data-translate="footer_phone">טלפון: +972 52-828-1958</p>
+                    <p data-translate="footer_email">אימייל: info@securepulses.com </p>
+                    <!-- <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div> -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="no-direction-change" data-translate="footer_copyright">&copy; <span dir="ltr">Secure Pulse</span>
+                    <span dir="rtl">כל הזכויות שמורות.</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', initializeWebsite);
+    </script>
+</body>
+</html>

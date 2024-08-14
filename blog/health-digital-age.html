@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <title data-translate="post_health">Secure Pulse - הבריאות שלנו בעידן הדיגיטלי</title>
+    <meta name="description" data-translate="post_title_health" content="הבריאות שלנו בעידן הדיגיטלי: למה אבטחת מידע חשובה לכולנו">
+    <meta property="og:title" data-translate="og_post_health" content="Secure Pulse - אבטחת בריאות הדיגיטלית שלנו">
+    <meta property="og:description" data-translate="post_summary_health" content="בעידן הדיגיטלי, המידע הרפואי שלנו הופך לנגיש יותר מאי פעם. אך עם היתרונות הרבים מגיעים גם סיכונים. גלו למה אבטחת מידע רפואי היא קריטית עבור כולנו.">
+    <meta property="og:image" content="https://www.securepulses.com/pic/logo-secure-pulse@2x.png">
+    <meta property="og:url" content="https://www.securepulses.com/blog">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self';
+        script-src 'self' 'unsafe-inline' https://cdn.userway.org;
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://cdn.userway.org;
+        font-src https://fonts.gstatic.com https://cdn.userway.org;
+        img-src 'self' https://flagcdn.com https://cdn.userway.org data:;
+        connect-src 'self' https://api.userway.org https://cdn.userway.org;
+        frame-src 'self' https://cdn.userway.org;
+        upgrade-insecure-requests;
+        object-src 'none';
+    ">
+    <link rel="icon" href="../pic/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../pic/favicon.ico" type="image/x-icon">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <script async src="https://cdn.userway.org/widget.js" data-account="lLYHLLp4WE"></script>
+</head>
+<body>
+    <header>
+        <nav class="header-container">
+            <div class="hamburger">
+                <button onclick="toggleHamburger(this)" class="hamburger-menu" aria-label="תפריט">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="language-selector mobile">
+                <button class="language-btn" id="language-toggle">
+                    <img src="https://flagcdn.com/w40/il.png" alt="current language" id="current-language-flag">
+                    <!-- <i class="fas fa-caret-down"></i> -->
+                </button>
+                <div class="language-dropdown" id="language-dropdown">
+                    <a href="#" class="language-option" data-lang="he">
+                        <img src="https://flagcdn.com/w40/il.png" alt="עברית">
+                        <span>עברית</span>
+                    </a>
+                    <a href="#" class="language-option" data-lang="en">
+                        <img src="https://flagcdn.com/w40/us.png" alt="English">
+                        <span>English</span>
+                    </a>
+                    <a href="#" class="language-option" data-lang="es">
+                        <img src="https://flagcdn.com/w40/es.png" alt="Español">
+                        <span>Español</span>
+                    </a>
+                </div>
+            </div>
+            <div class="main-menu">
+                <ul>
+                    <li><a href="../index.html" data-translate="nav_home">בית</a></li>
+                    <li><a href="./blog.html" data-translate="nav_blog">בלוג</a></li>
+                    <li><a href="../index.html#services" data-translate="nav_services">שירותים</a></li>
+                    <li><a href="../index.html#about" data-translate="nav_about">אודות</a></li>
+                    <li><a href="../index.html#industries" data-translate="nav_industries">תעשיות</a></li>
+                    <li><a href="../index.html#contact" data-translate="nav_contact">צור קשר</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="../pic/logo-secure-pulse@2x.png" alt="Secure Pulse Logo">
+            </div>
+        </nav>
+    </header>
+    <div id="mobileDropDownMenu" class="main-menu-mobile hidden">
+        <ul>
+            <li><a href="../index.html" data-translate="nav_home">בית</a></li>
+            <li><a href="./blog.html" data-translate="nav_blog">בלוג</a></li>
+            <li><a href="../index.html#services" data-translate="nav_services">שירותים</a></li>
+            <li><a href="../index.html#about" data-translate="nav_about">אודות</a></li>
+            <li><a href="../index.html#industries" data-translate="nav_industries">תעשיות</a></li>
+            <li><a href="../index.html#contact" data-translate="nav_contact">צור קשר</a></li>
+        </ul>
+    </div>
+    <main class="blog-post-page">
+        <div class="container">
+            <article class="blog-post">
+                <h1 data-translate="post_title_health">הבריאות שלך בעידן הדיגיטלי:<br> למה אבטחת מידע חשובה לכולנו</h1>
+                <p class="post-meta"> <time datetime="2024-07-16" data-translate="post_date_health">16 ביולי, 2024</time></p>
+                <p data-translate="blog_new_post_intro">דמיינו שאתם מתעוררים עם כאב ראש חזק. במקום לקבוע תור לרופא, היום
+                    אתם פותחים אפליקציה בטלפון, קובעים תור לרופא אונליין, מתארים את הסימפטומים, ומקבלים המלצה לטיפול תוך
+                    דקות. נשמע נהדר, נכון? אבל מה קורה למידע הרפואי שלכם אחרי שנכנסתם לתיק הרפואי שלך?</p>
+                <img src="../pic/a_3.jpg"
+                    alt="A person sitting comfortably at home, using a medical app on their smartphone. The setting is cozy with a simple and clean background. The app interface on the phone screen is user-friendly, displaying icons of medical tests and an image of a doctor explaining something on the screen."
+                    class="blog-image">
+
+                <h2 data-translate="section_health_in_our_lives">הבריאות הדיגיטלית בחיינו</h2>
+                <p data-translate="blog_new_post_digital_health_content">הטכנולוגיה הרפואית משנה את חווית הטיפול הרפואי
+                    שלנו ומשתלבת בחיינו היומיומיים בצורה שלא הכרנו בעבר. שימושים יומיומיים בטכנולוגיה רפואית כוללים
+                    אפליקציות בריאות, שעונים חכמים, ומעקב אחר תרופות. הנוחות והיתרונות שהבריאות הדיגיטלית מביאה לחיינו
+                    הם משמעותיים, כאשר אנו מקבלים גישה למידע רפואי בכל רגע, מנטרים את מצבנו הבריאותי, ומשתפים את המידע
+                    עם גורמי טיפול במהירות ובקלות.</p>
+
+
+                <h2 data-translate="section_our_medical_info">המידע הרפואי שלנו - יותר חשוף מאי פעם</h2>
+                <p data-translate="blog_new_post_exposed_info_content">כמות וסוגי המידע הרפואי שנאסף עלינו דיגיטלית הם
+                    עצומים. מדובר בהיסטוריה רפואית, תוצאות בדיקות, תרופות, ועוד. המידע הזה רגיש במיוחד ויכול להשפיע על
+                    חיינו אם ייחשף, כולל השלכות על ביטוח, תעסוקה, ויחסים אישיים.</p>
+
+                <h2 data-translate="section_dangers_of_convenience">הסכנות שמאחורי הנוחות</h2>
+                <p data-translate="blog_new_post_risks_content">אבטחת מידע רפואי היא נושא קריטי, וישנם תרחישים אפשריים
+                    של פגיעה באבטחת המידע הזה. דמיינו מישהו שנפגע מדליפת מידע רפואי - ההשלכות יכולות להיות חמורות, כולל
+                    פגיעה בפרטיות האישית, תחושות של חרדה ואובדן אמון, ופגיעות מעשיות כמו סירוב לביטוח בריאות או פיטורים
+                    מעבודה.</p>
+                <img src="../pic/The_0.jpg"
+                    alt="A computer screen displaying digital medical data. The background is simple and clean, and the screen shows medical history, test results, and medications. Icons of locks and security symbols are visible to emphasize the sensitivity of the information."
+                    class="blog-image">
+
+                <h2 data-translate="section_why_so_complicated">למה זה מסובך כל כך?</h2>
+                <p data-translate="blog_new_post_complexity_content">מערכות בריאות דיגיטליות מורכבות מאוד. האתגר הוא
+                    לשמור על נוחות ונגישות למשתמשים מבלי לוותר על אבטחה. יש צורך בשיתוף מידע בין גורמי טיפול שונים, מה
+                    שמעלה את הצורך באבטחת המידע בצורה מיטבית.</p>
+
+                <h2 data-translate="section_how_to_protect">מה עושים כדי להגן עלינו?</h2>
+                <p data-translate="blog_new_post_protection_content1">בדיקות חדירה ואבטחת מידע הן כלים חשובים בהגנה על
+                    המידע שלנו. בדיקות אלו עוזרות לזהות פרצות אבטחה ולתקן אותן לפני שהן מנוצלות לרעה. דוגמאות לשיפורים
+                    שנעשו בעקבות בדיקות אבטחה כוללות תיקון פרצות במערכות ניהול מידע רפואי ושיפור מנגנוני ההצפנה.</p>
+
+                <h2 data-translate="section_shared_responsibility">האחריות המשותפת</h2>
+                <p data-translate="blog_new_post_responsibility_content">הגנה על המידע שלנו היא אחריות משותפת. ארגוני
+                    בריאות צריכים להשקיע באבטחת מידע ולהבטיח שהמערכות שלהם מאובטחות היטב. אנחנו, כמשתמשים, צריכים להיות
+                    מודעים לסיכונים ולנקוט צעדים להגנה על עצמנו, כמו שימוש בסיסמאות חזקות, עדכון תוכנות והכרת הסכנות
+                    הפוטנציאליות.</p>
+
+                <h2 data-translate="section_look_to_the_future">מבט לעתיד</h2>
+                <p data-translate="blog_new_post_future_content1">בעתיד הקרוב, הבריאות הדיגיטלית תמשיך להתפתח. אתגרים חדשים יופיעו, כמו שימוש בבינה מלאכותית ורפואה מותאמת אישית. החזון הוא עולם שבו נהנים מיתרונות הטכנולוגיה בבטחה ובביטחון, ללא חשש לפגיעה בפרטיות.</p>
+                <img src="../pic/2.jpg" alt="A hacker sitting in a dark room in front of a laptop, the screen illuminated and displaying medical data such as medical history, test results, and medications. The hacker's face is lit by the screen's glow, looking focused and mysterious. On the screen, there are also icons of broken locks and warnings. The room's background is dim, with hints of code and a tech background to illustrate the digital realm." class="blog-image">
+
+                <p data-translate="blog_new_post_conclusion1">בפעם הבאה שאתם משתמשים באפליקציה רפואית או מזינים מידע אישי
+                    באתר של קופת החולים, זכרו - המידע הזה הוא אתם. וכמו שאתם דואגים לבריאות שלכם, חשוב לדאוג גם לאבטחת
+                    המידע שלכם. כי בסופו של דבר, בריאות דיגיטלית בטוחה היא בריאות טובה יותר לכולנו.</p>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../pic/logo-footer.png" alt="Secure Pulse Logo">
+                </div>
+                <div class="footer-links">
+                    <h4 data-translate="footer_quick_links">קישורים מהירים</h4>
+                    <ul>
+                        <li><a href="../index.html" data-translate="nav_home">בית</a></li>
+                        <li><a href="./blog.html" data-translate="nav_blog">בלוג</a></li>
+                        <li><a href="../index.html#services" data-translate="nav_services">שירותים</a></li>
+                        <li><a href="../index.html#about" data-translate="nav_about">אודות</a></li>
+                        <li><a href="../index.html#industries" data-translate="nav_industries">תעשיות</a></li>
+                        <li><a href="../index.html#contact" data-translate="nav_contact">צור קשר</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 data-translate="footer_contact_us">צור קשר</h4>
+                    <p data-translate="footer_phone">טלפון:  טלפון: +972-52-828-1958</p>
+                    <p data-translate="footer_email"> info@securepulses.com </p>
+                    <!-- <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div> -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="no-direction-change" data-translate="footer_copyright">&copy; <span dir="ltr">Secure Pulse</span>
+                    <span dir="rtl">כל הזכויות שמורות.</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', initializeWebsite);
+    </script>
+</body>
+</html>

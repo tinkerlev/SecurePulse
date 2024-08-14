@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <title data-translate="blog">Secure Pulse - בלוג</title>
+    <meta name="description" data-translate="blog_description" content="בלוג Secure Pulse מספק מידע עדכני ותובנות בנושאי אבטחת מידע, Penetration Testing, ואבטחה דיגיטלית.">
+    <meta property="og:title" data-translate="og_blog" content="Secure Pulse - בלוג אבטחת מידע">
+    <meta property="og:description" data-translate="og_blog_description" content="בלוג Secure Pulse מספק מידע עדכני ותובנות בנושאי אבטחת מידע, Penetration Testing, ואבטחה דיגיטלית.">
+    <meta property="og:image" content="https://www.securepulses.com/pic/logo-secure-pulse@2x.png">
+    <meta property="og:url" content="https://www.securepulses.com/blog">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self';
+        script-src 'self' 'unsafe-inline' https://cdn.userway.org;
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://cdn.userway.org;
+        font-src https://fonts.gstatic.com https://cdn.userway.org;
+        img-src 'self' https://flagcdn.com https://cdn.userway.org data:;
+        connect-src 'self' https://api.userway.org https://cdn.userway.org;
+        frame-src 'self' https://cdn.userway.org;
+        upgrade-insecure-requests;
+        object-src 'none';
+    ">
+    <link rel="icon" href="../pic/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../pic/favicon.ico" type="image/x-icon">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <script async src="https://cdn.userway.org/widget.js" data-account="lLYHLLp4WE"></script>
+</head>
+<body>
+    <header>
+        <nav class="header-container">
+            <div class="hamburger">
+                <button onclick="toggleHamburger(this)" class="hamburger-menu" aria-label="תפריט">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="language-selector mobile">
+                <button class="language-btn" id="language-toggle">
+                    <img src="https://flagcdn.com/w40/il.png" alt="current language" id="current-language-flag">
+                    <!-- <i class="fas fa-caret-down"></i> -->
+                </button>
+                <div class="language-dropdown" id="language-dropdown">
+                    <a href="#" class="language-option" data-lang="he">
+                        <img src="https://flagcdn.com/w40/il.png" alt="עברית">
+                        <span>עברית</span>
+                    </a>
+                    <a href="#" class="language-option" data-lang="en">
+                        <img src="https://flagcdn.com/w40/us.png" alt="English">
+                        <span>English</span>
+                    </a>
+                    <a href="#" class="language-option" data-lang="es">
+                        <img src="https://flagcdn.com/w40/es.png" alt="Español">
+                        <span>Español</span>
+                    </a>
+                </div>
+            </div>
+            <div class="main-menu">
+                <ul>
+                    <li><a href="../index.html" data-translate="nav_home">בית</a></li>
+                    <li><a href="../blog/blog.html" data-translate="nav_blog">בלוג</a></li>
+                    <li><a href="../index.html#services" data-translate="nav_services">שירותים</a></li>
+                    <li><a href="../index.html#about" data-translate="nav_about">אודות</a></li>
+                    <li><a href="../index.html#industries" data-translate="nav_industries">תעשיות</a></li>
+                    <li><a href="../index.html#contact" data-translate="nav_contact">צור קשר</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="../pic/logo-secure-pulse@2x.png" alt="Secure Pulse Logo">
+            </div>
+        </nav>
+    </header>
+    <div id="mobileDropDownMenu" class="main-menu-mobile hidden">
+        <ul>
+            <li><a href="../index.html" data-translate="nav_home">בית</a></li>
+            <li><a href="./blog.html" data-translate="nav_blog">בלוג</a></li>
+            <li><a href="../index.html#services" data-translate="nav_services">שירותים</a></li>
+            <li><a href="../index.html#about" data-translate="nav_about">אודות</a></li>
+            <li><a href="../index.html#industries" data-translate="nav_industries">תעשיות</a></li>
+            <li><a href="../index.html#contact" data-translate="nav_contact">צור קשר</a></li>
+        </ul>
+    </div>
+    <main class="blog-page">
+        <div class="container">
+            <h1 class="no-direction-change" data-translate="our_blog" style="direction: ltr; text-align: center;">הבלוג שלנו</h1>
+            <section class="blog-posts">
+                <article class="blog-post">
+                    <img src="../pic/computerScreen.png" alt="בריאות דיגיטלית" class="post-image">
+                    <h2><a href="../blog/health-digital-age.html" data-translate="post_title_health">הבריאות שלך בעידן הדיגיטלי: למה אבטחת מידע חשובה לכולנו</a></h2>
+                    <p class="post-meta">
+                        <span data-translate="date">תאריך:</span>
+                        <time datetime="2024-07-30" data-translate="post_date_health">30 ביולי, 2024</time>
+                    </p>
+                    <p data-translate="post_summary_health">בעידן הדיגיטלי, המידע הרפואי שלנו הופך לנגיש יותר מאי פעם.
+                        אך עם היתרונות הרבים מגיעים גם סיכונים. גלה למה אבטחת מידע רפואי היא קריטית עבור כולנו.</p>
+                    <a href="../blog/health-digital-age.html" class="read-more" data-translate="read_more">קרא עוד</a>
+                </article>
+                <article class="blog-post">
+                    <img src="../pic/EducationDescription.png" alt="בריאות דיגיטלית" class="post-image">
+                    <h2><a href="../blog/smart_home_security.html" data-translate="post_title_smart_home_security">אבטחת הבית החכם שלכם: למה זה קריטי ואיך לעשות זאת נכון</a></h2>
+                    <p class="post-meta">
+                        <span data-translate="date">תאריך:</span>
+                        <time datetime="2024-08-7" data-translate="post_date2">7 אוגוסט, 2024</time>
+                    </p>
+                    <p data-translate="post_intro2">בעידן הדיגיטלי המתפתח, הבית החכם הפך ממותרות לנורמה. מנורות שנדלקות באמצעות קול, מערכות מיזוג שמתכווננות אוטומטית, ומצלמות אבטחה שניתן לצפות בהן מהטלפון - כל אלה הופכים את חיינו לנוחים יותר. אבל האם חשבתם על</p>
+                    <a href="../blog/smart_home_security.html" class="read-more" data-translate="read_more">קרא עוד</a>
+                </article>
+                <article class="blog-post">
+                    <img src="../pic/smartphone.png" alt="בריאות דיגיטלית" class="post-image">
+                    <h2><a href="../blog/post2.html" data-translate="hero_title">אבטחה מתקדמת לעולם הדיגיטלי שלכם</a> </h2>
+                    <p class="post-meta">
+                        <span data-translate="date">תאריך:</span>
+                        <time datetime="2024-07-30" data-translate="post_date_online_shopping">30 ביולי, 2024</time>
+                    </p>
+                    <p data-translate="blog_new_post_intro_shopping">בעידן הדיגיטלי, קניות אונליין הפכו לחלק בלתי נפרד מחיי היומיום שלנו. מרכישת מוצרי מזון ועד לקניית מוצרי אלקטרוניקה - הכל נמצא במרחק קליק. אבל האם אנחנו מודעים לסיכונים הכרוכים בכך?</p>
+                    <a href="../blog/post2.html" class="read-more" data-translate="read_more">קרא עוד</a>
+                </article>
+                <article class="blog-post">
+                    <img src="../pic/illuminated.png" alt="בריאות דיגיטלית" class="post-image">
+                    <h2><a href="../blog/post_whatsapp.html" data-translate="post_title_whatsapp_scam">מזימת הונאה בווצאפ: כיצד זיהיתי תרמית מתוחכמת ומה אתם צריכים לדעת</a>
+                    </h2>
+                    <p class="post-meta">
+                        <span data-translate="date">תאריך:</span>
+                        <time datetime="2024-08-1" data-translate="post_date">1 באוגוסט, 2024</time>
+                    </p>
+                    <p data-translate="post_intro">לפעמים, הרגעים הכי פשוטים בחיינו יכולים להפוך לשיעור חשוב בביטחון דיגיטלי. זה בדיוק מה שקרה לי לאחרונה, ואני רוצה לשתף אתכם את הסיפור הזה - לא רק כדי להזהיר, אלא גם כדי לחזק את המודעות שלנו לאיומים המתוחכמים שאורבים ברשת.</p>
+                    <a href="../blog/post_whatsapp.html" class="read-more" data-translate="read_more">קרא עוד</a>
+                </article>
+            </section>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../pic/logo-footer.png" alt="Secure Pulse Logo">
+                </div>
+                <div class="footer-links">
+                    <h4 data-translate="footer_quick_links">קישורים מהירים</h4>
+                    <ul>
+                        <li><a href="../index.html" data-translate="nav_home">בית</a></li>
+                        <li><a href="./blog.html" data-translate="nav_blog">בלוג</a></li>
+                        <li><a href="../index.html#services" data-translate="nav_services">שירותים</a></li>
+                        <li><a href="../index.html#about" data-translate="nav_about">אודות</a></li>
+                        <li><a href="../index.html#industries" data-translate="nav_industries">תעשיות</a></li>
+                        <li><a href="../index.html#contact" data-translate="nav_contact">צור קשר</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 data-translate="footer_contact_us">צור קשר</h4>
+                    <p data-translate="footer_phone"> טלפון: +972-52-828-1958</p>
+                    <p data-translate="footer_email">אימייל: info@securepulses.com </p>
+                    <!-- <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div> -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="no-direction-change" data-translate="footer_copyright">&copy; <span dir="ltr">Secure Pulse</span>
+                    <span dir="rtl">כל הזכויות שמורות.</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', initializeWebsite);
+    </script>
+</body>
+</html>
