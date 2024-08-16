@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <title>בדיקות אבטחה למערכות מובייל: הגנה על המידע הרגיש שלך | Secure Pulse</title>
+    <meta name="description" content="הבטח את אבטחת אפליקציות המובייל שלך עם בדיקות אבטחה מקיפות. Secure Pulse מציעה הגנה מפני דליפת מידע, התקפות פישינג, וחולשות אבטחה במערכות מובייל.">
+    <meta property="og:title" content="בדיקות אבטחה למערכות מובייל: הגנה על המידע הרגיש שלך | Secure Pulse">
+    <meta property="og:description" content="שמור על אפליקציות המובייל שלך מאובטחות מפני איומי סייבר. פתרונות בדיקת אבטחה מתקדמים של Secure Pulse למערכות מובייל.">
+    <title>Mobile System Security Testing: Protect Your Sensitive Data | Secure Pulse</title>
+    <meta name="description" content="Secure your mobile applications with comprehensive security testing. Secure Pulse offers protection against data leaks, phishing attacks, and security vulnerabilities in mobile systems.">
+    <meta property="og:title" content="Mobile System Security Testing: Protect Your Sensitive Data | Secure Pulse">
+    <meta property="og:description" content="Keep your mobile applications safe from cyber threats. Advanced security testing solutions by Secure Pulse for mobile systems.">
+    <title>Pruebas de Seguridad para Sistemas Móviles: Protege tus Datos Sensibles | Secure Pulse</title>
+    <meta name="description" content="Asegura tus aplicaciones móviles con pruebas de seguridad exhaustivas. Secure Pulse ofrece protección contra fugas de datos, ataques de phishing y vulnerabilidades de seguridad en sistemas móviles.">
+    <meta property="og:title" content="Pruebas de Seguridad para Sistemas Móviles: Protege tus Datos Sensibles | Secure Pulse">
+    <meta property="og:description" content="Mantén tus aplicaciones móviles seguras contra amenazas cibernéticas. Soluciones avanzadas de pruebas de seguridad de Secure Pulse para sistemas móviles.">
+    <meta property="og:image" content="https://www.securepulses.com/pic/Logo-SecurePulses">
+    <meta property="og:url" content="https://www.securepulses.com">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+    <link href="./src/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self';
+        img-src 'self' https://flagcdn.com https://cdn.userway.org data:;
+        script-src 'self' 'unsafe-inline' https://cdn.userway.org;
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://cdn.userway.org;
+        font-src 'self' https://fonts.gstatic.com https://cdn.userway.org https://cdnjs.cloudflare.com data:;
+        connect-src 'self' https://api.userway.org https://cdn.userway.org https://formspree.io/f/mldrdggd https://www.linkedin.com/company/securepulses/ https://wa.me/972528281958;
+        frame-src 'self' https://cdn.userway.org;
+        upgrade-insecure-requests;
+        object-src 'none';
+    ">
+    <link rel="icon" href="pic/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="pic/favicon.ico" type="image/x-icon">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <script async src="https://cdn.userway.org/widget.js" data-account="lLYHLLp4WE" nonce="1234"></script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Secure Pulse",
+            "description": "אבטחה מתקדמת לעולם הדיגיטלי",
+            "url": "https://www.securepulses.com",
+            "logo": "https://www.securepulses.com/pic/Logo-SecurePulses",
+            "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+972-52-828-1958",
+            "contactType": "customer service",
+            "email": "info@securepulses.com",
+            "availableLanguage": ["Hebrew", "English", "Spanish"]
+            },
+            "areaServed": {
+            "@type": "Place",
+            "name": "Worldwide"
+            },
+            "sameAs": [
+            "https://www.linkedin.com/company/securepulses"
+            ]
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="header-container">
+            <div class="hamburger">
+                <button onclick="toggleHamburger(this)" class="hamburger-menu" aria-label="תפריט">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="language-selector mobile">
+                <button class="language-btn" id="language-toggle">
+                    <img src="https://flagcdn.com/w40/il.png" alt="current language" id="current-language-flag">
+                    <!-- <i class="fas fa-caret-down"></i> -->
+                </button>
+                <div class="language-dropdown" id="language-dropdown">
+                    <a href="#" class="language-option" data-lang="he">
+                        <img src="https://flagcdn.com/w40/il.png" alt="עברית">
+                        <span>עברית</span>
+                    </a>
+                    <a href="#" class="language-option" data-lang="en">
+                        <img src="https://flagcdn.com/w40/us.png" alt="English">
+                        <span>English</span>
+                    </a>
+                    <a href="#" class="language-option" data-lang="es">
+                        <img src="https://flagcdn.com/w40/es.png" alt="Español">
+                        <span>Español</span>
+                    </a>
+                </div>
+            </div>
+            <div class="main-menu">
+                <ul>
+                    <li><a href="../index.html" data-translate="nav_home">בית</a></li>
+                    <li><a href="./blog.html" data-translate="nav_blog">בלוג</a></li>
+                    <li><a href="../index.html#services" data-translate="nav_services">שירותים</a></li>
+                    <li><a href="../index.html#about" data-translate="nav_about">אודות</a></li>
+                    <li><a href="../index.html#industries" data-translate="nav_industries">תעשיות</a></li>
+                    <li><a href="../index.html#contact" data-translate="nav_contact">צור קשר</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="../pic/Logo-SecurePulses.png" alt="Secure Pulse Logo">
+            </div>
+        </nav>
+    </header>
+    <div id="mobileDropDownMenu" class="main-menu-mobile hidden">
+        <ul>
+            <li><a href="../index.html" data-translate="nav_home">בית</a></li>
+            <li><a href="./blog.html" data-translate="nav_blog">בלוג</a></li>
+            <li><a href="../index.html#services" data-translate="nav_services">שירותים</a></li>
+            <li><a href="../index.html#about" data-translate="nav_about">אודות</a></li>
+            <li><a href="../index.html#industries" data-translate="nav_industries">תעשיות</a></li>
+            <li><a href="../index.html#contact" data-translate="nav_contact">צור קשר</a></li>
+        </ul>
+    </div>
+<main class="blog-post-page">
+    <div class="container">
+        <h1 data-translate="post_title_mobile_security">בדיקות אבטחה למערכות מובייל: הגנה על הנכס הדיגיטלי האישי ביותר שלנו</h1>
+        
+        <p data-translate="post_intro_mobile_security">בעידן שבו הטלפון החכם הפך למחשב האישי העיקרי של רובנו, אבטחת מערכות מובייל היא לא רק צורך טכנולוגי - היא הכרח עסקי וחברתי. אפליקציות מובייל מכילות את המידע האישי ביותר שלנו, מנהלות את חיינו הפיננסיים, ומשמשות כשער לשירותים חיוניים. אבל מה קורה כשהשער הזה לא נעול כראוי? התוצאות עלולות להיות הרסניות לא רק למשתמשים, אלא גם לעסקים שמפתחים ומפעילים את האפליקציות הללו.</p>
+
+        <h2 data-translate="section_dangers_title_mobile">הסכנות האמיתיות של אפליקציות מובייל לא מאובטחות</h2>
+        
+        <p data-translate="section_dangers_intro_mobile">בעולם שבו השימוש במכשירים ניידים הולך וגובר, אבטחת אפליקציות מובייל הפכה לקריטית. הסכנות של אפליקציות לא מאובטחות כוללות:</p>
+        
+        <ol>
+            <li data-translate="danger_1_mobile"><strong>חשיפת מידע אישי</strong>: פרצות אבטחה יכולות לחשוף מידע רגיש כמו פרטי זיהוי, מיקום, ואפילו תמונות אישיות.</li>
+            <li data-translate="danger_2_mobile"><strong>גניבה פיננסית</strong>: אפליקציות פיננסיות לא מאובטחות יכולות להוביל לגניבת כספים ישירות מחשבונות המשתמשים.</li>
+            <li data-translate="danger_3_mobile"><strong>פגיעה בפרטיות</strong>: אפליקציות יכולות לאסוף ולשתף מידע ללא ידיעת המשתמש.</li>
+            <li data-translate="danger_4_mobile"><strong>נזק למוניטין</strong>: עבור עסקים, פריצה לאפליקציה שלהם יכולה לגרום לאובדן אמון הלקוחות ולפגיעה קשה במוניטין.</li>
+            <li data-translate="danger_5_mobile"><strong>התקפות פישינג</strong>: אפליקציות מזויפות או פרוצות יכולות לשמש להונאת משתמשים ולגניבת מידע רגיש.</li>
+        </ol>
+
+        <h2 data-translate="section_security_testing_title">בדיקות אבטחה למערכות מובייל: המגן הדיגיטלי של האפליקציה שלך</h2>
+        
+        <p data-translate="section_security_testing_intro">בדיקות אבטחה למערכות מובייל הן תהליך מקיף לזיהוי ותיקון פרצות אבטחה באפליקציות לטלפונים חכמים וטאבלטים. אנחנו מדמים התקפות של האקרים אמיתיים כדי לחשוף נקודות תורפה לפני שפורצים אמיתיים מנצלים אותן.</p>
+
+        <h3 data-translate="section_process_title_mobile">מה כולל התהליך?</h3>
+        
+        <ol>
+            <li data-translate="process_1_mobile">
+                <strong>ניתוח סטטי</strong>:
+                <ul>
+                    <li>בדיקת קוד המקור של האפליקציה לזיהוי בעיות אבטחה פוטנציאליות.</li>
+                    <li>שימוש בכלים אוטומטיים לסריקת קוד וזיהוי דפוסים מסוכנים.</li>
+                    <li>בחינה ידנית של הקוד על ידי מומחי אבטחה לזיהוי בעיות מורכבות.</li>
+                </ul>
+            </li>
+            <li data-translate="process_2_mobile">
+                <strong>בדיקה דינמית</strong>:
+                <ul>
+                    <li>הרצת האפליקציה וביצוע ניסיונות חדירה בזמן אמת.</li>
+                    <li>סימולציה של התנהגות משתמש זדונית.</li>
+                    <li>בדיקת תגובת האפליקציה למצבים לא צפויים.</li>
+                </ul>
+            </li>
+            <li data-translate="process_3_mobile">
+                <strong>בדיקת אחסון מקומי</strong>:
+                <ul>
+                    <li>בחינת אופן שמירת המידע במכשיר ואבטחתו.</li>
+                    <li>בדיקת הצפנת מידע רגיש המאוחסן על המכשיר.</li>
+                    <li>זיהוי מידע רגיש שנשמר ללא הצפנה מתאימה.</li>
+                </ul>
+            </li>
+            <li data-translate="process_4_mobile">
+                <strong>בדיקת תקשורת</strong>:
+                <ul>
+                    <li>ניתוח התקשורת בין האפליקציה לשרתים לזיהוי דליפות מידע.</li>
+                    <li>בדיקת שימוש בפרוטוקולים מאובטחים (כמו HTTPS).</li>
+                    <li>זיהוי מידע רגיש שנשלח בצורה לא מוצפנת.</li>
+                </ul>
+            </li>
+            <li data-translate="process_5_mobile">
+                <strong>סימולציית התקפות</strong>:
+                <ul>
+                    <li>ניסיונות לעקוף מנגנוני אבטחה כמו אימות משתמשים והצפנה.</li>
+                    <li>בדיקת עמידות האפליקציה בפני התקפות ידועות כמו XSS ו-CSRF.</li>
+                    <li>ניסיונות לשבש את פעולת האפליקציה או לגרום לה להתנהג בצורה לא צפויה.</li>
+                </ul>
+            </li>
+            <li data-translate="process_6_mobile">
+                <strong>דוח מפורט</strong>:
+                <ul>
+                    <li>מסמך מקיף עם כל הממצאים והמלצות לתיקון.</li>
+                    <li>דירוג הפגיעויות לפי חומרתן וההשלכות הפוטנציאליות שלהן.</li>
+                    <li>הצעות קונקרטיות לתיקון כל בעיה שנמצאה.</li>
+                </ul>
+            </li>
+            <li data-translate="process_7_mobile">
+                <strong>ליווי בתיקונים</strong>:
+                <ul>
+                    <li>תמיכה בצוות הפיתוח שלך בתהליך סגירת הפרצות.</li>
+                    <li>בדיקות חוזרות לאחר יישום התיקונים לוודא שהבעיות נפתרו.</li>
+                </ul>
+            </li>
+        </ol>
+
+        <h2 data-translate="section_importance_title_mobile">למה בדיקות אבטחה למובייל הן קריטיות?</h2>
+        
+        <ol>
+            <li data-translate="importance_1_mobile"><strong>הגנה על משתמשים</strong>: מניעת גניבת מידע אישי ופיננסי של המשתמשים.</li>
+            <li data-translate="importance_2_mobile"><strong>שמירה על מוניטין</strong>: הגנה על המותג שלך ועל אמון הלקוחות.</li>
+            <li data-translate="importance_3_mobile"><strong>עמידה ברגולציות</strong>: הבטחת עמידה בתקנות אבטחת מידע ופרטיות מחמירות (כמו GDPR).</li>
+            <li data-translate="importance_4_mobile"><strong>חיסכון כספי</strong>: מניעת נזקים כספיים פוטנציאליים הנובעים מפריצות ותביעות משפטיות.</li>
+            <li data-translate="importance_5_mobile"><strong>שיפור מתמיד</strong>: זיהוי נקודות חולשה בתהליכי הפיתוח ושיפורם לאורך זמן.</li>
+        </ol>
+
+        <h2 data-translate="section_tips_title_mobile">טיפים להגנה על אפליקציות מובייל</h2>
+        
+        <ol>
+            <li data-translate="tip_1_mobile"><strong>הצפנה חזקה</strong>: השתמשו בהצפנה חזקה לכל המידע הרגיש, הן באחסון והן בתעבורה.</li>
+            <li data-translate="tip_2_mobile"><strong>אימות חזק</strong>: יישמו מנגנוני אימות חזקים, כולל אימות דו-שלבי ואפשרות לשימוש ב-biometrics.</li>
+            <li data-translate="tip_3_mobile"><strong>מינימום הרשאות</strong>: בקשו רק את ההרשאות ההכרחיות לפעולת האפליקציה.</li>
+            <li data-translate="tip_4_mobile"><strong>עדכונים שוטפים</strong>: עדכנו באופן קבוע את האפליקציה ואת כל הספריות בהן היא משתמשת.</li>
+            <li data-translate="tip_5_mobile"><strong>אבטחת תקשורת</strong>: השתמשו תמיד ב-HTTPS ובדקו תעודות SSL.</li>
+            <li data-translate="tip_6_mobile"><strong>טיפול בקלט משתמש</strong>: וודאו סניטציה נאותה של כל קלט משתמש למניעת התקפות כמו SQL Injection.</li>
+        </ol>
+
+        <h2 data-translate="section_summary_title_mobile">סיכום: אבטחה היא תהליך מתמשך</h2>
+        
+        <p data-translate="section_summary_content_mobile">בעולם שבו האיומים הדיגיטליים מתפתחים ללא הרף, בדיקות אבטחה למערכות מובייל הן לא אירוע חד פעמי - הן תהליך מתמשך. זו לא רק השקעה באבטחה; זו השקעה באמון של המשתמשים שלך, בהגנה על המידע הרגיש ביותר שלהם, ובעתיד של האפליקציה והעסק שלך.</p>
+        
+        <p data-translate="section_conclusion_mobile">זכרו, בעולם המובייל, האפליקציה שלכם היא הפנים של העסק שלכם. אפליקציה מאובטחת היא לא רק מוצר טכנולוגי - היא הבטחה למשתמשים שלכם, ערובה לאמון שלהם, והיסוד עליו נבנה הקשר ארוך הטווח איתם בעידן הדיגיטלי.</p>
+    </div>
+</main>
+<section id="contact" class="bg-dark">
+    <div class="container">
+        <h2 class="no-direction-change" data-translate="contact_form_title">צור קשר</h2>
+        <div class="contact-cta">
+            <p><b data-translate="contact_cta_text" dir="auto">מוכנים להגן על הנכסים הדיגיטליים שלכם? צרו קשר עוד היום!</b></p>
+        </div>
+        <form id="contactForm" >
+            <label>
+                <span data-translate="contact_form_email">אימייל:</span>
+                <input required placeholder="" onfocus="this.placeholder=''" type="email" name="email">
+            </label>
+            <label>
+                <span data-translate="contact_form_name">שם:</span>
+                <input required placeholder="" onfocus="this.placeholder=''" type="text" name="name"></input>
+            </label>
+            <label>
+                <span data-translate="contact_form_message">הודעה:</span>
+                <textarea required placeholder="" onfocus="this.placeholder=''" name="message"></textarea>
+            </label>
+            <button class="no-direction-change" type="submit" data-translate="contact_form_submit">שלח</button>
+        </form>
+        <div id="submitMsg" class="contact-form-response hidden">
+            <p data-translate="contact_form_response">תודה שפנית אלינו! נחזור אליך בהקדם.</p>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="../pic/logo-footer.png" alt="Secure Pulse Logo">
+            </div>
+            <div class="footer-links">
+                <h4 data-translate="footer_quick_links">קישורים מהירים</h4>
+                <ul>
+                    <li><a href="../index.html" data-translate="nav_home">בית</a></li>
+                    <li><a href="./blog.html" data-translate="nav_blog">בלוג</a></li>
+                    <li><a href="../index.html#services" data-translate="nav_services">שירותים</a></li>
+                    <li><a href="../index.html#about" data-translate="nav_about">אודות</a></li>
+                    <li><a href="../index.html#industries" data-translate="nav_industries">תעשיות</a></li>
+                    <li><a href="../index.html#contact" data-translate="nav_contact">צור קשר</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4 data-translate="footer_contact_us">צור קשר</h4>
+                <a href="https://wa.me/972528281958" target="_blank" style="color: white; text-decoration: none;">
+                    <p data-translate="footer_phone">טלפון: +972-52-828-1958</p>
+                </a>
+                <a href="mailto:info@securepulses.com" style="color: white; text-decoration: none;">
+                    <p data-translate="footer_email"> info@securepulses.com </p>
+                </a>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/company/securepulses/">
+                      <img src="../pic/linkedin-logo.png" alt="LinkedIn" style="width: 24px; height: 24px;">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="no-direction-change" data-translate="footer_copyright">&copy; <span dir="ltr">Secure Pulse</span>
+                <span dir="rtl">כל הזכויות שמורות.</span>
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script src="../script.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', initializeWebsite);
+</script>
+</body>
+</html>

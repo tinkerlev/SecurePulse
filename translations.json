@@ -1069,11 +1069,6 @@
     "en": "August 7, 2024",
     "es": "7 de agosto, 2024"
   },
-  "post_intro2": {
-    "he": "בעידן הדיגיטלי המתפתח, הבית החכם הפך ממותרות לנורמה. מנורות שנדלקות באמצעות קול, מערכות מיזוג שמתכווננות אוטומטית, ומצלמות אבטחה שניתן לצפות בהן מהטלפון - כל אלה הופכים את חיינו לנוחים יותר. אבל האם חשבתם על האבטחה של כל המכשירים הללו?",
-    "en": "In the evolving digital era, the smart home has transitioned from luxury to norm. Voice-activated lights, self-adjusting air conditioning systems, and security cameras viewable from your phone - all these make our lives more convenient. But have you considered the security of all these devices?",
-    "es": "En la era digital en evolución, el hogar inteligente ha pasado de ser un lujo a ser la norma. Luces activadas por voz, sistemas de aire acondicionado que se ajustan automáticamente y cámaras de seguridad que se pueden ver desde el teléfono: todo esto hace que nuestras vidas sean más cómodas. Pero, ¿has considerado la seguridad de todos estos dispositivos?"
-  },
   "section_global_statistics": {
     "he": "סטטיסטיקות מדאיגות בקנה מידה עולמי",
     "en": "Alarming Global Statistics",
@@ -1239,16 +1234,6 @@
     "en": "Secure Pulse - Smart Home Information Security Post",
     "es": "Secure Pulse - Publicación sobre Seguridad de la Información para Hogares Inteligentes"
   },
-  "og_smart_home": {
-    "he": "Secure Pulse - אבטחת מידע לבתים חכמים",
-    "en": "Secure Pulse - Smart Home Information Security",
-    "es": "Secure Pulse - Seguridad de la Información para Hogares Inteligentes"
-  },
-  "og_smart_home_description": {
-    "he": "אבטחה מקיפה של בית חכם דורשת שילוב של אמצעים טכנולוגיים, הגדרות אבטחה נכונות ומודעות משתמשים",
-    "en": "Comprehensive smart home security requires a combination of technological measures, proper security settings, and user awareness.",
-    "es": "La seguridad integral del hogar inteligente requiere una combinación de medidas tecnológicas, configuraciones de seguridad adecuadas y conciencia del usuario."
-  },
   "post_digital": {
     "he": "Secure Pulse - אבטחה מתקדמת בקמעונאות הדיגיטלית",
     "en": "Secure Pulse - Advanced Security in Digital Retail",
@@ -1283,5 +1268,505 @@
     "he": "Secure Pulse - אבטחת הבריאות הדיגיטלית שלנו",
     "en": "Secure Pulse - Securing Our Digital Health",
     "es": "Secure Pulse - Protegiendo Nuestra Salud Digital"
+  },
+  "post_title_web_pentest": {
+    "he": "בדיקות חדירה לאפליקציות WEB: המגן הדיגיטלי של העסק שלך",
+    "en": "Web Application Penetration Testing: Your Business's Digital Shield",
+    "es": "Pruebas de Penetración para Aplicaciones Web: El Escudo Digital de su Negocio"
+  },
+  "post_intro_web_pentest": {
+    "he": "בעידן שבו כל עסק הוא עסק דיגיטלי, אפליקציות WEB הן חזית העסק שלך - הפנים שאתה מציג ללקוחות, השער שדרכו הם מתקשרים איתך, והכלי שבאמצעותו הם צורכים את השירותים שלך. אבל מה קורה כשהחזית הזו פרוצה? כשהשער הזה לא נעול כראוי? התוצאות עלולות להיות הרסניות. זו בדיוק הסיבה שבדיקות חדירה לאפליקציות WEB הן קריטיות לכל עסק בעידן המודרני.",
+    "en": "In an era where every business is a digital business, web applications are your business's frontline - the face you present to customers, the gateway through which they communicate with you, and the tool through which they consume your services. But what happens when this frontline is breached? When this gateway isn't properly locked? The results can be devastating. This is exactly why web application penetration testing is critical for every business in the modern age.",
+    "es": "En una era donde cada negocio es un negocio digital, las aplicaciones web son la línea frontal de su empresa - la cara que presenta a los clientes, la puerta de entrada a través de la cual se comunican con usted y la herramienta mediante la cual consumen sus servicios. Pero, ¿qué sucede cuando esta línea frontal se rompe? ¿Cuando esta puerta no está bien cerrada? Los resultados pueden ser devastadores. Esta es exactamente la razón por la que las pruebas de penetración de aplicaciones web son críticas para cada negocio en la era moderna."
+  },
+  "section_dangers_title_web_pentest": {
+    "he": "הסכנות האמיתיות של אפליקציות WEB לא מאובטחות",
+    "en": "The Real Dangers of Unsecured Web Applications",
+    "es": "Los Peligros Reales de las Aplicaciones Web No Seguras"
+  },
+  "section_dangers_intro_web_pentest": {
+    "he": "אפליקציות WEB לא מאובטחות מציבות סיכונים משמעותיים לעסקים. למרות שקשה לכמת את היקף הבעיה במדויק, ברור שפגיעויות באפליקציות WEB הן בעיה נפוצה ומסוכנת. הסכנות כוללות:",
+    "en": "Unsecured web applications pose significant risks to businesses. While it's difficult to quantify the exact extent of the problem, it's clear that vulnerabilities in web applications are a common and dangerous issue. The dangers include:",
+    "es": "Las aplicaciones web no seguras plantean riesgos significativos para las empresas. Aunque es difícil cuantificar la magnitud exacta del problema, está claro que las vulnerabilidades en las aplicaciones web son un problema común y peligroso. Los peligros incluyen:"
+  },
+  "danger_1_web_pentest": {
+    "he": "גניבת מידע: האקרים יכולים לגנוב מידע רגיש של לקוחות, כולל פרטי אשראי ומידע אישי.",
+    "en": "Data Theft: Hackers can steal sensitive customer information, including credit card details and personal data.",
+    "es": "Robo de Datos: Los hackers pueden robar información sensible de los clientes, incluyendo detalles de tarjetas de crédito y datos personales."
+  },
+  "danger_2_web_pentest": {
+    "he": "השבתת שירות: התקפות DDoS יכולות להשבית את האפליקציה שלך ולמנוע גישה מלקוחות לגיטימיים.",
+    "en": "Service Disruption: DDoS attacks can disable your application and prevent access from legitimate customers.",
+    "es": "Interrupción del Servicio: Los ataques DDoS pueden deshabilitar su aplicación e impedir el acceso de clientes legítimos."
+  },
+  "danger_3_web_pentest": {
+    "he": "נזק למוניטין: פריצה יכולה לגרום לאובדן אמון הלקוחות ולפגיעה קשה במוניטין העסקי.",
+    "en": "Reputational Damage: A breach can lead to loss of customer trust and severe damage to business reputation.",
+    "es": "Daño a la Reputación: Una violación puede llevar a la pérdida de confianza del cliente y un daño severo a la reputación del negocio."
+  },
+  "danger_4_web_pentest": {
+    "he": "הפסדים כספיים: מלבד עלויות הטיפול בפריצה, אתה עלול לספוג קנסות רגולטוריים וירידה במכירות.",
+    "en": "Financial Losses: Besides the costs of dealing with a breach, you may incur regulatory fines and a decrease in sales.",
+    "es": "Pérdidas Financieras: Además de los costos de lidiar con una violación, puede incurrir en multas regulatorias y una disminución en las ventas."
+  },
+  "danger_5_web_pentest": {
+    "he": "השתלטות על מערכות: פורצים יכולים להשתלט על המערכות שלך ולהשתמש בהן למטרות זדוניות.",
+    "en": "System Takeover: Intruders can take control of your systems and use them for malicious purposes.",
+    "es": "Toma de Control del Sistema: Los intrusos pueden tomar el control de sus sistemas y usarlos para propósitos maliciosos."
+  },
+  "section_pentest_title": {
+    "he": "בדיקות חדירה: המגן הדיגיטלי של העסק שלך",
+    "en": "Penetration Testing: Your Business's Digital Guardian",
+    "es": "Pruebas de Penetración: El Guardián Digital de su Negocio"
+  },
+  "section_pentest_intro": {
+    "he": "בדיקות חדירה לאפליקציות WEB הן תהליך מקיף לזיהוי ותיקון פרצות אבטחה באתרים ואפליקציות מבוססות דפדפן. אנחנו מדמים התקפות של האקרים אמיתיים כדי לחשוף נקודות תורפה לפני שפורצים אמיתיים מנצלים אותן.",
+    "en": "Web application penetration testing is a comprehensive process for identifying and fixing security vulnerabilities in websites and browser-based applications. We simulate real hacker attacks to expose weaknesses before actual intruders exploit them.",
+    "es": "Las pruebas de penetración de aplicaciones web son un proceso exhaustivo para identificar y corregir vulnerabilidades de seguridad en sitios web y aplicaciones basadas en navegadores. Simulamos ataques de hackers reales para exponer debilidades antes de que los intrusos reales las exploten."
+  },
+  "section_process_title": {
+    "he": "מה כולל התהליך?",
+    "en": "What Does the Process Include?",
+    "es": "¿Qué Incluye el Proceso?"
+  },
+  "process_1_web_pentest": {
+    "he": "סקירה ראשונית: מיפוי מקיף של האפליקציה והבנת הארכיטקטורה שלה. זיהוי נקודות כניסה פוטנציאליות ומשטחי תקיפה.",
+    "en": "Initial Review: Comprehensive mapping of the application and understanding its architecture. Identifying potential entry points and attack surfaces.",
+    "es": "Revisión Inicial: Mapeo exhaustivo de la aplicación y comprensión de su arquitectura. Identificación de posibles puntos de entrada y superficies de ataque."
+  },
+  "process_2_web_pentest": {
+    "he": "סריקה אוטומטית: שימוש בכלים מתקדמים לזיהוי פגיעויות ידועות. סריקת קוד מקור לזיהוי בעיות אבטחה נפוצות.",
+    "en": "Automated Scanning: Use of advanced tools to identify known vulnerabilities. Source code scanning to detect common security issues.",
+    "es": "Escaneo Automatizado: Uso de herramientas avanzadas para identificar vulnerabilidades conocidas. Escaneo de código fuente para detectar problemas de seguridad comunes."
+  },
+  "process_3_web_pentest": {
+    "he": "בדיקה ידנית: מומחי האבטחה שלנו מבצעים ניסיונות חדירה מותאמים אישית. שימוש בטכניקות מתקדמות לזיהוי פגיעויות מורכבות שכלים אוטומטיים מתקשים לזהות.",
+    "en": "Manual Testing: Our security experts perform customized penetration attempts. Use of advanced techniques to identify complex vulnerabilities that automated tools struggle to detect.",
+    "es": "Pruebas Manuales: Nuestros expertos en seguridad realizan intentos de penetración personalizados. Uso de técnicas avanzadas para identificar vulnerabilidades complejas que las herramientas automatizadas tienen dificultades para detectar."
+  },
+  "process_4_web_pentest": {
+    "he": "ניתוח ממצאים: הערכת חומרת הפגיעויות שנמצאו והשלכותיהן על העסק. דירוג הסיכונים וקביעת סדרי עדיפויות לטיפול.",
+    "en": "Findings Analysis: Assessing the severity of discovered vulnerabilities and their implications for the business. Risk rating and prioritization for treatment.",
+    "es": "Análisis de Hallazgos: Evaluación de la gravedad de las vulnerabilidades descubiertas y sus implicaciones para el negocio. Calificación de riesgos y priorización para el tratamiento."
+  },
+  "process_5_web_pentest": {
+    "he": "דוח מפורט: מסמך מקיף עם כל הממצאים והמלצות לתיקון. תיאור מפורט של כל פגיעות, כולל צעדים לשחזור ודרכי טיפול מומלצות.",
+    "en": "Detailed Report: Comprehensive document with all findings and recommendations for remediation. Detailed description of each vulnerability, including steps to reproduce and recommended treatment methods.",
+    "es": "Informe Detallado: Documento exhaustivo con todos los hallazgos y recomendaciones para la remediación. Descripción detallada de cada vulnerabilidad, incluyendo pasos para reproducir y métodos de tratamiento recomendados."
+  },
+  "process_6_web_pentest": {
+    "he": "ליווי בתיקונים: תמיכה בצוות הפיתוח שלך בתהליך סגירת הפרצות. בדיקות חוזרות לוודא שהתיקונים אכן פתרו את הבעיות.",
+    "en": "Remediation Support: Supporting your development team in the process of closing vulnerabilities. Re-testing to ensure that fixes have indeed solved the problems.",
+    "es": "Apoyo en la Remediación: Apoyar a su equipo de desarrollo en el proceso de cierre de vulnerabilidades. Volver a probar para asegurar que las correcciones realmente han resuelto los problemas."
+  },
+  "process_7_web_pentest": {
+    "he": "הדרכות: הדרכת הצוות שלך על אבטחת מידע בשביל למזער פגיעויות עתידיות. סדנאות מעשיות לפיתוח מאובטח ושימוש בפרקטיקות אבטחה מיטביות.",
+    "en": "Training: Training your team on information security to minimize future vulnerabilities. Practical workshops for secure development and use of best security practices.",
+    "es": "Capacitación: Entrenar a su equipo en seguridad de la información para minimizar vulnerabilidades futuras. Talleres prácticos para desarrollo seguro y uso de las mejores prácticas de seguridad."
+  },
+  "section_importance_title": {
+    "he": "למה בדיקות חדירה הן קריטיות?",
+    "en": "Why are Penetration Tests Critical?",
+    "es": "¿Por qué son Críticas las Pruebas de Penetración?"
+  },
+  "importance_1_web_pentest": {
+    "he": "גילוי מוקדם: זיהוי פגיעויות לפני שהאקרים אמיתיים מנצלים אותן.",
+    "en": "Early Detection: Identifying vulnerabilities before real hackers exploit them.",
+    "es": "Detección Temprana: Identificar vulnerabilidades antes de que los hackers reales las exploten."
+  },
+  "importance_2_web_pentest": {
+    "he": "חיסכון כספי: מניעת נזקים כספיים פוטנציאליים עצומים.",
+    "en": "Financial Savings: Preventing potentially enormous financial damages.",
+    "es": "Ahorro Financiero: Prevenir daños financieros potencialmente enormes."
+  },
+  "importance_3_web_pentest": {
+    "he": "שמירה על מוניטין: הגנה על המותג שלך ועל אמון הלקוחות.",
+    "en": "Reputation Protection: Safeguarding your brand and customer trust.",
+    "es": "Protección de la Reputación: Salvaguardar su marca y la confianza del cliente."
+  },
+  "importance_4_web_pentest": {
+    "he": "עמידה ברגולציות: הבטחת עמידה בתקנות אבטחת מידע מחמירות.",
+    "en": "Regulatory Compliance: Ensuring compliance with strict information security regulations.",
+    "es": "Cumplimiento Normativo: Asegurar el cumplimiento de estrictas regulaciones de seguridad de la información."
+  },
+  "importance_5_web_pentest": {
+    "he": "שיפור מתמיד: זיהוי נקודות חולשה בתהליכי הפיתוח ושיפורם לאורך זמן.",
+    "en": "Continuous Improvement: Identifying weaknesses in development processes and improving them over time.",
+    "es": "Mejora Continua: Identificar debilidades en los procesos de desarrollo y mejorarlos con el tiempo."
+  },
+  "section_tips_title_web_pentest": {
+    "he": "טיפים להגנה על אפליקציות WEB",
+    "en": "Tips for Protecting Web Applications",
+    "es": "Consejos para Proteger Aplicaciones Web"
+  },
+  "tip_1_web_pentest": {
+    "he": "עדכונים שוטפים: שמרו על כל הרכיבים והספריות מעודכנים לגרסאות האחרונות.",
+    "en": "Regular Updates: Keep all components and libraries updated to the latest versions.",
+    "es": "Actualizaciones Regulares: Mantenga todos los componentes y bibliotecas actualizados a las últimas versiones."
+  },
+  "tip_2_web_pentest": {
+    "he": "הצפנה חזקה: השתמשו בהצפנה חזקה לכל התקשורת והמידע הרגיש.",
+    "en": "Strong Encryption: Use strong encryption for all communications and sensitive data.",
+    "es": "Encriptación Fuerte: Utilice encriptación fuerte para todas las comunicaciones y datos sensibles."
+  },
+  "tip_3_web_pentest": {
+    "he": "אימות חזק: יישמו מנגנוני אימות חזקים, כולל אימות דו-שלבי.",
+    "en": "Strong Authentication: Implement strong authentication mechanisms, including two-factor authentication.",
+    "es": "Autenticación Fuerte: Implemente mecanismos de autenticación fuertes, incluyendo autenticación de dos factores."
+  },
+  "tip_4_web_pentest": {
+    "he": "מניעת הזרקות קוד: הקפידו על סניטציה של קלט משתמש למניעת התקפות כמו SQL Injection.",
+    "en": "Prevent Code Injections: Ensure proper sanitization of user input to prevent attacks like SQL Injection.",
+    "es": "Prevenir Inyecciones de Código: Asegure una sanitización adecuada de la entrada del usuario para prevenir ataques como Inyección SQL."
+  },
+  "tip_5_web_pentest": {
+    "he": "ניהול הרשאות: יישמו מדיניות הרשאות קפדנית על בסיס \"הצורך לדעת\".",
+    "en": "Permission Management: Implement strict permission policies based on the 'need-to-know' principle.",
+    "es": "Gestión de Permisos: Implemente políticas de permisos estrictas basadas en el principio de 'necesidad de saber'."
+  },
+  "section_summary_title_web_pentest": {
+    "he": "סיכום: ההגנה הטובה ביותר היא התקפה (מדומה)",
+    "en": "Summary: The Best Defense is a (Simulated) Offense",
+    "es": "Resumen: La Mejor Defensa es un Ataque (Simulado)"
+  },
+  "section_summary_content_web_pentest": {
+    "he": "בעולם שבו האיומים הדיגיטליים מתפתחים ללא הרף, בדיקות חדירה לאפליקציות WEB הן לא מותרות - הן הכרח. זו לא רק השקעה באבטחה; זו השקעה בעתיד העסק שלך, באמון הלקוחות שלך, ובשקט הנפשי שלך.",
+    "en": "In a world where digital threats are constantly evolving, web application penetration testing is not a luxury - it's a necessity. It's not just an investment in security; it's an investment in your business's future, in your customers' trust, and in your peace of mind.",
+    "es": "En un mundo donde las amenazas digitales evolucionan constantemente, las pruebas de penetración de aplicaciones web no son un lujo, son una necesidad. No es solo una inversión en seguridad; es una inversión en el futuro de su negocio, en la confianza de sus clientes y en su tranquilidad."
+  },
+  "section_conclusion_web_pentest": {
+    "he": "זכרו, האקרים רק צריכים למצוא פרצה אחת כדי לחדור. אתם צריכים להגן על כל הפרצות. בדיקות חדירה הן הדרך שלכם להיות תמיד צעד אחד לפני האיום הבא.",
+    "en": "Remember, hackers only need to find one vulnerability to breach. You need to protect against all vulnerabilities. Penetration testing is your way to always stay one step ahead of the next threat.",
+    "es": "Recuerde, los hackers solo necesitan encontrar una vulnerabilidad para infiltrarse. Usted necesita protegerse contra todas las vulnerabilidades. Las pruebas de penetración son su manera de mantenerse siempre un paso adelante de la próxima amenaza."
+  },
+  "section_final_thought_web_pentest": {
+    "he": "כי בסופו של דבר, אפליקציית WEB מאובטחת היא לא רק מוצר טכנולוגי - היא הבטחה ללקוחות שלכם, ערובה להמשכיות העסקית, והיסוד עליו נבנה האמון בעידן הדיגיטלי.",
+    "en": "Because ultimately, a secure web application is not just a technological product - it's a promise to your customers, a guarantee of business continuity, and the foundation upon which trust is built in the digital age.",
+    "es": "Porque en última instancia, una aplicación web segura no es solo un producto tecnológico - es una promesa a sus clientes, una garantía de continuidad del negocio y la base sobre la cual se construye la confianza en la era digital."
+  },
+  "post_title_mobile_security": {
+    "he": "בדיקות אבטחה למערכות מובייל: הגנה על הנכס הדיגיטלי האישי ביותר שלנו",
+    "en": "Mobile System Security Testing: Protecting Our Most Personal Digital Asset",
+    "es": "Pruebas de Seguridad para Sistemas Móviles: Protegiendo Nuestro Activo Digital más Personal"
+  },
+  "post_intro_mobile_security": {
+    "he": "בעידן שבו הטלפון החכם הפך למחשב האישי העיקרי של רובנו, אבטחת מערכות מובייל היא לא רק צורך טכנולוגי - היא הכרח עסקי וחברתי. אפליקציות מובייל מכילות את המידע האישי ביותר שלנו, מנהלות את חיינו הפיננסיים, ומשמשות כשער לשירותים חיוניים. אבל מה קורה כשהשער הזה לא נעול כראוי? התוצאות עלולות להיות הרסניות לא רק למשתמשים, אלא גם לעסקים שמפתחים ומפעילים את האפליקציות הללו.",
+    "en": "In an era where smartphones have become the primary personal computer for most of us, mobile system security is not just a technological need - it's a business and social imperative. Mobile applications contain our most personal information, manage our financial lives, and serve as a gateway to essential services. But what happens when this gateway isn't properly secured? The consequences can be devastating not only for users but also for businesses that develop and operate these applications.",
+    "es": "En una era donde el smartphone se ha convertido en el ordenador personal principal para la mayoría de nosotros, la seguridad de los sistemas móviles no es solo una necesidad tecnológica - es un imperativo comercial y social. Las aplicaciones móviles contienen nuestra información más personal, gestionan nuestras vidas financieras y sirven como puerta de entrada a servicios esenciales. Pero, ¿qué sucede cuando esta puerta no está bien asegurada? Las consecuencias pueden ser devastadoras no solo para los usuarios, sino también para las empresas que desarrollan y operan estas aplicaciones."
+  },
+  "section_dangers_title_mobile": {
+    "he": "הסכנות האמיתיות של אפליקציות מובייל לא מאובטחות",
+    "en": "The Real Dangers of Unsecured Mobile Applications",
+    "es": "Los Peligros Reales de las Aplicaciones Móviles No Seguras"
+  },
+  "section_dangers_intro_mobile": {
+    "he": "בעולם שבו השימוש במכשירים ניידים הולך וגובר, אבטחת אפליקציות מובייל הפכה לקריטית. הסכנות של אפליקציות לא מאובטחות כוללות:",
+    "en": "In a world where mobile device usage is on the rise, mobile application security has become critical. The dangers of unsecured applications include:",
+    "es": "En un mundo donde el uso de dispositivos móviles está en aumento, la seguridad de las aplicaciones móviles se ha vuelto crítica. Los peligros de las aplicaciones no seguras incluyen:"
+  },
+  "danger_1_mobile": {
+    "he": "חשיפת מידע אישי: פרצות אבטחה יכולות לחשוף מידע רגיש כמו פרטי זיהוי, מיקום, ואפילו תמונות אישיות.",
+    "en": "Personal Information Exposure: Security breaches can expose sensitive information such as identification details, location, and even personal photos.",
+    "es": "Exposición de Información Personal: Las brechas de seguridad pueden exponer información sensible como detalles de identificación, ubicación e incluso fotos personales."
+  },
+  "danger_2_mobile": {
+    "he": "גניבה פיננסית: אפליקציות פיננסיות לא מאובטחות יכולות להוביל לגניבת כספים ישירות מחשבונות המשתמשים.",
+    "en": "Financial Theft: Unsecured financial applications can lead to direct theft of funds from users' accounts.",
+    "es": "Robo Financiero: Las aplicaciones financieras no seguras pueden conducir al robo directo de fondos de las cuentas de los usuarios."
+  },
+  "danger_3_mobile": {
+    "he": "פגיעה בפרטיות: אפליקציות יכולות לאסוף ולשתף מידע ללא ידיעת המשתמש.",
+    "en": "Privacy Violation: Applications can collect and share information without the user's knowledge.",
+    "es": "Violación de la Privacidad: Las aplicaciones pueden recopilar y compartir información sin el conocimiento del usuario."
+  },
+  "danger_4_mobile": {
+    "he": "נזק למוניטין: עבור עסקים, פריצה לאפליקציה שלהם יכולה לגרום לאובדן אמון הלקוחות ולפגיעה קשה במוניטין.",
+    "en": "Reputational Damage: For businesses, a breach of their application can lead to loss of customer trust and severe damage to reputation.",
+    "es": "Daño a la Reputación: Para las empresas, una violación de su aplicación puede llevar a la pérdida de confianza del cliente y un grave daño a la reputación."
+  },
+  "danger_5_mobile": {
+    "he": "התקפות פישינג: אפליקציות מזויפות או פרוצות יכולות לשמש להונאת משתמשים ולגניבת מידע רגיש.",
+    "en": "Phishing Attacks: Fake or compromised applications can be used to deceive users and steal sensitive information.",
+    "es": "Ataques de Phishing: Las aplicaciones falsas o comprometidas pueden usarse para engañar a los usuarios y robar información sensible."
+  },
+  "post_title_iot_security": {
+    "he": "אבטחת מערכות IoT ביתיות: האם הבית החכם שלכם באמת בטוח?",
+    "en": "Home IoT System Security: Is Your Smart Home Really Safe?",
+    "es": "Seguridad de Sistemas IoT Domésticos: ¿Es Su Hogar Inteligente Realmente Seguro?"
+  },
+  "post_intro_iot": {
+    "he": "בעידן הדיגיטלי המודרני, הבית החכם הפך ממדע בדיוני למציאות יומיומית. מצלמות אבטחה, מנעולים חכמים, תרמוסטטים מקושרים ואפילו מקררים עם גישה לאינטרנט - כולם חלק ממהפכת ה-IoT (Internet of Things) שמבטיחה לנו נוחות, יעילות וחיסכון. אבל האם חשבתם פעם על המחיר האמיתי של הנוחות הזו? האם הבית החכם שלכם באמת בטוח, או שמא הוא שער פתוח למרגלים דיגיטליים?",
+    "en": "In the modern digital era, the smart home has evolved from science fiction to everyday reality. Security cameras, smart locks, connected thermostats, and even internet-connected refrigerators are all part of the IoT (Internet of Things) revolution promising convenience, efficiency, and savings. But have you ever considered the true cost of this convenience? Is your smart home really secure, or is it an open gateway for digital intruders?",
+    "es": "En la era digital moderna, el hogar inteligente ha pasado de ser ciencia ficción a una realidad cotidiana. Cámaras de seguridad, cerraduras inteligentes, termostatos conectados e incluso refrigeradores con acceso a Internet son parte de la revolución del IoT (Internet de las Cosas) que promete comodidad, eficiencia y ahorro. Pero, ¿alguna vez ha considerado el verdadero costo de esta conveniencia? ¿Es su hogar inteligente realmente seguro, o es una puerta abierta para intrusos digitales?"
+  },
+  "section_dangers_title_iot": {
+    "he": "הסכנות האמיתיות של מערכות IoT לא מאובטחות",
+    "en": "The Real Dangers of Unsecured IoT Systems",
+    "es": "Los Peligros Reales de los Sistemas IoT No Seguros"
+  },
+  "section_dangers_intro_iot": {
+    "he": "בואו נתחיל עם כמה עובדות מטרידות:",
+    "en": "Let's start with some disturbing facts:",
+    "es": "Comencemos con algunos hechos preocupantes:"
+  },
+  "fact_1_iot": {
+    "he": "עד 2025, צפויים להיות כ-75 מיליארד מכשירי IoT מחוברים ברחבי העולם.",
+    "en": "By 2025, there are expected to be about 75 billion connected IoT devices worldwide.",
+    "es": "Para 2025, se espera que haya alrededor de 75 mil millones de dispositivos IoT conectados en todo el mundo."
+  },
+  "fact_2_iot": {
+    "he": "98% מתעבורת ה-IoT אינה מוצפנת.",
+    "en": "98% of IoT traffic is unencrypted.",
+    "es": "El 98% del tráfico de IoT no está encriptado."
+  },
+  "fact_3_iot": {
+    "he": "57% ממכשירי ה-IoT פגיעים להתקפות בעלות חומרה בינונית או גבוהה.",
+    "en": "57% of IoT devices are vulnerable to medium or high-severity attacks.",
+    "es": "El 57% de los dispositivos IoT son vulnerables a ataques de gravedad media o alta."
+  },
+  "section_dangers_explanation_iot": {
+    "he": "אבל מה המשמעות האמיתית מאחורי המספרים האלה? זה אומר שהמכשירים החכמים שאמורים להגן עליכם ולהקל על חייכם, עלולים להפוך לכלי נשק בידי פושעים. הנה כמה מהסכנות האמיתיות:",
+    "en": "But what's the real meaning behind these numbers? It means that the smart devices meant to protect you and make your life easier could become weapons in the hands of criminals. Here are some of the real dangers:",
+    "es": "Pero, ¿cuál es el significado real detrás de estos números? Significa que los dispositivos inteligentes destinados a protegerlo y facilitar su vida podrían convertirse en armas en manos de criminales. Aquí están algunos de los peligros reales:"
+  },
+  "danger_1_iot": {
+    "he": "פריצה לבית: האקרים יכולים לנצל מנעולים חכמים לא מאובטחים כדי לפרוץ לביתכם.",
+    "en": "Home Intrusion: Hackers can exploit unsecured smart locks to break into your home.",
+    "es": "Intrusión en el Hogar: Los hackers pueden explotar cerraduras inteligentes no seguras para entrar en su casa."
+  },
+  "danger_2_iot": {
+    "he": "מעקב פרטי: מצלמות אבטחה פרוצות יכולות לשמש למעקב אחריכם בתוך ביתכם.",
+    "en": "Private Surveillance: Compromised security cameras can be used to spy on you inside your home.",
+    "es": "Vigilancia Privada: Las cámaras de seguridad comprometidas pueden usarse para espiarle dentro de su hogar."
+  },
+  "danger_3_iot": {
+    "he": "גניבת זהות: מידע אישי שנאסף ממכשירי IoT יכול לשמש לגניבת זהות.",
+    "en": "Identity Theft: Personal information collected from IoT devices can be used for identity theft.",
+    "es": "Robo de Identidad: La información personal recopilada de dispositivos IoT puede usarse para el robo de identidad."
+  },
+  "danger_4_iot": {
+    "he": "סחיטה: פושעים יכולים להשתלט על מכשירים חיוניים ולדרוש כופר.",
+    "en": "Extortion: Criminals can take control of essential devices and demand ransom.",
+    "es": "Extorsión: Los criminales pueden tomar el control de dispositivos esenciales y exigir rescate."
+  },
+  "danger_5_iot": {
+    "he": "התקפות DDoS: מכשירי IoT שלכם יכולים להיות חלק מרשת בוטים ענקית לביצוע התקפות סייבר.",
+    "en": "DDoS Attacks: Your IoT devices can be part of a massive botnet for conducting cyberattacks.",
+    "es": "Ataques DDoS: Sus dispositivos IoT pueden ser parte de una red botnet masiva para realizar ciberataques."
+  },
+  "post_title_pci_dss": {
+    "he": "אבטחת פלטפורמות מסחר אלקטרוני: למה PCI DSS הוא קריטי לעסק שלך",
+    "en": "E-commerce Platform Security: Why PCI DSS is Critical for Your Business",
+    "es": "Seguridad de Plataformas de Comercio Electrónico: Por Qué PCI DSS es Crucial para Su Negocio"
+  },
+  "post_intro_pci_dss": {
+    "he": "בעידן הדיגיטלי, כל עסק הוא עסק מקוון. אם אתם מקבלים תשלומים באינטרנט, אתם מחזיקים במידע הרגיש ביותר של הלקוחות שלכם - פרטי כרטיס האשראי שלהם. אבל האם אתם באמת מגנים על המידע הזה כראוי? זו בדיוק הסיבה שתקן PCI DSS (Payment Card Industry Data Security Standard) הוא כל כך קריטי. הוא לא רק תקן - זו ההגנה האחרונה בין העסק שלכם לבין אסון פיננסי ומשפטי.",
+    "en": "In the digital age, every business is an online business. If you accept online payments, you hold your customers' most sensitive information - their credit card details. But are you truly protecting this information adequately? This is exactly why the PCI DSS (Payment Card Industry Data Security Standard) is so critical. It's not just a standard - it's the last line of defense between your business and financial and legal disaster.",
+    "es": "En la era digital, cada negocio es un negocio en línea. Si acepta pagos en línea, posee la información más sensible de sus clientes: los detalles de sus tarjetas de crédito. Pero, ¿está realmente protegiendo esta información de manera adecuada? Esta es exactamente la razón por la que PCI DSS (Estándar de Seguridad de Datos de la Industria de Tarjetas de Pago) es tan crítico. No es solo un estándar, es la última línea de defensa entre su negocio y un desastre financiero y legal."
+  },
+  "section_dangers_title_pci": {
+    "he": "הסכנות האמיתיות של הפרות אבטחה במסחר אלקטרוני",
+    "en": "The Real Dangers of E-commerce Security Breaches",
+    "es": "Los Peligros Reales de las Brechas de Seguridad en el Comercio Electrónico"
+  },
+  "section_dangers_intro_pci": {
+    "he": "בואו נתחיל עם כמה עובדות מטרידות:",
+    "en": "Let's start with some disturbing facts:",
+    "es": "Comencemos con algunos hechos preocupantes:"
+  },
+  "fact_1_pci": {
+    "he": "ב-2023, נרשמו למעלה מ-1,800 הפרות נתונים בארה\"ב, עם חשיפה של מיליארדי רשומות.",
+    "en": "In 2023, over 1,800 data breaches were recorded in the US, exposing billions of records.",
+    "es": "En 2023, se registraron más de 1,800 violaciones de datos en los EE. UU., exponiendo miles de millones de registros."
+  },
+  "fact_2_pci": {
+    "he": "העלות הממוצעת של הפרת נתונים בתעשיית הקמעונאות: 3.28 מיליון דולר.",
+    "en": "The average cost of a data breach in the retail industry: $3.28 million.",
+    "es": "El costo promedio de una violación de datos en la industria minorista: $3.28 millones."
+  },
+  "fact_3_pci": {
+    "he": "64% מהעסקים הקטנים והבינוניים חוו התקפות סייבר בשנה האחרונה.",
+    "en": "64% of small and medium-sized businesses experienced cyber attacks in the last year.",
+    "es": "El 64% de las pequeñas y medianas empresas experimentaron ataques cibernéticos en el último año."
+  },
+  "section_dangers_explanation_pci": {
+    "he": "אבל מה המשמעות האמיתית מאחורי המספרים האלה? זה אומר שפרטי התשלום של הלקוחות שלכם - מספרי כרטיסי אשראי, תאריכי תפוגה, קודי CVV - עלולים ליפול לידיים של פושעים. התוצאות יכולות להיות הרסניות:",
+    "en": "But what's the real meaning behind these numbers? It means that your customers' payment details - credit card numbers, expiration dates, CVV codes - could fall into the hands of criminals. The consequences can be devastating:",
+    "es": "Pero, ¿cuál es el significado real detrás de estos números? Significa que los detalles de pago de sus clientes - números de tarjetas de crédito, fechas de vencimiento, códigos CVV - podrían caer en manos de criminales. Las consecuencias pueden ser devastadoras:"
+  },
+  "danger_1_pci": {
+    "he": "הונאות פיננסיות: פושעים יכולים לבצע רכישות לא מורשות ולרוקן את חשבונות הלקוחות שלכם.",
+    "en": "Financial Fraud: Criminals can make unauthorized purchases and drain your customers' accounts.",
+    "es": "Fraude Financiero: Los criminales pueden realizar compras no autorizadas y vaciar las cuentas de sus clientes."
+  },
+  "danger_2_pci": {
+    "he": "אובדן אמון הלקוחות: ברגע שנודע על הפרת אבטחה, הלקוחות יאבדו אמון בעסק שלכם.",
+    "en": "Loss of Customer Trust: Once a security breach is known, customers will lose trust in your business.",
+    "es": "Pérdida de Confianza del Cliente: Una vez que se conoce una violación de seguridad, los clientes perderán la confianza en su negocio."
+  },
+  "danger_3_pci": {
+    "he": "קנסות כבדים: אי-עמידה בתקני PCI DSS יכולה להוביל לקנסות של מאות אלפי דולרים.",
+    "en": "Heavy Fines: Non-compliance with PCI DSS standards can lead to fines of hundreds of thousands of dollars.",
+    "es": "Multas Elevadas: El incumplimiento de las normas PCI DSS puede llevar a multas de cientos de miles de dólares."
+  },
+  "danger_4_pci": {
+    "he": "תביעות משפטיות: לקוחות שנפגעו יכולים להגיש תביעות ייצוגיות שיכולות לחסל עסקים.",
+    "en": "Legal Lawsuits: Affected customers can file class-action lawsuits that can bankrupt businesses.",
+    "es": "Demandas Legales: Los clientes afectados pueden presentar demandas colectivas que pueden llevar a la quiebra a las empresas."
+  },
+  "danger_5_pci": {
+    "he": "הפסקת שירותי סליקה: חברות כרטיסי האשראי יכולות להפסיק את שירותי הסליקה שלכם, מה שיביא לסגירת העסק.",
+    "en": "Termination of Processing Services: Credit card companies can terminate your processing services, leading to business closure.",
+    "es": "Terminación de Servicios de Procesamiento: Las compañías de tarjetas de crédito pueden terminar sus servicios de procesamiento, lo que lleva al cierre del negocio."
+  },
+  "section_pci_dss_title": {
+    "he": "PCI DSS: הגנה קריטית לעסק שלכם",
+    "en": "PCI DSS: Critical Protection for Your Business",
+    "es": "PCI DSS: Protección Crítica para Su Negocio"
+  },
+  "section_pci_dss_intro": {
+    "he": "PCI DSS נוצר כדי להגן על עסקים ולקוחות מפני הסיוטים האלה. אבל מה זה בדיוק אומר?",
+    "en": "PCI DSS was created to protect businesses and customers from these nightmares. But what does it exactly mean?",
+    "es": "PCI DSS fue creado para proteger a las empresas y a los clientes de estas pesadillas. Pero, ¿qué significa exactamente?"
+  },
+  "section_pci_dss_principles": {
+    "he": "עקרונות הליבה של PCI DSS:",
+    "en": "Core Principles of PCI DSS:",
+    "es": "Principios Fundamentales de PCI DSS:"
+  },
+  "principle_1_pci": {
+    "he": "בניית וניהול רשת מאובטחת",
+    "en": "Build and Maintain a Secure Network",
+    "es": "Construir y Mantener una Red Segura"
+  },
+  "principle_2_pci": {
+    "he": "הגנה על נתוני בעלי הכרטיסים",
+    "en": "Protect Cardholder Data",
+    "es": "Proteger los Datos del Titular de la Tarjeta"
+  },
+  "principle_3_pci": {
+    "he": "ניהול תוכנית לניהול פגיעויות",
+    "en": "Maintain a Vulnerability Management Program",
+    "es": "Mantener un Programa de Gestión de Vulnerabilidades"
+  },
+  "principle_4_pci": {
+    "he": "יישום אמצעי בקרת גישה חזקים",
+    "en": "Implement Strong Access Control Measures",
+    "es": "Implementar Medidas de Control de Acceso Sólidas"
+  },
+  "principle_5_pci": {
+    "he": "ניטור ובדיקה קבועים של הרשתות",
+    "en": "Regularly Monitor and Test Networks",
+    "es": "Monitorear y Probar las Redes Regularmente"
+  },
+  "principle_6_pci": {
+    "he": "שמירה על מדיניות אבטחת מידע",
+    "en": "Maintain an Information Security Policy",
+    "es": "Mantener una Política de Seguridad de la Información"
+  },
+  "section_pci_dss_penalties": {
+    "he": "העונשים על אי-ציות:",
+    "en": "Penalties for Non-Compliance:",
+    "es": "Sanciones por Incumplimiento:"
+  },
+  "section_pci_dss_penalties_intro": {
+    "he": "PCI DSS לא מתבדח כשמדובר באכיפה. הנה מה שעלול לקרות לעסקים שלא עומדים בתקנים:",
+    "en": "PCI DSS doesn't joke when it comes to enforcement. Here's what can happen to businesses that don't meet the standards:",
+    "es": "PCI DSS no bromea cuando se trata de hacer cumplir las normas. Esto es lo que puede suceder a las empresas que no cumplen con los estándares:"
+  },
+  "penalty_1_pci": {
+    "he": "קנסות של 5,000$ עד 100,000$ לחודש עד לתיקון ההפרות.",
+    "en": "Fines of $5,000 to $100,000 per month until violations are corrected.",
+    "es": "Multas de $5,000 a $100,000 por mes hasta que se corrijan las violaciones."
+  },
+  "penalty_2_pci": {
+    "he": "הגדלת עלויות העיבוד לכל עסקה.",
+    "en": "Increased processing costs for each transaction.",
+    "es": "Aumento de los costos de procesamiento para cada transacción."
+  },
+  "penalty_3_pci": {
+    "he": "אובדן הזכות לעבד תשלומים בכרטיסי אשראי.",
+    "en": "Loss of the right to process credit card payments.",
+    "es": "Pérdida del derecho a procesar pagos con tarjeta de crédito."
+  },
+  "penalty_4_pci": {
+    "he": "נזק בלתי הפיך למוניטין העסקי.",
+    "en": "Irreparable damage to business reputation.",
+    "es": "Daño irreparable a la reputación del negocio."
+  },
+  "penalty_5_pci": {
+    "he": "תביעות משפטיות מצד לקוחות שנפגעו.",
+    "en": "Legal lawsuits from affected customers.",
+    "es": "Demandas legales de clientes afectados."
+  },
+  "post_title_hipaa": {
+    "he": "הגנה על מידע רפואי רגיש: למה HIPAA חשוב יותר מתמיד",
+    "en": "Protecting Sensitive Medical Information: Why HIPAA is More Important Than Ever",
+    "es": "Protección de Información Médica Sensible: Por Qué HIPAA es Más Importante Que Nunca"
+  },
+  "post_intro_hipaa": {
+    "he": "בעולם הדיגיטלי של היום, המידע הרפואי שלנו נמצא בסכנה מתמדת. האקרים, פושעי סייבר ואפילו עובדים רשלניים מאיימים על הפרטיות והביטחון של הנתונים הרפואיים הרגישים ביותר שלנו. זו בדיוק הסיבה שתקנות HIPAA (Health Insurance Portability and Accountability Act) הן קריטיות - הן קו ההגנה האחרון בין המידע האישי שלנו לבין אלה שמנסים לנצל אותו.",
+    "en": "In today's digital world, our medical information is in constant danger. Hackers, cybercriminals, and even negligent employees threaten the privacy and security of our most sensitive medical data. This is precisely why HIPAA (Health Insurance Portability and Accountability Act) regulations are critical - they are the last line of defense between our personal information and those trying to exploit it.",
+    "es": "En el mundo digital de hoy, nuestra información médica está en constante peligro. Hackers, ciberdelincuentes e incluso empleados negligentes amenazan la privacidad y seguridad de nuestros datos médicos más sensibles. Es precisamente por esto que las regulaciones HIPAA (Ley de Portabilidad y Responsabilidad del Seguro de Salud) son críticas - son la última línea de defensa entre nuestra información personal y aquellos que intentan explotarla."
+  },
+  "section_dangers_title_hipaa": {
+    "he": "הסכנות האמיתיות של הפרת מידע רפואי",
+    "en": "The Real Dangers of Medical Data Breaches",
+    "es": "Los Peligros Reales de las Violaciones de Datos Médicos"
+  },
+  "section_dangers_intro_hipaa": {
+    "he": "נתחיל מהעובדות המטרידות:",
+    "en": "Let's start with the disturbing facts:",
+    "es": "Comencemos con los hechos preocupantes:"
+  },
+  "fact_1_hipaa": {
+    "he": "בשנת 2023, נחשפו למעלה מ-50 מיליון רשומות רפואיות בארה\"ב בלבד.",
+    "en": "In 2023, over 50 million medical records were exposed in the US alone.",
+    "es": "En 2023, más de 50 millones de registros médicos fueron expuestos solo en los EE. UU."
+  },
+  "fact_2_hipaa": {
+    "he": "עלות ממוצעת של הפרת מידע רפואי: 9.23 מיליון דולר לכל אירוע.",
+    "en": "Average cost of a medical data breach: $9.23 million per incident.",
+    "es": "Costo promedio de una violación de datos médicos: $9.23 millones por incidente."
+  },
+  "fact_3_hipaa": {
+    "he": "53% מההפרות נגרמות על ידי התקפות זדוניות חיצוניות.",
+    "en": "53% of breaches are caused by malicious external attacks.",
+    "es": "El 53% de las violaciones son causadas por ataques externos maliciosos."
+  },
+  "section_dangers_explanation_hipaa": {
+    "he": "אבל מה המשמעות האמיתית מאחורי המספרים האלה? זה אומר שהמידע האישי ביותר שלכם - היסטוריה רפואית, אבחנות, טיפולים, ואפילו מידע גנטי - עלול ליפול לידיים הלא נכונות. התוצאות יכולות להיות הרסניות:",
+    "en": "But what's the real meaning behind these numbers? It means that your most personal information - medical history, diagnoses, treatments, and even genetic information - could fall into the wrong hands. The consequences can be devastating:",
+    "es": "Pero, ¿cuál es el significado real detrás de estos números? Significa que su información más personal - historial médico, diagnósticos, tratamientos e incluso información genética - podría caer en las manos equivocadas. Las consecuencias pueden ser devastadoras:"
+  },
+  "danger_1_hipaa": {
+    "he": "גניבת זהות רפואית: פושעים יכולים להשתמש במידע שלכם כדי לקבל טיפולים רפואיים, לרכוש תרופות, או להגיש תביעות ביטוח מזויפות.",
+    "en": "Medical Identity Theft: Criminals can use your information to receive medical treatments, purchase medications, or file fraudulent insurance claims.",
+    "es": "Robo de Identidad Médica: Los delincuentes pueden usar su información para recibir tratamientos médicos, comprar medicamentos o presentar reclamos de seguros fraudulentos."
+  },
+  "danger_2_hipaa": {
+    "he": "סחיטה: מידע רגיש יכול לשמש לסחיטה, במיוחד אם יש לכם מצבים רפואיים שאתם מעדיפים להסתיר.",
+    "en": "Extortion: Sensitive information can be used for blackmail, especially if you have medical conditions you prefer to keep private.",
+    "es": "Extorsión: La información sensible puede ser utilizada para chantaje, especialmente si tiene condiciones médicas que prefiere mantener en privado."
+  },
+  "danger_3_hipaa": {
+    "he": "אפליה: מעסיקים או חברות ביטוח עלולים להשתמש במידע זה נגדכם, למרות שזה לא חוקי.",
+    "en": "Discrimination: Employers or insurance companies may use this information against you, despite it being illegal.",
+    "es": "Discriminación: Los empleadores o las compañías de seguros pueden usar esta información en su contra, a pesar de que es ilegal."
+  },
+  "danger_4_hipaa": {
+    "he": "נזק פסיכולוגי: עצם הידיעה שהמידע האישי ביותר שלכם נחשף יכולה לגרום לחרדה ודיכאון חמורים.",
+    "en": "Psychological Harm: The mere knowledge that your most personal information has been exposed can cause severe anxiety and depression.",
+    "es": "Daño Psicológico: El simple conocimiento de que su información más personal ha sido expuesta puede causar ansiedad y depresión severas."
+  },
+  "og_description": {
+    "he": "Secure Pulse מספקת שירותי Penetration Testing מתקדמים המתמחים בבריאות דיגיטלית וקמעונאות אונליין.",
+    "en": "Secure Pulse provides advanced Penetration Testing services specializing in digital health and online retail.",
+    "es": "Secure Pulse ofrece servicios avanzados de Penetration Testing especializados en salud digital y comercio electrónico."
+  },
+  "contact_form_response": {
+    "he": "תודה שפנית אלינו! נחזור אליך בהקדם.",
+    "en": "Thank you for contacting us! We will get back to you soon.",
+    "es": "¡Gracias por contactarnos! Nos pondremos en contacto con usted pronto."
   }
 }

@@ -45,3 +45,43 @@
     </div>
   </div>
 </div>
+
+<div class="bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto max-w-2xl lg:max-w-4xl">
+        <h2 data-translate="our_blog" class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl no-direction-change">הבלוג שלנו</h2>
+        <p data-translate="blog_header" style="text-align: center !important;" class="mt-2 text-lg leading-8 text-gray-600 text-center">גלו את התובנות והטיפים שמשתפים מומחי אבטחת הסייבר שלנו.</p>
+        <div class="mt-16 space-y-20 lg:mt-20 lg:space-y-20">
+          <article class="relative isolate flex flex-col gap-8 lg:flex-row">
+            <div class="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-48 lg:shrink-0">
+              <img src="../pic/computerScreen.png" alt="" class="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover">
+              <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+            </div>
+            <div>
+              <div class="flex items-center gap-x-4 text-xs">
+                <time datetime="2024-07-30" class="text-gray-500" data-translate="post_date_health">30 ביולי, 2024</time>
+              </div>
+              <div class="group relative max-w-xl">
+                <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                  <a href="../blog/health-digital-age.html" data-translate="post_title_health">
+                    <span class="absolute inset-0"></span>
+                    הבריאות שלך בעידן הדיגיטלי: למה אבטחת מידע חשובה לכולנו
+                  </a>
+                </h3>
+                <p data-translate="post_summary_health" class="mt-5 text-sm leading-6 text-gray-600">בעידן הדיגיטלי, המידע הרפואי שלנו הופך לנגיש יותר מאי פעם. אך יחד עם היתרונות הרבים מגיעים גם סיכונים. גלו מדוע אבטחת מידע רפואי קריטית לכולנו</p>
+              </div>
+              <div class="mt-6 flex border-t border-gray-900/5 pt-6">
+                <div class="relative flex items-center gap-x-4">
+                  <a href="../blog/health-digital-age.html" data-translate="read_more" class="read-more bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    קרא עוד
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+          <!-- More posts... -->

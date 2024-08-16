@@ -42,10 +42,9 @@ async function loadTranslations(lang) {
         }
         const data = await response.json();
         translations = data;
-        console.log('Translations loaded:', translations);
     } catch (error) {
         console.error('Error loading translations:', error);
-        translations = {}; 
+        translations = {}; // או אובייקט עם תרגומים בסיסיים
     }
 }
 
@@ -164,7 +163,7 @@ function initLanguageSelector() {
     if (languageToggle && languageDropdown) {
        
         ['click', 'touchstart'].forEach(event => 
-            languageToggle.addEventListener(event, toggleLanguageDropdown)
+            languageToggle.addEventListener(event, toggleLanguageDropdown, { passive: true }) 
         );
         document.querySelectorAll('.language-option').forEach(option => {
             option.addEventListener('click', handleLanguageChange);

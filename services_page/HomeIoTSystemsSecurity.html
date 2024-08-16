@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <title>אבטחת IoT: הגנה על הבית החכם שלך | Secure Pulse</title>
+    <meta name="description" content="גלה כיצד להגן על מכשירי IoT בביתך החכם. Secure Pulse מציעה פתרונות אבטחה מתקדמים נגד האקרים, מתקפות DDoS ופרצות אבטחה במערכות IoT ביתיות.">
+    <meta property="og:title" content="אבטחת IoT: הגנה על הבית החכם שלך | Secure Pulse">
+    <meta property="og:description" content="הגן על מכשירי IoT בביתך מפני איומי סייבר. פתרונות אבטחה מתקדמים של Secure Pulse לבית חכם ומוגן.">
+    <title>IoT Security: Protecting Your Smart Home | Secure Pulse</title>
+    <meta name="description" content="Learn how to secure your smart home IoT devices. Secure Pulse offers advanced security solutions against hackers, DDoS attacks, and vulnerabilities in home IoT systems.">
+    <meta property="og:title" content="IoT Security: Protecting Your Smart Home | Secure Pulse">
+    <meta property="og:description" content="Safeguard your home IoT devices from cyber threats. Advanced security solutions by Secure Pulse for a smart and protected home.">
+    <title>Seguridad IoT: Protegiendo tu Hogar Inteligente | Secure Pulse</title>
+    <meta name="description" content="Descubre cómo proteger los dispositivos IoT de tu hogar inteligente. Secure Pulse ofrece soluciones de seguridad avanzadas contra hackers, ataques DDoS y vulnerabilidades en sistemas IoT domésticos.">
+    <meta property="og:title" content="Seguridad IoT: Protegiendo tu Hogar Inteligente | Secure Pulse">
+    <meta property="og:description" content="Protege tus dispositivos IoT domésticos contra amenazas cibernéticas. Soluciones de seguridad avanzadas de Secure Pulse para un hogar inteligente y protegido.">
+    <meta property="og:image" content="https://www.securepulses.com/pic/Logo-SecurePulses">
+    <meta property="og:url" content="https://www.securepulses.com">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+    <link href="./src/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self';
+        img-src 'self' https://flagcdn.com https://cdn.userway.org data:;
+        script-src 'self' 'unsafe-inline' https://cdn.userway.org;
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://cdn.userway.org;
+        font-src 'self' https://fonts.gstatic.com https://cdn.userway.org https://cdnjs.cloudflare.com data:;
+        connect-src 'self' https://api.userway.org https://cdn.userway.org https://formspree.io/f/mldrdggd https://www.linkedin.com/company/securepulses/ https://wa.me/972528281958;
+        frame-src 'self' https://cdn.userway.org;
+        upgrade-insecure-requests;
+        object-src 'none';
+    ">
+    <link rel="icon" href="pic/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="pic/favicon.ico" type="image/x-icon">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <script async src="https://cdn.userway.org/widget.js" data-account="lLYHLLp4WE" nonce="1234"></script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Secure Pulse",
+            "description": "אבטחה מתקדמת לעולם הדיגיטלי",
+            "url": "https://www.securepulses.com",
+            "logo": "https://www.securepulses.com/pic/Logo-SecurePulses",
+            "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+972-52-828-1958",
+            "contactType": "customer service",
+            "email": "info@securepulses.com",
+            "availableLanguage": ["Hebrew", "English", "Spanish"]
+            },
+            "areaServed": {
+            "@type": "Place",
+            "name": "Worldwide"
+            },
+            "sameAs": [
+            "https://www.linkedin.com/company/securepulses"
+            ]
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="header-container">
+            <div class="hamburger">
+                <button onclick="toggleHamburger(this)" class="hamburger-menu" aria-label="תפריט">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="language-selector mobile">
+                <button class="language-btn" id="language-toggle">
+                    <img src="https://flagcdn.com/w40/il.png" alt="current language" id="current-language-flag">
+                    <!-- <i class="fas fa-caret-down"></i> -->
+                </button>
+                <div class="language-dropdown" id="language-dropdown">
+                    <a href="#" class="language-option" data-lang="he">
+                        <img src="https://flagcdn.com/w40/il.png" alt="עברית">
+                        <span>עברית</span>
+                    </a>
+                    <a href="#" class="language-option" data-lang="en">
+                        <img src="https://flagcdn.com/w40/us.png" alt="English">
+                        <span>English</span>
+                    </a>
+                    <a href="#" class="language-option" data-lang="es">
+                        <img src="https://flagcdn.com/w40/es.png" alt="Español">
+                        <span>Español</span>
+                    </a>
+                </div>
+            </div>
+            <div class="main-menu">
+                <ul>
+                    <li><a href="../index.html" data-translate="nav_home">בית</a></li>
+                    <li><a href="./blog.html" data-translate="nav_blog">בלוג</a></li>
+                    <li><a href="../index.html#services" data-translate="nav_services">שירותים</a></li>
+                    <li><a href="../index.html#about" data-translate="nav_about">אודות</a></li>
+                    <li><a href="../index.html#industries" data-translate="nav_industries">תעשיות</a></li>
+                    <li><a href="../index.html#contact" data-translate="nav_contact">צור קשר</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="../pic/Logo-SecurePulses.png" alt="Secure Pulse Logo">
+            </div>
+        </nav>
+    </header>
+    <div id="mobileDropDownMenu" class="main-menu-mobile hidden">
+        <ul>
+            <li><a href="../index.html" data-translate="nav_home">בית</a></li>
+            <li><a href="./blog.html" data-translate="nav_blog">בלוג</a></li>
+            <li><a href="../index.html#services" data-translate="nav_services">שירותים</a></li>
+            <li><a href="../index.html#about" data-translate="nav_about">אודות</a></li>
+            <li><a href="../index.html#industries" data-translate="nav_industries">תעשיות</a></li>
+            <li><a href="../index.html#contact" data-translate="nav_contact">צור קשר</a></li>
+        </ul>
+    </div>
+    <main class="blog-post-page">
+        <div class="container">
+            <h1 data-translate="post_title_iot_security">אבטחת מערכות IoT ביתיות: האם הבית החכם שלכם באמת בטוח?</h1>
+            
+            <p data-translate="post_intro_lot">בעידן הדיגיטלי המודרני, הבית החכם הפך ממדע בדיוני למציאות יומיומית. מצלמות אבטחה, מנעולים חכמים, תרמוסטטים מקושרים ואפילו מקררים עם גישה לאינטרנט - כולם חלק ממהפכת ה-IoT (Internet of Things) שמבטיחה לנו נוחות, יעילות וחיסכון. אבל האם חשבתם פעם על המחיר האמיתי של הנוחות הזו? האם הבית החכם שלכם באמת בטוח, או שמא הוא שער פתוח למרגלים דיגיטליים?</p>
+
+            <h2 data-translate="section_dangers_title">הסכנות האמיתיות של מערכות IoT לא מאובטחות</h2>
+            <p data-translate="section_dangers_intro">בואו נתחיל עם כמה עובדות מטרידות:</p>
+            <ul>
+                <li data-translate="fact_1">עד 2025, צפויים להיות כ-75 מיליארד מכשירי IoT מחוברים ברחבי העולם.</li>
+                <li data-translate="fact_2">98% מתעבורת ה-IoT אינה מוצפנת.</li>
+                <li data-translate="fact_3">57% ממכשירי ה-IoT פגיעים להתקפות בעלות חומרה בינונית או גבוהה.</li>
+            </ul>
+            <p data-translate="section_dangers_explanation">אבל מה המשמעות האמיתית מאחורי המספרים האלה? זה אומר שהמכשירים החכמים שאמורים להגן עליכם ולהקל על חייכם, עלולים להפוך לכלי נשק בידי פושעים. הנה כמה מהסכנות האמיתיות:</p>
+            <ol>
+                <li data-translate="danger_1"><strong>פריצה לבית</strong>: האקרים יכולים לנצל מנעולים חכמים לא מאובטחים כדי לפרוץ לביתכם.</li>
+                <li data-translate="danger_2"><strong>מעקב פרטי</strong>: מצלמות אבטחה פרוצות יכולות לשמש למעקב אחריכם בתוך ביתכם.</li>
+                <li data-translate="danger_3"><strong>גניבת זהות</strong>: מידע אישי שנאסף ממכשירי IoT יכול לשמש לגניבת זהות.</li>
+                <li data-translate="danger_4"><strong>סחיטה</strong>: פושעים יכולים להשתלט על מכשירים חיוניים ולדרוש כופר.</li>
+                <li data-translate="danger_5"><strong>התקפות DDoS</strong>: מכשירי IoT שלכם יכולים להיות חלק מרשת בוטים ענקית לביצוע התקפות סייבר.</li>
+            </ol>
+
+            <h2 data-translate="section_protection_title">הגנה על הבית החכם: עקרונות מפתח</h2>
+            <p data-translate="section_protection_intro">כדי להגן על הבית החכם שלכם ועל פרטיותכם, חשוב להבין ולישם כמה עקרונות מפתח:</p>
+            <ol>
+                <li data-translate="principle_1"><strong>אבטחה כברירת מחדל</strong>: בחרו במכשירים עם אבטחה מובנית.</li>
+                <li data-translate="principle_2"><strong>עדכונים שוטפים</strong>: וודאו שכל המכשירים מעודכנים תמיד לגרסה האחרונה.</li>
+                <li data-translate="principle_3"><strong>סיסמאות חזקות</strong>: השתמשו בסיסמאות ייחודיות וחזקות לכל מכשיר.</li>
+                <li data-translate="principle_4"><strong>רשת נפרדת</strong>: צרו רשת Wi-Fi נפרדת למכשירי ה-IoT.</li>
+                <li data-translate="principle_5"><strong>הצפנה</strong>: וודאו שכל התקשורת בין המכשירים מוצפנת.</li>
+            </ol>
+
+            <h2 data-translate="section_consequences_title">הסכנות של התעלמות מאבטחת IoT</h2>
+            <p data-translate="section_consequences_intro">התעלמות מאבטחת מכשירי ה-IoT שלכם יכולה להוביל לתוצאות הרסניות:</p>
+            <ul>
+                <li data-translate="consequence_1"><strong>פגיעה בפרטיות</strong>: האקרים יכולים לצפות בכם דרך מצלמות האבטחה שלכם.</li>
+                <li data-translate="consequence_2"><strong>נזק פיננסי</strong>: גנבי זהות יכולים לרוקן את חשבון הבנק שלכם.</li>
+                <li data-translate="consequence_3"><strong>סכנה פיזית</strong>: פריצה למערכות הבית יכולה לסכן את בטיחותכם הפיזית.</li>
+                <li data-translate="consequence_4"><strong>אובדן שליטה</strong>: מכשירים פרוצים יכולים לפעול בניגוד לרצונכם.</li>
+                <li data-translate="consequence_5"><strong>נזק למוניטין</strong>: אם המכשירים שלכם משמשים להתקפות, אתם עלולים להיות אחראים.</li>
+            </ul>
+
+            <h2 data-translate="section_tips_title">טיפים מעשיים להגנה על הבית החכם שלכם</h2>
+            <h3 data-translate="section_tips_users">למשתמשים:</h3>
+            <ol>
+                <li data-translate="tip_user_1"><strong>שנו סיסמאות ברירת מחדל</strong>: מיד עם התקנת מכשיר חדש, שנו את הסיסמה.</li>
+                <li data-translate="tip_user_2"><strong>הפעילו אימות דו-שלבי</strong>: בכל מקום שאפשר, הפעילו אימות נוסף.</li>
+                <li data-translate="tip_user_3"><strong>בדקו הגדרות פרטיות</strong>: סקרו והתאימו את הגדרות הפרטיות של כל מכשיר.</li>
+                <li data-translate="tip_user_4"><strong>נטרו פעילות חריגה</strong>: בדקו באופן קבוע את הפעילות של המכשירים שלכם.</li>
+                <li data-translate="tip_user_5"><strong>השתמשו ב-VPN</strong>: הגנו על הרשת הביתית שלכם עם VPN.</li>
+            </ol>
+            
+            <h3 data-translate="section_tips_manufacturers">ליצרנים:</h3>
+            <ol>
+                <li data-translate="tip_manufacturer_1"><strong>אבטחה מובנית</strong>: תכננו מכשירים עם אבטחה כחלק אינטגרלי מהמוצר.</li>
+                <li data-translate="tip_manufacturer_2"><strong>עדכונים אוטומטיים</strong>: ספקו עדכוני אבטחה אוטומטיים ותכופים.</li>
+                <li data-translate="tip_manufacturer_3"><strong>הצפנה חזקה</strong>: השתמשו בהצפנה חזקה לכל תקשורת ואחסון מידע.</li>
+                <li data-translate="tip_manufacturer_4"><strong>בדיקות אבטחה</strong>: בצעו בדיקות אבטחה מקיפות לפני שחרור מוצרים.</li>
+                <li data-translate="tip_manufacturer_5"><strong>שקיפות</strong>: ספקו מידע ברור למשתמשים על איסוף ושימוש במידע.</li>
+            </ol>
+
+            <h2 data-translate="section_future_title">העתיד של אבטחת IoT</h2>
+            <p data-translate="section_future_content">ככל שהטכנולוגיה מתקדמת, כך גם האיומים על מערכות IoT ביתיות. אבטחת הבית החכם היא לא רק עניין טכני - זו מחויבות להגנה על הפרטיות והביטחון של המשפחה שלכם.</p>
+            <p data-translate="section_conclusion">זכרו, הבית החכם שלכם חכם רק כמו האבטחה שלו. אל תיפלו קורבן להתקפות סייבר או לפגיעה בפרטיות. השקיעו באבטחה, היו מודעים לסיכונים, והגנו על המרחב הפרטי והאינטימי ביותר שלכם - הבית שלכם.</p>
+            <p data-translate="section_final_thought">כי בסופו של דבר, בית חכם באמת הוא בית בטוח - כזה שמשלב את הנוחות של הטכנולוגיה עם השקט הנפשי של אבטחה מתקדמת.</p>
+        </div>
+    </main>
+    <section id="contact" class="bg-dark">
+        <div class="container">
+            <h2 class="no-direction-change" data-translate="contact_form_title">צור קשר</h2>
+            <div class="contact-cta">
+                <p><b data-translate="contact_cta_text" dir="auto">מוכנים להגן על הנכסים הדיגיטליים שלכם? צרו קשר עוד היום!</b></p>
+            </div>
+            <form id="contactForm" >
+                <label>
+                    <span data-translate="contact_form_email">אימייל:</span>
+                    <input required placeholder="" onfocus="this.placeholder=''" type="email" name="email">
+                </label>
+                <label>
+                    <span data-translate="contact_form_name">שם:</span>
+                    <input required placeholder="" onfocus="this.placeholder=''" type="text" name="name"></input>
+                </label>
+                <label>
+                    <span data-translate="contact_form_message">הודעה:</span>
+                    <textarea required placeholder="" onfocus="this.placeholder=''" name="message"></textarea>
+                </label>
+                <button class="no-direction-change" type="submit" data-translate="contact_form_submit">שלח</button>
+            </form>
+            <div id="submitMsg" class="contact-form-response hidden">
+                <p data-translate="contact_form_response">תודה שפנית אלינו! נחזור אליך בהקדם.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../pic/logo-footer.png" alt="Secure Pulse Logo">
+                </div>
+                <div class="footer-links">
+                    <h4 data-translate="footer_quick_links">קישורים מהירים</h4>
+                    <ul>
+                        <li><a href="../index.html" data-translate="nav_home">בית</a></li>
+                        <li><a href="./blog.html" data-translate="nav_blog">בלוג</a></li>
+                        <li><a href="../index.html#services" data-translate="nav_services">שירותים</a></li>
+                        <li><a href="../index.html#about" data-translate="nav_about">אודות</a></li>
+                        <li><a href="../index.html#industries" data-translate="nav_industries">תעשיות</a></li>
+                        <li><a href="../index.html#contact" data-translate="nav_contact">צור קשר</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 data-translate="footer_contact_us">צור קשר</h4>
+                    <a href="https://wa.me/972528281958" target="_blank" style="color: white; text-decoration: none;">
+                        <p data-translate="footer_phone">טלפון: +972-52-828-1958</p>
+                    </a>
+                    <a href="mailto:info@securepulses.com" style="color: white; text-decoration: none;">
+                        <p data-translate="footer_email"> info@securepulses.com </p>
+                    </a>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/company/securepulses/">
+                          <img src="../pic/linkedin-logo.png" alt="LinkedIn" style="width: 24px; height: 24px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="no-direction-change" data-translate="footer_copyright">&copy; <span dir="ltr">Secure Pulse</span>
+                    <span dir="rtl">כל הזכויות שמורות.</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', initializeWebsite);
+    </script>
+</body>
+</html>

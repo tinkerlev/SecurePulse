@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <title>אבטחת מידע רפואי: הגנה על פרטיות המטופלים בעידן הדיגיטלי | Secure Pulse</title>
+    <meta name="description" content="הבטח עמידה בתקנות HIPAA והגן על מידע רפואי רגיש. Secure Pulse מציעה פתרונות אבטחה מתקדמים למערכות בריאות דיגיטליות, מניעת דליפות מידע ואבטחת רשומות רפואיות.">
+    <meta property="og:title" content="אבטחת מידע רפואי: הגנה על פרטיות המטופלים בעידן הדיגיטלי | Secure Pulse">
+    <meta property="og:description" content="שמור על פרטיות המטופלים ועמוד בדרישות HIPAA. פתרונות אבטחת מידע רפואי מתקדמים של Secure Pulse להגנה מקיפה על נתוני בריאות דיגיטליים.">
+    <title>Medical Data Security: Protecting Patient Privacy in the Digital Age | Secure Pulse</title>
+    <meta name="description" content="Ensure HIPAA compliance and safeguard sensitive medical information. Secure Pulse offers advanced security solutions for digital health systems, preventing data breaches and securing medical records.">
+    <meta property="og:title" content="Medical Data Security: Protecting Patient Privacy in the Digital Age | Secure Pulse">
+    <meta property="og:description" content="Maintain patient privacy and meet HIPAA requirements. Advanced medical data security solutions by Secure Pulse for comprehensive protection of digital health data.">
+    <title>Seguridad de Datos Médicos: Protegiendo la Privacidad del Paciente en la Era Digital | Secure Pulse</title>
+    <meta name="description" content="Asegura el cumplimiento de HIPAA y protege la información médica sensible. Secure Pulse ofrece soluciones de seguridad avanzadas para sistemas de salud digitales, previniendo filtraciones de datos y asegurando registros médicos.">
+    <meta property="og:title" content="Seguridad de Datos Médicos: Protegiendo la Privacidad del Paciente en la Era Digital | Secure Pulse">
+    <meta property="og:description" content="Mantén la privacidad del paciente y cumple con los requisitos de HIPAA. Soluciones avanzadas de seguridad de datos médicos de Secure Pulse para una protección integral de los datos de salud digitales.">  
+    <meta property="og:image" content="https://www.securepulses.com/pic/Logo-SecurePulses">
+    <meta property="og:url" content="https://www.securepulses.com">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+    <link href="./src/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self';
+        img-src 'self' https://flagcdn.com https://cdn.userway.org data:;
+        script-src 'self' 'unsafe-inline' https://cdn.userway.org;
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://cdn.userway.org;
+        font-src 'self' https://fonts.gstatic.com https://cdn.userway.org https://cdnjs.cloudflare.com data:;
+        connect-src 'self' https://api.userway.org https://cdn.userway.org https://formspree.io/f/mldrdggd https://www.linkedin.com/company/securepulses/ https://wa.me/972528281958;
+        frame-src 'self' https://cdn.userway.org;
+        upgrade-insecure-requests;
+        object-src 'none';
+    ">
+    <link rel="icon" href="pic/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="pic/favicon.ico" type="image/x-icon">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <script async src="https://cdn.userway.org/widget.js" data-account="lLYHLLp4WE" nonce="1234"></script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Secure Pulse",
+        "description": "אבטחה מתקדמת לעולם הדיגיטלי",
+        "url": "https://www.securepulses.com",
+        "logo": "https://www.securepulses.com/pic/Logo-SecurePulses",
+        "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+972-52-828-1958",
+        "contactType": "customer service",
+        "email": "info@securepulses.com",
+        "availableLanguage": ["Hebrew", "English", "Spanish"]
+        },
+        "areaServed": {
+        "@type": "Place",
+        "name": "Worldwide"
+        },
+        "sameAs": [
+        "https://www.linkedin.com/company/securepulses"
+        ]
+    }
+</script>
+<body>
+    <header>
+        <nav class="header-container">
+            <div class="hamburger">
+                <button onclick="toggleHamburger(this)" class="hamburger-menu" aria-label="תפריט">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="language-selector mobile">
+                <button class="language-btn" id="language-toggle">
+                    <img src="https://flagcdn.com/w40/il.png" alt="current language" id="current-language-flag">
+                    <!-- <i class="fas fa-caret-down"></i> -->
+                </button>
+                <div class="language-dropdown" id="language-dropdown">
+                    <a href="#" class="language-option" data-lang="he">
+                        <img src="https://flagcdn.com/w40/il.png" alt="עברית">
+                        <span>עברית</span>
+                    </a>
+                    <a href="#" class="language-option" data-lang="en">
+                        <img src="https://flagcdn.com/w40/us.png" alt="English">
+                        <span>English</span>
+                    </a>
+                    <a href="#" class="language-option" data-lang="es">
+                        <img src="https://flagcdn.com/w40/es.png" alt="Español">
+                        <span>Español</span>
+                    </a>
+                </div>
+            </div>
+            <div class="main-menu">
+                <ul>
+                    <li><a href="../index.html" data-translate="nav_home">בית</a></li>
+                    <li><a href="./blog.html" data-translate="nav_blog">בלוג</a></li>
+                    <li><a href="../index.html#services" data-translate="nav_services">שירותים</a></li>
+                    <li><a href="../index.html#about" data-translate="nav_about">אודות</a></li>
+                    <li><a href="../index.html#industries" data-translate="nav_industries">תעשיות</a></li>
+                    <li><a href="../index.html#contact" data-translate="nav_contact">צור קשר</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="../pic/Logo-SecurePulses.png" alt="Secure Pulse Logo">
+            </div>
+        </nav>
+    </header>
+    <div id="mobileDropDownMenu" class="main-menu-mobile hidden">
+        <ul>
+            <li><a href="../index.html" data-translate="nav_home">בית</a></li>
+            <li><a href="./blog.html" data-translate="nav_blog">בלוג</a></li>
+            <li><a href="../index.html#services" data-translate="nav_services">שירותים</a></li>
+            <li><a href="../index.html#about" data-translate="nav_about">אודות</a></li>
+            <li><a href="../index.html#industries" data-translate="nav_industries">תעשיות</a></li>
+            <li><a href="../index.html#contact" data-translate="nav_contact">צור קשר</a></li>
+        </ul>
+    </div>
+    <main class="blog-post-page">
+        <div class="container">
+            <h1 data-translate="post_title_hipaa">הגנה על מידע רפואי רגיש: למה HIPAA חשוב יותר מתמיד</h1>
+            
+            <p data-translate="post_intro_hipaa">בעולם הדיגיטלי של היום, המידע הרפואי שלנו נמצא בסכנה מתמדת. האקרים, פושעי סייבר ואפילו עובדים רשלניים מאיימים על הפרטיות והביטחון של הנתונים הרפואיים הרגישים ביותר שלנו. זו בדיוק הסיבה שתקנות HIPAA (Health Insurance Portability and Accountability Act) הן קריטיות - הן קו ההגנה האחרון בין המידע האישי שלנו לבין אלה שמנסים לנצל אותו.</p>
+
+            <h2 data-translate="section_dangers_title_hipaa">הסכנות האמיתיות של הפרת מידע רפואי</h2>
+            <p data-translate="section_dangers_intro_hipaa">נתחיל מהעובדות המטרידות:</p>
+            <ul>
+                <li data-translate="fact_1_hipaa">בשנת 2023, נחשפו למעלה מ-50 מיליון רשומות רפואיות בארה"ב בלבד.</li>
+                <li data-translate="fact_2_hipaa">עלות ממוצעת של הפרת מידע רפואי: 9.23 מיליון דולר לכל אירוע.</li>
+                <li data-translate="fact_3_hipaa">53% מההפרות נגרמות על ידי התקפות זדוניות חיצוניות.</li>
+            </ul>
+            <p data-translate="section_dangers_explanation_hipaa">אבל מה המשמעות האמיתית מאחורי המספרים האלה? זה אומר שהמידע האישי ביותר שלכם - היסטוריה רפואית, אבחנות, טיפולים, ואפילו מידע גנטי - עלול ליפול לידיים הלא נכונות. התוצאות יכולות להיות הרסניות:</p>
+            <ol>
+                <li data-translate="danger_1_hipaa"><strong>גניבת זהות רפואית</strong>: פושעים יכולים להשתמש במידע שלכם כדי לקבל טיפולים רפואיים, לרכוש תרופות, או להגיש תביעות ביטוח מזויפות.</li>
+                <li data-translate="danger_2_hipaa"><strong>סחיטה</strong>: מידע רגיש יכול לשמש לסחיטה, במיוחד אם יש לכם מצבים רפואיים שאתם מעדיפים להסתיר.</li>
+                <li data-translate="danger_3_hipaa"><strong>אפליה</strong>: מעסיקים או חברות ביטוח עלולים להשתמש במידע זה נגדכם, למרות שזה לא חוקי.</li>
+                <li data-translate="danger_4_hipaa"><strong>נזק פסיכולוגי</strong>: עצם הידיעה שהמידע האישי ביותר שלכם נחשף יכולה לגרום לחרדה ודיכאון חמורים.</li>
+            </ol>
+
+            <h2 data-translate="section_hipaa_title">HIPAA: קו ההגנה האחרון</h2>
+            <p data-translate="section_hipaa_intro">HIPAA נוצר בדיוק כדי להגן עלינו מפני הסיוטים האלה. אבל מה זה בדיוק אומר?</p>
+            
+            <h3 data-translate="section_hipaa_principles">עקרונות הליבה של HIPAA:</h3>
+            <ol>
+                <li data-translate="principle_1_hipaa"><strong>הגנה על פרטיות</strong>: כל מידע בריאותי מזוהה אישית (PHI) חייב להיות מוגן.</li>
+                <li data-translate="principle_2_hipaa"><strong>אבטחת מידע</strong>: יש ליישם אמצעי אבטחה פיזיים, טכניים ומנהליים כדי להגן על PHI.</li>
+                <li data-translate="principle_3_hipaa"><strong>הודעה על הפרות</strong>: ארגוני בריאות חייבים להודיע לאנשים אם המידע שלהם נחשף.</li>
+                <li data-translate="principle_4_hipaa"><strong>זכויות המטופל</strong>: למטופלים יש זכות לגשת למידע שלהם ולבקש תיקונים.</li>
+            </ol>
+
+            <h3 data-translate="section_hipaa_penalties">העונשים על אי-ציות:</h3>
+            <p data-translate="section_hipaa_penalties_intro">HIPAA לא מתבדח כשמדובר באכיפה. הנה מה שעלול לקרות לארגונים שלא עומדים בתקנים:</p>
+            <ul>
+                <li data-translate="penalty_1_hipaa">קנסות של עד 1.5 מיליון דולר לשנה עבור כל סוג של הפרה.</li>
+                <li data-translate="penalty_2_hipaa">עונשי מאסר של עד 10 שנים עבור הפרות זדוניות.</li>
+                <li data-translate="penalty_3_hipaa">נזק בלתי הפיך למוניטין וכיסוי תקשורתי שלילי.</li>
+                <li data-translate="penalty_4_hipaa">תביעות אזרחיות מצד מטופלים שנפגעו.</li>
+            </ul>
+
+            <h2 data-translate="section_tips_title_hipaa">איך להישאר בטוחים: טיפים למטופלים ולארגוני בריאות</h2>
+            
+            <h3 data-translate="section_tips_patients_hipaa">למטופלים:</h3>
+            <ol>
+                <li data-translate="tip_patient_1_hipaa"><strong>בדקו את מדיניות הפרטיות</strong>: קראו בעיון את מדיניות הפרטיות של ספקי הבריאות שלכם.</li>
+                <li data-translate="tip_patient_2_hipaa"><strong>שאלו שאלות</strong>: אל תהססו לשאול כיצד המידע שלכם מאובטח.</li>
+                <li data-translate="tip_patient_3_hipaa"><strong>היו זהירים ברשתות חברתיות</strong>: אל תשתפו מידע רפואי ברשתות חברתיות.</li>
+                <li data-translate="tip_patient_4_hipaa"><strong>בדקו את הדוחות שלכם</strong>: סקרו בקביעות את דוחות הביטוח שלכם לאיתור פעילות חשודה.</li>
+            </ol>
+            
+            <h3 data-translate="section_tips_organizations_hipaa">לארגוני בריאות:</h3>
+            <ol>
+                <li data-translate="tip_org_1_hipaa"><strong>הכשרה מקיפה</strong>: כל העובדים חייבים לעבור הכשרת HIPAA שנתית.</li>
+                <li data-translate="tip_org_2_hipaa"><strong>הצפנה</strong>: כל המידע הרפואי חייב להיות מוצפן, הן בזמן אחסון והן בזמן העברה.</li>
+                <li data-translate="tip_org_3_hipaa"><strong>בקרת גישה</strong>: יישמו מדיניות גישה מחמירה על בסיס "צורך לדעת" בלבד.</li>
+                <li data-translate="tip_org_4_hipaa"><strong>ניטור מתמיד</strong>: השתמשו בכלי ניטור בזמן אמת לזיהוי ומניעת הפרות.</li>
+                <li data-translate="tip_org_5_hipaa"><strong>תוכנית תגובה להפרות</strong>: פתחו ותרגלו תוכנית תגובה מקיפה להפרות.</li>
+            </ol>
+
+            <h2 data-translate="section_summary_title_hipaa">סיכום: העתיד של אבטחת מידע רפואי</h2>
+            <p data-translate="section_summary_content_hipaa">ככל שהטכנולוגיה מתקדמת, כך גם האיומים על המידע הרפואי שלנו. HIPAA הוא יותר מסט של כללים - זו מחויבות לשמירה על הפרטיות והכבוד של כל מטופל. זכרו, הגנה על מידע רפואי היא לא רק עניין של ציות לחוק; זו אחריות מוסרית שכולנו חולקים.</p>
+            <p data-translate="section_conclusion_hipaa">אל תיפלו קורבן לרשלנות או לפשיעת סייבר. הישארו מיודעים, דרשו שקיפות, והגנו על המידע היקר ביותר שלכם - הבריאות שלכם.</p>
+            <p data-translate="section_final_thought_hipaa">כי בסופו של דבר, מידע רפואי מוגן הוא לא רק זכות - זו הבטחה לעתיד בריא ובטוח יותר לכולנו.</p>
+        </div>
+    </main>
+    <section id="contact" class="bg-dark">
+        <div class="container">
+            <h2 class="no-direction-change" data-translate="contact_form_title">צור קשר</h2>
+            <div class="contact-cta">
+                <p><b data-translate="contact_cta_text" dir="auto">מוכנים להגן על הנכסים הדיגיטליים שלכם? צרו קשר עוד היום!</b></p>
+            </div>
+            <form id="contactForm" >
+                <label>
+                    <span data-translate="contact_form_email">אימייל:</span>
+                    <input required placeholder="" onfocus="this.placeholder=''" type="email" name="email">
+                </label>
+                <label>
+                    <span data-translate="contact_form_name">שם:</span>
+                    <input required placeholder="" onfocus="this.placeholder=''" type="text" name="name"></input>
+                </label>
+                <label>
+                    <span data-translate="contact_form_message">הודעה:</span>
+                    <textarea required placeholder="" onfocus="this.placeholder=''" name="message"></textarea>
+                </label>
+                <button class="no-direction-change" type="submit" data-translate="contact_form_submit">שלח</button>
+            </form>
+            <div id="submitMsg" class="contact-form-response hidden">
+                <p data-translate="contact_form_response">תודה שפנית אלינו! נחזור אליך בהקדם.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../pic/logo-footer.png" alt="Secure Pulse Logo">
+                </div>
+                <div class="footer-links">
+                    <h4 data-translate="footer_quick_links">קישורים מהירים</h4>
+                    <ul>
+                        <li><a href="../index.html" data-translate="nav_home">בית</a></li>
+                        <li><a href="./blog.html" data-translate="nav_blog">בלוג</a></li>
+                        <li><a href="../index.html#services" data-translate="nav_services">שירותים</a></li>
+                        <li><a href="../index.html#about" data-translate="nav_about">אודות</a></li>
+                        <li><a href="../index.html#industries" data-translate="nav_industries">תעשיות</a></li>
+                        <li><a href="../index.html#contact" data-translate="nav_contact">צור קשר</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 data-translate="footer_contact_us">צור קשר</h4>
+                    <a href="https://wa.me/972528281958" target="_blank" style="color: white; text-decoration: none;">
+                        <p data-translate="footer_phone">טלפון: +972-52-828-1958</p>
+                    </a>
+                    <a href="mailto:info@securepulses.com" style="color: white; text-decoration: none;">
+                        <p data-translate="footer_email"> info@securepulses.com </p>
+                    </a>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/company/securepulses/">
+                          <img src="../pic/linkedin-logo.png" alt="LinkedIn" style="width: 24px; height: 24px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="no-direction-change" data-translate="footer_copyright">&copy; <span dir="ltr">Secure Pulse</span>
+                    <span dir="rtl">כל הזכויות שמורות.</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', initializeWebsite);
+    </script>
+</body>
+</html>
