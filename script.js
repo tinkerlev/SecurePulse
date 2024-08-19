@@ -165,7 +165,7 @@ function initLanguageSelector() {
     if (languageToggle && languageDropdown) {
        
         ['click', 'touchstart'].forEach(event => 
-            languageToggle.addEventListener(event, toggleLanguageDropdown)
+            languageToggle.addEventListener(event, toggleLanguageDropdown, { passive: event === 'touchstart' })
         );
         document.querySelectorAll('.language-option').forEach(option => {
             option.addEventListener('click', handleLanguageChange);

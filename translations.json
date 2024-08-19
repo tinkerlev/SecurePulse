@@ -189,6 +189,11 @@
     "en": "Regulatory compliance assessment is a comprehensive process to verify that your systems and processes meet the relevant legal standards and requirements for your industry. We perform an in-depth review to identify gaps and ensure compliance with standards such as HIPAA, PCI DSS, GDPR, and others.",
     "es": "La evaluación del cumplimiento normativo es un proceso integral para verificar que sus sistemas y procesos cumplan con los estándares y requisitos legales relevantes para su industria. Realizamos una revisión exhaustiva para identificar brechas y garantizar el cumplimiento de estándares como HIPAA, PCI DSS, GDPR y otros."
   },
+  "post_intro2": {
+    "he": "בעידן הדיגיטלי המתפתח, הבית החכם הפך ממותרות לנורמה. מנורות שנדלקות באמצעות קול, מערכות מיזוג שמתכווננות אוטומטית, ומצלמות אבטחה שניתן לצפות בהן מהטלפון - כל אלה הופכים את חיינו לנוחים יותר. אבל האם חשבתם על",
+    "en": "In the evolving digital era, the smart home has transformed from a luxury to a norm. Voice-activated lights, automatically adjusting air conditioning systems, and security cameras viewable from your phone - all these make our lives more convenient. But have you thought about",
+    "es": "En la era digital en evolución, el hogar inteligente ha pasado de ser un lujo a ser la norma. Luces activadas por voz, sistemas de aire acondicionado que se ajustan automáticamente y cámaras de seguridad que se pueden ver desde el teléfono: todo esto hace que nuestras vidas sean más cómodas. Pero, ¿has pensado en"
+  },
   "compliance_importance": {
     "he": "בעולם הדיגיטלי של היום, אי-עמידה ברגולציות יכולה לגרור קנסות כבדים, פגיעה במוניטין, ואובדן אמון הלקוחות. עמידה ברגולציות לא רק מגנה על העסק שלך מבחינה משפטית, אלא גם מבטיחה את אמון הלקוחות ומחזקת את המוניטין שלך כעסק אחראי ואמין.",
     "en": "In today's digital world, non-compliance with regulations can result in heavy fines, reputational damage, and loss of customer trust. Compliance not only protects your business legally but also ensures customer trust and strengthens your reputation as a responsible and reliable business.",
@@ -1489,126 +1494,6 @@
     "en": "Phishing Attacks: Fake or compromised applications can be used to deceive users and steal sensitive information.",
     "es": "Ataques de Phishing: Las aplicaciones falsas o comprometidas pueden usarse para engañar a los usuarios y robar información sensible."
   },
-  "post_title_iot_security": {
-    "he": "אבטחת מערכות IoT ביתיות: האם הבית החכם שלכם באמת בטוח?",
-    "en": "Home IoT System Security: Is Your Smart Home Really Safe?",
-    "es": "Seguridad de Sistemas IoT Domésticos: ¿Es Su Hogar Inteligente Realmente Seguro?"
-  },
-  "post_intro_iot": {
-    "he": "בעידן הדיגיטלי המודרני, הבית החכם הפך ממדע בדיוני למציאות יומיומית. מצלמות אבטחה, מנעולים חכמים, תרמוסטטים מקושרים ואפילו מקררים עם גישה לאינטרנט - כולם חלק ממהפכת ה-IoT (Internet of Things) שמבטיחה לנו נוחות, יעילות וחיסכון. אבל האם חשבתם פעם על המחיר האמיתי של הנוחות הזו? האם הבית החכם שלכם באמת בטוח, או שמא הוא שער פתוח למרגלים דיגיטליים?",
-    "en": "In the modern digital era, the smart home has evolved from science fiction to everyday reality. Security cameras, smart locks, connected thermostats, and even internet-connected refrigerators are all part of the IoT (Internet of Things) revolution promising convenience, efficiency, and savings. But have you ever considered the true cost of this convenience? Is your smart home really secure, or is it an open gateway for digital intruders?",
-    "es": "En la era digital moderna, el hogar inteligente ha pasado de ser ciencia ficción a una realidad cotidiana. Cámaras de seguridad, cerraduras inteligentes, termostatos conectados e incluso refrigeradores con acceso a Internet son parte de la revolución del IoT (Internet de las Cosas) que promete comodidad, eficiencia y ahorro. Pero, ¿alguna vez ha considerado el verdadero costo de esta conveniencia? ¿Es su hogar inteligente realmente seguro, o es una puerta abierta para intrusos digitales?"
-  },
-  "section_dangers_title_iot": {
-    "he": "הסכנות האמיתיות של מערכות IoT לא מאובטחות",
-    "en": "The Real Dangers of Unsecured IoT Systems",
-    "es": "Los Peligros Reales de los Sistemas IoT No Seguros"
-  },
-  "section_dangers_intro_iot": {
-    "he": "בואו נתחיל עם כמה עובדות מטרידות:",
-    "en": "Let's start with some disturbing facts:",
-    "es": "Comencemos con algunos hechos preocupantes:"
-  },
-  "fact_1_iot": {
-    "he": "עד 2025, צפויים להיות כ-75 מיליארד מכשירי IoT מחוברים ברחבי העולם.",
-    "en": "By 2025, there are expected to be about 75 billion connected IoT devices worldwide.",
-    "es": "Para 2025, se espera que haya alrededor de 75 mil millones de dispositivos IoT conectados en todo el mundo."
-  },
-  "fact_2_iot": {
-    "he": "98% מתעבורת ה-IoT אינה מוצפנת.",
-    "en": "98% of IoT traffic is unencrypted.",
-    "es": "El 98% del tráfico de IoT no está encriptado."
-  },
-  "fact_3_iot": {
-    "he": "57% ממכשירי ה-IoT פגיעים להתקפות בעלות חומרה בינונית או גבוהה.",
-    "en": "57% of IoT devices are vulnerable to medium or high-severity attacks.",
-    "es": "El 57% de los dispositivos IoT son vulnerables a ataques de gravedad media o alta."
-  },
-  "section_dangers_explanation_iot": {
-    "he": "אבל מה המשמעות האמיתית מאחורי המספרים האלה? זה אומר שהמכשירים החכמים שאמורים להגן עליכם ולהקל על חייכם, עלולים להפוך לכלי נשק בידי פושעים. הנה כמה מהסכנות האמיתיות:",
-    "en": "But what's the real meaning behind these numbers? It means that the smart devices meant to protect you and make your life easier could become weapons in the hands of criminals. Here are some of the real dangers:",
-    "es": "Pero, ¿cuál es el significado real detrás de estos números? Significa que los dispositivos inteligentes destinados a protegerlo y facilitar su vida podrían convertirse en armas en manos de criminales. Aquí están algunos de los peligros reales:"
-  },
-  "danger_1_iot": {
-    "he": "פריצה לבית: האקרים יכולים לנצל מנעולים חכמים לא מאובטחים כדי לפרוץ לביתכם.",
-    "en": "Home Intrusion: Hackers can exploit unsecured smart locks to break into your home.",
-    "es": "Intrusión en el Hogar: Los hackers pueden explotar cerraduras inteligentes no seguras para entrar en su casa."
-  },
-  "danger_2_iot": {
-    "he": "מעקב פרטי: מצלמות אבטחה פרוצות יכולות לשמש למעקב אחריכם בתוך ביתכם.",
-    "en": "Private Surveillance: Compromised security cameras can be used to spy on you inside your home.",
-    "es": "Vigilancia Privada: Las cámaras de seguridad comprometidas pueden usarse para espiarle dentro de su hogar."
-  },
-  "danger_3_iot": {
-    "he": "גניבת זהות: מידע אישי שנאסף ממכשירי IoT יכול לשמש לגניבת זהות.",
-    "en": "Identity Theft: Personal information collected from IoT devices can be used for identity theft.",
-    "es": "Robo de Identidad: La información personal recopilada de dispositivos IoT puede usarse para el robo de identidad."
-  },
-  "danger_4_iot": {
-    "he": "סחיטה: פושעים יכולים להשתלט על מכשירים חיוניים ולדרוש כופר.",
-    "en": "Extortion: Criminals can take control of essential devices and demand ransom.",
-    "es": "Extorsión: Los criminales pueden tomar el control de dispositivos esenciales y exigir rescate."
-  },
-  "danger_5_iot": {
-    "he": "התקפות DDoS: מכשירי IoT שלכם יכולים להיות חלק מרשת בוטים ענקית לביצוע התקפות סייבר.",
-    "en": "DDoS Attacks: Your IoT devices can be part of a massive botnet for conducting cyberattacks.",
-    "es": "Ataques DDoS: Sus dispositivos IoT pueden ser parte de una red botnet masiva para realizar ciberataques."
-  },
-  "post_title_pci_dss": {
-    "he": "אבטחת פלטפורמות מסחר אלקטרוני: למה PCI DSS הוא קריטי לעסק שלך",
-    "en": "E-commerce Platform Security: Why PCI DSS is Critical for Your Business",
-    "es": "Seguridad de Plataformas de Comercio Electrónico: Por Qué PCI DSS es Crucial para Su Negocio"
-  },
-  "post_intro_pci_dss": {
-    "he": "בעידן הדיגיטלי, כל עסק הוא עסק מקוון. אם אתם מקבלים תשלומים באינטרנט, אתם מחזיקים במידע הרגיש ביותר של הלקוחות שלכם - פרטי כרטיס האשראי שלהם. אבל האם אתם באמת מגנים על המידע הזה כראוי? זו בדיוק הסיבה שתקן PCI DSS (Payment Card Industry Data Security Standard) הוא כל כך קריטי. הוא לא רק תקן - זו ההגנה האחרונה בין העסק שלכם לבין אסון פיננסי ומשפטי.",
-    "en": "In the digital age, every business is an online business. If you accept online payments, you hold your customers' most sensitive information - their credit card details. But are you truly protecting this information adequately? This is exactly why the PCI DSS (Payment Card Industry Data Security Standard) is so critical. It's not just a standard - it's the last line of defense between your business and financial and legal disaster.",
-    "es": "En la era digital, cada negocio es un negocio en línea. Si acepta pagos en línea, posee la información más sensible de sus clientes: los detalles de sus tarjetas de crédito. Pero, ¿está realmente protegiendo esta información de manera adecuada? Esta es exactamente la razón por la que PCI DSS (Estándar de Seguridad de Datos de la Industria de Tarjetas de Pago) es tan crítico. No es solo un estándar, es la última línea de defensa entre su negocio y un desastre financiero y legal."
-  },
-  "section_dangers_title_pci": {
-    "he": "הסכנות האמיתיות של הפרות אבטחה במסחר אלקטרוני",
-    "en": "The Real Dangers of E-commerce Security Breaches",
-    "es": "Los Peligros Reales de las Brechas de Seguridad en el Comercio Electrónico"
-  },
-  "section_dangers_intro_pci": {
-    "he": "בואו נתחיל עם כמה עובדות מטרידות:",
-    "en": "Let's start with some disturbing facts:",
-    "es": "Comencemos con algunos hechos preocupantes:"
-  },
-  "fact_1_pci": {
-    "he": "ב-2023, נרשמו למעלה מ-1,800 הפרות נתונים בארה\"ב, עם חשיפה של מיליארדי רשומות.",
-    "en": "In 2023, over 1,800 data breaches were recorded in the US, exposing billions of records.",
-    "es": "En 2023, se registraron más de 1,800 violaciones de datos en los EE. UU., exponiendo miles de millones de registros."
-  },
-  "fact_2_pci": {
-    "he": "העלות הממוצעת של הפרת נתונים בתעשיית הקמעונאות: 3.28 מיליון דולר.",
-    "en": "The average cost of a data breach in the retail industry: $3.28 million.",
-    "es": "El costo promedio de una violación de datos en la industria minorista: $3.28 millones."
-  },
-  "fact_3_pci": {
-    "he": "64% מהעסקים הקטנים והבינוניים חוו התקפות סייבר בשנה האחרונה.",
-    "en": "64% of small and medium-sized businesses experienced cyber attacks in the last year.",
-    "es": "El 64% de las pequeñas y medianas empresas experimentaron ataques cibernéticos en el último año."
-  },
-  "section_dangers_explanation_pci": {
-    "he": "אבל מה המשמעות האמיתית מאחורי המספרים האלה? זה אומר שפרטי התשלום של הלקוחות שלכם - מספרי כרטיסי אשראי, תאריכי תפוגה, קודי CVV - עלולים ליפול לידיים של פושעים. התוצאות יכולות להיות הרסניות:",
-    "en": "But what's the real meaning behind these numbers? It means that your customers' payment details - credit card numbers, expiration dates, CVV codes - could fall into the hands of criminals. The consequences can be devastating:",
-    "es": "Pero, ¿cuál es el significado real detrás de estos números? Significa que los detalles de pago de sus clientes - números de tarjetas de crédito, fechas de vencimiento, códigos CVV - podrían caer en manos de criminales. Las consecuencias pueden ser devastadoras:"
-  },
-  "danger_1_pci": {
-    "he": "הונאות פיננסיות: פושעים יכולים לבצע רכישות לא מורשות ולרוקן את חשבונות הלקוחות שלכם.",
-    "en": "Financial Fraud: Criminals can make unauthorized purchases and drain your customers' accounts.",
-    "es": "Fraude Financiero: Los criminales pueden realizar compras no autorizadas y vaciar las cuentas de sus clientes."
-  },
-  "danger_2_pci": {
-    "he": "אובדן אמון הלקוחות: ברגע שנודע על הפרת אבטחה, הלקוחות יאבדו אמון בעסק שלכם.",
-    "en": "Loss of Customer Trust: Once a security breach is known, customers will lose trust in your business.",
-    "es": "Pérdida de Confianza del Cliente: Una vez que se conoce una violación de seguridad, los clientes perderán la confianza en su negocio."
-  },
-  "danger_3_pci": {
-    "he": "קנסות כבדים: אי-עמידה בתקני PCI DSS יכולה להוביל לקנסות של מאות אלפי דולרים.",
-    "en": "Heavy Fines: Non-compliance with PCI DSS standards can lead to fines of hundreds of thousands of dollars.",
-    "es": "Multas Elevadas: El incumplimiento de las normas PCI DSS puede llevar a multas de cientos de miles de dólares."
-  },
   "danger_4_pci": {
     "he": "תביעות משפטיות: לקוחות שנפגעו יכולים להגיש תביעות ייצוגיות שיכולות לחסל עסקים.",
     "en": "Legal Lawsuits: Affected customers can file class-action lawsuits that can bankrupt businesses.",
@@ -1768,5 +1653,281 @@
     "he": "תודה שפנית אלינו! נחזור אליך בהקדם.",
     "en": "Thank you for contacting us! We will get back to you soon.",
     "es": "¡Gracias por contactarnos! Nos pondremos en contacto con usted pronto."
+  },
+  "post_title_iot_security": {
+    "he": "אבטחת מערכות IoT ביתיות: האם הבית החכם שלכם באמת בטוח?",
+    "en": "Home IoT System Security: Is Your Smart Home Really Safe?",
+    "es": "Seguridad de Sistemas IoT Domésticos: ¿Es Su Hogar Inteligente Realmente Seguro?"
+  },
+  "post_intro_iot": {
+    "he": "בעידן הדיגיטלי המודרני, הבית החכם הפך ממדע בדיוני למציאות יומיומית. מצלמות אבטחה, מנעולים חכמים, תרמוסטטים מקושרים ואפילו מקררים עם גישה לאינטרנט - כולם חלק ממהפכת ה-IoT (Internet of Things) שמבטיחה לנו נוחות, יעילות וחיסכון. אבל האם חשבתם פעם על המחיר האמיתי של הנוחות הזו? האם הבית החכם שלכם באמת בטוח, או שמא הוא שער פתוח למרגלים דיגיטליים?",
+    "en": "In the modern digital era, the smart home has evolved from science fiction to everyday reality. Security cameras, smart locks, connected thermostats, and even internet-connected refrigerators are all part of the IoT (Internet of Things) revolution promising convenience, efficiency, and savings. But have you ever considered the true cost of this convenience? Is your smart home really secure, or is it an open gateway for digital intruders?",
+    "es": "En la era digital moderna, el hogar inteligente ha pasado de ser ciencia ficción a una realidad cotidiana. Cámaras de seguridad, cerraduras inteligentes, termostatos conectados e incluso refrigeradores con acceso a Internet son parte de la revolución del IoT (Internet de las Cosas) que promete comodidad, eficiencia y ahorro. Pero, ¿alguna vez ha considerado el verdadero costo de esta conveniencia? ¿Es su hogar inteligente realmente seguro, o es una puerta abierta para intrusos digitales?"
+  },
+  "section_dangers_title_iot": {
+    "he": "הסכנות האמיתיות של מערכות IoT לא מאובטחות",
+    "en": "The Real Dangers of Unsecured IoT Systems",
+    "es": "Los Peligros Reales de los Sistemas IoT No Seguros"
+  },
+  "section_dangers_intro_iot": {
+    "he": "בואו נתחיל עם כמה עובדות מטרידות:",
+    "en": "Let's start with some disturbing facts:",
+    "es": "Comencemos con algunos hechos preocupantes:"
+  },
+  "fact_1_iot": {
+    "he": "עד 2025, צפויים להיות כ-75 מיליארד מכשירי IoT מחוברים ברחבי העולם.",
+    "en": "By 2025, there are expected to be about 75 billion connected IoT devices worldwide.",
+    "es": "Para 2025, se espera que haya alrededor de 75 mil millones de dispositivos IoT conectados en todo el mundo."
+  },
+  "fact_2_iot": {
+    "he": "98% מתעבורת ה-IoT אינה מוצפנת.",
+    "en": "98% of IoT traffic is unencrypted.",
+    "es": "El 98% del tráfico de IoT no está encriptado."
+  },
+  "fact_3_iot": {
+    "he": "57% ממכשירי ה-IoT פגיעים להתקפות בעלות חומרה בינונית או גבוהה.",
+    "en": "57% of IoT devices are vulnerable to medium or high-severity attacks.",
+    "es": "El 57% de los dispositivos IoT son vulnerables a ataques de gravedad media o alta."
+  },
+  "section_dangers_explanation_iot": {
+    "he": "אבל מה המשמעות האמיתית מאחורי המספרים האלה? זה אומר שהמכשירים החכמים שאמורים להגן עליכם ולהקל על חייכם, עלולים להפוך לכלי נשק בידי פושעים. הנה כמה מהסכנות האמיתיות:",
+    "en": "But what's the real meaning behind these numbers? It means that the smart devices meant to protect you and make your life easier could become weapons in the hands of criminals. Here are some of the real dangers:",
+    "es": "Pero, ¿cuál es el significado real detrás de estos números? Significa que los dispositivos inteligentes destinados a protegerlo y facilitar su vida podrían convertirse en armas en manos de criminales. Aquí están algunos de los peligros reales:"
+  },
+  "danger_1_iot": {
+    "he": "פריצה לבית: האקרים יכולים לנצל מנעולים חכמים לא מאובטחים כדי לפרוץ לביתכם.",
+    "en": "Home Intrusion: Hackers can exploit unsecured smart locks to break into your home.",
+    "es": "Intrusión en el Hogar: Los hackers pueden explotar cerraduras inteligentes no seguras para entrar en su casa."
+  },
+  "danger_2_iot": {
+    "he": "מעקב פרטי: מצלמות אבטחה פרוצות יכולות לשמש למעקב אחריכם בתוך ביתכם.",
+    "en": "Private Surveillance: Compromised security cameras can be used to spy on you inside your home.",
+    "es": "Vigilancia Privada: Las cámaras de seguridad comprometidas pueden usarse para espiarle dentro de su hogar."
+  },
+  "danger_3_iot": {
+    "he": "גניבת זהות: מידע אישי שנאסף ממכשירי IoT יכול לשמש לגניבת זהות.",
+    "en": "Identity Theft: Personal information collected from IoT devices can be used for identity theft.",
+    "es": "Robo de Identidad: La información personal recopilada de dispositivos IoT puede usarse para el robo de identidad."
+  },
+  "danger_4_iot": {
+    "he": "סחיטה: פושעים יכולים להשתלט על מכשירים חיוניים ולדרוש כופר.",
+    "en": "Extortion: Criminals can take control of essential devices and demand ransom.",
+    "es": "Extorsión: Los criminales pueden tomar el control de dispositivos esenciales y exigir rescate."
+  },
+  "danger_5_iot": {
+    "he": "התקפות DDoS: מכשירי IoT שלכם יכולים להיות חלק מרשת בוטים ענקית לביצוע התקפות סייבר.",
+    "en": "DDoS Attacks: Your IoT devices can be part of a massive botnet for conducting cyberattacks.",
+    "es": "Ataques DDoS: Sus dispositivos IoT pueden ser parte de una red botnet masiva para realizar ciberataques."
+  },
+  "post_title_pci_dss": {
+    "he": "אבטחת פלטפורמות מסחר אלקטרוני: למה PCI DSS הוא קריטי לעסק שלך",
+    "en": "E-commerce Platform Security: Why PCI DSS is Critical for Your Business",
+    "es": "Seguridad de Plataformas de Comercio Electrónico: Por Qué PCI DSS es Crucial para Su Negocio"
+  },
+  "post_intro_pci_dss": {
+    "he": "בעידן הדיגיטלי, כל עסק הוא עסק מקוון. אם אתם מקבלים תשלומים באינטרנט, אתם מחזיקים במידע הרגיש ביותר של הלקוחות שלכם - פרטי כרטיס האשראי שלהם. אבל האם אתם באמת מגנים על המידע הזה כראוי? זו בדיוק הסיבה שתקן PCI DSS (Payment Card Industry Data Security Standard) הוא כל כך קריטי. הוא לא רק תקן - זו ההגנה האחרונה בין העסק שלכם לבין אסון פיננסי ומשפטי.",
+    "en": "In the digital age, every business is an online business. If you accept online payments, you hold your customers' most sensitive information - their credit card details. But are you truly protecting this information adequately? This is exactly why the PCI DSS (Payment Card Industry Data Security Standard) is so critical. It's not just a standard - it's the last line of defense between your business and financial and legal disaster.",
+    "es": "En la era digital, cada negocio es un negocio en línea. Si acepta pagos en línea, posee la información más sensible de sus clientes: los detalles de sus tarjetas de crédito. Pero, ¿está realmente protegiendo esta información de manera adecuada? Esta es exactamente la razón por la que PCI DSS (Estándar de Seguridad de Datos de la Industria de Tarjetas de Pago) es tan crítico. No es solo un estándar, es la última línea de defensa entre su negocio y un desastre financiero y legal."
+  },
+  "section_dangers_title_pci": {
+    "he": "הסכנות האמיתיות של הפרות אבטחה במסחר אלקטרוני",
+    "en": "The Real Dangers of E-commerce Security Breaches",
+    "es": "Los Peligros Reales de las Brechas de Seguridad en el Comercio Electrónico"
+  },
+  "section_dangers_intro_pci": {
+    "he": "בואו נתחיל עם כמה עובדות מטרידות:",
+    "en": "Let's start with some disturbing facts:",
+    "es": "Comencemos con algunos hechos preocupantes:"
+  },
+  "fact_1_pci": {
+    "he": "ב-2023, נרשמו למעלה מ-1,800 הפרות נתונים בארה\"ב, עם חשיפה של מיליארדי רשומות.",
+    "en": "In 2023, over 1,800 data breaches were recorded in the US, exposing billions of records.",
+    "es": "En 2023, se registraron más de 1,800 violaciones de datos en los EE. UU., exponiendo miles de millones de registros."
+  },
+  "fact_2_pci": {
+    "he": "העלות הממוצעת של הפרת נתונים בתעשיית הקמעונאות: 3.28 מיליון דולר.",
+    "en": "The average cost of a data breach in the retail industry: $3.28 million.",
+    "es": "El costo promedio de una violación de datos en la industria minorista: $3.28 millones."
+  },
+  "fact_3_pci": {
+    "he": "64% מהעסקים הקטנים והבינוניים חוו התקפות סייבר בשנה האחרונה.",
+    "en": "64% of small and medium-sized businesses experienced cyber attacks in the last year.",
+    "es": "El 64% de las pequeñas y medianas empresas experimentaron ataques cibernéticos en el último año."
+  },
+  "section_dangers_explanation_pci": {
+    "he": "אבל מה המשמעות האמיתית מאחורי המספרים האלה? זה אומר שפרטי התשלום של הלקוחות שלכם - מספרי כרטיסי אשראי, תאריכי תפוגה, קודי CVV - עלולים ליפול לידיים של פושעים. התוצאות יכולות להיות הרסניות:",
+    "en": "But what's the real meaning behind these numbers? It means that your customers' payment details - credit card numbers, expiration dates, CVV codes - could fall into the hands of criminals. The consequences can be devastating:",
+    "es": "Pero, ¿cuál es el significado real detrás de estos números? Significa que los detalles de pago de sus clientes - números de tarjetas de crédito, fechas de vencimiento, códigos CVV - podrían caer en manos de criminales. Las consecuencias pueden ser devastadoras:"
+  },
+  "danger_1_pci": {
+    "he": "הונאות פיננסיות: פושעים יכולים לבצע רכישות לא מורשות ולרוקן את חשבונות הלקוחות שלכם.",
+    "en": "Financial Fraud: Criminals can make unauthorized purchases and drain your customers' accounts.",
+    "es": "Fraude Financiero: Los criminales pueden realizar compras no autorizadas y vaciar las cuentas de sus clientes."
+  },
+  "danger_2_pci": {
+    "he": "אובדן אמון הלקוחות: ברגע שנודע על הפרת אבטחה, הלקוחות יאבדו אמון בעסק שלכם.",
+    "en": "Loss of Customer Trust: Once a security breach is known, customers will lose trust in your business.",
+    "es": "Pérdida de Confianza del Cliente: Una vez que se conoce una violación de seguridad, los clientes perderán la confianza en su negocio."
+  },
+  "danger_3_pci": {
+    "he": "קנסות כבדים: אי-עמידה בתקני PCI DSS יכולה להוביל לקנסות של מאות אלפי דולרים.",
+    "en": "Heavy Fines: Non-compliance with PCI DSS standards can lead to fines of hundreds of thousands of dollars.",
+    "es": "Multas Elevadas: El incumplimiento de las normas PCI DSS puede llevar a multas de cientos de miles de dólares."
+  },
+
+  "post_intro_smart_home": {
+    "he": "בעידן שבו הטכנולוגיה משתלבת בכל היבט של חיינו, הבית החכם הפך ממותרות לנורמה. אך עם הנוחות והיעילות שמביאה הטכנולוגיה, מגיעים גם סיכונים חדשים. אבטחת בתים חכמים היא לא רק עניין טכני - היא ההגנה על המרחב האישי והאינטימי ביותר שלנו.",
+    "en": "In an era where technology integrates into every aspect of our lives, the smart home has transformed from a luxury to a norm. However, with the convenience and efficiency that technology brings, new risks also arise. Securing smart homes is not just a technical matter - it's about protecting our most personal and intimate space.",
+    "es": "En una era en la que la tecnología se integra en todos los aspectos de nuestras vidas, el hogar inteligente ha pasado de ser un lujo a ser una norma. Sin embargo, con la comodidad y eficiencia que trae la tecnología, también surgen nuevos riesgos. Asegurar los hogares inteligentes no es solo una cuestión técnica: se trata de proteger nuestro espacio más personal e íntimo."
+  },
+  "section_vulnerabilities_title": {
+    "he": "הבית החכם: נקודת התורפה החדשה",
+    "en": "The Smart Home: The New Vulnerability Point",
+    "es": "El Hogar Inteligente: El Nuevo Punto de Vulnerabilidad"
+  },
+  "section_vulnerabilities_intro": {
+    "he": "הבית החכם מציג אתגרי אבטחה ייחודיים:",
+    "en": "The smart home presents unique security challenges:",
+    "es": "El hogar inteligente presenta desafíos de seguridad únicos:"
+  },
+  "section_strategies_title": {
+    "he": "מעבר לסיסמה: אסטרטגיות מתקדמות לאבטחת הבית החכם",
+    "en": "Beyond Password: Advanced Strategies for Securing the Smart Home",
+    "es": "Más Allá de la Contraseña: Estrategias Avanzadas para Asegurar el Hogar Inteligente"
+  },
+  "section_strategies_intro": {
+    "he": "אבטחת בית חכם דורשת גישה רב-שכבתית:",
+    "en": "Securing a smart home requires a multi-layered approach:",
+    "es": "Asegurar un hogar inteligente requiere un enfoque multicapa:"
+  },
+  "section_challenges_title": {
+    "he": "אתגרים ייחודיים באבטחת בתים חכמים",
+    "en": "Unique Challenges in Securing Smart Homes",
+    "es": "Desafíos Únicos en la Seguridad de Hogares Inteligentes"
+  },
+  "challenge_1": {
+    "he": "אינטגרציה בין מערכות שונות: בדיקת תאימות אבטחה בין מכשירים ממותגים שונים. יצירת פרוטוקולים אחידים לתקשורת מאובטחת בין מערכות.",
+    "en": "Integration Between Different Systems: Checking security compatibility between devices from different brands. Creating uniform protocols for secure communication between systems.",
+    "es": "Integración Entre Sistemas Diferentes: Verificar la compatibilidad de seguridad entre dispositivos de diferentes marcas. Crear protocolos uniformes para la comunicación segura entre sistemas."
+  },
+  "challenge_2": {
+    "he": "ניהול מחזור חיי מכשירים: תכנון אסטרטגיית החלפה למכשירים שאינם מקבלים עוד עדכוני אבטחה. פיתוח פרוטוקולים למחיקה בטוחה של מידע ממכשירים ישנים.",
+    "en": "Device Lifecycle Management: Planning replacement strategies for devices no longer receiving security updates. Developing protocols for secure data deletion from old devices.",
+    "es": "Gestión del Ciclo de Vida de Dispositivos: Planificar estrategias de reemplazo para dispositivos que ya no reciben actualizaciones de seguridad. Desarrollar protocolos para la eliminación segura de datos de dispositivos antiguos."
+  },
+  "challenge_3": {
+    "he": "פרטיות מול נוחות: איזון בין יכולות מתקדמות של בית חכם לבין שמירה על פרטיות. פיתוח מנגנונים לשליטה גרנולרית של המשתמש על איסוף ושימוש במידע.",
+    "en": "Privacy vs. Convenience: Balancing advanced smart home capabilities with privacy preservation. Developing mechanisms for granular user control over data collection and usage.",
+    "es": "Privacidad vs. Comodidad: Equilibrar las capacidades avanzadas del hogar inteligente con la preservación de la privacidad. Desarrollar mecanismos para el control granular del usuario sobre la recopilación y uso de datos."
+  },
+  "challenge_4": {
+    "he": "חינוך משתמשים: פיתוח תוכניות הדרכה ידידותיות למשתמש לשימוש בטוח במכשירים חכמים. יצירת מודעות לחשיבות האבטחה בקרב כל בני הבית, כולל ילדים וקשישים.",
+    "en": "User Education: Developing user-friendly training programs for safe use of smart devices. Creating awareness about the importance of security among all household members, including children and the elderly.",
+    "es": "Educación del Usuario: Desarrollar programas de capacitación amigables para el uso seguro de dispositivos inteligentes. Crear conciencia sobre la importancia de la seguridad entre todos los miembros del hogar, incluidos niños y ancianos."
+  },
+  "challenge_5": {
+    "he": "תגובה לאירועים: פיתוח תוכניות תגובה מהירות לאירועי אבטחה בסביבה הביתית. יצירת מערכות התראה חכמות המסוגלות להבדיל בין איומים אמיתיים לאזעקות שווא.",
+    "en": "Incident Response: Developing rapid response plans for security incidents in the home environment. Creating smart alert systems capable of distinguishing between real threats and false alarms.",
+    "es": "Respuesta a Incidentes: Desarrollar planes de respuesta rápida para incidentes de seguridad en el entorno del hogar. Crear sistemas de alerta inteligentes capaces de distinguir entre amenazas reales y falsas alarmas."
+  },
+  "strategy_1": {
+    "he": "סגמנטציה רשתית: יצירת רשת נפרדת למכשירי IoT. שימוש ב-VLAN להפרדה בין מכשירים קריטיים לפחות קריטיים.",
+    "en": "Network Segmentation: Creating a separate network for IoT devices. Using VLANs to separate critical from less critical devices.",
+    "es": "Segmentación de Red: Crear una red separada para dispositivos IoT. Usar VLANs para separar dispositivos críticos de los menos críticos."
+  },
+  "strategy_2": {
+    "he": "אבטחה מבוססת התנהגות: יישום מערכות לזיהוי אנומליות בהתנהגות מכשירים. הגדרת פרופילי שימוש נורמלי וזיהוי חריגות.",
+    "en": "Behavior-Based Security: Implementing systems to detect anomalies in device behavior. Defining normal usage profiles and identifying deviations.",
+    "es": "Seguridad Basada en Comportamiento: Implementar sistemas para detectar anomalías en el comportamiento de los dispositivos. Definir perfiles de uso normal e identificar desviaciones."
+  },
+  "strategy_3": {
+    "he": "הצפנה קצה-לקצה: וידוא שכל התקשורת בין מכשירים ולשרתים מוצפנת. שימוש בפרוטוקולי הצפנה מתקדמים כמו WPA3 לרשתות אלחוטיות.",
+    "en": "End-to-End Encryption: Ensuring all communication between devices and servers is encrypted. Using advanced encryption protocols like WPA3 for wireless networks.",
+    "es": "Cifrado de Extremo a Extremo: Asegurar que toda la comunicación entre dispositivos y servidores esté cifrada. Usar protocolos de cifrado avanzados como WPA3 para redes inalámbricas."
+  },
+  "strategy_4": {
+    "he": "אימות רב-גורמי מתקדם: שילוב ביומטריה עם אימות מבוסס מיקום. שימוש בטוקנים פיזיים לאימות גישה למערכות קריטיות.",
+    "en": "Advanced Multi-Factor Authentication: Combining biometrics with location-based authentication. Using physical tokens for authenticating access to critical systems.",
+    "es": "Autenticación Multifactor Avanzada: Combinar biometría con autenticación basada en ubicación. Usar tokens físicos para autenticar el acceso a sistemas críticos."
+  },
+  "strategy_5": {
+    "he": "ניהול זהויות חכם: יישום מערכות IAM (Identity and Access Management) מותאמות לסביבת הבית. הגדרת פרופילי משתמש דינמיים המשתנים בהתאם לזמן ומיקום.",
+    "en": "Smart Identity Management: Implementing IAM (Identity and Access Management) systems tailored for the home environment. Setting up dynamic user profiles that change according to time and location.",
+    "es": "Gestión Inteligente de Identidades: Implementar sistemas IAM (Gestión de Identidad y Acceso) adaptados al entorno del hogar. Configurar perfiles de usuario dinámicos que cambien según el tiempo y la ubicación."
+  },
+  "innovation_1": {
+    "he": "אבטחה מבוססת AI: שימוש בבינה מלאכותית לזיהוי דפוסי התנהגות חשודים. פיתוח מערכות למידת מכונה המשתפרות עם הזמן בזיהוי ומניעת איומים.",
+    "en": "AI-Based Security: Using artificial intelligence to identify suspicious behavior patterns. Developing machine learning systems that improve over time in identifying and preventing threats.",
+    "es": "Seguridad Basada en IA: Usar inteligencia artificial para identificar patrones de comportamiento sospechosos. Desarrollar sistemas de aprendizaje automático que mejoren con el tiempo en la identificación y prevención de amenazas."
+  },
+  "innovation_2": {
+    "he": "אבטחה קוונטית: הטמעת טכנולוגיות הצפנה קוונטית להגנה מפני איומים עתידיים. פיתוח פרוטוקולים עמידים בפני מחשוב קוונטי.",
+    "en": "Quantum Security: Implementing quantum encryption technologies to protect against future threats. Developing protocols resistant to quantum computing.",
+    "es": "Seguridad Cuántica: Implementar tecnologías de encriptación cuántica para proteger contra amenazas futuras. Desarrollar protocolos resistentes a la computación cuántica."
+  },
+  "innovation_3": {
+    "he": "אבטחה מבוססת Blockchain: שימוש בטכנולוגיית בלוקצ'יין לאימות ותיעוד פעולות במערכת הבית החכם. יצירת מערכות מבוזרות לניהול הרשאות וזהויות.",
+    "en": "Blockchain-Based Security: Using blockchain technology for authentication and logging actions in the smart home system. Creating decentralized systems for managing permissions and identities.",
+    "es": "Seguridad Basada en Blockchain: Usar tecnología blockchain para autenticación y registro de acciones en el sistema de hogar inteligente. Crear sistemas descentralizados para gestionar permisos e identidades."
+  },
+  "innovation_4": {
+    "he": "אבטחה אוטונומית: פיתוח מערכות בית חכם המסוגלות לזהות ולתקן פרצות אבטחה באופן עצמאי. יישום מנגנוני 'ריפוי עצמי' למערכות שנפגעו מהתקפות.",
+    "en": "Autonomous Security: Developing smart home systems capable of identifying and fixing security vulnerabilities independently. Implementing 'self-healing' mechanisms for systems affected by attacks.",
+    "es": "Seguridad Autónoma: Desarrollar sistemas de hogar inteligente capaces de identificar y corregir vulnerabilidades de seguridad de forma independiente. Implementar mecanismos de 'auto-reparación' para sistemas afectados por ataques."
+  },
+  "innovation_5": {
+    "he": "אינטגרציה עם אבטחה פיזית: שילוב מתקדם בין מערכות אבטחה דיגיטליות ופיזיות. פיתוח פתרונות המשלבים זיהוי פנים, ביומטריה וניטור התנהגותי.",
+    "en": "Integration with Physical Security: Advanced integration between digital and physical security systems. Developing solutions that combine facial recognition, biometrics, and behavioral monitoring.",
+    "es": "Integración con Seguridad Física: Integración avanzada entre sistemas de seguridad digitales y físicos. Desarrollar soluciones que combinen reconocimiento facial, biometría y monitoreo conductual."
+  },
+  "vulnerability_1": {
+    "he": "ריבוי נקודות כניסה: כל מכשיר חכם הוא פוטנציאלית נקודת כניסה להאקרים.",
+    "en": "Multiple Entry Points: Every smart device is potentially an entry point for hackers.",
+    "es": "Múltiples Puntos de Entrada: Cada dispositivo inteligente es potencialmente un punto de entrada para los hackers."
+  },
+  "vulnerability_2": {
+    "he": "מורכבות מערכתית: אינטגרציה בין מערכות שונות יוצרת פרצות אבטחה לא צפויות.",
+    "en": "System Complexity: Integration between different systems creates unexpected security gaps.",
+    "es": "Complejidad del Sistema: La integración entre diferentes sistemas crea brechas de seguridad inesperadas."
+  },
+  "vulnerability_3": {
+    "he": "פרטיות בסיכון: מצלמות ומיקרופונים חכמים יכולים לשמש לריגול אם נפרצים.",
+    "en": "Privacy at Risk: Smart cameras and microphones can be used for spying if hacked.",
+    "es": "Privacidad en Riesgo: Las cámaras y micrófonos inteligentes pueden usarse para espiar si son hackeados."
+  },
+  "vulnerability_4": {
+    "he": "בקרה מרחוק: יכולת השליטה מרחוק מגדילה את משטח התקיפה הפוטנציאלי.",
+    "en": "Remote Control: The ability to control remotely increases the potential attack surface.",
+    "es": "Control Remoto: La capacidad de control remoto aumenta la superficie de ataque potencial."
+  },
+  "vulnerability_5": {
+    "he": "עדכוני אבטחה: מכשירים רבים לא מקבלים עדכוני אבטחה באופן סדיר.",
+    "en": "Security Updates: Many devices do not receive regular security updates.",
+    "es": "Actualizaciones de Seguridad: Muchos dispositivos no reciben actualizaciones de seguridad regularmente."
+  },
+  "section_summary_title_smart_home": {
+    "he": "סיכום: הבית החכם כמבצר דיגיטלי",
+    "en": "Summary: The Smart Home as a Digital Fortress",
+    "es": "Resumen: El Hogar Inteligente como Fortaleza Digital"
+  },
+  "section_summary_content_smart_home": {
+    "he": "אבטחת בתים חכמים היא לא רק על הגנה מפני איומים - היא על יצירת סביבה ביתית שבה טכנולוגיה משתלבת בחיינו באופן בטוח ונוח. זוהי משימה מתמשכת הדורשת ערנות, חדשנות ושיתוף פעולה בין יצרנים, מומחי אבטחה ומשתמשים.",
+    "en": "Securing smart homes is not just about protecting against threats - it's about creating a home environment where technology integrates into our lives safely and conveniently. This is an ongoing task requiring vigilance, innovation, and collaboration between manufacturers, security experts, and users.",
+    "es": "Asegurar hogares inteligentes no se trata solo de proteger contra amenazas, sino de crear un entorno hogareño donde la tecnología se integre en nuestras vidas de manera segura y conveniente. Esta es una tarea continua que requiere vigilancia, innovación y colaboración entre fabricantes, expertos en seguridad y usuarios."
+  },
+  "section_conclusion_smart_home": {
+    "he": "בעידן שבו הבית שלנו הופך ליותר ויותר \"חכם\", עלינו להבטיח שהוא גם נשאר \"בטוח\". אבטחת הבית החכם היא לא רק על הגנה על מכשירים - היא על הגנה על אורח החיים הדיגיטלי שלנו, על הפרטיות שלנו, ועל תחושת הביטחון בסביבה האינטימית ביותר שלנו.",
+    "en": "In an era where our home is becoming increasingly \"smart\", we must ensure it also remains \"secure\". Securing the smart home is not just about protecting devices - it's about protecting our digital lifestyle, our privacy, and our sense of security in our most intimate environment.",
+    "es": "En una era en la que nuestro hogar se vuelve cada vez más \"inteligente\", debemos asegurarnos de que también siga siendo \"seguro\". Asegurar el hogar inteligente no se trata solo de proteger dispositivos, sino de proteger nuestro estilo de vida digital, nuestra privacidad y nuestro sentido de seguridad en nuestro entorno más íntimo."
+  },
+  "section_final_thought_smart_home": {
+    "he": "זכרו, הבית החכם האידיאלי הוא כזה שמשלב את הנוחות והיעילות של הטכנולוגיה עם רמת האבטחה והפרטיות של המבצר המסורתי. עם הגישה הנכונה ואמצעי ההגנה המתאימים, אנחנו יכולים ליהנות מכל היתרונות של הבית החכם, תוך שמירה על השקט הנפשי שביתנו ראוי לו.",
+    "en": "Remember, the ideal smart home is one that combines the convenience and efficiency of technology with the security and privacy level of a traditional fortress. With the right approach and appropriate protective measures, we can enjoy all the benefits of a smart home while maintaining the peace of mind our home deserves.",
+    "es": "Recuerde, el hogar inteligente ideal es aquel que combina la comodidad y eficiencia de la tecnología con el nivel de seguridad y privacidad de una fortaleza tradicional. Con el enfoque correcto y las medidas de protección adecuadas, podemos disfrutar de todos los beneficios de un hogar inteligente mientras mantenemos la tranquilidad que nuestro hogar merece."
+  },
+  "section_innovation_title": {
+    "he": "חדשנות באבטחת בתים חכמים",
+    "en": "Innovation in Smart Home Security",
+    "es": "Innovación en Seguridad de Hogares Inteligentes"
   }
 }
