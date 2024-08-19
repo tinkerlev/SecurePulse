@@ -251,10 +251,16 @@ section {
     padding: 37px;
 }
 
+.centered-text {
+    text-align: center;
+    direction: auto;
+
+}
+
 .industry-card {
     flex: 1px;
     background-color: var(--white);
-   /* padding: 2rem;*/
+    text-align: center;
     border-radius: 10px;
     box-shadow: 0 10px 6px rgba(10, 35, 66, 0.8);
     transition: transform 0.3s ease;
@@ -490,6 +496,37 @@ footer {
 
 .blog-post-page .post-content p {
     margin-bottom: 1.5rem;
+}
+
+
+.industry-card {
+    position: relative;
+    /* שאר הסגנונות הקיימים */
+}
+
+.industry-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    z-index: 1;
+}
+
+.industry-card img,
+.industry-card h3,
+.industry-card p {
+    position: relative;
+    z-index: 2;
+}
+
+.industry-link:hover,
+.industry-link:focus {
+    outline: none;
+    /* אפשר להוסיף אפקט hover כאן אם רוצים */
 }
 
 /* Utility Classes */

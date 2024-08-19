@@ -3,7 +3,7 @@
   <url>
     <loc>https://www.securepulses.com/</loc>
     <lastmod>2024-07-12</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
@@ -12,11 +12,84 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-    <url>
-    <loc>https://www.securepulses.com/blog/post1</loc>
+  <url>
+    <loc>https://www.securepulses.com/blog/post2</loc>
     <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    </url>
+  </url>
+  <url>
+    <loc>https://www.securepulses.com/about</loc>
+    <lastmod>2024-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.securepulses.com/blog/health-digital-age</loc>
+    <lastmod>2024-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.securepulses.com/blog/post_whatsapp</loc>
+    <lastmod>2024-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.securepulses.com/blog/smart_home_security</loc>
+    <lastmod>2024-08-1</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.securepulses.com/blog/E-commerce_platform_security</loc>
+    <lastmod>2024-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.securepulses.com/blog/HomeIoTSystemsSecurity</loc>
+    <lastmod>2024-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.securepulses.com/blog/MobileApplication</loc>
+    <lastmod>2024-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.securepulses.com/blog/Protecting_Sensitive_Medical_Information</loc>
+    <lastmod>2024-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.securepulses.com/blog/RegulatoryCompliance</loc>
+    <lastmod>2024-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+  <url>
+    <loc>https://www.securepulses.com/blog/WebApplication</loc>
+    <lastmod>2024-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.securepulses.com/index.html#contact</loc>
+    <lastmod>2024-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.securepulses.com/index.html#industries</loc>
+    <lastmod>2024-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
   <!-- הוסף את שאר הלינקים לעמודים באתר -->
 </urlset>

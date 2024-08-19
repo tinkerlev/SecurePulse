@@ -1,2 +1,32 @@
+# robots.txt for https://www.securepulses.com
+
 User-agent: *
+Allow: /
+
+# Disallow any potential admin or private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /includes/
+Disallow: /cgi-bin/
+
+# Allow crawling of blog content
+Allow: /blog/
+
+# Block crawling of search results pages (if applicable)
+Disallow: /search/
+
+# Specify crawl delay for search engine bots (optional)
+Crawl-delay: 10
+
+# Sitemaps
 Sitemap: https://www.securepulses.com/sitemap.xml
+Sitemap: https://www.securepulses.com/blog-sitemap.xml
+
+# Specific instructions for major search engines (optional)
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: Bingbot
+Disallow: /nobingbot/
+
+# Add any other specific rules or disallow patterns relevant to your site structure
