@@ -1549,11 +1549,6 @@
     "en": "Maintain an Information Security Policy",
     "es": "Mantener una Política de Seguridad de la Información"
   },
-  "section_pci_dss_penalties": {
-    "he": "העונשים על אי-ציות:",
-    "en": "Penalties for Non-Compliance:",
-    "es": "Sanciones por Incumplimiento:"
-  },
   "section_pci_dss_penalties_intro": {
     "he": "PCI DSS לא מתבדח כשמדובר באכיפה. הנה מה שעלול לקרות לעסקים שלא עומדים בתקנים:",
     "en": "PCI DSS doesn't joke when it comes to enforcement. Here's what can happen to businesses that don't meet the standards:",
