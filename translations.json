@@ -315,8 +315,8 @@
     "es": "Protección de información médica sensible y cumplimiento de los estándares HIPAA"
   },
   "industries_online_retail_title": {
-    "he": "קמעונאות אונליין",
-    "en": "Online Retail",
+    "he": "קמעונאי e-commerce",
+    "en": "E-commerce Retail",
     "es": "Comercio Electrónico"
   },
   "industries_online_retail_description": {
@@ -1929,5 +1929,630 @@
     "he": "חדשנות באבטחת בתים חכמים",
     "en": "Innovation in Smart Home Security",
     "es": "Innovación en Seguridad de Hogares Inteligentes"
+  },
+  "section_security_testing_title": {
+    "he": "בדיקות אבטחה למערכות מובייל: המגן הדיגיטלי של האפליקציה שלך",
+    "en": "Security Testing for Mobile Systems: The Digital Shield for Your Application",
+    "es": "Pruebas de Seguridad para Sistemas Móviles: El Escudo Digital para Tu Aplicación"
+  },
+  "section_importance_title_mobile": {
+    "he": "למה בדיקות אבטחה למובייל הן קריטיות?",
+    "en": "Why Are Mobile Security Tests Critical?",
+    "es": "¿Por qué son críticas las pruebas de seguridad móvil?"
+  },
+  "importance_1_mobile": {
+    "he": "הגנה על משתמשים: מניעת גניבת מידע אישי ופיננסי של המשתמשים.",
+    "en": "User Protection: Preventing the theft of personal and financial information.",
+    "es": "Protección del usuario: Prevención del robo de información personal y financiera."
+  },
+  "importance_2_mobile": {
+    "he": "שמירה על מוניטין: הגנה על המותג שלך ועל אמון הלקוחות.",
+    "en": "Reputation Protection: Safeguarding your brand and customer trust.",
+    "es": "Protección de la reputación: Salvaguardar tu marca y la confianza de los clientes."
+  },
+  "importance_3_mobile": {
+    "he": "עמידה ברגולציות: הבטחת עמידה בתקנות אבטחת מידע ופרטיות מחמירות (כמו GDPR).",
+    "en": "Regulatory Compliance: Ensuring compliance with stringent data security and privacy regulations (like GDPR).",
+    "es": "Cumplimiento normativo: Garantizar el cumplimiento de estrictas regulaciones de seguridad de datos y privacidad (como el GDPR)."
+  },
+  "importance_4_mobile": {
+    "he": "חיסכון כספי: מניעת נזקים כספיים פוטנציאליים הנובעים מפריצות ותביעות משפטיות.",
+    "en": "Cost Savings: Preventing potential financial damages from breaches and lawsuits.",
+    "es": "Ahorro de costos: Prevención de posibles daños financieros por brechas y demandas."
+  },
+  "importance_5_mobile": {
+    "he": "שיפור מתמיד: זיהוי נקודות חולשה בתהליכי הפיתוח ושיפורם לאורך זמן.",
+    "en": "Continuous Improvement: Identifying and improving weaknesses in development processes over time.",
+    "es": "Mejora continua: Identificación y mejora de debilidades en los procesos de desarrollo a lo largo del tiempo."
+  },
+  "section_tips_title_mobile": {
+    "he": "טיפים להגנה על אפליקציות מובייל",
+    "en": "Tips for Protecting Mobile Applications",
+    "es": "Consejos para proteger aplicaciones móviles"
+  },
+  "tip_1_mobile": {
+    "he": "הצפנה חזקה: השתמשו בהצפנה חזקה לכל המידע הרגיש, הן באחסון והן בתעבורה.",
+    "en": "Strong Encryption: Use strong encryption for all sensitive information, both in storage and transmission.",
+    "es": "Cifrado fuerte: Utilice un cifrado fuerte para toda la información sensible, tanto en almacenamiento como en transmisión."
+  },
+  "tip_2_mobile": {
+    "he": "אימות חזק: יישמו מנגנוני אימות חזקים, כולל אימות דו-שלבי ואפשרות לשימוש ב-biometrics.",
+    "en": "Strong Authentication: Implement strong authentication mechanisms, including two-factor authentication and biometrics.",
+    "es": "Autenticación fuerte: Implemente mecanismos de autenticación fuertes, incluyendo autenticación de dos factores y biometría."
+  },
+  "tip_3_mobile": {
+    "he": "מינימום הרשאות: בקשו רק את ההרשאות ההכרחיות לפעולת האפליקציה.",
+    "en": "Minimum Permissions: Request only the necessary permissions for the application to function.",
+    "es": "Permisos mínimos: Solicite solo los permisos necesarios para que la aplicación funcione."
+  },
+  "tip_4_mobile": {
+    "he": "עדכונים שוטפים: עדכנו באופן קבוע את האפליקציה ואת כל הספריות בהן היא משתמשת.",
+    "en": "Regular Updates: Regularly update the application and all libraries it uses.",
+    "es": "Actualizaciones regulares: Actualice regularmente la aplicación y todas las bibliotecas que utiliza."
+  },
+  "tip_5_mobile": {
+    "he": "אבטחת תקשורת: השתמשו תמיד ב-HTTPS ובדקו תעודות SSL.",
+    "en": "Communication Security: Always use HTTPS and verify SSL certificates.",
+    "es": "Seguridad de la comunicación: Utilice siempre HTTPS y verifique los certificados SSL."
+  },
+  "tip_6_mobile": {
+    "he": "טיפול בקלט משתמש: וודאו סניטציה נאותה של כל קלט משתמש למניעת התקפות כמו SQL Injection.",
+    "en": "User Input Handling: Ensure proper sanitization of all user inputs to prevent attacks like SQL Injection.",
+    "es": "Manejo de entrada de usuario: Asegúrese de una correcta sanitización de todas las entradas de usuario para prevenir ataques como la inyección de SQL."
+  },
+  "section_summary_title_mobile": {
+    "he": "סיכום: אבטחה היא תהליך מתמשך",
+    "en": "Summary: Security is an Ongoing Process",
+    "es": "Resumen: La seguridad es un proceso continuo"
+  },
+  "section_summary_content_mobile": {
+    "he": "בעולם שבו האיומים הדיגיטליים מתפתחים ללא הרף, בדיקות אבטחה למערכות מובייל הן לא אירוע חד פעמי - הן תהליך מתמשך. זו לא רק השקעה באבטחה; זו השקעה באמון של המשתמשים שלך, בהגנה על המידע הרגיש ביותר שלהם, ובעתיד של האפליקציה והעסק שלך.",
+    "en": "In a world where digital threats are constantly evolving, mobile security testing is not a one-time event - it is an ongoing process. It's not just an investment in security; it's an investment in your users' trust, the protection of their most sensitive information, and the future of your application and business.",
+    "es": "En un mundo donde las amenazas digitales están en constante evolución, las pruebas de seguridad móvil no son un evento único, sino un proceso continuo. No es solo una inversión en seguridad; es una inversión en la confianza de sus usuarios, la protección de su información más sensible y el futuro de su aplicación y negocio."
+  },
+  "section_conclusion_mobile": {
+    "he": "זכרו, בעולם המובייל, האפליקציה שלכם היא הפנים של העסק שלכם. אפליקציה מאובטחת היא לא רק מוצר טכנולוגי - היא הבטחה למשתמשים שלכם, ערובה לאמון שלהם, והיסוד עליו נבנה הקשר ארוך הטווח איתם בעידן הדיגיטלי.",
+    "en": "Remember, in the mobile world, your application is the face of your business. A secure application is not just a technological product - it's a promise to your users, a guarantee of their trust, and the foundation upon which your long-term relationship with them is built in the digital age.",
+    "es": "Recuerde, en el mundo móvil, su aplicación es la cara de su negocio. Una aplicación segura no es solo un producto tecnológico, es una promesa a sus usuarios, una garantía de su confianza y la base sobre la cual se construye su relación a largo plazo con ellos en la era digital."
+  },
+  "post_title_regulatory_compliance": {
+    "he": "בדיקת עמידה ברגולציה: המפתח להצלחה עסקית בעידן הדיגיטלי",
+    "en": "Regulatory Compliance Testing: The Key to Business Success in the Digital Age",
+    "es": "Pruebas de Cumplimiento Regulatorio: La clave del éxito empresarial en la era digital"
+  },
+  "post_intro_regulatory_compliance": {
+    "he": "בעולם העסקי המודרני, עמידה ברגולציה אינה רק חובה משפטית - היא אסטרטגיה עסקית חיונית. בעוד שרבים רואים ברגולציה נטל, חברות מובילות מבינות שזוהי הזדמנות להפגין מצוינות, לבנות אמון, ולהוביל בשוק. בדיקת עמידה ברגולציה היא המפתח למימוש הזדמנות זו.",
+    "en": "In the modern business world, regulatory compliance is not just a legal obligation - it is a vital business strategy. While many see regulation as a burden, leading companies understand it as an opportunity to demonstrate excellence, build trust, and lead the market. Regulatory compliance testing is the key to realizing this opportunity.",
+    "es": "En el mundo empresarial moderno, el cumplimiento normativo no es solo una obligación legal, sino una estrategia empresarial vital. Mientras que muchos ven la regulación como una carga, las empresas líderes la entienden como una oportunidad para demostrar excelencia, generar confianza y liderar el mercado. Las pruebas de cumplimiento normativo son la clave para aprovechar esta oportunidad."
+  },
+"section_strategic_value_title": {
+    "he": "מעבר לציות: הערך האסטרטגי של עמידה ברגולציה",
+    "en": "Beyond Compliance: The Strategic Value of Regulatory Adherence",
+    "es": "Más allá del cumplimiento: El valor estratégico de la adhesión normativa"
+  },
+  "strategic_value_1": {
+    "he": "בניית אמון: עמידה ברגולציות מחמירות מבססת אמון בקרב לקוחות, שותפים עסקיים ומשקיעים.",
+    "en": "Building Trust: Adhering to strict regulations establishes trust among customers, business partners, and investors.",
+    "es": "Construcción de confianza: La adhesión a normativas estrictas establece confianza entre clientes, socios comerciales e inversores."
+  },
+  "strategic_value_2": {
+    "he": "מניעת סיכונים: זיהוי וטיפול בנקודות תורפה עוד לפני שהן הופכות לאיומים ממשיים.",
+    "en": "Risk Prevention: Identifying and addressing vulnerabilities before they become real threats.",
+    "es": "Prevención de riesgos: Identificación y abordaje de vulnerabilidades antes de que se conviertan en amenazas reales."
+  },
+  "strategic_value_3": {
+    "he": "הובלת השוק: חברות שמקפידות על עמידה ברגולציות מובילות בתחומן, מראות יציבות ומקצועיות.",
+    "en": "Market Leadership: Companies that consistently adhere to regulations lead in their field, showcasing stability and professionalism.",
+    "es": "Liderazgo en el mercado: Las empresas que cumplen consistentemente con las normativas lideran en su campo, demostrando estabilidad y profesionalismo."
+  },
+  "strategic_value_4": {
+    "he": "שיפור מתמיד: בדיקות עמידה ברגולציה תורמות לשיפור מתמיד בתהליכי עבודה ומערכות.",
+    "en": "Continuous Improvement: Regulatory compliance testing contributes to ongoing improvement in processes and systems.",
+    "es": "Mejora continua: Las pruebas de cumplimiento normativo contribuyen a la mejora continua en procesos y sistemas."
+  },
+  "section_implementation_title": {
+    "he": "יישום בדיקות עמידה ברגולציה: איך לעשות את זה נכון",
+    "en": "Implementing Regulatory Compliance Testing: How to Do It Right",
+    "es": "Implementación de pruebas de cumplimiento normativo: Cómo hacerlo bien"
+  },
+  "implementation_1": {
+    "he": "זיהוי דרישות רגולטוריות: הבנת הדרישות הספציפיות של התעשייה והמדינה שלך.",
+    "en": "Identifying Regulatory Requirements: Understanding the specific requirements of your industry and country.",
+    "es": "Identificación de requisitos normativos: Comprender los requisitos específicos de tu industria y país."
+  },
+  "implementation_2": {
+    "he": "ביצוע בדיקות תקופתיות: תכנון וביצוע בדיקות עמידה באופן קבוע, ולא רק לקראת ביקורת.",
+    "en": "Conducting Regular Audits: Planning and executing compliance tests regularly, not just before an audit.",
+    "es": "Realización de auditorías regulares: Planificación y ejecución de pruebas de cumplimiento de forma regular, no solo antes de una auditoría."
+  },
+  "implementation_3": {
+    "he": "שילוב טכנולוגיה: שימוש בכלים אוטומטיים לזיהוי וטיפול מהיר בהפרות.",
+    "en": "Integrating Technology: Utilizing automated tools for quick identification and resolution of violations.",
+    "es": "Integración de tecnología: Uso de herramientas automatizadas para la identificación y resolución rápida de violaciones."
+  },
+  "implementation_4": {
+    "he": "מעורבות צוות: וידוא שכל חברי הצוות מבינים את החשיבות והדרישות של עמידה ברגולציה.",
+    "en": "Team Involvement: Ensuring that all team members understand the importance and requirements of regulatory compliance.",
+    "es": "Involucramiento del equipo: Asegurar que todos los miembros del equipo comprendan la importancia y los requisitos del cumplimiento normativo."
+  },
+  "section_conclusion_regulatory_compliance": {
+    "he": "בעידן הדיגיטלי, עמידה ברגולציה היא לא רק חובה אלא יתרון תחרותי. השקעה בבדיקות עמידה ברגולציה משדרגת את העסק שלך מבחינה תפעולית, מגבירה את אמון הלקוחות וממצבת את החברה שלך כמובילה בשוק.",
+    "en": "In the digital age, regulatory compliance is not just a necessity; it's a competitive advantage. Investing in regulatory compliance testing enhances your business operationally, increases customer trust, and positions your company as a market leader.",
+    "es": "En la era digital, el cumplimiento normativo no es solo una necesidad; es una ventaja competitiva. Invertir en pruebas de cumplimiento normativo mejora tu negocio operativamente, aumenta la confianza del cliente y posiciona a tu empresa como líder en el mercado."
+  },
+  "section_process_intro": {
+    "he": "תהליך הערכת עמידה ברגולציית סייבר",
+    "en": "Cybersecurity Compliance Assessment Process",
+    "es": "Proceso de Evaluación de Cumplimiento en Ciberseguridad"
+  },
+  "process_1_regulatory": {
+    "he": "סקירת נוף איומי סייבר",
+    "en": "Cyber Threat Landscape Assessment",
+    "es": "Evaluación del Panorama de Amenazas Cibernéticas"
+  },
+  "process_2_regulatory": {
+    "he": "מיפוי נכסים דיגיטליים ורשתות",
+    "en": "Digital Asset and Network Mapping",
+    "es": "Mapeo de Activos Digitales y Redes"
+  },
+  "process_3_regulatory": {
+    "he": "ניתוח פערי אבטחת מידע",
+    "en": "Cybersecurity Gap Analysis",
+    "es": "Análisis de Brechas de Ciberseguridad"
+  },
+  "process_4_regulatory": {
+    "he": "תכנון אסטרטגיית הגנת סייבר",
+    "en": "Cybersecurity Strategy Planning",
+    "es": "Planificación Estratégica de Ciberseguridad"
+  },
+  "process_5_regulatory": {
+    "he": "יישום אמצעי הגנה מתקדמים",
+    "en": "Implementation of Advanced Security Measures",
+    "es": "Implementación de Medidas de Seguridad Avanzadas"
+  },
+  "process_6_regulatory": {
+    "he": "ניטור ושיפור מתמיד של מערך ההגנה",
+    "en": "Continuous Monitoring and Improvement of Defense Systems",
+    "es": "Monitoreo Continuo y Mejora de Sistemas de Defensa"
+  },
+  "process_7_regulatory": {
+    "he": "דיווח ושקיפות בנושאי אבטחת מידע",
+    "en": "Cybersecurity Reporting and Transparency",
+    "es": "Informes y Transparencia en Ciberseguridad"
+  },
+  "trend_1_regulatory": {
+    "he": "הגנת סייבר מבוססת בינה מלאכותית",
+    "en": "AI-Driven Cybersecurity",
+    "es": "Ciberseguridad Impulsada por IA"
+  },
+  "trend_2_regulatory": {
+    "he": "אבטחה אדפטיבית ודינמית",
+    "en": "Adaptive and Dynamic Security",
+    "es": "Seguridad Adaptativa y Dinámica"
+  },
+  "trend_3_regulatory": {
+    "he": "אתיקה באבטחת מידע",
+    "en": "Cybersecurity Ethics",
+    "es": "Ética en Ciberseguridad"
+  },
+  "trend_4_regulatory": {
+    "he": "סטנדרטיזציה גלובלית של אבטחת סייבר",
+    "en": "Global Cybersecurity Standardization",
+    "es": "Estandarización Global de Ciberseguridad"
+  },
+  "trend_5_regulatory": {
+    "he": "אחריות אלגוריתמית בהגנת סייבר",
+    "en": "Algorithmic Accountability in Cybersecurity",
+    "es": "Responsabilidad Algorítmica en Ciberseguridad"
+  },
+  "section_summary_title_regulatory": {
+    "he": "סיכום: אבטחת סייבר כמנוע צמיחה",
+    "en": "Summary: Cybersecurity as a Growth Engine",
+    "es": "Resumen: Ciberseguridad como Motor de Crecimiento"
+  },
+  "section_summary_content_regulatory": {
+    "he": "בעידן הדיגיטלי, אבטחת סייבר היא הרבה יותר מאשר הגנה - היא הזדמנות אסטרטגית לחדשנות וצמיחה.",
+    "en": "In the digital era, cybersecurity is more than just protection - it's a strategic opportunity for innovation and growth.",
+    "es": "En la era digital, la ciberseguridad es más que protección: es una oportunidad estratégica para la innovación y el crecimiento."
+  },
+  "section_conclusion_regulatory": {
+    "he": "אבטחת סייבר אינה רק על מניעת איומים - היא על בניית אמון דיגיטלי ויצירת יתרון תחרותי.",
+    "en": "Cybersecurity is not just about preventing threats - it's about building digital trust and creating competitive advantage.",
+    "es": "La ciberseguridad no se trata solo de prevenir amenazas, sino de construir confianza digital y crear ventaja competitiva."
+  },
+  "section_strategic_value_intro": {
+    "he": "עמידה ברגולציה היא הרבה יותר מסתם \"סימון וי\" על רשימת דרישות:",
+    "en": "Regulatory compliance is much more than just ticking a box on a checklist:",
+    "es": "El cumplimiento normativo es mucho más que simplemente marcar una casilla en una lista de verificación:"
+  },
+  "strategic_value_5": {
+    "he": "בניית אמון: עמידה ברגולציה מוכחת מחזקת את האמון של לקוחות, משקיעים ושותפים עסקיים.",
+    "en": "Building Trust: Demonstrated regulatory compliance strengthens the trust of customers, investors, and business partners.",
+    "es": "Construcción de confianza: El cumplimiento normativo demostrado fortalece la confianza de clientes, inversores y socios comerciales."
+  },
+  "section_challenges_intro": {
+    "he": "העולם הדיגיטלי מציב אתגרים חדשים בתחום הרגולציה:",
+    "en": "The digital world presents new challenges in the field of regulation:",
+    "es": "El mundo digital presenta nuevos desafíos en el campo de la regulación:"
+  },
+  "section_protection_title": {
+    "he": "הגנה על הבית החכם: עקרונות מפתח",
+    "en": "Smart Home Protection: Key Principles",
+    "es": "Protección del Hogar Inteligente: Principios Clave"
+  },
+  "section_protection_intro": {
+    "he": "כדי להגן על הבית החכם שלכם ועל פרטיותכם, חשוב להבין ולישם כמה עקרונות מפתח:",
+    "en": "To protect your smart home and privacy, it's important to understand and apply several key principles:",
+    "es": "Para proteger su hogar inteligente y su privacidad, es importante comprender y aplicar varios principios clave:"
+  },
+  "principle_1": {
+    "he": "אבטחה כברירת מחדל: בחרו במכשירים עם אבטחה מובנית.",
+    "en": "Security by Default: Choose devices with built-in security.",
+    "es": "Seguridad por Defecto: Elija dispositivos con seguridad integrada."
+  },
+  "principle_2": {
+    "he": "עדכונים שוטפים: וודאו שכל המכשירים מעודכנים תמיד לגרסה האחרונה.",
+    "en": "Regular Updates: Ensure all devices are always updated to the latest version.",
+    "es": "Actualizaciones Regulares: Asegúrese de que todos los dispositivos estén siempre actualizados a la última versión."
+  },
+  "principle_3": {
+    "he": "סיסמאות חזקות: השתמשו בסיסמאות ייחודיות וחזקות לכל מכשיר.",
+    "en": "Strong Passwords: Use unique and strong passwords for each device.",
+    "es": "Contraseñas Fuertes: Utilice contraseñas únicas y fuertes para cada dispositivo."
+  },
+  "principle_4": {
+    "he": "רשת נפרדת: צרו רשת Wi-Fi נפרדת למכשירי ה-IoT.",
+    "en": "Separate Network: Create a separate Wi-Fi network for IoT devices.",
+    "es": "Red Separada: Cree una red Wi-Fi separada para dispositivos IoT."
+  },
+  "principle_5": {
+    "he": "הצפנה: וודאו שכל התקשורת בין המכשירים מוצפנת.",
+    "en": "Encryption: Ensure all communication between devices is encrypted.",
+    "es": "Cifrado: Asegúrese de que toda la comunicación entre dispositivos esté cifrada."
+  },
+  "section_consequences_title": {
+    "he": "הסכנות של התעלמות מאבטחת IoT",
+    "en": "The Dangers of Ignoring IoT Security",
+    "es": "Los Peligros de Ignorar la Seguridad IoT"
+  },
+  "section_consequences_intro": {
+    "he": "התעלמות מאבטחת מכשירי ה-IoT שלכם יכולה להוביל לתוצאות הרסניות:",
+    "en": "Ignoring the security of your IoT devices can lead to devastating consequences:",
+    "es": "Ignorar la seguridad de sus dispositivos IoT puede tener consecuencias devastadoras:"
+  },
+  "consequence_1": {
+    "he": "פגיעה בפרטיות: האקרים יכולים לצפות בכם דרך מצלמות האבטחה שלכם.",
+    "en": "Privacy Violation: Hackers can watch you through your security cameras.",
+    "es": "Violación de la Privacidad: Los piratas informáticos pueden observarlo a través de sus cámaras de seguridad."
+  },
+  "consequence_2": {
+    "he": "נזק פיננסי: גנבי זהות יכולים לרוקן את חשבון הבנק שלכם.",
+    "en": "Financial Damage: Identity thieves can drain your bank account.",
+    "es": "Daño Financiero: Los ladrones de identidad pueden vaciar su cuenta bancaria."
+  },
+  "consequence_3": {
+    "he": "סכנה פיזית: פריצה למערכות הבית יכולה לסכן את בטיחותכם הפיזית.",
+    "en": "Physical Danger: Breaching your home systems can endanger your physical safety.",
+    "es": "Peligro Físico: Vulnerar los sistemas de su hogar puede poner en peligro su seguridad física."
+  },
+  "consequence_4": {
+    "he": "אובדן שליטה: מכשירים פרוצים יכולים לפעול בניגוד לרצונכם.",
+    "en": "Loss of Control: Compromised devices can act against your will.",
+    "es": "Pérdida de Control: Los dispositivos comprometidos pueden actuar en contra de su voluntad."
+  },
+  "consequence_5": {
+    "he": "נזק למוניטין: אם המכשירים שלכם משמשים להתקפות, אתם עלולים להיות אחראים.",
+    "en": "Reputation Damage: If your devices are used in attacks, you may be held responsible.",
+    "es": "Daño a la Reputación: Si sus dispositivos se utilizan en ataques, usted puede ser considerado responsable."
+  },
+  "section_tips_title": {
+    "he": "טיפים מעשיים להגנה על הבית החכם שלכם",
+    "en": "Practical Tips for Protecting Your Smart Home",
+    "es": "Consejos Prácticos para Proteger su Hogar Inteligente"
+  },
+  "section_tips_users": {
+    "he": "למשתמשים:",
+    "en": "For Users:",
+    "es": "Para los Usuarios:"
+  },
+  "tip_user_1": {
+    "he": "שנו סיסמאות ברירת מחדל: מיד עם התקנת מכשיר חדש, שנו את הסיסמה.",
+    "en": "Change Default Passwords: Immediately change the password when installing a new device.",
+    "es": "Cambie las Contraseñas Predeterminadas: Cambie inmediatamente la contraseña al instalar un nuevo dispositivo."
+  },
+  "tip_user_2": {
+    "he": "הפעילו אימות דו-שלבי: בכל מקום שאפשר, הפעילו אימות נוסף.",
+    "en": "Enable Two-Factor Authentication: Wherever possible, enable additional authentication.",
+    "es": "Habilite la Autenticación de Dos Factores: Siempre que sea posible, habilite la autenticación adicional."
+  },
+  "tip_user_3": {
+    "he": "בדקו הגדרות פרטיות: סקרו והתאימו את הגדרות הפרטיות של כל מכשיר.",
+    "en": "Review Privacy Settings: Review and adjust the privacy settings of each device.",
+    "es": "Revise las Configuraciones de Privacidad: Revise y ajuste la configuración de privacidad de cada dispositivo."
+  },
+  "tip_user_4": {
+    "he": "נטרו פעילות חריגה: בדקו באופן קבוע את הפעילות של המכשירים שלכם.",
+    "en": "Monitor Unusual Activity: Regularly check the activity of your devices.",
+    "es": "Monitoree Actividades Inusuales: Revise regularmente la actividad de sus dispositivos."
+  },
+  "tip_user_5": {
+    "he": "השתמשו ב-VPN: הגנו על הרשת הביתית שלכם עם VPN.",
+    "en": "Use a VPN: Protect your home network with a VPN.",
+    "es": "Utilice un VPN: Proteja su red doméstica con un VPN."
+  },
+  "section_tips_manufacturers": {
+    "he": "ליצרנים:",
+    "en": "For Manufacturers:",
+    "es": "Para los Fabricantes:"
+  },
+  "tip_manufacturer_1": {
+    "he": "אבטחה מובנית: תכננו מכשירים עם אבטחה כחלק אינטגרלי מהמוצר.",
+    "en": "Built-in Security: Design devices with security as an integral part of the product.",
+    "es": "Seguridad Incorporada: Diseñe dispositivos con seguridad como parte integral del producto."
+  },
+  "tip_manufacturer_2": {
+    "he": "עדכונים אוטומטיים: ספקו עדכוני אבטחה אוטומטיים ותכופים.",
+    "en": "Automatic Updates: Provide automatic and frequent security updates.",
+    "es": "Actualizaciones Automáticas: Proporcione actualizaciones de seguridad automáticas y frecuentes."
+  },
+  "tip_manufacturer_3": {
+    "he": "הצפנה חזקה: השתמשו בהצפנה חזקה לכל תקשורת ואחסון מידע.",
+    "en": "Strong Encryption: Use strong encryption for all communication and data storage.",
+    "es": "Cifrado Fuerte: Utilice cifrado fuerte para toda la comunicación y almacenamiento de datos."
+  },
+  "tip_manufacturer_4": {
+    "he": "בדיקות אבטחה: בצעו בדיקות אבטחה מקיפות לפני שחרור מוצרים.",
+    "en": "Security Testing: Conduct comprehensive security tests before product release.",
+    "es": "Pruebas de Seguridad: Realice pruebas de seguridad exhaustivas antes del lanzamiento del producto."
+  },
+  "tip_manufacturer_5": {
+    "he": "שקיפות: ספקו מידע ברור למשתמשים על איסוף ושימוש במידע.",
+    "en": "Transparency: Provide clear information to users about data collection and usage.",
+    "es": "Transparencia: Proporcione información clara a los usuarios sobre la recopilación y el uso de datos."
+  },
+  "section_future_title": {
+      "he": "העתיד של אבטחת IoT",
+      "en": "The Future of IoT Security",
+      "es": "El Futuro de la Seguridad IoT"
+  },
+  "section_future_content": {
+      "he": "ככל שהטכנולוגיה מתקדמת, כך גם האיומים על מערכות IoT ביתיות. אבטחת הבית החכם היא לא רק עניין טכני - זו מחויבות להגנה על הפרטיות והביטחון של המשפחה שלכם.",
+      "en": "As technology advances, so do the threats to home IoT systems. Smart home security is not just a technical matter; it's a commitment to protecting your family's privacy and safety.",
+      "es": "A medida que avanza la tecnología, también lo hacen las amenazas a los sistemas IoT domésticos. La seguridad del hogar inteligente no es solo una cuestión técnica; es un compromiso con la protección de la privacidad y la seguridad de su familia."
+  },
+  "section_conclusion": {
+      "he": "זכרו, הבית החכם שלכם חכם רק כמו האבטחה שלו. אל תיפלו קורבן להתקפות סייבר או לפגיעה בפרטיות.",
+      "en": "Remember, your smart home is only as smart as its security. Don’t fall victim to cyber attacks or privacy breaches.",
+      "es": "Recuerde, su hogar inteligente es tan inteligente como su seguridad. No caiga víctima de ciberataques o violaciones de privacidad."
+  },
+  "section_final_thought": {
+    "he": "כי בסופו של דבר, בית חכם באמת הוא בית בטוח - כזה שמשלב את הנוחות של הטכנולוגיה עם השקט הנפשי של אבטחה מתקדמת.",
+    "en": "Because in the end, a truly smart home is a safe home—one that combines the convenience of technology with the peace of mind of advanced security.",
+    "es": "Porque al final, un hogar verdaderamente inteligente es un hogar seguro, uno que combina la conveniencia de la tecnología con la tranquilidad de una seguridad avanzada."
+  },
+  "section_tips_title_pci": {
+    "he": "כיצד להישאר מוגנים: המלצות אבטחה לעסקים ולקוחות",
+    "en": "How to Stay Protected: Security Tips for Businesses and Customers",
+    "es": "Cómo Mantenerse Protegido: Consejos de Seguridad para Empresas y Clientes"
+  },
+  "section_tips_business_pci": {
+    "he": "המלצות אבטחת מידע לעסקים:",
+    "en": "Cybersecurity Tips for Businesses:",
+    "es": "Consejos de Ciberseguridad para Empresas:"
+  },
+  "tip_business_1_pci": {
+    "he": "סריקות אבטחה תקופתיות: בצעו סקירות פגיעויות רבעוניות לזיהוי נקודות תורפה",
+    "en": "Periodic Security Scans: Conduct quarterly vulnerability assessments to identify weak points",
+    "es": "Escaneos de Seguridad Periódicos: Realice evaluaciones trimestrales de vulnerabilidades para identificar puntos débiles"
+  },
+  "tip_business_2_pci": {
+    "he": "הצפנה חזקה: יישמו פרוטוקולי הצפנה מתקדמים לכל נתוני כרטיסי האשראי, בזמן אחסון והעברה",
+    "en": "Strong Encryption: Implement advanced encryption protocols for all credit card data, both at rest and in transit",
+    "es": "Encriptación Fuerte: Implemente protocolos de encriptación avanzados para todos los datos de tarjetas de crédito, tanto en reposo como en tránsito"
+  },
+  "tip_business_3_pci": {
+    "he": "הגבלת גישה: יישמו בקרת גישה מבוססת תפקיד (RBAC) לנתוני כרטיסי אשראי",
+    "en": "Access Restriction: Implement Role-Based Access Control (RBAC) for credit card data",
+    "es": "Restricción de Acceso: Implemente Control de Acceso Basado en Roles (RBAC) para datos de tarjetas de crédito"
+  },
+  "tip_business_4_pci": {
+    "he": "עדכונים שוטפים: הקפידו על ניהול עדכוני אבטחה ותיקוני אבטחה לכל המערכות והתוכנות",
+    "en": "Regular Updates: Maintain rigorous patch management and security updates for all systems and software",
+    "es": "Actualizaciones Regulares: Mantenga una gestión rigurosa de parches y actualizaciones de seguridad para todos los sistemas y software"
+  },
+  "tip_business_5_pci": {
+    "he": "הכשרת עובדים: ערכו תרגילי מודעות לאבטחת מידע ותרגילי פישינג לכל העובדים באופן קבוע",
+    "en": "Employee Training: Conduct regular cybersecurity awareness and phishing simulation exercises for all employees",
+    "es": "Capacitación de Empleados: Realice ejercicios regulares de concientización sobre ciberseguridad y simulación de phishing para todos los empleados"
+  },
+  "section_tips_customers_pci": {
+    "he": "המלצות אבטחה ללקוחות:",
+    "en": "Security Tips for Customers:",
+    "es": "Consejos de Seguridad para Clientes:"
+  },
+  "tip_customer_1_pci": {
+    "he": "בדקו את האתר: ודאו שהאתר משתמש בפרוטוקול HTTPS ומחזיק תעודת SSL תקפה",
+    "en": "Verify the Website: Ensure the site uses HTTPS protocol and has a valid SSL certificate",
+    "es": "Verifique el Sitio Web: Asegúrese de que el sitio utilice el protocolo HTTPS y tenga un certificado SSL válido"
+  },
+  "tip_customer_2_pci": {
+    "he": "השתמשו בשיטות תשלום מאובטחות: העדיפו שירותי תשלום מוצפנים כמו PayPal או Apple Pay כשניתן",
+    "en": "Use Secure Payment Methods: Prefer tokenized payment services like PayPal or Apple Pay when available",
+    "es": "Use Métodos de Pago Seguros: Prefiera servicios de pago tokenizados como PayPal o Apple Pay cuando estén disponibles"
+  },
+  "tip_customer_3_pci": {
+    "he": "בדקו את הדפים: היו ערניים לדפי תשלום חשודים או שונים מהרגיל, והיזהרו מהתקפות פישינג",
+    "en": "Scrutinize Pages: Be alert to suspicious or unusual payment pages, and be wary of phishing attempts",
+    "es": "Examine las Páginas: Esté alerta a páginas de pago sospechosas o inusuales, y tenga cuidado con los intentos de phishing"
+  },
+  "tip_customer_4_pci": {
+    "he": "מעקב אחר חשבונות: בצעו בדיקות תכופות של דפי החיוב שלכם לאיתור פעילות חשודה או עסקאות לא מורשות",
+    "en": "Account Monitoring: Regularly review your billing statements for suspicious activity or unauthorized transactions",
+    "es": "Monitoreo de Cuentas: Revise regularmente sus estados de cuenta en busca de actividad sospechosa o transacciones no autorizadas"
+  },
+  "section_future_title_pci": {
+    "he": "עתיד אבטחת המסחר האלקטרוני",
+    "en": "The Future of E-commerce Security",
+    "es": "El Futuro de la Seguridad en el Comercio Electrónico"
+  },
+  "section_future_content_pci": {
+    "he": "עם התקדמות הטכנולוגיה, כך גם מתפתחים האיומים על פלטפורמות המסחר האלקטרוני. PCI DSS הוא יותר מאשר מערכת כללים - זוהי מחויבות להגנה על הלקוחות והעסק שלכם. זכרו, אבטחת מידע אינה רק עניין של ציות לתקנים; זוהי השקעה בעתיד העסק שלכם.",
+    "en": "As technology advances, so do the threats to e-commerce platforms. PCI DSS is more than a set of rules - it's a commitment to protecting your customers and your business. Remember, information security is not just about compliance; it's an investment in your business's future.",
+    "es": "A medida que la tecnología avanza, también lo hacen las amenazas a las plataformas de comercio electrónico. PCI DSS es más que un conjunto de reglas; es un compromiso para proteger a sus clientes y su negocio. Recuerde, la seguridad de la información no es solo cuestión de cumplimiento; es una inversión en el futuro de su negocio."
+  },
+  "section_conclusion_pci": {
+    "he": "אל תיפלו קורבן להתקפות סייבר או לרשלנות. השקיעו באבטחת מידע, עמדו בתקני PCI DSS, והגנו על הנכס החשוב ביותר שלכם - אמון הלקוחות.",
+    "en": "Don't fall victim to cyber attacks or negligence. Invest in cybersecurity, comply with PCI DSS standards, and protect your most valuable asset - customer trust.",
+    "es": "No sea víctima de ataques cibernéticos o negligencia. Invierta en ciberseguridad, cumpla con los estándares PCI DSS y proteja su activo más valioso: la confianza del cliente."
+  },
+  "section_final_thought_pci": {
+    "he": "בסופו של דבר, עסק מאובטח אינו רק חובה משפטית - זוהי הבטחה לצמיחה והצלחה ארוכת טווח בעולם הדיגיטלי.",
+    "en": "Ultimately, a secure business is not just a legal obligation - it's a promise of growth and long-term success in the digital world.",
+    "es": "En última instancia, un negocio seguro no es solo una obligación legal, es una promesa de crecimiento y éxito a largo plazo en el mundo digital."
+  },
+  "section_hipaa_title": {
+    "he": "HIPAA: קו ההגנה האחרון על מידע רפואי",
+    "en": "HIPAA: The Last Line of Defense for Medical Information",
+    "es": "HIPAA: La Última Línea de Defensa para la Información Médica"
+  },
+  "section_hipaa_intro": {
+    "he": "HIPAA נוצר בדיוק כדי להגן עלינו מפני דליפות מידע רפואי. אך מהן ההשלכות המעשיות?",
+    "en": "HIPAA was created specifically to protect us from medical data breaches. But what are its practical implications?",
+    "es": "HIPAA fue creada específicamente para protegernos contra las violaciones de datos médicos. Pero, ¿cuáles son sus implicaciones prácticas?"
+  },
+  "section_hipaa_principles": {
+    "he": "עקרונות הליבה של HIPAA:",
+    "en": "Core Principles of HIPAA:",
+    "es": "Principios Fundamentales de HIPAA:"
+  },
+  "principle_1_hipaa": {
+    "he": "הגנת פרטיות: כל מידע בריאותי מזוהה אישית (PHI) חייב להיות מאובטח ומוגן",
+    "en": "Privacy Protection: All Personally Identifiable Health Information (PHI) must be secured and protected",
+    "es": "Protección de la Privacidad: Toda la Información de Salud Personalmente Identificable (PHI) debe estar asegurada y protegida"
+  },
+  "principle_2_hipaa": {
+    "he": "אבטחת מידע: יישום אמצעי אבטחה פיזיים, טכניים ומנהליים להגנה על PHI",
+    "en": "Information Security: Implementation of physical, technical, and administrative safeguards to protect PHI",
+    "es": "Seguridad de la Información: Implementación de salvaguardias físicas, técnicas y administrativas para proteger el PHI"
+  },
+  "principle_3_hipaa": {
+    "he": "דיווח על הפרות: ארגוני בריאות מחויבים להודיע לנפגעים על חשיפת מידע",
+    "en": "Breach Notification: Healthcare organizations must notify individuals if their information is compromised",
+    "es": "Notificación de Violaciones: Las organizaciones de salud deben notificar a las personas si su información se ve comprometida"
+  },
+  "principle_4_hipaa": {
+    "he": "זכויות המטופל: למטופלים יש זכות גישה למידע שלהם ואפשרות לבקש תיקונים",
+    "en": "Patient Rights: Patients have the right to access their information and request corrections",
+    "es": "Derechos del Paciente: Los pacientes tienen derecho a acceder a su información y solicitar correcciones"
+  },
+  "section_pci_dss_penalties": {
+    "he": "עונשים על אי-עמידה בתקן:",
+    "en": "Penalties for Non-Compliance:",
+    "es": "Sanciones por Incumplimiento:"
+  },
+  "section_hipaa_penalties_intro": {
+    "he": "HIPAA מתייחסת ברצינות רבה לאכיפה. להלן התוצאות האפשריות לארגונים שאינם עומדים בתקנים:",
+    "en": "HIPAA takes enforcement seriously. Here are the potential consequences for organizations that fail to meet standards:",
+    "es": "HIPAA toma en serio la aplicación de la ley. Estas son las posibles consecuencias para las organizaciones que no cumplen con los estándares:"
+  },
+  "penalty_1_hipaa": {
+    "he": "קנסות של עד 1.5 מיליון דולר לשנה עבור כל סוג של הפרת אבטחה",
+    "en": "Fines of up to $1.5 million per year for each type of security violation",
+    "es": "Multas de hasta $1.5 millones por año por cada tipo de violación de seguridad"
+  },
+  "penalty_2_hipaa": {
+    "he": "עונשי מאסר של עד 10 שנים עבור הפרות אבטחה זדוניות",
+    "en": "Prison sentences of up to 10 years for malicious security breaches",
+    "es": "Penas de prisión de hasta 10 años por violaciones de seguridad maliciosas"
+  },
+  "penalty_3_hipaa": {
+    "he": "נזק בלתי הפיך למוניטין וסיקור תקשורתי שלילי",
+    "en": "Irreparable reputational damage and negative media coverage",
+    "es": "Daño irreparable a la reputación y cobertura mediática negativa"
+  },
+  "penalty_4_hipaa": {
+    "he": "תביעות אזרחיות מצד מטופלים שנפגעו מדליפת מידע",
+    "en": "Civil lawsuits from patients affected by data breaches",
+    "es": "Demandas civiles de pacientes afectados por violaciones de datos"
+  },
+  "section_tips_title_hipaa": {
+    "he": "כיצד להישאר מוגנים: טיפים למטופלים ולארגוני בריאות",
+    "en": "How to Stay Secure: Tips for Patients and Healthcare Organizations",
+    "es": "Cómo Mantenerse Seguro: Consejos para Pacientes y Organizaciones de Salud"
+  },
+  "section_tips_patients_hipaa": {
+    "he": "למטופלים:",
+    "en": "For Patients:",
+    "es": "Para Pacientes:"
+  },
+  "tip_patient_1_hipaa": {
+    "he": "בדקו את מדיניות הפרטיות: קראו בעיון את מדיניות אבטחת המידע של ספקי הבריאות שלכם",
+    "en": "Review Privacy Policies: Carefully read the data protection policies of your healthcare providers",
+    "es": "Revise las Políticas de Privacidad: Lea cuidadosamente las políticas de protección de datos de sus proveedores de salud"
+  },
+  "tip_patient_2_hipaa": {
+    "he": "שאלו שאלות: אל תהססו לברר כיצד המידע הרפואי שלכם מאובטח",
+    "en": "Ask Questions: Don't hesitate to inquire about how your medical information is secured",
+    "es": "Haga Preguntas: No dude en preguntar cómo se asegura su información médica"
+  },
+  "tip_patient_3_hipaa": {
+    "he": "היזהרו ברשתות חברתיות: הימנעו משיתוף מידע רפואי ברשתות חברתיות",
+    "en": "Be Cautious on Social Media: Avoid sharing medical information on social networks",
+    "es": "Sea Cauteloso en las Redes Sociales: Evite compartir información médica en redes sociales"
+  },
+  "tip_patient_4_hipaa": {
+    "he": "בדקו את הדוחות שלכם: סקרו בקביעות את דוחות הביטוח הרפואי שלכם לאיתור פעילות חשודה",
+    "en": "Check Your Reports: Regularly review your medical insurance reports for suspicious activity",
+    "es": "Revise sus Informes: Examine regularmente sus informes de seguro médico en busca de actividad sospechosa"
+  },
+  "section_tips_organizations_hipaa": {
+    "he": "לארגוני בריאות:",
+    "en": "For Healthcare Organizations:",
+    "es": "Para Organizaciones de Salud:"
+  },
+  "tip_org_1_hipaa": {
+    "he": "הכשרה מקיפה: כל העובדים חייבים לעבור הדרכת אבטחת מידע HIPAA שנתית",
+    "en": "Comprehensive Training: All employees must undergo annual HIPAA information security training",
+    "es": "Capacitación Integral: Todos los empleados deben someterse a capacitación anual de seguridad de información HIPAA"
+  },
+  "tip_org_2_hipaa": {
+    "he": "הצפנה: כל המידע הרפואי חייב להיות מוצפן, הן באחסון והן בהעברה",
+    "en": "Encryption: All medical information must be encrypted, both at rest and in transit",
+    "es": "Encriptación: Toda la información médica debe estar encriptada, tanto en reposo como en tránsito"
+  },
+  "tip_org_3_hipaa": {
+    "he": "בקרת גישה: יישום מדיניות גישה קפדנית על בסיס 'צורך לדעת' בלבד",
+    "en": "Access Control: Implement strict access policies on a 'need-to-know' basis only",
+    "es": "Control de Acceso: Implemente políticas de acceso estrictas solo con base en la 'necesidad de saber'"
+  },
+  "tip_org_4_hipaa": {
+    "he": "ניטור מתמיד: שימוש בכלי ניטור אבטחה בזמן אמת לזיהוי ומניעת הפרות",
+    "en": "Continuous Monitoring: Use real-time security monitoring tools to detect and prevent breaches",
+    "es": "Monitoreo Continuo: Utilice herramientas de monitoreo de seguridad en tiempo real para detectar y prevenir violaciones"
+  },
+  "tip_org_5_hipaa": {
+    "he": "תוכנית תגובה לאירועי אבטחה: פיתוח ותרגול תוכנית תגובה מקיפה לאירועי אבטחת מידע",
+    "en": "Incident Response Plan: Develop and practice a comprehensive response plan for security incidents",
+    "es": "Plan de Respuesta a Incidentes: Desarrolle y practique un plan de respuesta integral para incidentes de seguridad"
+  },
+  "section_summary_title_hipaa": {
+    "he": "סיכום: עתיד אבטחת המידע הרפואי",
+    "en": "Summary: The Future of Medical Information Security",
+    "es": "Resumen: El Futuro de la Seguridad de la Información Médica"
+  },
+  "section_summary_content_hipaa": {
+    "he": "ככל שהטכנולוגיה מתקדמת, כך גם האיומים על המידע הרפואי שלנו. HIPAA היא יותר ממערכת כללים - זוהי מחויבות לשמירה על הפרטיות והכבוד של כל מטופל. זכרו, הגנה על מידע רפואי אינה רק עניין של ציות לחוק; זוהי אחריות אתית שכולנו חולקים.",
+    "en": "As technology advances, so do the threats to our medical information. HIPAA is more than a set of rules - it's a commitment to preserving the privacy and dignity of every patient. Remember, protecting medical information is not just about legal compliance; it's an ethical responsibility we all share.",
+    "es": "A medida que la tecnología avanza, también lo hacen las amenazas a nuestra información médica. HIPAA es más que un conjunto de reglas; es un compromiso para preservar la privacidad y la dignidad de cada paciente. Recuerde, proteger la información médica no es solo cuestión de cumplimiento legal; es una responsabilidad ética que todos compartimos."
+  },
+  "section_conclusion_hipaa": {
+    "he": "אל תהיו קורבנות של רשלנות או פשיעת סייבר. הישארו מעודכנים, דרשו שקיפות, והגנו על המידע היקר ביותר שלכם - בריאותכם.",
+    "en": "Don't fall victim to negligence or cybercrime. Stay informed, demand transparency, and protect your most valuable information - your health.",
+    "es": "No sea víctima de negligencia o ciberdelincuencia. Manténgase informado, exija transparencia y proteja su información más valiosa: su salud."
+  },
+  "section_final_thought_hipaa": {
+    "he": "כי בסופו של דבר, מידע רפואי מאובטח אינו רק זכות - זוהי הבטחה לעתיד בריא ובטוח יותר לכולנו.",
+    "en": "Because ultimately, secure medical information is not just a right - it's a promise of a healthier and safer future for us all.",
+    "es": "Porque, en última instancia, la información médica segura no es solo un derecho, es una promesa de un futuro más saludable y seguro para todos nosotros."
   }
 }
