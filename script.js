@@ -2,59 +2,78 @@
 let currentLanguage = localStorage.getItem('preferredLanguage') || 'he';
 let translations = {};
 
+// Utility function for fetch with timeout
+function fetchWithTimeout(url, options = {}, timeout = 5000) {
+    return Promise.race([
+        fetch(url, options),
+        new Promise((_, reject) => 
+            setTimeout(() => reject(new Error('Request timed out')), timeout)
+        )
+    ]);
+}
+
 // Main initialization function
 document.addEventListener('DOMContentLoaded', function() {
     initializeWebsite();
 });
 
-function initializeWebsite() {
-    loadTranslations(currentLanguage)
-        .then(() => {
-            initContactForm();
-            initSmoothScrolling();
-            initVoiceInput();
-            initLanguageSelector();
-            applyTranslations(currentLanguage);
-        })
-        .catch(error => {
-            console.error('Error initializing website:', error);
-            // כאן אפשר להוסיף לוגיקה לטיפול בשגיאה, כמו הצגת הודעת שגיאה למשתמש
-            // או אתחול בסיסי של האתר ללא תרגומים
-            fallbackInitialization();
-        });
+async function initializeWebsite() {
+    try {
+        await loadTranslations(currentLanguage);
+        if (typeof initContactForm === 'function') initContactForm();
+        if (typeof initSmoothScrolling === 'function') initSmoothScrolling();
+        if (typeof initVoiceInput === 'function') initVoiceInput();
+        if (typeof initLanguageSelector === 'function') initLanguageSelector();
+        if (typeof applyTranslations === 'function') applyTranslations(currentLanguage);
+    } catch (error) {
+        console.error('Error initializing website:', error);
+        fallbackInitialization();
+    }
 }
 
 function fallbackInitialization() {
-    // אתחול בסיסי ללא תרגומים
     initContactForm();
     initSmoothScrolling();
     initVoiceInput();
     initLanguageSelector();
-    // אפשר להוסיף כאן לוגיקה נוספת לטיפול במצב ללא תרגומים
 }
 
 // Language functions
 async function loadTranslations(lang) {
     try {
-        const response = await fetch('/translations.json');
+        const response = await fetchWithTimeout('/translations.json', {}, 5000);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
-        const data = await response.json();
-        translations = data;
+        translations = await response.json();
         console.log('Translations loaded:', translations);
     } catch (error) {
         console.error('Error loading translations:', error);
         translations = {}; // או אובייקט עם תרגומים בסיסיים
+        throw error; // Re-throw the error for the caller to handle
     }
+}
+
+function getDefaultTranslations() {
+    // כאן תוכל להגדיר ערכי ברירת מחדל בסיסיים לתרגומים
+    return {
+        form_success: {
+            he: "הטופס נשלח בהצלחה",
+            en: "Form submitted successfully"
+        },
+        form_error: {
+            he: "אירעה שגיאה בשליחת הטופס",
+            en: "An error occurred while submitting the form"
+        },
+        // הוסף עוד תרגומים ברירת מחדל כאן
+    };
 }
 
 function applyTranslations(lang) {
     document.documentElement.lang = lang;
     document.documentElement.dir = lang === 'he' ? 'rtl' : 'ltr';
-    document.body.className = `lang-${lang}`; // מוסיף קלאס לגוף המסמך לסגנון ספציפי לשפה
+    document.body.className = `lang-${lang}`;
 
-    // Apply translations to all elements with data-translate attribute
     document.querySelectorAll('[data-translate]').forEach(element => {
         const key = element.getAttribute('data-translate');
         if (translations[key] && translations[key][lang]) {
@@ -64,44 +83,48 @@ function applyTranslations(lang) {
                 element.textContent = translations[key][lang];
             }
 
-            // Set direction for each element, excluding certain elements if needed
             if (!element.closest('.no-direction-change')) {
                 element.style.direction = lang === 'he' ? 'rtl' : 'ltr';
                 element.style.textAlign = lang === 'he' ? 'right' : 'left';
             }
         }
     });
-    // טיפול ספציפי בפוטר
-      const footer = document.querySelector('footer');
-      if (footer) {
+
+    const footer = document.querySelector('footer');
+    if (footer) {
         footer.style.direction = lang === 'he' ? 'rtl' : 'ltr';
         footer.style.textAlign = lang === 'he' ? 'right' : 'left';
-      }
-      // טיפול בכיוון החיצים של הרשימות
-      document.querySelectorAll('#infoList li').forEach((element)=>{
-        if (lang !== 'he'){
+    }
+
+    document.querySelectorAll('#infoList li').forEach((element) => {
+        if (lang !== 'he') {
             element.classList.add('leftArrow');
-        }
-        else {
+        } else {
             element.classList.remove('leftArrow');
         }
-      })
+    });
 
-      // טיפול באלמנטים שתמיד צריכים להיות LTR
-      document.querySelectorAll('.always-ltr').forEach(element => {
+    document.querySelectorAll('.always-ltr').forEach(element => {
         element.style.direction = 'ltr';
         element.style.unicodeBidi = 'embed';
-      });
-    // Update dates
+    });
+
     document.querySelectorAll('time[data-translate]').forEach(element => {
         const dateKey = element.getAttribute('data-translate');
         if (translations[dateKey] && translations[dateKey][lang]) {
             element.textContent = translations[dateKey][lang];
         }
-        });
-        document.querySelectorAll('.question-mark').forEach(element => {
+    });
+
+    document.querySelectorAll('.question-mark').forEach(element => {
         element.style.direction = 'ltr';
     });
+
+    document.querySelectorAll('.language-sensitive').forEach(element => {
+        element.style.direction = lang === 'he' ? 'rtl' : 'ltr';
+        element.style.textAlign = lang === 'he' ? 'right' : 'left';
+    });
+
     document.title = translations.page_title[lang];
     updateLanguageFlag(lang);
 }
@@ -129,7 +152,12 @@ function initContactForm() {
     const form = document.getElementById('contact-form');
     const responseDiv = document.getElementById('contact-form-response');
     if (responseDiv) responseDiv.style.display = 'none';
-    if (form) form.addEventListener('submit', handleFormSubmit);
+    if (form) {
+        form.addEventListener('submit', handleFormSubmit);
+        form.querySelectorAll('input, textarea').forEach(input => {
+            input.addEventListener('input', validateInput);
+        });
+    }
 }
 
 function initSmoothScrolling() {
@@ -150,23 +178,24 @@ function initVoiceInput() {
     const recognitionButton = document.getElementById('voice-input');
     if (recognitionButton && 'webkitSpeechRecognition' in window) {
         const recognition = new webkitSpeechRecognition();
-        recognitionButton.addEventListener('click', () => recognition.start());
-        recognition.onresult = function(event) {
-            console.log('Voice input received:', event.results[0][0].transcript);
-            // Here you can add logic to handle the voice input
-        };
+        if (recognition && typeof recognition.start === 'function') {
+            recognitionButton.addEventListener('click', () => recognition.start());
+            recognition.onresult = function(event) {
+                if (event && event.results && event.results[0] && event.results[0][0]) {
+                    console.log('Voice input received:', event.results[0][0].transcript);
+                }
+            };
+        }
     }
 }
 
 function initLanguageSelector() {
-    console.log('ok');
     const languageToggle = document.getElementById('language-toggle');
     const languageDropdown = document.getElementById('language-dropdown');
     if (languageToggle && languageDropdown) {
-       
-        ['click', 'touchstart'].forEach(event => 
-            languageToggle.addEventListener(event, toggleLanguageDropdown, { passive: event === 'touchstart' })
-        );
+        languageToggle.addEventListener('click', toggleLanguageDropdown);
+        languageToggle.addEventListener('touchstart', toggleLanguageDropdown, { passive: true });
+        
         document.querySelectorAll('.language-option').forEach(option => {
             option.addEventListener('click', handleLanguageChange);
         });
@@ -175,37 +204,35 @@ function initLanguageSelector() {
 }
 
 // Event handlers
-function handleFormSubmit(event) {
+async function handleFormSubmit(event) {
     event.preventDefault();
     const form = event.target;
     const responseDiv = document.getElementById('contact-form-response');
 
-    fetch(form.action, {
-        method: form.method,
-        body: new FormData(form)
-    })
-    .then(response => {
+    try {
+        const response = await fetchWithTimeout(form.action, {
+            method: form.method,
+            body: new FormData(form)
+        }, 10000);
+
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
         responseDiv.textContent = translations.form_success[currentLanguage];
         responseDiv.style.display = 'block';
         form.reset();
-    })
-    .catch(error => {
+    } catch (error) {
         console.error('Error:', error);
         responseDiv.textContent = translations.form_error[currentLanguage];
         responseDiv.style.display = 'block';
-    });
+    }
 }
 
-function toggleHamburger(e){
-    console.log('Clicked me: ', e,e.target, this);
+function toggleHamburger(e) {
     document.getElementById('mobileDropDownMenu').classList.toggle('hidden');
 }
 
 function toggleLanguageDropdown(e) {
-    console.log('Here')
     e.stopPropagation();
     const languageDropdown = document.getElementById('language-dropdown');
     if (languageDropdown) {
@@ -235,42 +262,74 @@ function closeLanguageDropdown(e) {
 function toggleServiceDetails(serviceId) {
     const details = document.getElementById(serviceId + '-details');
     if (details) {
-        details.style.display = !['none',''].includes(details.style.display) ? 'none' : 'block';
+        details.style.display = details.style.display === 'none' || details.style.display === '' ? 'block' : 'none';
     }
 }
 
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-   
-    e.preventDefault(); // Prevent the default form submission
-
-    const formData = new FormData(this); // Collect form data
-    // Send the data using fetch API
-    fetch('https://formspree.io/f/mldrdggd', {
-        method: 'POST',
-        body: formData,
-        headers: {
-            'Accept': 'application/json'
-        }
-    })
-    .then(response => {
-        if (response.ok) {
-        } else {
-        }
-    })
-    .catch(error => {
-        console.error('Error:', error);
-        alert('There was an error submitting the form.');
-    });
-
-    let item = document.getElementById('submitMsg').classList;
-    item.toggle('hidden')
-})
+function validateInput(event) {
+    const input = event.target;
+    if (input.validity.valid) {
+        input.classList.remove('invalid');
+    } else {
+        input.classList.add('invalid');
+    }
+}
 
 document.addEventListener('DOMContentLoaded', (event) => {
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const formData = new FormData(this);
+            fetch('https://formspree.io/f/mldrdggd', {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+            .then(response => {
+                if (response.ok) {
+                    // Handle success
+                } else {
+                    // Handle error
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('There was an error submitting the form.');
+            });
+
+            let item = document.getElementById('submitMsg');
+            if (item) {
+                item.classList.toggle('hidden');
+            }
+        });
+    }
+
     const hamburger = document.querySelector('.hamburger');
     const nav = document.querySelector('nav');
 
-    hamburger.addEventListener('click', () => {
-        nav.classList.toggle('active');
-    });
+    if (hamburger && nav) {
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    }
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const logoLink = document.querySelector('.logo-link');
+    if (logoLink) {
+        logoLink.addEventListener('click', function(e) {
+            // בדוק אם אנחנו כבר בדף הבית
+            if (window.location.pathname.endsWith('index.html') || window.location.pathname === '/') {
+                e.preventDefault(); // מנע את הניווט הרגיל
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    }
 });

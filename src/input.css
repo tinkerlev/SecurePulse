@@ -131,13 +131,15 @@ header {
     position: relative;
 }
 
-.logo {
-    /* position: absolute; */
-        /* left:50%; */
+.logo-link {
+    display: inline-block;
+    text-decoration: none;
 }
 
 .logo img {
-    height: 40px;
+    max-height: 40px;
+    width: auto;
+    transition: opacity 0.3s ease;
 }
 
 nav {
@@ -527,6 +529,39 @@ footer {
 .industry-link:focus {
     outline: none;
     /* אפשר להוסיף אפקט hover כאן אם רוצים */
+}
+
+.language-sensitive {
+    transition: all 0.3s ease;
+}
+
+.lang-he .language-sensitive {
+    direction: rtl;
+    text-align: right;
+}
+
+.lang-en .language-sensitive,
+.lang-es .language-sensitive {
+    direction: ltr;
+    text-align: left;
+}
+
+.language-sensitive input,
+.language-sensitive textarea {
+    direction: inherit;
+    text-align: inherit;
+}
+
+.lang-he .language-sensitive input,
+.lang-he .language-sensitive textarea {
+    direction: rtl;
+}
+
+.lang-en .language-sensitive input,
+.lang-en .language-sensitive textarea,
+.lang-es .language-sensitive input,
+.lang-es .language-sensitive textarea {
+    direction: ltr;
 }
 
 /* Utility Classes */
@@ -1058,7 +1093,7 @@ body[lang="en"], body[lang="es"] {
         background-position: center;
         background-attachment: fixed;
     }
-    
+
     @media (max-width: 768px) {
         .main-menu ul {
             display: none;
