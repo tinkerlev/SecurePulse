@@ -21,8 +21,7 @@
     <meta property="og:image" content="https://www.securepulses.com/pic/Logo-SecurePulses.png">
     <meta property="og:url" content="https://www.securepulses.com">
     <meta property="og:type" content="website">
-    <link rel="stylesheet" href="style.css">
-    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/output.css">
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <meta http-equiv="Content-Security-Policy" content="
@@ -77,61 +76,86 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <header>
-        <nav class="header-container">
-            <div class="hamburger">
-                <button onclick="toggleHamburger(this)" class="hamburger-menu" aria-label="תפריט">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
-            <div class="language-selector mobile">
-                <button class="language-btn" id="language-toggle">
-                    <img src="https://flagcdn.com/w40/il.png" alt="current language" id="current-language-flag">
-                </button>
-                <div class="language-dropdown" id="language-dropdown">
-                    <a href="#" class="language-option" data-lang="he">
-                        <img src="https://flagcdn.com/w40/il.png" alt="עברית">
-                        <span>עברית</span>
-                    </a>
-                    <a href="#" class="language-option" data-lang="en">
-                        <img src="https://flagcdn.com/w40/us.png" alt="English">
-                        <span>English</span>
-                    </a>
-                    <a href="#" class="language-option" data-lang="es">
-                        <img src="https://flagcdn.com/w40/es.png" alt="Español">
-                        <span>Español</span>
-                    </a>
+        <nav style="direction:ltr;" >
+            <div class="mx-auto  px-1 sm:px-1 ">
+              <div class="relative flex h-10 items-center justify-between">
+                <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                  <!-- Mobile menu button-->
+                  <button type="button" id="menu-toggle" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                    <span class="absolute -inset-0.5"></span>
+                    <span class="sr-only">פתיחת תפריט</span>
+                    <!--
+                      Icon when menu is closed.
+          
+                      Menu open: "hidden", Menu closed: "block"
+                    -->
+                    <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                    <!--
+                      Icon when menu is open.
+          
+                      Menu open: "block", Menu closed: "hidden"
+                    -->
+                    <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
                 </div>
+                <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                  <div class="flex flex-shrink-0 items-center logo">
+                    <img class="h-8 max-sm:h-8 max-sm:w-auto" id="logoImg" src="/pic/Logo-SecurePulses.png" alt="Secure Pulses">
+                  </div>
+                  <div class="hidden sm:ml-6 w-2/3 sm:block">
+                    <div class="flex space-x-4 justify-center md:px-20">
+                        <!-- תפריט Desktop -->
+                      <!-- Current: "bg-gray-900 text-white", Default: " hover:bg-gray-700 hover:text-white" -->
+                      <a href="/index.html" class="rounded-md  text-nowrap px-3 py-2 text-base  hover:bg-gray-700 text-white" aria-current="page" data-translate="nav_home">דף הבית</a>
+                      <a href="/blog/blog.html" class="rounded-md  text-nowrap px-3 py-2 text-base  hover:bg-gray-700 text-white" aria-current="page" data-translate="nav_blog">בלוג</a>
+                      <a href="/index.html#about" class="rounded-md  px-3 py-2 text-base  hover:bg-gray-700 hover:text-white" data-translate="nav_about">אודות</a>
+                      <a href="/index.html#services" class="rounded-md  px-3 py-2 text-base hover:bg-gray-700 hover:text-white" data-translate="nav_services">תעשיות</a>
+                      <a href="/index.html#contact"  class="rounded-md text-nowrap  px-3 py-2 text-base  hover:bg-gray-700 hover:text-white" data-translate="nav_contact">צור קשר</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="language-selector mobile">
+                    <button class="language-btn" id="language-toggle">
+                        <img src="https://flagcdn.com/w40/il.png" alt="current language" id="current-language-flag">
+                        <!-- <i class="fas fa-caret-down"></i> -->
+                    </button>
+                    <div class="language-dropdown right-0 p-2" id="language-dropdown">
+                        <a href="#" class="language-option" data-lang="he">
+                            <img src="https://flagcdn.com/w40/il.png" alt="עברית">
+                            <span>עברית</span>
+                        </a>
+                        <a href="#" class="language-option" data-lang="en">
+                            <img src="https://flagcdn.com/w40/us.png" alt="English">
+                            <span>English</span>
+                        </a>
+                        <a href="#" class="language-option" data-lang="es">
+                            <img src="https://flagcdn.com/w40/es.png" alt="Español">
+                            <span>Español</span>
+                        </a>
+                    </div>
+                </div>
+              </div>
             </div>
-            <div class="main-menu">
-                <ul>
-                    <li><a href="./index.html" data-translate="nav_home">בית</a></li>
-                    <li><a href="./blog/blog.html" data-translate="nav_blog">בלוג</a></li>
-                    <li><a href="./index.html#services" data-translate="nav_services">שירותים</a></li>
-                    <li><a href="./index.html#about" data-translate="nav_about">אודות</a></li>
-                    <li><a href="./index.html#industries" data-translate="nav_industries">תעשיות</a></li>
-                    <li><a href="./index.html#contact" data-translate="nav_contact">צור קשר</a></li>
-                </ul>
+          
+            <!-- Mobile menu, show/hide based on menu state. -->
+            <div class="sm:hidden hidden" id="mobile-menu">
+              <div class="space-y-1 px-2 pb-3 pt-2">
+                 <!-- תפריט Mobile -->
+                <!-- Current: "bg-gray-900 text-white", Default: " hover:bg-gray-700 hover:text-white" -->
+                <a href="/index.html" onClick='toggleMenu()' class="block rounded-md  px-3 py-2 text-base font-medium hover:bg-gray-700 text-white" aria-current="page" data-translate="nav_home">בית</a>
+                <a href="/blog/blog.html" onClick='toggleMenu()' class="block rounded-md  px-3 py-2 text-base font-medium hover:bg-gray-700 text-white" aria-current="page" data-translate="nav_blog">בלוג</a>
+                <a href="/index.html#about" onClick='toggleMenu()' class="block rounded-md px-3 py-2 text-base font-medium  hover:bg-gray-700 hover:text-white" data-translate="nav_about">אודות</a>
+                <a href="/index.html#services" onClick='toggleMenu()' class="block rounded-md px-3 py-2 text-base font-medium  hover:bg-gray-700 hover:text-white" data-translate="nav_services">תעשיות</a>
+                <a href="/index.html#contact" onClick='toggleMenu()' class="block rounded-md text-start px-3 py-2 text-base font-medium  hover:bg-gray-700 hover:text-white" data-translate="nav_contact">צור קשר</a>
+              </div>
             </div>
-            <div class="logo">
-                <a href="./index.html" class="logo-link">
-                    <img src="pic/Logo-SecurePulses.png" alt="Secure Pulse Logo">
-                </a>
-            </div>
-        </nav>
+          </nav>
     </header>
-    <div id="mobileDropDownMenu" class="main-menu-mobile hidden">
-        <ul>
-            <li><a href="./index.html" data-translate="nav_home">בית</a></li>
-            <li><a href="./blog/blog.html" data-translate="nav_blog">בלוג</a></li>
-            <li><a href="./index.html#services" data-translate="nav_services">שירותים</a></li>
-            <li><a href="./index.html#about" data-translate="nav_about">אודות</a></li>
-            <li><a href="./index.html#industries" data-translate="nav_industries">תעשיות</a></li>
-            <li><a href="./index.html#contact" data-translate="nav_contact">צור קשר</a></li>
-        </ul>
-    </div>
-    <main>
+    <main>  
         <section id="service" class="hero">
             <div class="container">
                 <h1 class="no-direction-change" data-translate="hero_title">אבטחה מתקדמת לעולם הדיגיטלי שלכם</h1>
@@ -146,14 +170,14 @@
                         השירותים שלנו</h2>
                 </div>
                 <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-4 ">
-                    <article class="flex flex-col items-start justify-between bg-white rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 ease-in-out p-4 m-4">
-                        <div class="relative w-full max-w-xl mx-outo">
+                    <article class="flex flex-col items-start justify-between shadow-xl rounded-xl hover:scale-110 shadow-blue-950 hover:shadow-2xl cursor-pointer">
+                        <div class="relative w-full mx-auto">
                             <img src="pic/hips-100.png"
                                 alt="Browser with Shield Icon of a web browser window with a shield, symbolizing browser security or safe web browsing."
-                                class="w-full h-auto rounded-2xl bg-gray-100 object-cover object-center">
-                                <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+                                class="w-full h-auto rounded-2xl  object-cover object-center">
+                                <div class="absolute inset-0 rounded-2xl "></div>
                         </div>
-                        <div class="max-w-xl">
+                        <div class=" mt-6 px-2">
                             <div class="group relative">
                                 <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                                     <a data-translate="services_web_pentesting_title" href="services_page/WebApplication.html">
@@ -169,14 +193,14 @@
                             </div>
                         </div>
                     </article>
-                    <article class="flex flex-col items-start justify-between bg-white rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 ease-in-out p-4 m-4">
-                        <div class="relative w-full max-w-xl mx-auto">
+                    <article class="flex flex-col items-start justify-between shadow-xl rounded-xl hover:scale-110 shadow-blue-950 hover:shadow-2xl cursor-pointer">
+                        <div class="relative w-full mx-auto">
                             <img src="pic/icons8-medical-mobile-app-80.png"
                                 alt="Mobile Phone with Shield Icon of a mobile phone with a shield, indicating mobile device security or secure apps."
-                                class="w-full h-auto rounded-2xl bg-gray-100 object-cover object-center">
-                                <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+                                class="w-full h-auto rounded-2xl  object-cover object-center">
+                                <div class="absolute inset-0 rounded-2xl "></div>
                         </div>
-                        <div class="max-w-xl">
+                        <div class=" mt-6 px-2">
                             <div class="group relative">
                                 <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                                     <a data-translate="services_mobile_security_title" href="services_page/MobileApplication.html">
@@ -190,14 +214,14 @@
                             </div>
                         </div>
                     </article>
-                    <article class="flex flex-col items-start justify-between">
-                        <div class="relative w-full max-w-xl mx-auto">
+                    <article class="flex flex-col items-start justify-between shadow-xl rounded-xl hover:scale-110 shadow-blue-950 hover:shadow-2xl cursor-pointer">
+                        <div class="relative w-full mx-auto">
                             <img src="pic/job.png"
                                 alt="Policies with Magnifying Glass and Briefcase Icon showing a document titled 'Policies' with a magnifying glass and a briefcase, representing policy review or security policies."
-                                class="w-full h-auto rounded-2xl bg-gray-100 object-cover object-center">
-                                <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+                                class="w-full h-auto rounded-2xl  object-cover object-center">
+                                <div class="absolute inset-0 rounded-2xl "></div>
                         </div>
-                        <div class="max-w-xl">
+                        <div class=" mt-6 px-2">
                             <div class="group relative">
                                 <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                                     <a data-translate="services_compliance_title" href="services_page/RegulatoryCompliance.html">
@@ -211,14 +235,14 @@
                             </div>
                         </div>
                     </article>
-                    <article class="flex flex-col items-start justify-between">
-                        <div class="relative w-full max-w-xl mx-auto">
+                    <article class="flex flex-col items-start justify-between shadow-xl rounded-xl hover:scale-110 shadow-blue-950 hover:shadow-2xl cursor-pointer">
+                        <div class="relative w-full mx-auto">
                             <img src="pic/icons8-smarthome-64.png"
                                 alt="House with Shield Icon of a house with a shield in front, symbolizing home security or smart home protection."
-                                class="w-full h-auto rounded-2xl bg-gray-100 object-cover object-center">
-                                <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+                                class="w-full h-auto rounded-2xl  object-cover object-center">
+                                <div class="absolute inset-0 rounded-2xl "></div>
                         </div>
-                        <div class="max-w-xl">
+                        <div class=" mt-6 px-2">
                             <div class="group relative">
                                 <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                                     <a data-translate="services_smart_home_security_title" href="services_page/SmartHome.html">
@@ -244,7 +268,7 @@
                         <p data-translate="about_description">ב-Secure Pulse, אנו מבינים שאבטחת המידע היא קריטית בעידן הדיגיטלי. צוות המומחים שלנו משלב ידע טכני מעמיק עם הבנה עסקית, כדי לספק פתרונות אבטחה מקיפים ומותאמים אישית.</p>
                         <ul id="infoList" class="about-list">
                             <li data-translate="about_expertise"><b>מומחיות ייחודית בבריאות דיגיטלית, קמעונאות אונליין ובתים חכמים</b> בעולם המתחדש של הבריאות, הקמעונאות המקוונת והבתים החכמים, אבטחת המידע היא אתגר מרכזי. צוות Secure Pulse מתמחה בפתרונות מותאמים אישית עבור ענפים אלה, המתמודדים עם איומי סייבר ייחודיים. הבנת הצרכים הספציפיים של ארגונים רפואיים, קמעונאות אונליין ובתים חכמים מאפשרת לנו לפתח פתרונות המשלבים הגנה חזקה עם זרימת עבודה יעילה.</li>
-                            <li data-translate="about_team"><b>צוות מנוסה עם הסמכות מובילות בתעשייה</b> הצוות המקצועי של Secure Pulse כולל מומחים בעלי ניסיון עשיר בתחום אבטחת המידע והסמכות המעידות על הידע והמיומנויות הנדרשים להגנה יעילה על מערכות קריטיות. הצוות שלנו מתעדכן תמיד בטכנולוגיות חדשניות ובשיטות התקפה והגנה מתקדמות.</li>
+                            <li data-translate="about_אודות"><b>צוות מנוסה עם הסמכות מובילות בתעשייה</b> הצוות המקצועי של Secure Pulse כולל מומחים בעלי ניסיון עשיר בתחום אבטחת המידע והסמכות המעידות על הידע והמיומנויות הנדרשים להגנה יעילה על מערכות קריטיות. הצוות שלנו מתעדכן תמיד בטכנולוגיות חדשניות ובשיטות התקפה והגנה מתקדמות.</li>
                             <li data-translate="about_proactive"><b>גישה פרואקטיבית לזיהוי ומניעת איומים</b> ב-Secure Pulse נוקטות בגישה פרואקטיבית לניטור, זיהוי והערכה של סיכונים, כדי למנוע פריצות וגניבת מידע מלכתחילה. שימוש במערכות מתקדמות לבדיקת חדירות, ניתוח איומים, וביצוע הערכות סיכונים שיטתיות מבטיח מניעה מוקדמת של איומים פוטנציאליים.</li>
                             <li data-translate="about_reports"><b>דוחות מפורטים עם המלצות מעשיות</b> בסיום כל פרויקט, Secure Pulse מעניקה דוח מפורט הכולל ניתוח מקיף של הממצאים, הסיכונים שזוהו והמלצות מעשיות לשיפור האבטחה. הדוח מספק תמונה שלמה של מצב האבטחה והצעדים הנדרשים לחיזוקה, כדי לסייע ללקוחות לקבל החלטות מושכלות.</li>
                         </ul>
@@ -259,21 +283,21 @@
             <div class="container">
                 <h2 class="no-direction-change" data-translate="industries_title">התמחות בתעשיות מובילות</h2>
                 <div class="industry-cards">
-                    <div class="industry-card">
+                    <div class="industry-card shadow-xl rounded-xl shadow-blue-950 hover:shadow-2xl cursor-pointer">
                         <a href="services_page/Protecting_Sensitive_Medical_Information.html" class="industry-link">
                             <img src="pic/3.jpg" alt="בריאות דיגיטלית">
                             <h3 class="no-direction-change" data-translate="industries_digital_health_title">בריאות דיגיטלית</h3>
                             <p class="centered-text" data-translate="industries_digital_health_description">הגנה על מידע רפואי רגיש ועמידה בתקני HIPAA</p>
                         </a>
                     </div>
-                    <div class="industry-card">
+                    <div class="industry-card shadow-xl rounded-xl shadow-blue-950 hover:shadow-2xl cursor-pointer">
                         <a href="services_page/E-commerce_platform_security.html" class="industry-link">
                             <img src="pic/1.jpg" alt="קמעונאות אונליין">
                             <h3 class="no-direction-change" data-translate="industries_online_retail_title">קמעונאות אונליין</h3>
                             <p data-translate="industries_online_retail_description">אבטחת פלטפורמות מסחר אלקטרוני ועמידה בתקני PCI DSS</p>
                         </a>
                     </div>
-                    <div class="industry-card">
+                    <div class="industry-card shadow-xl rounded-xl shadow-blue-950 hover:shadow-2xl cursor-pointer">
                         <a href="services_page/HomeIoTSystemsSecurity.html" class="industry-link">
                             <img src="pic/smarthome.jpg" alt="בתים חכמים">
                             <h3 class="no-direction-change" data-translate="industries_smart_home_title">בתים חכמים</h3>
@@ -306,28 +330,31 @@
         </section>
         <section id="contact" class="bg-dark">
             <div class="container">
+                <div class="rounded-xl shadow-xl shadow-blue-950 p-8">
+
                 <h2 class="no-direction-change" data-translate="contact_form_title">צור קשר</h2>
                 <div class="contact-cta">
                     <p><b data-translate="contact_cta_text" dir="auto">מוכנים להגן על הנכסים הדיגיטליים שלכם? צרו קשר עוד היום!</b></p>
                 </div>
-                <form id="contactForm" class="language-sensitive">
-                    <label>
-                        <span data-translate="contact_form_email">אימייל:</span>
-                        <input required placeholder="" onfocus="this.placeholder=''" type="email" name="email">
-                    </label>
-                    <label>
-                        <span data-translate="contact_form_name">שם:</span>
-                        <input required placeholder="" onfocus="this.placeholder=''" type="text" name="name"></input>
-                    </label>
-                    <label>
-                        <span data-translate="contact_form_message">הודעה:</span>
-                        <textarea required placeholder="" onfocus="this.placeholder=''" name="message"></textarea>
-                    </label>
-                    <button class="no-direction-change" type="submit" data-translate="contact_form_submit">שלח</button>
-                </form>
-                <div id="submitMsg" class="contact-form-response hidden">
-                    <p data-translate="contact_form_response">תודה שפנית אלינו! נחזור אליך בהקדם.</p>
-                </div>
+                        <form id="contactForm" class="language-sensitive">
+                            <label>
+                                <span data-translate="contact_form_email">אימייל:</span>
+                                <input required placeholder="" onfocus="this.placeholder=''" type="email" name="email">
+                            </label>
+                            <label>
+                                <span data-translate="contact_form_name">שם:</span>
+                                <input required placeholder="" onfocus="this.placeholder=''" type="text" name="name"></input>
+                            </label>
+                            <label>
+                                <span data-translate="contact_form_message">הודעה:</span>
+                                <textarea required placeholder="" onfocus="this.placeholder=''" name="message"></textarea>
+                            </label>
+                            <button class="no-direction-change" type="submit" data-translate="contact_form_submit">שלח</button>
+                        </form>
+                        <div id="submitMsg" class="contact-form-response hidden">
+                            <p data-translate="contact_form_response">תודה שפנית אלינו! נחזור אליך בהקדם.</p>
+                        </div>
+                 </div>
             </div>
         </section>
     </main>

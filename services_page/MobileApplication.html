@@ -21,8 +21,7 @@
     <meta property="og:image" content="https://www.securepulses.com/pic/Logo-SecurePulses">
     <meta property="og:url" content="https://www.securepulses.com">
     <meta property="og:type" content="website">
-    <link rel="stylesheet" href="../src/input.css">
-    <link href="./src/output.css" rel="stylesheet">
+    <link href="/src/output.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <meta http-equiv="Content-Security-Policy" content="
@@ -76,61 +75,85 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <header>
-        <nav class="header-container">
-            <div class="hamburger">
-                <button onclick="toggleHamburger(this)" class="hamburger-menu" aria-label="תפריט">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
-            <div class="language-selector mobile">
-                <button class="language-btn" id="language-toggle">
-                    <img src="https://flagcdn.com/w40/il.png" alt="current language" id="current-language-flag">
-                    <!-- <i class="fas fa-caret-down"></i> -->
-                </button>
-                <div class="language-dropdown" id="language-dropdown">
-                    <a href="#" class="language-option" data-lang="he">
-                        <img src="https://flagcdn.com/w40/il.png" alt="עברית">
-                        <span>עברית</span>
-                    </a>
-                    <a href="#" class="language-option" data-lang="en">
-                        <img src="https://flagcdn.com/w40/us.png" alt="English">
-                        <span>English</span>
-                    </a>
-                    <a href="#" class="language-option" data-lang="es">
-                        <img src="https://flagcdn.com/w40/es.png" alt="Español">
-                        <span>Español</span>
-                    </a>
+        <nav style="direction:ltr;" >
+            <div class="mx-auto  px-1 sm:px-1 ">
+              <div class="relative flex h-10 items-center justify-between">
+                <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                  <!-- Mobile menu button-->
+                  <button type="button" id="menu-toggle" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                    <span class="absolute -inset-0.5"></span>
+                    <span class="sr-only">פתיחת תפריט</span>
+                    <!--
+                      Icon when menu is closed.
+          
+                      Menu open: "hidden", Menu closed: "block"
+                    -->
+                    <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                    <!--
+                      Icon when menu is open.
+          
+                      Menu open: "block", Menu closed: "hidden"
+                    -->
+                    <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
                 </div>
+                <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                  <div class="flex flex-shrink-0 items-center logo">
+                    <img class="h-8 max-sm:h-8 max-sm:w-auto" id="logoImg" src="/pic/Logo-SecurePulses.png" alt="Secure Pulses">
+                  </div>
+                  <div class="hidden sm:ml-6 w-2/3 sm:block">
+                    <div class="flex space-x-4 justify-center md:px-20">
+                        <!-- תפריט Desktop -->
+                      <!-- Current: "bg-gray-900 text-white", Default: " hover:bg-gray-700 hover:text-white" -->
+                      <a href="/index.html" class="rounded-md  text-nowrap px-3 py-2 text-base  hover:bg-gray-700 text-white" aria-current="page" data-translate="nav_home">דף הבית</a>
+                      <a href="/blog/blog.html" class="rounded-md  text-nowrap px-3 py-2 text-base  hover:bg-gray-700 text-white" aria-current="page" data-translate="nav_blog">בלוג</a>
+                      <a href="/index.html#about" class="rounded-md  px-3 py-2 text-base  hover:bg-gray-700 hover:text-white" data-translate="nav_about">אודות</a>
+                      <a href="/index.html#services" class="rounded-md  px-3 py-2 text-base hover:bg-gray-700 hover:text-white" data-translate="nav_services">תעשיות</a>
+                      <a href="/index.html#contact"  class="rounded-md text-nowrap  px-3 py-2 text-base  hover:bg-gray-700 hover:text-white" data-translate="nav_contact">צור קשר</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="language-selector mobile">
+                    <button class="language-btn" id="language-toggle">
+                        <img src="https://flagcdn.com/w40/il.png" alt="current language" id="current-language-flag">
+                        <!-- <i class="fas fa-caret-down"></i> -->
+                    </button>
+                    <div class="language-dropdown right-0 p-2" id="language-dropdown">
+                        <a href="#" class="language-option" data-lang="he">
+                            <img src="https://flagcdn.com/w40/il.png" alt="עברית">
+                            <span>עברית</span>
+                        </a>
+                        <a href="#" class="language-option" data-lang="en">
+                            <img src="https://flagcdn.com/w40/us.png" alt="English">
+                            <span>English</span>
+                        </a>
+                        <a href="#" class="language-option" data-lang="es">
+                            <img src="https://flagcdn.com/w40/es.png" alt="Español">
+                            <span>Español</span>
+                        </a>
+                    </div>
+                </div>
+              </div>
             </div>
-            <div class="main-menu">
-                <ul>
-                    <li><a href="../index.html" data-translate="nav_home">בית</a></li>
-                    <li><a href="../blog/blog.html" data-translate="nav_blog">בלוג</a></li>
-                    <li><a href="../index.html#services" data-translate="nav_services">שירותים</a></li>
-                    <li><a href="../index.html#about" data-translate="nav_about">אודות</a></li>
-                    <li><a href="../index.html#industries" data-translate="nav_industries">תעשיות</a></li>
-                    <li><a href="../index.html#contact" data-translate="nav_contact">צור קשר</a></li>
-                </ul>
+          
+            <!-- Mobile menu, show/hide based on menu state. -->
+            <div class="sm:hidden hidden" id="mobile-menu">
+              <div class="space-y-1 px-2 pb-3 pt-2">
+                 <!-- תפריט Mobile -->
+                <!-- Current: "bg-gray-900 text-white", Default: " hover:bg-gray-700 hover:text-white" -->
+                <a href="/index.html" onClick='toggleMenu()' class="block rounded-md  px-3 py-2 text-base font-medium hover:bg-gray-700 text-white" aria-current="page" data-translate="nav_home">בית</a>
+                <a href="/blog/blog.html" onClick='toggleMenu()' class="block rounded-md  px-3 py-2 text-base font-medium hover:bg-gray-700 text-white" aria-current="page" data-translate="nav_blog">בלוג</a>
+                <a href="/index.html#about" onClick='toggleMenu()' class="block rounded-md px-3 py-2 text-base font-medium  hover:bg-gray-700 hover:text-white" data-translate="nav_about">אודות</a>
+                <a href="/index.html#services" onClick='toggleMenu()' class="block rounded-md px-3 py-2 text-base font-medium  hover:bg-gray-700 hover:text-white" data-translate="nav_services">תעשיות</a>
+                <a href="/index.html#contact" onClick='toggleMenu()' class="block rounded-md text-start px-3 py-2 text-base font-medium  hover:bg-gray-700 hover:text-white" data-translate="nav_contact">צור קשר</a>
+              </div>
             </div>
-            <div class="logo">
-                <a href="../index.html" class="logo-link">
-                    <img src="../pic/Logo-SecurePulses.png" alt="Secure Pulse Logo">
-                </a>
-            </div>
-        </nav>
+          </nav>
     </header>
-    <div id="mobileDropDownMenu" class="main-menu-mobile hidden">
-        <ul>
-            <li><a href="../index.html" data-translate="nav_home">בית</a></li>
-            <li><a href="../blog/blog.html" data-translate="nav_blog">בלוג</a></li>
-            <li><a href="../index.html#services" data-translate="nav_services">שירותים</a></li>
-            <li><a href="../index.html#about" data-translate="nav_about">אודות</a></li>
-            <li><a href="../index.html#industries" data-translate="nav_industries">תעשיות</a></li>
-            <li><a href="../index.html#contact" data-translate="nav_contact">צור קשר</a></li>
-        </ul>
-    </div>
 <main class="blog-post-page">
     <div class="container">
         <h1 data-translate="post_title_mobile_security">בדיקות אבטחה למערכות מובייל: הגנה על הנכס הדיגיטלי האישי ביותר שלנו</h1>
