@@ -1,0 +1,6 @@
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
+
+או לכתוב
+
+npm run build
