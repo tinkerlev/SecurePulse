@@ -463,6 +463,48 @@ body[lang="en"], body[lang="es"] {
 }
 
 
+/* כיווניות טופס יצירת קשר */
+.language-sensitive {
+    direction: inherit;
+}
+
+[lang="he"] .language-sensitive {
+    direction: rtl;
+}
+
+[lang="en"] .language-sensitive,
+[lang="es"] .language-sensitive {
+    direction: ltr;
+}
+
+[lang="he"] .language-sensitive label,
+[lang="he"] .language-sensitive input,
+[lang="he"] .language-sensitive textarea {
+    text-align: right;
+}
+
+[lang="en"] .language-sensitive label,
+[lang="en"] .language-sensitive input,
+[lang="en"] .language-sensitive textarea,
+[lang="es"] .language-sensitive label,
+[lang="es"] .language-sensitive input,
+[lang="es"] .language-sensitive textarea {
+    text-align: left;
+}
+
+/* יישור טקסט מציין מקום (placeholder) */
+[lang="he"] input::placeholder,
+[lang="he"] textarea::placeholder {
+    text-align: right;
+}
+
+[lang="en"] input::placeholder,
+[lang="en"] textarea::placeholder,
+[lang="es"] input::placeholder,
+[lang="es"] textarea::placeholder {
+    text-align: left;
+}
+
 /* Clear float after each section */
 .blog-post-page .blog-post::after {
     content: "";
@@ -470,7 +512,7 @@ body[lang="en"], body[lang="es"] {
     clear: both;
 }
 .blog-post-page .blog-post p {
-    overflow: auto; /* Prevents text from overlapping floated images */
+    overflow: auto; 
 }
 
 /* Blog Styles */
@@ -553,9 +595,6 @@ ul.benefits-list {
     content: '\2713';
     position: absolute;
     right: 0;
-    /* position: relative;
-    margin-left: 14px;
-    margin-right: 14px; */
     color: var(--secondary-color);
     font-weight: bold;
 }
@@ -574,9 +613,6 @@ li.leftArrow::before {
     content: '\2713';
     position: absolute;
     left: 0;
-    /* position: relative;
-    margin-left: 14px;
-    margin-right: 14px; */
     color: var(--secondary-color);
     font-weight: bold;
 }
@@ -597,7 +633,6 @@ li.leftArrow::before {
     border-radius: 50%;
     border: 2px solid transparent;
     transition: border-color 0.3s ease;
-    /* margin-right: -720px; */
 }
 
 .language-btn:hover img {
@@ -608,7 +643,6 @@ li.leftArrow::before {
     display: none;
     position: absolute;
     top: 88%;
-    /* right: -403px; */
     background-color: #ffffff87;
     border: 1px solid #ddd;
     border-radius: 11px;
@@ -634,6 +668,60 @@ li.leftArrow::before {
     height: 20px;
     margin-right: 10px;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-container {
+        /* flex-direction: column; */
+        align-items: baseline;
+        align-items: end;
+    }
+
+    .services-grid{
+        flex-wrap: wrap;
+    }
+
+    .hamburger{
+        display: block;
+        height: -webkit-fill-available;
+        align-self: center;
+    }
+
+
+    .mobile {
+        left: 10px;
+        top: 15px;
+        display: block;
+    }
+
+
+    .main-menu ul{
+        width: 100%;
+        display: none;
+        flex-direction: column;
+    }
+    .main-menu-mobile{
+        position: fixed;
+        /* padding: 10px; */
+        padding-top: 20px;
+        text-align: center;
+        background-color:#0a2342;
+        width: 100%;
+        height: 280px;
+        opacity: 1;
+        z-index: 1000;
+
+    }
+
+    @keyframes appear {
+        from {
+            opacity: 0;
+        }
+        to{
+            opacity: 1
+        } 
+
+    }
 
     .main-menu-mobile ul li{
         width: 100%;
