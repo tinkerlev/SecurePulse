@@ -36,7 +36,7 @@
         object-src 'none';
     ">
     <link rel="icon" href="/pic/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="../pic/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/pic/favicon.ico" type="image/x-icon">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <script async src="https://cdn.userway.org/widget.js" data-account="lLYHLLp4WE" nonce="1234"></script>
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -103,7 +103,9 @@
                 </div>
                 <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div class="flex flex-shrink-0 items-center logo">
-                    <img class="h-8 max-sm:h-8 max-sm:w-auto" id="logoImg" src="/pic/Logo-SecurePulses.png" alt="Secure Pulses">
+                    <a href="/" title="חזרה לדף הבית">
+                        <img class="h-8 max-sm:h-8 max-sm:w-auto" id="logoImg" src="/pic/Logo-SecurePulses.png" alt="Secure Pulses">
+                    </a>
                   </div>
                   <div class="hidden sm:ml-6 w-2/3 sm:block">
                     <div class="flex space-x-4 justify-center md:px-20">
@@ -261,45 +263,47 @@
 </main>
 <section id="contact" class="bg-dark">
     <div class="container">
+        <div class="rounded-xl shadow-xl shadow-blue-950 p-8">
         <h2 class="no-direction-change" data-translate="contact_form_title">צור קשר</h2>
         <div class="contact-cta">
             <p><b data-translate="contact_cta_text" dir="auto">מוכנים להגן על הנכסים הדיגיטליים שלכם? צרו קשר עוד היום!</b></p>
         </div>
-        <form id="contactForm" class="language-sensitive">
-            <label>
-                <span data-translate="contact_form_email">אימייל:</span>
-                <input required placeholder="" onfocus="this.placeholder=''" type="email" name="email">
-            </label>
-            <label>
-                <span data-translate="contact_form_name">שם:</span>
-                <input required placeholder="" onfocus="this.placeholder=''" type="text" name="name"></input>
-            </label>
-            <label>
-                <span data-translate="contact_form_message">הודעה:</span>
-                <textarea required placeholder="" onfocus="this.placeholder=''" name="message"></textarea>
-            </label>
-            <button class="no-direction-change" type="submit" data-translate="contact_form_submit">שלח</button>
-        </form>
-        <div id="submitMsg" class="contact-form-response hidden">
-            <p data-translate="contact_form_response">תודה שפנית אלינו! נחזור אליך בהקדם.</p>
-        </div>
+                <form id="contactForm" class="language-sensitive">
+                    <label>
+                        <span data-translate="contact_form_email">אימייל:</span>
+                        <input required placeholder="" onfocus="this.placeholder=''" type="email" name="email">
+                    </label>
+                    <label>
+                        <span data-translate="contact_form_name">שם:</span>
+                        <input required placeholder="" onfocus="this.placeholder=''" type="text" name="name"></input>
+                    </label>
+                    <label>
+                        <span data-translate="contact_form_message">הודעה:</span>
+                        <textarea required placeholder="" onfocus="this.placeholder=''" name="message"></textarea>
+                    </label>
+                    <button class="no-direction-change" type="submit" data-translate="contact_form_submit">שלח</button>
+                </form>
+                <div id="submitMsg" class="contact-form-response hidden">
+                    <p data-translate="contact_form_response">תודה שפנית אלינו! נחזור אליך בהקדם.</p>
+                </div>
+         </div>
     </div>
 </section>
 <footer>
     <div class="container">
         <div class="footer-content">
             <div class="footer-logo">
-                <img src="../pic/logo-footer.png" alt="Secure Pulse Logo">
+                <img src="/pic/logo-footer.png" alt="Secure Pulse Logo">
             </div>
             <div class="footer-links">
                 <h4 data-translate="footer_quick_links">קישורים מהירים</h4>
                 <ul>
-                    <li><a href="../index.html" data-translate="nav_home">בית</a></li>
-                    <li><a href="../blog/blog.html" data-translate="nav_blog">בלוג</a></li>
-                    <li><a href="../index.html#services" data-translate="nav_services">שירותים</a></li>
-                    <li><a href="../index.html#about" data-translate="nav_about">אודות</a></li>
-                    <li><a href="../index.html#industries" data-translate="nav_industries">תעשיות</a></li>
-                    <li><a href="../index.html#contact" data-translate="nav_contact">צור קשר</a></li>
+                    <li><a href="/index.html" data-translate="nav_home">בית</a></li>
+                    <li><a href="/blog/blog.html" data-translate="nav_blog">בלוג</a></li>
+                    <li><a href="/index.html#services" data-translate="nav_services">שירותים</a></li>
+                    <li><a href="/index.html#about" data-translate="nav_about">אודות</a></li>
+                    <li><a href="/index.html#industries" data-translate="nav_industries">תעשיות</a></li>
+                    <li><a href="/index.html#contact" data-translate="nav_contact">צור קשר</a></li>
                 </ul>
             </div>
             <div class="footer-contact">
@@ -312,7 +316,7 @@
                 </a>
                 <div class="social-icons">
                     <a href="https://www.linkedin.com/company/securepulses/">
-                      <img src="../pic/linkedin-logo.png" alt="LinkedIn" style="width: 24px; height: 24px;">
+                      <img src="/pic/linkedin-logo.png" alt="LinkedIn" style="width: 24px; height: 24px;">
                     </a>
                 </div>
             </div>
@@ -324,8 +328,7 @@
         </div>
     </div>
 </footer>
-
-<script src="../script.js"></script>
+<script src="/script.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', initializeWebsite);
 </script>

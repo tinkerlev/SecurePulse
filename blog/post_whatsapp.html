@@ -103,7 +103,9 @@
                 </div>
                 <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div class="flex flex-shrink-0 items-center logo">
-                    <img class="h-8 max-sm:h-8 max-sm:w-auto" id="logoImg" src="/pic/Logo-SecurePulses.png" alt="Secure Pulses">
+                    <a href="/" title="חזרה לדף הבית">
+                        <img class="h-8 max-sm:h-8 max-sm:w-auto" id="logoImg" src="/pic/Logo-SecurePulses.png" alt="Secure Pulses">
+                    </a>
                   </div>
                   <div class="hidden sm:ml-6 w-2/3 sm:block">
                     <div class="flex space-x-4 justify-center md:px-20">
@@ -217,28 +219,30 @@
     </main>
     <section id="contact" class="bg-dark">
         <div class="container">
+            <div class="rounded-xl shadow-xl shadow-blue-950 p-8">
             <h2 class="no-direction-change" data-translate="contact_form_title">צור קשר</h2>
             <div class="contact-cta">
                 <p><b data-translate="contact_cta_text" dir="auto">מוכנים להגן על הנכסים הדיגיטליים שלכם? צרו קשר עוד היום!</b></p>
             </div>
-            <form id="contactForm" class="language-sensitive">
-                <label>
-                    <span data-translate="contact_form_email">אימייל:</span>
-                    <input required placeholder="" onfocus="this.placeholder=''" type="email" name="email">
-                </label>
-                <label>
-                    <span data-translate="contact_form_name">שם:</span>
-                    <input required placeholder="" onfocus="this.placeholder=''" type="text" name="name"></input>
-                </label>
-                <label>
-                    <span data-translate="contact_form_message">הודעה:</span>
-                    <textarea required placeholder="" onfocus="this.placeholder=''" name="message"></textarea>
-                </label>
-                <button class="no-direction-change" type="submit" data-translate="contact_form_submit">שלח</button>
-            </form>
-            <div id="submitMsg" class="contact-form-response hidden">
-                <p data-translate="contact_form_response">תודה שפנית אלינו! נחזור אליך בהקדם.</p>
-            </div>
+                    <form id="contactForm" class="language-sensitive">
+                        <label>
+                            <span data-translate="contact_form_email">אימייל:</span>
+                            <input required placeholder="" onfocus="this.placeholder=''" type="email" name="email">
+                        </label>
+                        <label>
+                            <span data-translate="contact_form_name">שם:</span>
+                            <input required placeholder="" onfocus="this.placeholder=''" type="text" name="name"></input>
+                        </label>
+                        <label>
+                            <span data-translate="contact_form_message">הודעה:</span>
+                            <textarea required placeholder="" onfocus="this.placeholder=''" name="message"></textarea>
+                        </label>
+                        <button class="no-direction-change" type="submit" data-translate="contact_form_submit">שלח</button>
+                    </form>
+                    <div id="submitMsg" class="contact-form-response hidden">
+                        <p data-translate="contact_form_response">תודה שפנית אלינו! נחזור אליך בהקדם.</p>
+                    </div>
+             </div>
         </div>
     </section>
     <footer>
