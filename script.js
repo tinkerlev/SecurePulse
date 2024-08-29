@@ -12,7 +12,6 @@ function initializeWebsite() {
         .then(() => {
             initContactForm();
             initSmoothScrolling();
-            initVoiceInput();
             initLanguageSelector();
             applyTranslations(currentLanguage);
         })
@@ -28,13 +27,12 @@ function fallbackInitialization() {
     // אתחול בסיסי ללא תרגומים
     initContactForm();
     initSmoothScrolling();
-    initVoiceInput();
     initLanguageSelector();
     // אפשר להוסיף כאן לוגיקה נוספת לטיפול במצב ללא תרגומים
 }
 
 // Language functions
-async function loadTranslations(lang) {
+async function loadTranslations( ) {
     try {
         const response = await fetch('/translations.json');
         if (!response.ok) {
@@ -146,18 +144,6 @@ function initSmoothScrolling() {
     });
 }
 
-function initVoiceInput() {
-    const recognitionButton = document.getElementById('voice-input');
-    if (recognitionButton && 'webkitSpeechRecognition' in window) {
-        const recognition = new webkitSpeechRecognition();
-        recognitionButton.addEventListener('click', () => recognition.start());
-        recognition.onresult = function(event) {
-            console.log('Voice input received:', event.results[0][0].transcript);
-            // Here you can add logic to handle the voice input
-        };
-    }
-}
-
 function initLanguageSelector() {
     console.log('ok');
     const languageToggle = document.getElementById('language-toggle');
@@ -199,19 +185,14 @@ function handleFormSubmit(event) {
     });
 }
 
-function toggleHamburger(e){
-    console.log('Clicked me: ', e,e.target, this);
-    document.getElementById('mobileDropDownMenu').classList.toggle('hidden');
-}
-
 function toggleLanguageDropdown(e) {
-    console.log('Here')
     e.stopPropagation();
     const languageDropdown = document.getElementById('language-dropdown');
     if (languageDropdown) {
         languageDropdown.style.display = languageDropdown.style.display === 'block' ? 'none' : 'block';
     }
 }
+
 
 function handleLanguageChange(e) {
     e.preventDefault();
@@ -231,19 +212,11 @@ function closeLanguageDropdown(e) {
     }
 }
 
-// Utility functions
-function toggleServiceDetails(serviceId) {
-    const details = document.getElementById(serviceId + '-details');
-    if (details) {
-        details.style.display = !['none',''].includes(details.style.display) ? 'none' : 'block';
-    }
-}
-
 document.getElementById('contactForm').addEventListener('submit', function(e) {
-   
     e.preventDefault(); // Prevent the default form submission
 
     const formData = new FormData(this); // Collect form data
+    
     // Send the data using fetch API
     fetch('https://formspree.io/f/mldrdggd', {
         method: 'POST',
@@ -254,7 +227,9 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     })
     .then(response => {
         if (response.ok) {
+            console.log('Form submitted successfully');
         } else {
+            console.error('Form submission failed');
         }
     })
     .catch(error => {
@@ -263,18 +238,12 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     });
 
     let item = document.getElementById('submitMsg').classList;
-    item.toggle('hidden')
+    item.toggle('hidden');
 })
 
-document.addEventListener('DOMContentLoaded', (event) => {
-    const hamburger = document.querySelector('.hamburger');
-    // const nav = document.querySelector('nav');
+document.addEventListener('DOMContentLoaded', () => {
 
-    // hamburger.addEventListener('click', () => {
-    //     nav.classList.toggle('active');
-    // });
 });
-
 
 // פונקציה לסגירת ופתיחת תפריט
 
@@ -283,7 +252,4 @@ function toggleMenu() {
     mobileMenu.classList.toggle('hidden');
 }
 
-document.getElementById('menu-toggle').addEventListener('click', function() {
-    const mobileMenu = document.getElementById('mobile-menu');
-    mobileMenu.classList.toggle('hidden');
-  });
+document.getElementById('menu-toggle').addEventListener('click', toggleMenu);

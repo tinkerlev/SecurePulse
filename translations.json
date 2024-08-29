@@ -2549,5 +2549,200 @@
     "he": "כי בסופו של דבר, מידע רפואי מאובטח אינו רק זכות - זוהי הבטחה לעתיד בריא ובטוח יותר לכולנו.",
     "en": "Because ultimately, secure medical information is not just a right - it's a promise of a healthier and safer future for us all.",
     "es": "Porque, en última instancia, la información médica segura no es solo un derecho, es una promesa de un futuro más saludable y seguro para todos nosotros."
+  },
+  "post_title_google_security": {
+    "he": "כך תוודאו שחשבון ה-Google שלכם מאובטח",
+    "en": "How to Ensure Your Google Account is Secure",
+    "es": "Cómo asegurar que su cuenta de Google esté protegida"
+  },
+  "post_date_google_security": {
+    "he": "29 באוגוסט, 2024",
+    "en": "August 29, 2024",
+    "es": "29 de agosto de 2024"
+  },
+  "intro_google_account": {
+    "he": "חשבון גוגל (Google) הוא אולי החשבון הפופולארי ביותר בקרב משתמשים. כמעט לכל אחד בעולם יש חשבון ג׳ימייל (Gmail) אחד לפחות. חשבון גוגל הוא אחד החשבונות המשמעותיים ביותר שלכם ברשת שכן הוא מחזיק את כל המידע האישי שלכם, החל מהרמה הבסיסית ביותר ועד לכרטיסי האשראי והסיסמאות ששמרתם בחשבון, ולכן חשוב לאבטח אותו כמה שיותר.",
+    "en": "A Google account is perhaps the most popular account among users. Almost everyone in the world has at least one Gmail account. Your Google account is one of your most significant online accounts as it holds all your personal information, from the most basic level to the credit cards and passwords you've saved in the account, so it's important to secure it as much as possible.",
+    "es": "Una cuenta de Google es quizás la cuenta más popular entre los usuarios. Casi todo el mundo tiene al menos una cuenta de Gmail. Su cuenta de Google es una de sus cuentas en línea más importantes, ya que contiene toda su información personal, desde el nivel más básico hasta las tarjetas de crédito y contraseñas que ha guardado en la cuenta, por lo que es importante asegurarla tanto como sea posible."
+  },
+  "main_points_intro": {
+    "he": "ריכזנו עבורכם פה את הדברים העיקריים שיעזרו לכם ליישם את זה.",
+    "en": "We've compiled the main points here to help you implement this.",
+    "es": "Hemos recopilado aquí los puntos principales para ayudarle a implementar esto."
+  },
+  "two_factor_auth_title": {
+    "he": "1. אימות דו שלבי והוספת אפשרויות לשחזור החשבון:",
+    "en": "1. Two-Factor Authentication and Adding Account Recovery Options:",
+    "es": "1. Autenticación de dos factores y adición de opciones de recuperación de cuenta:"
+  },
+  "two_factor_auth_explanation": {
+    "he": "אם הצליחו לפרוץ לכם את החשבון, חשוב שיהיו לכם הכלים לשחזר אותו ולהחזיר אותו לשליטתכם, אבל חשוב לעשות את זה עוד לפני הפריצה. בין הכלים לשחזור תוכלו להכניס כתובת דוא״ל חלופית או לוודא שמספר הטלפון שלכם מעודכן כדי שגוגל תוכל לאמת אתכם, להודיע לכם על התראות חריגות ולמנוע מאחרים להגיע אל החשבון.",
+    "en": "If your account is hacked, it's important to have the tools to recover it and regain control, but it's crucial to do this before a breach occurs. Among the recovery tools, you can add an alternative email address or ensure your phone number is up to date so Google can verify you, notify you of unusual alerts, and prevent others from accessing your account.",
+    "es": "Si su cuenta es pirateada, es importante tener las herramientas para recuperarla y retomar el control, pero es crucial hacer esto antes de que ocurra una violación. Entre las herramientas de recuperación, puede agregar una dirección de correo electrónico alternativa o asegurarse de que su número de teléfono esté actualizado para que Google pueda verificarlo, notificarle de alertas inusuales y evitar que otros accedan a su cuenta."
+  },
+  "two_factor_auth_benefit": {
+    "he": "אימות דו-שלבי עוזר לכם למנוע מהאקרים לקבל גישה לחשבון, אפילו אם הם גונבים לכם את הסיסמה.",
+    "en": "Two-factor authentication helps prevent hackers from gaining access to your account, even if they steal your password.",
+    "es": "La autenticación de dos factores ayuda a evitar que los hackers obtengan acceso a su cuenta, incluso si roban su contraseña."
+  },
+  "google_prompt_explanation": {
+    "he": "הודעה מ-Google (מאובטח יותר מקבלת קודים בהודעות טקסט) למעשה מקפיץ פופ אפ במכשירים שהוגדרו בעבר כבטוחים, ומודיע על ניסיון כניסה לחשבון.",
+    "en": "A Google prompt (more secure than receiving codes in text messages) actually pops up on devices previously set as secure, and notifies of an attempt to log into the account.",
+    "es": "Una solicitud de Google (más segura que recibir códigos en mensajes de texto) aparece en dispositivos previamente configurados como seguros y notifica un intento de iniciar sesión en la cuenta."
+  },
+  "authenticator_app_explanation": {
+    "he": "קוד התחברות מאפליקציית אימות של צד שלישי (כמו למשל Duo Mobile או Google Authenticator) – בכל פעם שתרצו להתחבר לחשבון תצטרכו להקיש מספר שמשתנה באופן תכוף – פחות מ-60 שניות.",
+    "en": "A login code from a third-party authentication app (such as Duo Mobile or Google Authenticator) - every time you want to log into your account, you'll need to enter a number that changes frequently - less than 60 seconds.",
+    "es": "Un código de inicio de sesión de una aplicación de autenticación de terceros (como Duo Mobile o Google Authenticator) - cada vez que quiera iniciar sesión en su cuenta, deberá ingresar un número que cambia con frecuencia - menos de 60 segundos."
+  },
+  "how_to_setup": {
+    "he": "איך מגדירים?",
+    "en": "How to set up?",
+    "es": "¿Cómo configurar?"
+  },
+  "setup_step1": {
+    "he": "היכנסו לחשבון ה-Google שלכם",
+    "en": "Log into your Google account",
+    "es": "Inicie sesión en su cuenta de Google"
+  },
+  "setup_step2": {
+    "he": "לחצו בצד ימין / בסרגל על אפשרות אבטחה",
+    "en": "Click on the Security option on the right side / in the toolbar",
+    "es": "Haga clic en la opción Seguridad en el lado derecho / en la barra de herramientas"
+  },
+  "setup_step3": {
+    "he": "בדקו כי אפשרות אימות דו-שלבי פועלת. אם לא – מומלץ מאוד להגדירה.",
+    "en": "Check that the two-step verification option is enabled. If not - it's highly recommended to set it up.",
+    "es": "Verifique que la opción de verificación en dos pasos esté habilitada. Si no lo está, se recomienda encarecidamente configurarla."
+  },
+  "strong_password_title": {
+    "he": "2. שימוש בסיסמה חזקה:",
+    "en": "2. Use a Strong Password:",
+    "es": "2. Usar una contraseña fuerte:"
+  },
+  "strong_password_explanation": {
+    "he": "צרו סיסמה חדשה שלא השתמשתם בה בעבר, מורכבת מאותיות, מספרים ותווים מיוחדים ואורכה צריך להיות לפחות 8 תווים.",
+    "en": "Create a new password that you haven't used before, composed of letters, numbers, and special characters, and it should be at least 8 characters long.",
+    "es": "Cree una nueva contraseña que no haya usado antes, compuesta por letras, números y caracteres especiales, y debe tener al menos 8 caracteres de longitud."
+  },
+  "change_password": {
+    "he": "שינוי סיסמה :",
+    "en": "Changing password:",
+    "es": "Cambiar contraseña:"
+  },
+  "change_password_step2": {
+    "he": "לחצו בצד ימין / בסרגל על אפשרות אבטחה",
+    "en": "Click on the Security option on the right side / in the toolbar",
+    "es": "Haga clic en la opción Seguridad en el lado derecho / en la barra de herramientas"
+  },
+  "change_password_step3": {
+    "he": "בוחרים באפשרות סיסמה (יכול להיות שתצטרכו להיכנס שוב לחשבון).",
+    "en": "Select the Password option (you may need to log in to your account again).",
+    "es": "Seleccione la opción Contraseña (es posible que deba iniciar sesión en su cuenta nuevamente)."
+  },
+  "change_password_step4": {
+    "he": "מזינים את הסיסמה החדשה ובוחרים באפשרות שינוי סיסמה.",
+    "en": "Enter the new password and select the Change Password option.",
+    "es": "Ingrese la nueva contraseña y seleccione la opción Cambiar contraseña."
+  },
+  "security_checkup_title": {
+    "he": "3. ביצוע בדיקת אבטחה:",
+    "en": "3. Perform a Security Checkup:",
+    "es": "3. Realizar una verificación de seguridad:"
+  },
+  "security_checkup_explanation": {
+    "he": "גוגל מציעה בדיקת אבטחה בחינם (Security Checkup) שתעביר אתכם את כל השלבים אל עבר חשבון מאובטח יותר. הבדיקה כוללת התראה על סיסמאות שנחשדות כי נחשפו במאגרים מודלפים, סיסמאות חלשות שדורשות תיקון, המלצה לניתוק מכשירים שלא עושים שימוש בחשבון הרבה זמן ועוד.",
+    "en": "Google offers a free Security Checkup that will guide you through all the steps towards a more secure account. The check includes alerts for passwords suspected of being exposed in leaked databases, weak passwords that need fixing, recommendations to disconnect devices that haven't been used with the account for a long time, and more.",
+    "es": "Google ofrece una verificación de seguridad gratuita que lo guiará a través de todos los pasos hacia una cuenta más segura. La verificación incluye alertas sobre contraseñas que se sospecha que han sido expuestas en bases de datos filtradas, contraseñas débiles que necesitan ser corregidas, recomendaciones para desconectar dispositivos que no se han utilizado con la cuenta durante mucho tiempo y más."
+  },
+  "account_activity_check": {
+    "he": "בדיקת פעילות בחשבון",
+    "en": "Account Activity Check",
+    "es": "Verificación de actividad de la cuenta"
+  },
+  "activity_check_step2": {
+    "he": "לחצו בצד ימין / בסרגל על אפשרות אבטחה",
+    "en": "Click on the Security option on the right side / in the toolbar",
+    "es": "Haga clic en la opción Seguridad en el lado derecho / en la barra de herramientas"
+  },
+  "activity_check_step3": {
+    "he": "בחלונית פעולות אחרונות שמשפיעות על אבטחת החשבון, בוחרים באפשרות בדיקת פעולות",
+    "en": "In the Recent actions that affect account security pane, select the Check actions option",
+    "es": "En el panel Acciones recientes que afectan la seguridad de la cuenta, seleccione la opción Verificar acciones"
+  },
+  "activity_check_step4": {
+    "he": "שמשפיעות על אבטחת החשבון.",
+    "en": "that affect account security.",
+    "es": "que afectan la seguridad de la cuenta."
+  },
+  "activity_check_step5": {
+    "he": "אם קיימות פעולות שלא ביצעתם, בוחרים באפשרות לא, זה לא אני. אם מדובר בפעולה שביצעתם ,בוחרים באפשרות כן.",
+    "en": "If there are actions you didn't perform, select the No, it wasn't me option. If it's an action you performed, select Yes.",
+    "es": "Si hay acciones que no realizó, seleccione la opción No, no fui yo. Si es una acción que realizó, seleccione Sí."
+  },
+"device_check": {
+    "he": "בדיקת מכשירים מחוברים",
+    "en": "Connected Devices Check",
+    "es": "Verificación de dispositivos conectados"
+  },
+  "device_check_step2": {
+    "he": "לחצו בצד ימין / בסרגל על אפשרות אבטחה",
+    "en": "Click on the Security option on the right side / in the toolbar",
+    "es": "Haga clic en la opción Seguridad en el lado derecho / en la barra de herramientas"
+  },
+  "device_check_step3": {
+    "he": "אם יש מכשיר שאתם לא מזהים, בחרו באפשרות לא מזהה מכשיר .",
+    "en": "If there's a device you don't recognize, select the Don't recognize a device option.",
+    "es": "Si hay un dispositivo que no reconoce, seleccione la opción No reconozco un dispositivo."
+  },
+  "device_check_step4": {
+    "he": "בצעו את השלבים שבמסך בכדי לאבטח את החשבון.",
+    "en": "Follow the on-screen steps to secure your account.",
+    "es": "Siga los pasos en pantalla para asegurar su cuenta."
+  },
+  "third_party_services_title": {
+    "he": "4. ניתוק שירותי צד שלישי שלא צריכים:",
+    "en": "4. Disconnecting Unnecessary Third-Party Services:",
+    "es": "4. Desconexión de servicios de terceros innecesarios:"
+  },
+  "third_party_services_explanation": {
+    "he": "הרבה כלים מבקשים גישה לחשבון הגוגל שלכם כדי לשפר את חיי היום יום שלכם או להציע שירותים ייחודיים על בסיס המידע שיש לכם בו (כמו למשל בדיקת מחירים בחדרי מלון על בסיס הזמנות עתידיות שעשיתם).",
+    "en": "Many tools request access to your Google account to improve your daily life or offer unique services based on the information you have in it (such as checking hotel room prices based on your future bookings).",
+    "es": "Muchas herramientas solicitan acceso a su cuenta de Google para mejorar su vida diaria u ofrecer servicios únicos basados en la información que tiene en ella (como verificar precios de habitaciones de hotel basados en sus reservas futuras)."
+  },
+  "third_party_services_importance": {
+    "he": "חשוב לעבור על רשימת השירותים המחוברים לחשבון ולנתק את אלו שאין לכם שימוש בהם או שכבר אינם רלוונטיים.",
+    "en": "It's important to review the list of services connected to your account and disconnect those you don't use or are no longer relevant.",
+    "es": "Es importante revisar la lista de servicios conectados a su cuenta y desconectar aquellos que no utiliza o que ya no son relevantes."
+  },
+  "third_party_app_check": {
+    "he": "בדיקת הרשאות לאפליקציות צד שלישי:",
+    "en": "Checking Permissions for Third-Party Applications:",
+    "es": "Verificación de permisos para aplicaciones de terceros:"
+  },
+  "third_party_check_step2": {
+    "he": "לחצו בצד ימין / בסרגל על אפשרות אבטחה",
+    "en": "Click on the Security option on the right side / in the toolbar",
+    "es": "Haga clic en la opción Seguridad en el lado derecho / en la barra de herramientas"
+  },
+  "third_party_check_step3": {
+    "he": "גלגלו למטה עד ל – החיבורים שיצרת לאפליקציות ולשירותים של צדדים שלישיים",
+    "en": "Scroll down to – Third-party apps with account access",
+    "es": "Desplácese hacia abajo hasta – Aplicaciones de terceros con acceso a la cuenta"
+  },
+  "third_party_check_step4": {
+    "he": "לחצו על הצגת כל החיבורים",
+    "en": "Click on Manage third-party access",
+    "es": "Haga clic en Administrar acceso de terceros"
+  },
+  "third_party_check_step5": {
+    "he": "פתחו את הקישור לאפליקציה ובדקו אילו גישות ניתנו לה. במקרה של זיהוי חיבור חשוד, לחצו על הורדת הרשאה / מחיקת חיבורים.",
+    "en": "Open the link to the application and check what access it has been given. In case of identifying a suspicious connection, click on Remove Access.",
+    "es": "Abra el enlace a la aplicación y verifique qué acceso se le ha otorgado. En caso de identificar una conexión sospechosa, haga clic en Eliminar acceso."
+  },
+  "legal_disclaimer": {
+    "he": "שימו לב, במקרה של סתירה או אי התאמה בין המידע המופיע בדף המידע לבין הוראות הדין הרלוונטיות יגברו הוראות הדין",
+    "en": "Please note, in case of any discrepancy or inconsistency between the information appearing on this information page and the relevant legal provisions, the legal provisions shall prevail",
+    "es": "Tenga en cuenta que, en caso de cualquier discrepancia o inconsistencia entre la información que aparece en esta página de información y las disposiciones legales relevantes, prevalecerán las disposiciones legales"
   }
 }
