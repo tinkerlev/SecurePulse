@@ -2744,5 +2744,300 @@
     "he": "שימו לב, במקרה של סתירה או אי התאמה בין המידע המופיע בדף המידע לבין הוראות הדין הרלוונטיות יגברו הוראות הדין",
     "en": "Please note, in case of any discrepancy or inconsistency between the information appearing on this information page and the relevant legal provisions, the legal provisions shall prevail",
     "es": "Tenga en cuenta que, en caso de cualquier discrepancia o inconsistencia entre la información que aparece en esta página de información y las disposiciones legales relevantes, prevalecerán las disposiciones legales"
+  },
+  "page_title_strategy": {
+    "he": "10 אסטרטגיות מובילות לאבטחת סייבר עבור ארגונים מודרניים",
+    "en": "10 Leading Cybersecurity Strategies for Modern Organizations",
+    "es": "10 Estrategias Líderes de Ciberseguridad para Organizaciones Modernas"
+  },
+  "article_title": {
+    "he": "10 אסטרטגיות מובילות לאבטחת סייבר עבור ארגונים מודרניים",
+    "en": "10 Leading Cybersecurity Strategies for Modern Organizations",
+    "es": "10 Estrategias Líderes de Ciberseguridad para Organizaciones Modernas"
+  },
+  "intro_paragraph": {
+    "he": "בעידן הדיגיטלי של היום, אבטחת סייבר הפכה לחלק קריטי מהאסטרטגיה העסקית של כל ארגון. עם העלייה באיומים והתקפות הסייבר, חשוב לאמץ גישה הוליסטית שמכסה את כל שכבות ההגנה, החל ממערכות מידע ועד לשימוש יומיומי ברשתות פרטיות. במדריך זה, נסקור 10 אסטרטגיות מרכזיות שיכולות לסייע לארגונים להגן על עצמם טוב יותר מפני איומי סייבר מתקדמים.",
+    "en": "In today's digital age, cybersecurity has become a critical part of every organization's business strategy. With the rise in cyber threats and attacks, it's important to adopt a holistic approach that covers all layers of defense, from information systems to daily use of private networks. In this guide, we'll review 10 key strategies that can help organizations better protect themselves against advanced cyber threats.",
+    "es": "En la era digital actual, la ciberseguridad se ha convertido en una parte crítica de la estrategia comercial de cada organización. Con el aumento de las amenazas y ataques cibernéticos, es importante adoptar un enfoque holístico que cubra todas las capas de defensa, desde los sistemas de información hasta el uso diario de redes privadas. En esta guía, revisaremos 10 estrategias clave que pueden ayudar a las organizaciones a protegerse mejor contra las amenazas cibernéticas avanzadas."
+  },
+  "strategy_1_title": {
+    "he": "1. שילוב של שכבות אבטחה מרובות",
+    "en": "1. Integration of Multiple Security Layers",
+    "es": "1. Integración de Múltiples Capas de Seguridad"
+  },
+  "strategy_1_description": {
+    "he": "אבטחת סייבר מוצלחת דורשת שילוב של כלים וטכנולוגיות מגוונות המגינות על מספר שכבות במערכת. בין הכלים המרכזיים:",
+    "en": "Successful cybersecurity requires a combination of diverse tools and technologies that protect multiple layers of the system. Among the key tools:",
+    "es": "Una ciberseguridad exitosa requiere una combinación de diversas herramientas y tecnologías que protejan múltiples capas del sistema. Entre las herramientas clave se encuentran:"
+  },
+  "strategy_1_tool_1": {
+    "he": "אימות רב-גורמי (MFA): כלי המוסיף שכבת אבטחה נוספת מלבד סיסמה, באמצעות קוד חד-פעמי שנשלח למכשיר אחר או אפליקציית אימות.",
+    "en": "Multi-Factor Authentication (MFA): A tool that adds an additional layer of security beyond a password, using a one-time code sent to another device or authentication app.",
+    "es": "Autenticación Multifactor (MFA): Una herramienta que agrega una capa adicional de seguridad más allá de la contraseña, utilizando un código de un solo uso enviado a otro dispositivo o aplicación de autenticación."
+  },
+  "strategy_1_tool_2": {
+    "he": "מערכות לניהול אירועים ובקרה (SIEM): כלים המנטרים ומנתחים אירועי אבטחה בזמן אמת כדי לזהות איומים פוטנציאליים.",
+    "en": "Security Information and Event Management (SIEM) systems: Tools that monitor and analyze security events in real-time to identify potential threats.",
+    "es": "Sistemas de Gestión de Información y Eventos de Seguridad (SIEM): Herramientas que monitorean y analizan eventos de seguridad en tiempo real para identificar amenazas potenciales."
+  },
+  "strategy_1_tool_3": {
+    "he": "מערכות גילוי ומניעת חדירה (IDS/IPS): מערכות אלו מזהות פעילות חשודה ומגיבות במהירות כדי למנוע חדירה לרשת הארגונית.",
+    "en": "Intrusion Detection and Prevention Systems (IDS/IPS): These systems identify suspicious activity and respond quickly to prevent intrusion into the organizational network.",
+    "es": "Sistemas de Detección y Prevención de Intrusiones (IDS/IPS): Estos sistemas identifican actividades sospechosas y responden rápidamente para prevenir intrusiones en la red organizacional."
+  },
+  "strategy_1_conclusion": {
+    "he": "שילוב של מספר כלים אלה מסייע בהגנה טובה יותר מפני מגוון רחב של איומים.",
+    "en": "Combining these tools helps provide better protection against a wide range of threats.",
+    "es": "La combinación de estas herramientas ayuda a proporcionar una mejor protección contra una amplia gama de amenazas."
+  },
+  "strategy_2_title": {
+    "he": "2. ניהול גיבויים והגנה על נתונים",
+    "en": "2. Backup Management and Data Protection",
+    "es": "2. Gestión de Copias de Seguridad y Protección de Datos"
+  },
+  "strategy_2_description": {
+    "he": "ניהול נכון של גיבויים הוא קריטי כדי לוודא שהנתונים שלך בטוחים ושמורים גם במקרה של התקפת סייבר. אסטרטגיית הגיבוי '3-2-1' מומלצת:",
+    "en": "Proper backup management is critical to ensure your data is safe and secure even in the event of a cyber attack. The '3-2-1' backup strategy is recommended:",
+    "es": "Una gestión adecuada de las copias de seguridad es fundamental para garantizar que sus datos estén seguros y protegidos incluso en caso de un ataque cibernético. Se recomienda la estrategia de respaldo '3-2-1':"
+  },
+  "strategy_2_point_1": {
+    "he": "3 עותקים של הנתונים: עותק אחד ראשי ושני עותקים נוספים.",
+    "en": "3 copies of the data: One primary copy and two additional copies.",
+    "es": "3 copias de los datos: Una copia principal y dos copias adicionales."
+  },
+  "strategy_2_point_2": {
+    "he": "2 סוגי מדיה שונים: לדוגמה, דיסקים קשיחים והתקני אחסון בענן.",
+    "en": "2 different types of media: For example, hard drives and cloud storage devices.",
+    "es": "2 tipos diferentes de medios: Por ejemplo, discos duros y dispositivos de almacenamiento en la nube."
+  },
+  "strategy_2_point_3": {
+    "he": "1 עותק מאוחסן במקום מבודד: מחוץ לרשת הארגונית (Offline), המוגן מפני גישה בלתי מורשית.",
+    "en": "1 copy stored in an isolated location: Outside the organizational network (Offline), protected from unauthorized access.",
+    "es": "1 copia almacenada en una ubicación aislada: Fuera de la red organizacional (Offline), protegida contra accesos no autorizados."
+  },
+  "strategy_2_conclusion": {
+    "he": "שימוש בשיטות כמו אחסון בלתי ניתן לשינוי (Immutable Storage) מבטיח שלא ניתן יהיה לשנות או למחוק את הגיבויים.",
+    "en": "Using methods such as Immutable Storage ensures that backups cannot be altered or deleted.",
+    "es": "El uso de métodos como el Almacenamiento Inmutable garantiza que las copias de seguridad no puedan ser alteradas ni eliminadas."
+  },
+  "strategy_3_title": {
+    "he": "3. אימות רב-גורמי (MFA) וגישה מבוקרת",
+    "en": "3. Multi-Factor Authentication (MFA) and Controlled Access",
+    "es": "3. Autenticación Multifactor (MFA) y Acceso Controlado"
+  },
+  "strategy_3_description": {
+    "he": "כדי להקטין את הסיכון לפריצות למערכות ארגוניות, מומלץ להשתמש ב-MFA. בנוסף, חשוב להחיל מדיניות גישה מינימלית (Least Privilege Access), שמוודאת שלמשתמשים יש רק את ההרשאות המינימליות הנדרשות להם לביצוע עבודתם.",
+    "en": "To reduce the risk of breaches to organizational systems, it is recommended to use MFA. Additionally, it's important to implement a Least Privilege Access policy, ensuring users only have the minimum permissions required to perform their work.",
+    "es": "Para reducir el riesgo de infracciones en los sistemas organizacionales, se recomienda utilizar MFA. Además, es importante implementar una política de Acceso de Mínimo Privilegio, asegurando que los usuarios solo tengan los permisos mínimos necesarios para realizar su trabajo."
+  },
+  "strategy_4_title": {
+    "he": "4. שימוש נכון ב-VPN והגנה על פרטיות מידע",
+    "en": "4. Proper Use of VPN and Information Privacy Protection",
+    "es": "4. Uso Adecuado de VPN y Protección de la Privacidad de la Información"
+  },
+  "strategy_4_description": {
+    "he": "רשת פרטית וירטואלית (VPN) מסייעת בהגנה על תקשורת ברשת ומבטיחה שהנתונים המועברים בין המשתמשים לשרתים מוגנים ומוצפנים. עם זאת, חשוב להבטיח שה-VPN מוגדר נכון ומאובטח מפני דליפות נתונים פוטנציאליות.",
+    "en": "A Virtual Private Network (VPN) helps protect network communications and ensures that data transferred between users and servers is protected and encrypted. However, it's important to ensure that the VPN is properly configured and secured against potential data leaks.",
+    "es": "Una Red Privada Virtual (VPN) ayuda a proteger las comunicaciones de red y garantiza que los datos transferidos entre usuarios y servidores estén protegidos y encriptados. Sin embargo, es importante asegurarse de que la VPN esté configurada correctamente y protegida contra posibles fugas de datos."
+  },
+  "strategy_5_title": {
+    "he": "5. יישום גיבוי תשתית כקוד (IaC) וניהול ענן מאובטח",
+    "en": "5. Implementation of Infrastructure as Code (IaC) and Secure Cloud Management",
+    "es": "5. Implementación de Infraestructura como Código (IaC) y Gestión Segura de la Nube"
+  },
+  "strategy_5_description": {
+    "he": "Infrastructure as Code (IaC) הוא גישה לניהול והקצאת תשתיות IT בעזרת קוד. הדבר מאפשר אוטומציה, שמירה על סטנדרטים של אבטחה, וגמישות רבה יותר לניהול שינויים בתשתית. כלי אבטחה כמו CSPM (Cloud Security Posture Management) ו-DSPM (Data Security Posture Management) יכולים לסייע בניהול סיכוני ענן.",
+    "en": "Infrastructure as Code (IaC) is an approach to managing and allocating IT infrastructure using code. This allows for automation, maintaining security standards, and greater flexibility in managing infrastructure changes. Security tools such as CSPM (Cloud Security Posture Management) and DSPM (Data Security Posture Management) can help manage cloud risks.",
+    "es": "Infraestructura como Código (IaC) es un enfoque para gestionar y asignar infraestructura de TI utilizando código. Esto permite la automatización, el mantenimiento de estándares de seguridad y una mayor flexibilidad en la gestión de cambios de infraestructura. Herramientas de seguridad como CSPM (Gestión de Postura de Seguridad en la Nube) y DSPM (Gestión de Postura de Seguridad de Datos) pueden ayudar a gestionar los riesgos en la nube."
+  },
+  "strategy_6_title": {
+    "he": "6. מדיניות התראה וניטור",
+    "en": "6. Alert and Monitoring Policy",
+    "es": "6. Política de Alerta y Monitoreo"
+  },
+  "strategy_6_description": {
+    "he": "כלי SIEM מאפשרים ניטור בזמן אמת של אירועים במערכת הארגונית, ומספקים התראות על פעילות חריגה. כך ניתן לזהות ולבלום איומים פוטנציאליים עוד לפני שהם הופכים לנזק ממשי.",
+    "en": "SIEM tools enable real-time monitoring of events in the organizational system and provide alerts for unusual activity. This allows potential threats to be identified and blocked before they turn into actual damage.",
+    "es": "Las herramientas SIEM permiten el monitoreo en tiempo real de eventos en el sistema organizacional y proporcionan alertas sobre actividades inusuales. Esto permite identificar y bloquear amenazas potenciales antes de que se conviertan en daños reales."
+  },
+  "strategy_7_title": {
+    "he": "7. הגנה מתקדמת על גישה למערכות קריטיות",
+    "en": "7. Advanced Protection for Access to Critical Systems",
+    "es": "7. Protección Avanzada para el Acceso a Sistemas Críticos"
+  },
+  "strategy_7_description": {
+    "he": "שימוש בגישת Zero Trust (אי-אמון אפסי) שמבוססת על אימות וניטור מתמיד של כל ניסיון גישה למערכות קריטיות, מבטיחה שלרק מורשים יש גישה לנכסים החשובים ביותר של הארגון.",
+    "en": "Using a Zero Trust approach based on continuous authentication and monitoring of every access attempt to critical systems ensures that only authorized personnel have access to the organization's most important assets.",
+    "es": "El uso de un enfoque de Confianza Cero (Zero Trust) basado en la autenticación y monitoreo continuo de cada intento de acceso a sistemas críticos asegura que solo el personal autorizado tenga acceso a los activos más importantes de la organización."
+  },
+  "strategy_8_title": {
+    "he": "8. ניטור ותחזוקת מערכות באופן רציף",
+    "en": "8. Continuous System Monitoring and Maintenance",
+    "es": "8. Monitoreo y Mantenimiento Continuo de Sistemas"
+  },
+  "strategy_8_description": {
+    "he": "חשוב לבצע בדיקות חדירות תקופתיות והערכות סיכונים כדי לוודא שהמערכות עומדות באיומי הסייבר המתקדמים ביותר. ניהול פרואקטיבי של פגיעויות וזיהוי נקודות תורפה יכול להציל את הארגון מהתקפות משמעותיות.",
+    "en": "It's important to conduct periodic penetration tests and risk assessments to ensure systems can withstand the most advanced cyber threats. Proactive vulnerability management and identification of weak points can save the organization from significant attacks.",
+    "es": "Es importante realizar pruebas de penetración periódicas y evaluaciones de riesgos para asegurar que los sistemas puedan resistir las amenazas cibernéticas más avanzadas. La gestión proactiva de vulnerabilidades y la identificación de puntos débiles pueden salvar a la organización de ataques significativos."
+  },
+  "strategy_9_title": {
+    "he": "9. ניהול זהויות וגישה (IAM)",
+    "en": "9. Identity and Access Management (IAM)",
+    "es": "9. Gestión de Identidades y Accesos (IAM)"
+  },
+  "strategy_9_description": {
+    "he": "ניהול זהויות וגישה הוא חיוני לאבטחת משתמשים במערכת. כלי IAM (Identity and Access Management) מאפשרים שליטה על זהויות משתמשים, הרשאות גישה ופעולותיהם, ומבטיחים שרק מורשים יוכלו לגשת למידע הרגיש.",
+    "en": "Identity and Access Management is crucial for securing users in the system. IAM (Identity and Access Management) tools allow control over user identities, access permissions, and their actions, ensuring that only authorized individuals can access sensitive information.",
+    "es": "La Gestión de Identidades y Accesos es crucial para asegurar a los usuarios en el sistema. Las herramientas IAM (Gestión de Identidades y Accesos) permiten controlar las identidades de los usuarios, los permisos de acceso y sus acciones, asegurando que solo las personas autorizadas puedan acceder a la información sensible."
+  },
+  "strategy_10_title": {
+    "he": "10. הדרכת משתמשים ומודעות לאבטחה",
+    "en": "10. User Training and Security Awareness",
+    "es": "10. Capacitación de Usuarios y Conciencia de Seguridad"
+  },
+  "strategy_10_description": {
+    "he": "לבסוף, יש חשיבות עליונה להדרכת משתמשים על סכנות אפשריות ושיטות עבודה בטוחות. הכשרות קבועות יכולות להקטין משמעותית את הסיכוי להצלחת מתקפות מסוג פישינג (Phishing) והתקפות אחרות המנצלות חולשות אנושיות.",
+    "en": "Finally, it is of utmost importance to train users on potential dangers and safe working methods. Regular training can significantly reduce the likelihood of successful phishing attacks and other attacks that exploit human vulnerabilities.",
+    "es": "Finalmente, es de suma importancia capacitar a los usuarios sobre los peligros potenciales y los métodos de trabajo seguros. La capacitación regular puede reducir significativamente la probabilidad de éxito de los ataques de phishing y otros ataques que explotan las vulnerabilidades humanas."
+  },
+  "summary_title": {
+    "he": "סיכום:",
+    "en": "Summary:",
+    "es": "Resumen:"
+  },
+  "summary_content": {
+    "he": "האסטרטגיות שנסקרו כאן נועדו לספק שכבות הגנה מרובות ולהתמודד עם האיומים המורכבים ביותר של ימינו. ב-Secure Pulses, אנו מתמחים בביצוע הערכות אבטחה ובדיקות חדירה שמסייעות לארגונים להגן על עצמם בצורה מיטבית. נשמח לעזור לכם להבטיח שהמערכות שלכם מוגנות בהתאם לתקני אבטחה עדכניים.",
+    "en": "The strategies reviewed here are designed to provide multiple layers of defense and address today's most complex threats. At Secure Pulses, we specialize in conducting security assessments and penetration tests that help organizations protect themselves optimally. We would be happy to help you ensure that your systems are protected according to up-to-date security standards.",
+    "es": "Las estrategias revisadas aquí están diseñadas para proporcionar múltiples capas de defensa y abordar las amenazas más complejas de la actualidad. En Secure Pulses, nos especializamos en realizar evaluaciones de seguridad y pruebas de penetración que ayudan a las organizaciones a protegerse de manera óptima. Estaremos encantados de ayudarle a garantizar que sus sistemas estén protegidos de acuerdo con los estándares de seguridad más actualizados."
+  },
+  "date_article_title": {
+    "he": "06 ספטמבר, 2024",
+    "en": "September 06, 2024",
+    "es": "06 de Septiembre de 2024"
+  },
+  "phishing_post_title": {
+    "he": "האם אתם מוכנים למתקפות הפישינג ההולכות וגדלות?",
+    "en": "?Are You Prepared for the Growing Phishing Attacks",
+    "es": "?Están preparados para los crecientes ataques de phishing¿"
+  },
+  "phishing_post_intro": {
+    "he": "פישינג זה כבר לא סתם מיילים עם ניסוחים גרועים. היום, מתקפות פישינג הפכו למהלכים מתוחכמים המכוונים לעסקים ולאנשים פרטיים כאחד, עם השלכות הרסניות. בין אם אתם עובדים בתחום הבריאות הדיגיטלית, מנהלים עסק קמעונאי מקוון, או חובבי בית חכם – הסיכונים קיימים בכל מקום. קליק אחד לא נכון יכול לסכן את העסק שלכם, את הלקוחות שלכם, ואפילו את הבית שלכם.",
+    "en": "Phishing is no longer just poorly worded emails. Today, phishing attacks have become sophisticated operations targeting both businesses and individuals, with devastating consequences. Whether you work in digital healthcare, manage an online retail business, or are a smart home enthusiast – the risks are everywhere. One wrong click can jeopardize your business, your customers, and even your home.",
+    "es": "El phishing ya no se limita a correos electrónicos mal redactados. Hoy en día, los ataques de phishing se han convertido en operaciones sofisticadas dirigidas tanto a empresas como a individuos, con consecuencias devastadoras. Ya sea que trabaje en salud digital, administre un negocio minorista en línea o sea un entusiasta de la domótica, los riesgos están en todas partes. Un clic equivocado puede poner en peligro su negocio, sus clientes e incluso su hogar."
+  },
+  "phishing_danger_title": {
+    "he": "מה עושה את הפישינג לכל כך מסוכן?",
+    "en": "?What Makes Phishing So Dangerous",
+    "es": "?Qué hace que el phishing sea tan peligroso¿"
+  },
+  "phishing_danger_description": {
+    "he": "פישינג הוא הרבה יותר מסתם אי-נוחות; זו מתקפה מתוכננת היטב שמטרתה לנצל את האמון שלכם. מתקפות אלו מגיעות בצורות רבות:",
+    "en": "Phishing is much more than just an inconvenience; it's a well-planned attack aimed at exploiting your trust. These attacks come in many forms:",
+    "es": "El phishing es mucho más que una simple molestia; es un ataque bien planificado destinado a explotar su confianza. Estos ataques vienen en muchas formas:"
+  },
+  "phishing_type_email": {
+    "he": "פישינג בדוא\"ל: הודעת דוא\"ל שנראית לגיטימית אך מפנה לאתר מזויף שמטרתו לגנוב את פרטיכם.",
+    "en": "Email Phishing: An email that looks legitimate but directs to a fake site aimed at stealing your details.",
+    "es": "Phishing por correo electrónico: Un correo electrónico que parece legítimo pero dirige a un sitio falso destinado a robar sus datos."
+  },
+  "phishing_type_sms": {
+    "he": "פישינג באמצעות SMS (סמישינג): הודעות טקסט עם קישורים זדוניים שמתחזות למקורות מהימנים.",
+    "en": "SMS Phishing (Smishing): Text messages with malicious links posing as trusted sources.",
+    "es": "Phishing por SMS (Smishing): Mensajes de texto con enlaces maliciosos que se hacen pasar por fuentes confiables."
+  },
+  "phishing_type_social": {
+    "he": "פישינג ברשתות חברתיות: הודעות כוזבות בפלטפורמות חברתיות שמתחזות לחברים או קולגות.",
+    "en": "Social Media Phishing: False messages on social platforms impersonating friends or colleagues.",
+    "es": "Phishing en redes sociales: Mensajes falsos en plataformas sociales que se hacen pasar por amigos o colegas."
+  },
+  "phishing_type_spear": {
+    "he": "פישינג ממוקד (Spear Phishing): מתקפות ממוקדות המשתמשות במידע מותאם אישית כדי ליצור אמון ולגנוב מידע.",
+    "en": "Spear Phishing: Targeted attacks using personalized information to create trust and steal information.",
+    "es": "Spear Phishing: Ataques dirigidos que utilizan información personalizada para crear confianza y robar información."
+  },
+  "phishing_consequences": {
+    "he": "השיטות האלה יעילות במיוחד ויכולות להוביל להפסדים כספיים, השלכות משפטיות, ונזק למוניטין שאי אפשר לתקן.",
+    "en": "These methods are particularly effective and can lead to financial losses, legal consequences, and irreparable damage to reputation.",
+    "es": "Estos métodos son particularmente efectivos y pueden llevar a pérdidas financieras, consecuencias legales y daños irreparables a la reputación."
+  },
+  "why_important_title": {
+    "he": "למה זה חשוב לכם?",
+    "en": "?Why Is This Important to You",
+    "es": "?Por qué es importante para usted¿"
+  },
+  "importance_healthcare": {
+    "he": "אם אתם מקצוענים בתחום הבריאות הדיגיטלית: שמירה על נתוני מטופלים היא קריטית. פריצה יכולה להוביל לאי עמידה בתקנות כמו HIPAA, קנסות, ואובדן אמון מצד המטופלים.",
+    "en": "If you're in digital healthcare: Protecting patient data is critical. A breach can lead to non-compliance with regulations like HIPAA, fines, and loss of patient trust.",
+    "es": "Si está en el sector de la salud digital: Proteger los datos de los pacientes es crucial. Una violación puede llevar al incumplimiento de regulaciones como HIPAA, multas y pérdida de confianza de los pacientes."
+  },
+  "importance_ecommerce": {
+    "he": "אם אתם בתחום הקמעונאות המקוונת: פישינג יכול להוביל לחשיפת מידע תשלום, לאובדן לקוחות ולנזק תדמיתי.",
+    "en": "If you're in e-commerce: Phishing can lead to exposure of payment information, loss of customers, and reputational damage.",
+    "es": "Si está en el comercio electrónico: El phishing puede llevar a la exposición de información de pago, pérdida de clientes y daño a la reputación."
+  },
+  "importance_smarthome": {
+    "he": "אם אתם מנהלים בית חכם: הפרטיות והביטחון שלכם בסיכון. פריצה יכולה להוביל לשליטה לא מורשית במכשירים בביתכם, ולחשוף מידע אישי ורגיש.",
+    "en": "If you manage a smart home: Your privacy and security are at risk. A breach can lead to unauthorized control of devices in your home, and expose personal and sensitive information.",
+    "es": "Si administra una casa inteligente: Su privacidad y seguridad están en riesgo. Una violación puede llevar al control no autorizado de dispositivos en su hogar y exponer información personal y sensible."
+  },
+  "solution_title": {
+    "he": "הפתרון שלנו: גישה מותאמת אישית לאבטחת סייבר",
+    "en": "Our Solution: A Personalized Approach to Cybersecurity",
+    "es": "Nuestra solución: Un enfoque personalizado de ciberseguridad"
+  },
+  "solution_intro": {
+    "he": "ב-Secure Pulses, אנחנו מציעים אסטרטגיית אבטחת סייבר מקיפה שתגן עליכם מפני פישינג ואיומים נוספים:",
+    "en": "At Secure Pulses, we offer a comprehensive cybersecurity strategy that protects you from phishing and other threats:",
+    "es": "En Secure Pulses, ofrecemos una estrategia integral de ciberseguridad que lo protege del phishing y otras amenazas:"
+  },
+  "solution_pentesting": {
+    "he": "בדיקות חדירה מתקדמות (Penetration Testing): הדמיה של מתקפות אמיתיות כדי לזהות חולשות לפני שההאקרים עושים זאת.",
+    "en": "Advanced Penetration Testing: Simulation of real attacks to identify vulnerabilities before hackers do.",
+    "es": "Pruebas de penetración avanzadas: Simulación de ataques reales para identificar vulnerabilidades antes que los hackers."
+  },
+  "solution_monitoring": {
+    "he": "ניטור מתמשך: הישארו תמיד צעד אחד לפני האיומים עם ניטור 24/7 ותגובה מהירה לאירועים פוטנציאליים.",
+    "en": "Continuous Monitoring: Stay always one step ahead of threats with 24/7 monitoring and rapid response to potential events.",
+    "es": "Monitoreo continuo: Manténgase siempre un paso adelante de las amenazas con monitoreo 24/7 y respuesta rápida a eventos potenciales."
+  },
+  "solution_training": {
+    "he": "הכשרת עובדים: העצימו את הצוות שלכם לזהות ולהגיב למתקפות פישינג בצורה אפקטיבית עם תוכניות הכשרה מותאמות וסימולציות פישינג.",
+    "en": "Employee Training: Empower your team to identify and respond to phishing attacks effectively with customized training programs and phishing simulations.",
+    "es": "Capacitación de empleados: Empodere a su equipo para identificar y responder eficazmente a los ataques de phishing con programas de capacitación personalizados y simulaciones de phishing."
+  },
+  "solution_compliance": {
+    "he": "עמידה בתקנות: אנחנו עוזרים לעסקים בתחום הבריאות הדיגיטלית, הקמעונאות המקוונת, ובתחומים נוספים לעמוד בדרישות הרגולציה הספציפיות שלהם, ומבטיחים עמידה מלאה ושקט נפשי.",
+    "en": "Regulatory Compliance: We help businesses in digital healthcare, e-commerce, and other fields meet their specific regulatory requirements, ensuring full compliance and peace of mind.",
+    "es": "Cumplimiento normativo: Ayudamos a las empresas en salud digital, comercio electrónico y otros campos a cumplir con sus requisitos regulatorios específicos, garantizando el pleno cumplimiento y la tranquilidad."
+  },
+  "call_to_action_title": {
+    "he": "זה הזמן לפעול!",
+    "en": "!It's Time to Act",
+    "es": "!Es hora de actuar¡"
+  },
+  "call_to_action_description": {
+    "he": "מתקפות הפישינג הולכות וגדלות, ולהיות לא מוכנים זו כבר לא אפשרות. השאלה היא לא האם תהיו היעד הבא, אלא מתי. אל תחכו עד שהעסק, הלקוחות או המידע האישי שלכם ייפגעו.",
+    "en": "Phishing attacks are growing, and being unprepared is no longer an option. The question is not if you'll be the next target, but when. Don't wait until your business, customers, or personal information are compromised.",
+    "es": "Los ataques de phishing están creciendo, y no estar preparado ya no es una opción. La pregunta no es si serás el próximo objetivo, sino cuándo. No espere hasta que su negocio, clientes o información personal se vean comprometidos."
+  },
+  "contact_cta": {
+    "he": "👉 פנו ל-Secure Pulses כבר היום לייעוץ חינם וגילוי כיצד נוכל לעזור לכם להישאר מוגנים בעולם הדיגיטלי ההולך ומתרחב. בואו נעבוד יחד כדי לבנות סביבה דיגיטלית בטוחה יותר לכולם.",
+    "en": "👉 Contact Secure Pulses today for a free consultation and discover how we can help you stay protected in the expanding digital world. Let's work together to build a safer digital environment for everyone.",
+    "es": "👉 Póngase en contacto con Secure Pulses hoy para una consulta gratuita y descubra cómo podemos ayudarlo a mantenerse protegido en el mundo digital en expansión. Trabajemos juntos para construir un entorno digital más seguro para todos."
+  },
+  "date_phishing_title": {
+    "he": "13 ספטמבר, 2024",
+    "en": "September 13, 2024",
+    "es": "13 de Septiembre de 2024"
+  },
+  "intro_paragraph_phishing": {
+    "he": "בעולם הדיגיטלי של היום, מתקפות פישינג הפכו לאחת האיומים הגדולים ביותר עבור עסקים ואנשים פרטיים. גלו איך להגן על העסק, הלקוחות, והבית החכם שלכם מפני מתקפות פישינג מתקדמות עם אסטרטגיות מותאמות להגנה מקיפה.",
+    "en": "In today's digital world, phishing attacks have become one of the biggest threats for businesses and individuals alike. Discover how to protect your business, clients, and smart home from advanced phishing attacks with tailored strategies for comprehensive protection.",
+    "es": "En el mundo digital de hoy, los ataques de phishing se han convertido en una de las mayores amenazas para empresas e individuos. Descubra cómo proteger su negocio, clientes y hogar inteligente de los ataques de phishing avanzados con estrategias personalizadas para una protección integral."
+  },
+  "page_title_phishing": {
+    "he": "איך להימנע מפישינג: המדריך המלא להגנה על הנכסים הדיגיטליים שלכם",
+    "en": "How to Avoid Phishing: The Complete Guide to Protecting Your Digital Assets",
+    "es": "Cómo Evitar el Phishing: La Guía Completa para Proteger Sus Activos Digitales"
   }
 }
