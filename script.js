@@ -253,3 +253,115 @@ function toggleMenu() {
 }
 
 document.getElementById('menu-toggle').addEventListener('click', toggleMenu);
+
+// טיפול בבדיקת חדירה באופן עצמאי 
+
+document.addEventListener('DOMContentLoaded', function() {
+    initializeWebsite();
+
+    // הוספת האזנה לטופס הסריקה
+    const securityScanForm = document.getElementById('securityScanForm');
+    if (securityScanForm) {
+        securityScanForm.addEventListener('submit', async function(event) {
+            event.preventDefault();
+            
+            const target = document.getElementById('target').value;
+            const scanTypes = [];
+            if (document.getElementById('nikto').checked) scanTypes.push('nikto');
+            if (document.getElementById('nmap').checked) scanTypes.push('nmap');
+
+            try {
+                const response = await fetch('/run-scan', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ target, scanTypes }),
+                });
+
+                const data = await response.json();
+                displayResults(data);
+            } catch (error) {
+                console.error('Error running scan:', error);
+                alert('There was an error running the scan. Please try again.');
+            }
+        });
+    }
+});
+
+// פונקציה להצגת התוצאות
+function displayResults(data) {
+    const resultsDiv = document.getElementById('results');
+    resultsDiv.innerHTML = `<h2>Scan Results:</h2>`;
+    if (data.nikto) {
+        resultsDiv.innerHTML += `<h3>Nikto Scan:</h3><pre>${data.nikto}</pre>`;
+    }
+    if (data.nmap) {
+        resultsDiv.innerHTML += `<h3>Nmap Scan:</h3><pre>${data.nmap}</pre>`;
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    initializeWebsite();
+
+    // הוספת האזנה לטופס הסריקה
+    const securityScanForm = document.getElementById('securityScanForm');
+    if (securityScanForm) {
+        securityScanForm.addEventListener('submit', async function(event) {
+            event.preventDefault();
+            
+            const target = document.getElementById('target').value;
+            const scanTypes = [];
+            if (document.getElementById('nikto').checked) scanTypes.push('nikto');
+            if (document.getElementById('nmap').checked) scanTypes.push('nmap');
+
+            try {
+                const response = await fetch('/run-scan', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ target, scanTypes }),
+                });
+
+                const data = await response.json();
+                displayResults(data);
+            } catch (error) {
+                console.error('Error running scan:', error);
+                alert('There was an error running the scan. Please try again.');
+            }
+        });
+    }
+
+    // פונקציות למודאל תנאי השימוש
+    const modal = document.getElementById("termsModal");
+    const openTermsBtn = document.getElementById("openTerms");
+    const closeBtn = document.getElementsByClassName("close")[0];
+
+    openTermsBtn.onclick = function(event) {
+        event.preventDefault(); // למנוע פתיחה של קישור
+        modal.style.display = "block";
+    }
+
+    closeBtn.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+});
+
+// פונקציה להצגת התוצאות
+function displayResults(data) {
+    const resultsDiv = document.getElementById('results');
+    resultsDiv.innerHTML = `<h2>Scan Results:</h2>`;
+    if (data.nikto) {
+        resultsDiv.innerHTML += `<h3>Nikto Scan:</h3><pre>${data.nikto}</pre>`;
+    }
+    if (data.nmap) {
+        resultsDiv.innerHTML += `<h3>Nmap Scan:</h3><pre>${data.nmap}</pre>`;
+    }
+}

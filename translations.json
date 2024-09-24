@@ -3039,5 +3039,180 @@
     "he": "איך להימנע מפישינג: המדריך המלא להגנה על הנכסים הדיגיטליים שלכם",
     "en": "How to Avoid Phishing: The Complete Guide to Protecting Your Digital Assets",
     "es": "Cómo Evitar el Phishing: La Guía Completa para Proteger Sus Activos Digitales"
+  },
+  "date_article_title1": {
+    "he": "20 ספטמבר, 2024",
+    "en": "September 20, 2024",
+    "es": "20 de Septiembre de 2024"
+  },
+  "title": {
+    "he": "האם מערכות התקשורת שלך עלולות להפוך לאיום? מקרה אמיתי מהזירה הלבנונית",
+    "en": "Can Your Communication Systems Become a Threat? A Real Case from the Lebanese Arena",
+    "es": "¿Pueden tus sistemas de comunicación convertirse en una amenaza? Un caso real de la arena libanesa"
+  },
+  "intro": {
+    "he": "ב-17 בספטמבר 2024 התרחש אירוע חסר תקדים בזירה הלבנונית – מכשירי קשר ששימשו את אנשי חיזבאללה התפוצצו בו זמנית. מערכות התקשורת, שהיו אמורות לשמש כקו הגנה מאובטח ומוגן, הפכו לכלי נשק קטלני. מה שהיה אמור להבטיח את ביטחונם של המשתמשים, הפך ברגע אחד לאיום על חייהם. התוצאה? הרוגים, פצועים, ותהיה גדולה לגבי ההגנה של המערכות שאנחנו סומכים עליהן.",
+    "en": "On September 17, 2024, an unprecedented event occurred in the Lebanese arena - communication devices used by Hezbollah personnel exploded simultaneously. The communication systems, which were supposed to serve as a secure and protected line of defense, turned into a deadly weapon. What was meant to ensure the safety of users became an instant threat to their lives. The result? Casualties, injuries, and great concern about the protection of the systems we rely on.",
+    "es": "El 17 de septiembre de 2024, ocurrió un evento sin precedentes en el escenario libanés: los dispositivos de comunicación utilizados por el personal de Hezbolá explotaron simultáneamente. Los sistemas de comunicación, que debían servir como una línea de defensa segura y protegida, se convirtieron en un arma mortal. Lo que debía garantizar la seguridad de los usuarios se convirtió en una amenaza instantánea para sus vidas. ¿El resultado? Víctimas, heridos y gran preocupación por la protección de los sistemas en los que confiamos."
+  },
+  "lessons_learned": {
+    "he": "מה אפשר ללמוד מהמקרה הזה?",
+    "en": "?What Can We Learn from This Case",
+    "es": "?Qué podemos aprender de este caso¿"
+  },
+  "lessons_explanation": {
+    "he": "הסיפור הזה הוא לא רק על חיזבאללה. הוא מסמל משהו הרבה יותר רחב – אף אחד מאיתנו לא חסין. כשזה מגיע לאבטחת סייבר, כל עסק, בית חכם ואפילו טכנולוגיות יום-יומיות יכולות להיחשף לאיומים. האקרים ומתקפות סייבר לא מבדילים בין ארגונים גדולים, בתים פרטיים או עסקים קטנים.",
+    "en": "This story is not just about Hezbollah. It symbolizes something much broader – none of us are immune. When it comes to cybersecurity, every business, smart home, and even everyday technologies can be exposed to threats. Hackers and cyber attacks do not discriminate between large organizations, private homes, or small businesses.",
+    "es": "Esta historia no es solo sobre Hezbolá. Simboliza algo mucho más amplio: ninguno de nosotros es inmune. Cuando se trata de ciberseguridad, cada negocio, hogar inteligente e incluso tecnologías cotidianas pueden estar expuestos a amenazas. Los hackers y los ataques cibernéticos no discriminan entre grandes organizaciones, hogares privados o pequeñas empresas."
+  },
+  "scenario": {
+    "he": "תארו לעצמכם את התרחיש הבא: מערכת האבטחה הביתית החכמה שלכם, שמחוברת לכל המכשירים החשובים – מצלמות, אזעקות, מנעולים חכמים – הופכת לפרצה שתוקף יכול לנצל. זה לא רק התסריט של עסקים גדולים או גופים ממשלתיים. גם הבית שלכם עלול להיות חשוף. ואפילו יותר מזה – העסק שלכם, שבו כל המידע הרגיש שלכם נמצא – יכול להפוך למטרה קלה.",
+    "en": "Imagine the following scenario: Your smart home security system, connected to all important devices - cameras, alarms, smart locks - becomes a vulnerability that an attacker can exploit. This is not just a scenario for large businesses or government bodies. Your home could also be exposed. And even more - your business, where all your sensitive information is located, can become an easy target.",
+    "es": "Imagine el siguiente escenario: su sistema de seguridad doméstica inteligente, conectado a todos los dispositivos importantes - cámaras, alarmas, cerraduras inteligentes - se convierte en una vulnerabilidad que un atacante puede explotar. Este no es solo un escenario para grandes empresas u organismos gubernamentales. Su hogar también podría estar expuesto. Y aún más: su negocio, donde se encuentra toda su información sensible, puede convertirse en un objetivo fácil."
+  },
+  "system_security": {
+    "he": "מערכות תקשורת ומערכות חכמות – האם הן באמת בטוחות?",
+    "en": "?Communication Systems and Smart Systems - Are They Really Secure",
+    "es": "Sistemas de comunicación y sistemas inteligentes: ?son realmente seguros¿"
+  },
+  "business_risks": {
+    "he": "עבור בעלי עסקים, מערכות התקשורת הפנימיות הן הלב הפועם של הארגון. כל תקלה או פריצה עלולות להוביל לשיבושים משמעותיים – החל מגניבת מידע ועד לנזק פיזי אמיתי. ומה קורה כשהאקרים מצליחים לשבש את התקשורת הפנימית של העסק? הם עלולים להשיג גישה למידע קריטי, לנטרל את מערכות ההגנה שלך, ולגרום לאובדן גדול.",
+    "en": "For business owners, internal communication systems are the beating heart of the organization. Any malfunction or breach can lead to significant disruptions - from information theft to real physical damage. And what happens when hackers manage to disrupt the internal communication of the business? They can gain access to critical information, neutralize your defense systems, and cause great loss.",
+    "es": "Para los propietarios de negocios, los sistemas de comunicación interna son el corazón palpitante de la organización. Cualquier mal funcionamiento o violación puede llevar a interrupciones significativas, desde el robo de información hasta daños físicos reales. ¿Y qué sucede cuando los hackers logran interrumpir la comunicación interna del negocio? Pueden obtener acceso a información crítica, neutralizar sus sistemas de defensa y causar grandes pérdidas."
+  },
+  "smart_home_risks": {
+    "he": "גם במערכות הבית החכם זה לא שונה. הבית שלך מלא במכשירים מחוברים – מצלמות, אזעקות, תנורי חימום, מנעולים חכמים – האם באמת חשבת על האפשרות שכל זה יכול להפוך לכלי נשק נגדך?",
+    "en": "It's no different with smart home systems. Your home is full of connected devices - cameras, alarms, heating systems, smart locks - have you really thought about the possibility that all of this could become a weapon against you?",
+    "es": "No es diferente con los sistemas de hogar inteligente. Su hogar está lleno de dispositivos conectados: cámaras, alarmas, sistemas de calefacción, cerraduras inteligentes. ¿Ha pensado realmente en la posibilidad de que todo esto pueda convertirse en un arma contra usted?"
+  },
+  "what_to_do": {
+    "he": "אז מה עושים עכשיו?",
+    "en": "?So What Do We Do Now",
+    "es": "Entonces, ?qué hacemos ahora¿"
+  },
+  "first_step": {
+    "he": "השלב הראשון הוא לא להיות שאננים. האיום הוא אמיתי, וגם אם הוא לא הגיע עד אליך – הוא בדרך. עסקים ובעלי בתים צריכים לוודא שהמערכות שלהם מוגנות בצורה מוחלטת.",
+    "en": "The first step is not to be complacent. The threat is real, and even if it hasn't reached you yet - it's on its way. Businesses and homeowners need to ensure their systems are absolutely protected.",
+    "es": "El primer paso es no ser complaciente. La amenaza es real, y aunque aún no te haya alcanzado, está en camino. Las empresas y los propietarios de viviendas deben asegurarse de que sus sistemas estén absolutamente protegidos."
+  },
+  "our_solutions": {
+    "he": "ב-Secure Pulses אנחנו מציעים פתרונות מותאמים לכל עסק ולכל בית חכם. אנחנו מבצעים בדיקות חדירה מתקדמות שימצאו את הפרצות במערכות שלך לפני שההאקרים יעשו זאת. אנו נגיש לך דו\"ח מפורט על כל נקודת תורפה אפשרית, ונציע לך פתרונות לחיזוק ההגנה שלך בצורה הכי מעמיקה שיש.",
+    "en": "At Secure Pulses, we offer customized solutions for every business and smart home. We perform advanced penetration tests that will find vulnerabilities in your systems before hackers do. We will provide you with a detailed report on every possible weak point, and offer you solutions to strengthen your defense in the most thorough way possible.",
+    "es": "En Secure Pulses, ofrecemos soluciones personalizadas para cada negocio y hogar inteligente. Realizamos pruebas de penetración avanzadas que encontrarán vulnerabilidades en sus sistemas antes que los hackers. Le proporcionaremos un informe detallado sobre cada posible punto débil y le ofreceremos soluciones para fortalecer su defensa de la manera más completa posible."
+  },
+  "why_wait": {
+    "he": "למה לחכות שהפרצה תהפוך לבעיה?",
+    "en": "?Why Wait for the Breach to Become a Problem",
+    "es": "?Por qué esperar a que la brecha se convierta en un problema¿"
+  },
+  "call_to_action_now": {
+    "he": "האירוע בלבנון הוא תזכורת כואבת לאיך דברים יכולים לצאת מכלל שליטה ברגע. התקשר עכשיו ותן לנו לדאוג שהמערכות שלך לא יהיו הבאות בתור. אבטחת סייבר היא לא מותרות – היא חובה.",
+    "en": "The event in Lebanon is a painful reminder of how things can spiral out of control in an instant. Call now and let us make sure your systems aren't next in line. Cybersecurity is not a luxury - it's a necessity.",
+    "es": "El evento en el Líbano es un recordatorio doloroso de cómo las cosas pueden salirse de control en un instante. Llame ahora y permítanos asegurarnos de que sus sistemas no sean los siguientes. La ciberseguridad no es un lujo, es una necesidad."
+  },
+  "intro_paragraph1": {
+    "he": "ב-17 בספטמבר 2024, התרחשה סדרה של מתקפות סייבר בלבנון שהפכו מכשירי תקשורת לנשק קטלני. האירוע הזה מדגיש את הפגיעות שבמערכות תקשורת מודרניות ואת החשיבות של פתרונות אבטחת סייבר מקיפים. גלו כיצד המערכות שלכם עלולות להיות בסיכון ומהם הצעדים שצריך לנקוט כדי להגן עליהן.",
+    "en": "On September 17, 2024, a series of cyberattacks in Lebanon turned communication devices into deadly weapons. This incident serves as a stark reminder of the vulnerabilities in modern communication systems and the importance of comprehensive cybersecurity solutions. Find out how your systems could be at risk and what steps to take to secure them.",
+    "es": "El 17 de septiembre de 2024, una serie de ataques cibernéticos en el Líbano convirtió los dispositivos de comunicación en armas mortales. Este incidente es un recordatorio claro de las vulnerabilidades en los sistemas de comunicación modernos y la importancia de soluciones integrales de ciberseguridad. Descubra cómo sus sistemas podrían estar en riesgo y qué pasos tomar para protegerlos."
+  },
+  "page_title_LebanonAttack": {
+    "he": "כאשר מערכות התקשורת שלך עלולות להפוך לאיום: מקרה אמיתי מהזירה הלבנונית",
+    "en": "When Communication Systems Turn Into a Threat: A Real Case from Lebanon",
+    "es": "Cuando los sistemas de comunicación se convierten en una amenaza: un caso real desde el Líbano"
+  },
+  "post_title_security_recommendations": {
+    "he": "כיצד להגן על המידע והפרטיות בעידן של מתיחות ביטחונית – 5 המלצות חיוניות",
+    "en": "How to Protect Your Information and Privacy During Security Tensions – 5 Essential Recommendations",
+    "es": "Cómo proteger su información y privacidad durante tensiones de seguridad: 5 recomendaciones esenciales"
+  },
+  "post_intro_security": {
+    "he": "במצב של מתיחות ביטחונית, הסיכון למתקפות סייבר ומידע כוזב עולה באופן משמעותי. ארגונים ואנשים פרטיים נדרשים להיות יותר זהירים ומודעים לשמירה על פרטיות המידע שלהם. הנה 5 המלצות סייבר קריטיות המותאמות לכל מקום בעולם, שיעזרו לכם לשמור על עצמכם מוגנים.",
+    "en": "In times of security tensions, the risk of cyberattacks and misinformation significantly increases. Organizations and individuals need to be more cautious and aware of safeguarding their data privacy. Here are 5 critical cybersecurity recommendations for anywhere in the world to help you stay protected.",
+    "es": "En tiempos de tensiones de seguridad, el riesgo de ciberataques y desinformación aumenta significativamente. Las organizaciones y las personas deben ser más cautelosas y conscientes de proteger la privacidad de sus datos. Aquí tienes 5 recomendaciones críticas de ciberseguridad para cualquier lugar del mundo que te ayudarán a mantenerte protegido."
+  },
+  "recommendation_1_title": {
+    "he": "הימנעו משיתוף מידע רגיש",
+    "en": "Avoid Sharing Sensitive Information",
+    "es": "Evite compartir información sensible"
+  },
+  "recommendation_1_text": {
+    "he": "בעידן הדיגיטלי, שיתוף מידע פשוט כמו מיקומי כוחות, תנועות של עובדים, תמונות של נזקים או תהליכים עסקיים יכול להוות כלי עוצמתי בידי גורמים עוינים. גם פלטפורמות יומיומיות כמו WhatsApp ורשתות חברתיות אינן חסינות.",
+    "en": "In the digital age, sharing simple information like troop locations, employee movements, damage photos, or business processes can be a powerful tool in the hands of adversaries. Everyday platforms like WhatsApp and social networks are not immune.",
+    "es": "En la era digital, compartir información sencilla como ubicaciones de tropas, movimientos de empleados, fotos de daños o procesos comerciales puede ser una herramienta poderosa en manos de adversarios. Las plataformas cotidianas como WhatsApp y las redes sociales no son inmunes."
+  },
+  "recommendation_1_tip": {
+    "he": "🔹 המלצה: הימנעו משיתוף פרטים אישיים או עסקיים העלולים לסייע לאויב. בדקו היטב את ההודעות שאתם מקבלים לפני שאתם משתפים אותן.",
+    "en": "🔹 Tip: Avoid sharing personal or business details that could aid adversaries. Carefully verify messages before sharing them.",
+    "es": "🔹 Consejo: Evite compartir detalles personales o comerciales que puedan ayudar a los adversarios. Verifique cuidadosamente los mensajes antes de compartirlos."
+  },
+  "recommendation_2_title": {
+    "he": "היזהרו ממידע כוזב והשפעה זרה",
+    "en": "Beware of Misinformation and Foreign Influence",
+    "es": "Tenga cuidado con la desinformación y la influencia extranjera"
+  },
+  "recommendation_2_text": {
+    "he": "מדינות אויב וארגונים עוינים משתמשים במידע כוזב במטרה לזרוע פחד ולהשפיע על דעת הקהל. מניפולציות של מידע עלולות לפגוע בחוסן הארגוני והאישי.",
+    "en": "Enemy states and hostile organizations use misinformation to spread fear and influence public opinion. Manipulation of information can weaken both organizational and personal resilience.",
+    "es": "Los estados enemigos y las organizaciones hostiles utilizan la desinformación para sembrar miedo e influir en la opinión pública. La manipulación de la información puede debilitar tanto la resiliencia organizacional como personal."
+  },
+  "recommendation_2_tip": {
+    "he": "🔹 מה כדאי לעשות: עצרו לפני שאתם משתפים מידע: בדקו את מקור הידיעה, וודאו שהמידע מאומת ושהוא מופיע במקורות רשמיים. תהיו זהירים מתוכן שמעורר רגשות עזים או תוכן ישן שהוצא מהקשרו.",
+    "en": "🔹 What to do: Pause before sharing information. Check the source and verify that the information is accurate and appears in official sources. Be cautious of emotionally charged content or old information taken out of context.",
+    "es": "🔹 Qué hacer: Pausa antes de compartir información. Verifique la fuente y asegúrese de que la información sea precisa y aparezca en fuentes oficiales. Tenga cuidado con el contenido emocionalmente cargado o la información antigua sacada de contexto."
+  },
+  "recommendation_3_title": {
+    "he": "אבטחת מצלמות פרטיות",
+    "en": "Securing Private Cameras",
+    "es": "Asegurando cámaras privadas"
+  },
+  "recommendation_3_text": {
+    "he": "מצלמות אבטחה ביתיות ועיסקיות עלולות להפוך לנקודת תורפה במידה והן לא מאובטחות כראוי. מצלמות אשר מחוברות לאינטרנט יכולות להיות מנוצלות לצורכי ריגול, גם אם הן מכוונות כלפי חוץ.",
+    "en": "Home and business security cameras can become vulnerable if they are not properly secured. Cameras connected to the internet can be exploited for spying, even if they are directed outside.",
+    "es": "Las cámaras de seguridad domésticas y comerciales pueden volverse vulnerables si no están adecuadamente protegidas. Las cámaras conectadas a internet pueden ser explotadas para espiar, incluso si están dirigidas hacia el exterior."
+  },
+  "recommendation_3_tip": {
+    "he": "🔹 כיצד לאבטח מצלמות: שנו את שם המשתמש והסיסמה לברירת מחדל. ודאו שהמצלמות שלכם מעודכנות לגרסאות האבטחה העדכניות ביותר. הפעילו אימות דו-שלבי באפליקציית הניהול של המצלמה אם אפשרי.",
+    "en": "🔹 How to secure cameras: Change the default username and password. Ensure your cameras are updated with the latest security patches. Enable two-factor authentication in the camera management app if possible.",
+    "es": "🔹 Cómo asegurar las cámaras: Cambie el nombre de usuario y la contraseña predeterminados. Asegúrese de que sus cámaras estén actualizadas con los últimos parches de seguridad. Habilite la autenticación de dos factores en la aplicación de gestión de cámaras, si es posible."
+  },
+  "recommendation_4_title": {
+    "he": "חיזוק ההגנה ברשתות החברתיות וב-WhatsApp",
+    "en": "Strengthening Protection on Social Networks and WhatsApp",
+    "es": "Fortaleciendo la protección en redes sociales y WhatsApp"
+  },
+  "recommendation_4_text": {
+    "he": "רשתות חברתיות הפכו לכלי מרכזי לפריצות והונאות. לא פעם, מתקפות אלו מתחילות באמצעות הודעות הונאה שמתחזות להודעות רשמיות ומנסות להוציא מהמשתמשים קודים אישיים או לאיים בחסימת החשבון.",
+    "en": "Social networks have become a key tool for hacking and fraud. Often, these attacks begin with phishing messages posing as official communications, attempting to steal personal codes or threatening to block the account.",
+    "es": "Las redes sociales se han convertido en una herramienta clave para hackeos y fraudes. A menudo, estos ataques comienzan con mensajes de suplantación de identidad que se hacen pasar por comunicaciones oficiales, tratando de robar códigos personales o amenazando con bloquear la cuenta."
+  },
+  "recommendation_4_tip": {
+    "he": "🔹 מה כדאי לעשות: הפעילו אימות דו-שלבי בכל הרשתות החברתיות ו-WhatsApp שלכם. זה צעד פשוט שמספק הגנה מפני 90% מהפריצות.",
+    "en": "🔹 What to do: Enable two-factor authentication on all your social networks and WhatsApp. This simple step provides protection against 90% of hacks.",
+    "es": "🔹 Qué hacer: Habilite la autenticación de dos factores en todas sus redes sociales y en WhatsApp. Este simple paso proporciona protección contra el 90% de los hackeos."
+  },
+  "recommendation_5_title": {
+    "he": "היו ערניים להודעות הפחדה",
+    "en": "Be Alert to Scare Tactics",
+    "es": "Esté atento a las tácticas de miedo"
+  },
+  "recommendation_5_text": {
+    "he": "בזמנים של מתיחות ביטחונית, גורמים עוינים משתמשים במניפולציות כדי להפחיד ולהטעות. היו חשדניים כלפי הודעות מאיימות שמגיעות ממספרים לא מוכרים, במיוחד שיחות טלפון מחו\"ל או הודעות המכילות קישורים לא מזוהים.",
+    "en": "In times of security tensions, hostile entities use manipulations to scare and deceive. Be suspicious of threatening messages from unknown numbers, especially calls from abroad or messages containing unfamiliar links.",
+    "es": "En tiempos de tensiones de seguridad, las entidades hostiles utilizan manipulaciones para asustar y engañar. Sea sospechoso de los mensajes amenazantes de números desconocidos, especialmente las llamadas del extranjero o los mensajes que contienen enlaces desconocidos."
+  },
+  "recommendation_5_tip": {
+    "he": "🔹 מה לעשות: אל תלחצו על קישורים חשודים. חסמו את המספר השולח ודווחו לרשויות המתאימות על כל ניסיון להונאה.",
+    "en": "🔹 What to do: Do not click on suspicious links. Block the sending number and report any fraud attempts to the appropriate authorities.",
+    "es": "🔹 Qué hacer: No haga clic en enlaces sospechosos. Bloquee el número del remitente e informe de cualquier intento de fraude a las autoridades correspondientes."
+  },
+  "conclusion1": {
+    "he": "במצב הנוכחי, שמירה על המידע הפרטי והעסקי חשובה מתמיד. הצעדים הפשוטים הללו יכולים לעשות הבדל משמעותי. ב-Secure Pulses, אנו מציעים שירותי בדיקת אבטחה מקיפים ושמירה על המידע שלכם מפני התקפות סייבר.",
+    "en": "In the current situation, protecting your personal and business information is more important than ever. These simple steps can make a big difference. At Secure Pulses, we offer comprehensive security audits and protection for your data from cyberattacks.",
+    "es": "En la situación actual, proteger su información personal y empresarial es más importante que nunca. Estos sencillos pasos pueden marcar una gran diferencia. En Secure Pulses, ofrecemos auditorías de seguridad integrales y protección para sus datos contra ciberataques."
+  },
+  "date_article_title_security": {
+    "he": "24 ספטמבר, 2024",
+    "en": "September 24, 2024",
+    "es": "24 de Septiembre de 2024"
   }
 }

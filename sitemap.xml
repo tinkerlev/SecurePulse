@@ -96,4 +96,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+    <url>
+    <loc>https://www.securepulses.com/blog/LebanonAttack</loc>
+    <lastmod>2024-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    </url>
+    <url>
+    <loc>https://www.securepulses.com/blog/security_recommendations.html</loc>
+    <lastmod>2024-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

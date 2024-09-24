@@ -1,0 +1,35 @@
+        <!-- הטופס לבדיקת חדירה -->
+        <section id="penetration-test" class="bg-light py-24 sm:py-32">
+            <div class="container">
+                <h2 class="text-3xl font-bold tracking-tight no-direction-change text-gray-900 sm:text-4xl">בדיקת חדירה עצמאית</h2>
+                <form id="securityScanForm" class="mt-8 space-y-6">
+                    <label for="target">Enter URL or IP to scan:</label>
+                    <input type="text" id="target" name="target" required class="input-field">
+
+                    <p>Select scan type:</p>
+                    <input type="checkbox" id="nikto" name="scanType" value="nikto">
+                    <label for="nikto">Nikto Scan</label><br>
+                    <input type="checkbox" id="nmap" name="scanType" value="nmap">
+                    <label for="nmap">Nmap Scan</label><br>
+
+                    <!-- Checkbox להסכמה לתנאים -->
+                    <input type="checkbox" id="agreeTerms" required> 
+                    <label for="agreeTerms">
+                    <a href="#" id="openTerms">I agree to the terms of service</a>.
+                    </label>
+                    <button type="submit" class="cta-button">Run Scan</button>
+                </form>
+                <div id="results" class="mt-8"></div>
+            </div>
+        </section>
+
+        <!-- מודאל לתנאי השימוש -->
+        <div id="termsModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Terms of Service</h2>
+                <p>Running a penetration test can expose sensitive data and create potential security risks. By agreeing to these terms, you acknowledge that you understand the risks involved.</p>
+                <p>Note: Users are allowed a maximum of 3 scans per 24 hours. Excessive use may result in temporary or permanent suspension of your account.</p>
+                <p>Do not use this tool for unauthorized scanning or on systems you do not own or have explicit permission to scan.</p>
+            </div>
+        </div>
