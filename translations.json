@@ -3048,7 +3048,7 @@
   "title": {
     "he": "האם מערכות התקשורת שלך עלולות להפוך לאיום? מקרה אמיתי מהזירה הלבנונית",
     "en": "Can Your Communication Systems Become a Threat? A Real Case from the Lebanese Arena",
-    "es": "¿Pueden tus sistemas de comunicación convertirse en una amenaza? Un caso real de la arena libanesa"
+    "es": "Pueden tus sistemas de comunicación convertirse en una amenaza? Un caso real de la arena libanesa"
   },
   "intro": {
     "he": "ב-17 בספטמבר 2024 התרחש אירוע חסר תקדים בזירה הלבנונית – מכשירי קשר ששימשו את אנשי חיזבאללה התפוצצו בו זמנית. מערכות התקשורת, שהיו אמורות לשמש כקו הגנה מאובטח ומוגן, הפכו לכלי נשק קטלני. מה שהיה אמור להבטיח את ביטחונם של המשתמשים, הפך ברגע אחד לאיום על חייהם. התוצאה? הרוגים, פצועים, ותהיה גדולה לגבי ההגנה של המערכות שאנחנו סומכים עליהן.",
@@ -3214,5 +3214,115 @@
     "he": "24 ספטמבר, 2024",
     "en": "September 24, 2024",
     "es": "24 de Septiembre de 2024"
+  },
+  "post_title_find_contact_info": {
+    "he": "איך למצוא את פרטי הקשר של בעלי אתר בצורה חוקית ובטוחה",
+    "en": "How to Find Website Owner Contact Information Legally and Securely",
+    "es": "Cómo Encontrar Información de Contacto del Propietario de un Sitio Web de Forma Legal y Segura"
+  },
+  "intro_find_contact_info": {
+    "he": "לעיתים קרובות אנחנו מוצאים את עצמנו צריכים ליצור קשר עם בעלי אתרים – בין אם לצורכי אבטחה, פתרון בעיות טכניות, או שיתופי פעולה עסקיים. השאלה היא: איך ניתן לאתר את בעלי האתר בצורה חוקית ובטוחה? בפוסט הזה נלמד איך למצוא את פרטי הקשר של בעלי דומיין באמצעות WHOIS, ונבין איך להשתמש במידע הזה בצורה אתית ובהתאם לחוקי פרטיות כמו GDPR.",
+    "en": "We often find ourselves needing to contact website owners – whether for security purposes, technical problem-solving, or business collaborations. The question is: how can you find the website owners in a legal and secure way? In this post, we'll learn how to find domain owners' contact information using WHOIS, and understand how to use this information ethically and in line with privacy laws like GDPR.",
+    "es": "A menudo nos encontramos necesitando contactar a los propietarios de sitios web, ya sea por motivos de seguridad, para resolver problemas técnicos o para colaboraciones comerciales. La pregunta es: ?cómo se puede encontrar a los propietarios del sitio de manera legal y segura¿ En esta publicación, aprenderemos cómo encontrar la información de contacto de los propietarios de dominios utilizando WHOIS y cómo usar esta información de manera ética y conforme a las leyes de privacidad como GDPR."
+  },
+  "section_what_is_whois": {
+    "he": "מה זה WHOIS?",
+    "en": "?What is WHOIS",
+    "es": "?Qué es WHOIS¿"
+  },
+  "whois_description": {
+    "he": "WHOIS הוא מאגר נתונים עולמי המרכז בתוכו פרטים של כל הדומיינים הרשומים. כאשר מישהו רושם דומיין, פרטים כמו שם, כתובת דוא\"ל, ומספר טלפון נשמרים במערכת WHOIS. המאגר זמין לציבור, וכל אחד יכול לבצע חיפוש על מנת למצוא מידע בסיסי על בעלי הדומיין.",
+    "en": "WHOIS is a global database that collects information on all registered domains. When someone registers a domain, details like name, email address, and phone number are stored in the WHOIS system. The database is publicly available, and anyone can search it to find basic information about domain owners.",
+    "es": "WHOIS es una base de datos global que recopila información sobre todos los dominios registrados. Cuando alguien registra un dominio, detalles como nombre, dirección de correo electrónico y número de teléfono se almacenan en el sistema WHOIS. La base de datos está disponible públicamente y cualquier persona puede buscarla para encontrar información básica sobre los propietarios de dominios."
+  },
+  "section_how_to_do_whois_check": {
+    "he": "איך לבצע בדיקת WHOIS?",
+    "en": "?How to Perform a WHOIS Check",
+    "es": "?Cómo Realizar una Consulta WHOIS¿"
+  },
+  "whois_check_description": {
+    "he": "בדיקת WHOIS היא תהליך פשוט שניתן לבצע תוך מספר שניות. ישנם כלים מקוונים שיעזרו לכם לגשת למידע הזה בקלות. הנה כמה כלים מומלצים:",
+    "en": "A WHOIS check is a simple process that can be done in seconds. There are online tools that help you easily access this information. Here are a few recommended tools:",
+    "es": "Una consulta WHOIS es un proceso simple que se puede realizar en segundos. Existen herramientas en línea que le ayudan a acceder fácilmente a esta información. Aquí hay algunas herramientas recomendadas:"
+  },
+  "icann_tool": {
+    "he": "ICANN Lookup: כלי שמסופק על ידי רשם הדומיינים הבינלאומי.",
+    "en": "ICANN Lookup: A tool provided by the international domain registrar.",
+    "es": "ICANN Lookup: Una herramienta proporcionada por el registrador de dominios internacional."
+  },
+  "whois_tool": {
+    "he": "who.is: אתר מקיף ונוח שמאפשר חיפוש מהיר של פרטי דומיינים.",
+    "en": "who.is: A comprehensive and easy-to-use site for quick domain searches.",
+    "es": "who.is: Un sitio completo y fácil de usar para búsquedas rápidas de dominios."
+  },
+  "domaintools_tool": {
+    "he": "DomainTools: כלי חזק למעקב אחרי רישומים ופרטי קשר.",
+    "en": "DomainTools: A powerful tool for tracking registrations and contact details.",
+    "es": "DomainTools: Una herramienta poderosa para rastrear registros y detalles de contacto."
+  },
+  "whois_check_steps": {
+    "he": "כדי לבצע בדיקה, פשוט הכניסו את שם הדומיין (למשל: securepulses.com) בכלי שבחרתם, והמידע יוצג בצורה ברורה: שם הבעלים, כתובת דוא\"ל, מספר טלפון, ועוד פרטים שיכולים לסייע.",
+    "en": "To perform a check, simply enter the domain name (e.g., securepulses.com) in the tool you chose, and the information will be displayed clearly: owner name, email address, phone number, and more details that may help.",
+    "es": "Para realizar una consulta, simplemente ingrese el nombre de dominio (por ejemplo, securepulses.com) en la herramienta que eligió, y la información se mostrará claramente: nombre del propietario, dirección de correo electrónico, número de teléfono y más detalles que puedan ser útiles."
+  },
+  "section_how_to_find_legal_contact_info": {
+    "he": "איך למצוא פרטי הקשר של הבעלים של האתר בצורה חוקית",
+    "en": "How to Find Website Owner Contact Information Legally",
+    "es": "Cómo Encontrar Información de Contacto del Propietario de un Sitio Web de Forma Legal"
+  },
+  "legal_contact_info": {
+    "he": "חשוב לדעת שלא תמיד תצליחו למצוא את כל המידע הרצוי, מכיוון שבעלי דומיינים יכולים לבחור להסתיר את פרטיהם הפרטיים באמצעות שירותים של הגנת פרטיות כמו Privacy Protection. במקרים אלו, אפשר לנסות ליצור קשר עם הבעלים דרך עמודי צור קשר באתר עצמו.",
+    "en": "It's important to know that you may not always find all the information you need, as domain owners can choose to hide their private details using privacy protection services like Privacy Protection. In such cases, you can try contacting the owners through the 'Contact' page on the site itself.",
+    "es": "Es importante saber que no siempre encontrará toda la información deseada, ya que los propietarios de dominios pueden optar por ocultar sus datos privados mediante servicios de protección de privacidad como Privacy Protection. En estos casos, puede intentar contactar a los propietarios a través de la página de 'Contacto' en el sitio web."
+  },
+  "date_article_find_contact_info": {
+    "he": "25 ספטמבר, 2024",
+    "en": "September 25, 2024",
+    "es": "25 de Septiembre de 2024"
+  },
+  "whois_usage": {
+    "he": "המאגר WHOIS לא נועד רק לאיתור בעלי אתרים, אלא גם לצורכי ניהול ודיווח על בעיות טכניות, עבירות על חוקים או התנהגות חשודה. חשוב לזכור שכל שימוש במידע זה צריך להיעשות בצורה חוקית ואתית.",
+    "en": "The WHOIS database is not only intended for identifying website owners, but also for managing and reporting technical issues, law violations, or suspicious behavior. It's important to remember that all use of this information should be legal and ethical.",
+    "es": "La base de datos WHOIS no solo está destinada a identificar a los propietarios de sitios web, sino también para gestionar y reportar problemas técnicos, violaciones de leyes o comportamientos sospechosos. Es importante recordar que todo uso de esta información debe ser legal y ético."
+  },
+  "contact_via_domain_registrar": {
+    "he": "אם לא הצלחתם למצוא את המידע הזה באתר, אפשר לנסות לפנות לרשם הדומיין (החברה שאצלה נרשם הדומיין) ולבקש מהם להעביר הודעה לבעל הדומיין. במקרים של בעיות טכניות או דיווחים דחופים, זה יכול להיות פתרון יעיל.",
+    "en": "If you couldn't find the information on the website, you can try contacting the domain registrar (the company where the domain is registered) and ask them to forward a message to the domain owner. In cases of technical issues or urgent reports, this can be an effective solution.",
+    "es": "Si no pudo encontrar la información en el sitio web, puede intentar contactar al registrador de dominios (la empresa donde se registró el dominio) y pedirles que envíen un mensaje al propietario del dominio. En casos de problemas técnicos o informes urgentes, esta puede ser una solución efectiva."
+  },
+  "section_whois_privacy_services": {
+    "he": "שירותי פרטיות WHOIS",
+    "en": "WHOIS Privacy Services",
+    "es": "Servicios de Privacidad WHOIS"
+  },
+  "whois_privacy_description": {
+    "he": "הרבה בעלי אתרים בוחרים להשתמש בשירותי פרטיות שמאפשרים להם להסתיר את הפרטים האישיים שלהם ממאגרי WHOIS. שירותי פרטיות WHOIS מוסיפים שכבת הגנה ומאפשרים לבעלים להישאר אנונימיים. אם אתם בעלים של אתר, כדאי לשקול להשתמש בשירות כזה כדי לשמור על פרטיותכם.",
+    "en": "Many website owners choose to use privacy services that allow them to hide their personal information from WHOIS databases. WHOIS privacy services add a layer of protection, allowing owners to remain anonymous. If you are a website owner, you should consider using such a service to protect your privacy.",
+    "es": "Muchos propietarios de sitios web eligen utilizar servicios de privacidad que les permiten ocultar su información personal de las bases de datos de WHOIS. Los servicios de privacidad WHOIS añaden una capa de protección que permite a los propietarios permanecer en el anonimato. Si es propietario de un sitio web, debe considerar el uso de un servicio así para proteger su privacidad."
+  },
+  "privacy_and_contact": {
+    "he": "חשוב לזכור שפרטי הקשר שלכם יכולים לשמש לדיווחים על בעיות טכניות, ולכן כדאי לוודא שההגנות האלו אינן פוגעות ביכולת לפנות אליכם במקרי חירום.",
+    "en": "It's important to remember that your contact information may be used for reporting technical issues, so you should ensure that these protections don't prevent people from reaching you in case of an emergency.",
+    "es": "Es importante recordar que su información de contacto puede ser utilizada para reportar problemas técnicos, por lo que debe asegurarse de que estas protecciones no impidan que las personas se comuniquen con usted en caso de emergencia."
+  },
+  "section_security_tools": {
+    "he": "כלי אבטחה ושימושים נפוצים בזיהוי בעלי אתר",
+    "en": "Security Tools and Common Uses for Identifying Website Owners",
+    "es": "Herramientas de Seguridad y Usos Comunes para Identificar Propietarios de Sitios Web"
+  },
+  "security_tools_description": {
+    "he": "לעיתים אנשי מקצוע בתחום אבטחת המידע או מנהלי אתרים משתמשים בכלי WHOIS כדי לאתר בעיות ולזהות נקודות תורפה. כלי כמו Nmap או OWASP ZAP יכולים לשמש בבדיקות חדירה (Penetration Testing) כדי לוודא שהאתר מאובטח כראוי.",
+    "en": "Sometimes security professionals or website administrators use WHOIS tools to identify problems and detect vulnerabilities. Tools like Nmap or OWASP ZAP can be used in penetration testing to ensure the website is properly secured.",
+    "es": "A veces los profesionales de seguridad o los administradores de sitios web utilizan herramientas WHOIS para identificar problemas y detectar vulnerabilidades. Herramientas como Nmap o OWASP ZAP pueden ser utilizadas en pruebas de penetración para garantizar que el sitio web esté debidamente asegurado."
+  },
+  "domain_owner_contact_usage": {
+    "he": "השימוש במידע הנוגע לבעלי הדומיין יכול לעזור גם במקרים של דיווח על תוכן פוגעני, ביצוע תחקירים טכניים, או יצירת קשר עם המנהלים לצורכי אבטחת מידע.",
+    "en": "The information related to domain owners can also be helpful in cases of reporting harmful content, conducting technical investigations, or contacting administrators for security purposes.",
+    "es": "La información relacionada con los propietarios de dominios también puede ser útil en casos de reportar contenido dañino, realizar investigaciones técnicas o contactar a los administradores con fines de seguridad."
+  },
+  "summary": {
+    "he": "בדיקת WHOIS היא כלי עוצמתי למציאת פרטי הקשר של בעלי אתרים, אך חשוב להשתמש במידע הזה בצורה חוקית ואתית. שמירה על פרטיות ברשת היא דבר חשוב, וכל שימוש במידע חייב להיות בהתאם לחוקי פרטיות בינלאומיים כמו GDPR. אם אתם בעלי אתרים, שקלו להשתמש בשירותי פרטיות כדי להגן על המידע שלכם, ואם אתם מחפשים את פרטי הקשר של בעל אתר מסוים – עשו זאת באחריות.",
+    "en": "A WHOIS check is a powerful tool for finding website owner contact information, but it’s important to use this information in a legal and ethical way. Privacy on the internet is important, and all use of information must comply with international privacy laws like GDPR. If you are a website owner, consider using privacy services to protect your data, and if you're searching for a website owner's contact information – do so responsibly.",
+    "es": "Una consulta WHOIS es una herramienta poderosa para encontrar la información de contacto del propietario de un sitio web, pero es importante usar esta información de manera legal y ética. La privacidad en internet es importante, y todo uso de la información debe cumplir con las leyes de privacidad internacionales como el GDPR. Si es propietario de un sitio web, considere usar servicios de privacidad para proteger su información, y si está buscando la información de contacto de un propietario de sitio web, hágalo de manera responsable."
   }
 }
