@@ -3324,5 +3324,121 @@
     "he": "בדיקת WHOIS היא כלי עוצמתי למציאת פרטי הקשר של בעלי אתרים, אך חשוב להשתמש במידע הזה בצורה חוקית ואתית. שמירה על פרטיות ברשת היא דבר חשוב, וכל שימוש במידע חייב להיות בהתאם לחוקי פרטיות בינלאומיים כמו GDPR. אם אתם בעלי אתרים, שקלו להשתמש בשירותי פרטיות כדי להגן על המידע שלכם, ואם אתם מחפשים את פרטי הקשר של בעל אתר מסוים – עשו זאת באחריות.",
     "en": "A WHOIS check is a powerful tool for finding website owner contact information, but it’s important to use this information in a legal and ethical way. Privacy on the internet is important, and all use of information must comply with international privacy laws like GDPR. If you are a website owner, consider using privacy services to protect your data, and if you're searching for a website owner's contact information – do so responsibly.",
     "es": "Una consulta WHOIS es una herramienta poderosa para encontrar la información de contacto del propietario de un sitio web, pero es importante usar esta información de manera legal y ética. La privacidad en internet es importante, y todo uso de la información debe cumplir con las leyes de privacidad internacionales como el GDPR. Si es propietario de un sitio web, considere usar servicios de privacidad para proteger su información, y si está buscando la información de contacto de un propietario de sitio web, hágalo de manera responsable."
+  },
+  "post_date_xss_explained": {
+    "he": "27 ספטמבר, 2024",
+    "en": "September 27, 2024",
+    "es": "27 de Septiembre de 2024"
+  },
+  "post_title_xss_explained": {
+    "he": "המדריך המלא לזיהוי, הבנה, והתמודדות עם חולשות XSS",
+    "en": "The Complete Guide to Identifying, Understanding, and Defending Against XSS Vulnerabilities",
+    "es": "La guía completa para identificar, entender y defenderse contra vulnerabilidades XSS"
+  },
+  "intro_xss_explained": {
+    "he": "אחת הבעיות הקריטיות בעולם אבטחת המידע היא XSS (Cross-Site Scripting). מדובר באחת מחולשות הסייבר הנפוצות ביותר ברשת, שיכולה לסכן את המידע של משתמשים, לשבש את פעילות האתר, ולגרום לנזקים כבדים לחברות ובעלי עסקים. במאמר הזה, אלמד אתכם על המשמעות של חולשות XSS, כיצד להתמודד איתן, ואיך לשמור על האתר שלכם מאובטח.",
+    "en": "One of the critical issues in the world of information security is XSS (Cross-Site Scripting). It is one of the most common cyber vulnerabilities on the web, which can compromise user data, disrupt site functionality, and cause significant damage to businesses and website owners. In this article, I will teach you the meaning of XSS vulnerabilities, how to deal with them, and how to keep your site secure.",
+    "es": "Uno de los problemas críticos en el mundo de la seguridad de la información es XSS (Cross-Site Scripting). Es una de las vulnerabilidades cibernéticas más comunes en la web, que puede comprometer los datos de los usuarios, interrumpir la funcionalidad del sitio y causar daños significativos a empresas y propietarios de sitios web. En este artículo, te enseñaré el significado de las vulnerabilidades XSS, cómo tratarlas y cómo mantener tu sitio seguro."
+  },
+  "xss_learning_story": {
+    "he": "לאחרונה, במסגרת שיעורי הסייבר שלי, יצא לי להתנסות באתגר מורכב שמטרתו להמחיש ולהדגים את חולשות ה-XSS, תוך התנסות מעשית בטכניקות ודרכי התגוננות. הפוסט הזה ישתף את התובנות שרכשתי, כיצד תוקפים מנצלים את החולשה הזו, ומה הדרכים המומלצות להתגוננות ולהקשחת האבטחה באתרים.",
+    "en": "Recently, as part of my cybersecurity studies, I encountered a complex challenge aimed at demonstrating and exploring XSS vulnerabilities through practical exercises and defense techniques. This post shares the insights I gained, how attackers exploit this weakness, and the recommended methods for defense and enhancing website security.",
+    "es": "Recientemente, como parte de mis estudios de ciberseguridad, me enfrenté a un desafío complejo diseñado para demostrar y explorar las vulnerabilidades de XSS a través de ejercicios prácticos y técnicas de defensa. Esta publicación comparte las ideas que obtuve, cómo los atacantes explotan esta debilidad y los métodos recomendados para la defensa y mejora de la seguridad del sitio web."
+  },
+  "what_is_xss": {
+    "he": "מה זה בכלל XSS, ולמה זה חשוב?",
+    "en": "What is XSS, and Why is it Important?",
+    "es": "¿Qué es XSS y por qué es importante?"
+  },
+  "xss_explanation": {
+    "he": "נתחיל מההתחלה – XSS (Cross-Site Scripting) היא חולשה שמאפשרת לתוקף להזריק קוד זדוני לדף אינטרנט כך שהקוד ירוץ בתוך הדפדפן של המשתמש (בצד הלקוח) מבלי שהמשתמש יידע. חולשה זו מתאפשרת כאשר דף אינטרנט מציג תוכן דינמי ללא סינון או קידוד של קלטים שהתקבלו מהמשתמשים.",
+    "en": "Let's start from the beginning – XSS (Cross-Site Scripting) is a vulnerability that allows an attacker to inject malicious code into a web page, causing the code to run in the user's browser (on the client side) without the user's knowledge. This vulnerability occurs when a web page displays dynamic content without filtering or encoding user input.",
+    "es": "Comencemos desde el principio: XSS (Cross-Site Scripting) es una vulnerabilidad que permite a un atacante inyectar código malicioso en una página web, haciendo que el código se ejecute en el navegador del usuario (del lado del cliente) sin que el usuario lo sepa. Esta vulnerabilidad ocurre cuando una página web muestra contenido dinámico sin filtrar o codificar la entrada del usuario."
+  },
+  "xss_risks": {
+    "he": "התוצאה עלולה להיות הרסנית: התוקף יכול להריץ קוד JavaScript שיגרום לגניבת עוגיות (Cookies), התחזות למשתמשים אחרים, ביצוע פעולות ללא ידיעת המשתמשים, גניבת נתונים רגישים, ובמקרים קשים אף להשתלט על חשבונות של משתמשים או להפוך את האתר לנשלט באופן מלא על ידי התוקף.",
+    "en": "The result can be devastating: the attacker can execute JavaScript code that leads to cookie theft, impersonation of other users, performing actions without users' knowledge, stealing sensitive data, and in severe cases, even taking over user accounts or gaining full control over the website.",
+    "es": "El resultado puede ser devastador: el atacante puede ejecutar código JavaScript que conduzca al robo de cookies, a la suplantación de otros usuarios, a realizar acciones sin el conocimiento de los usuarios, al robo de datos confidenciales y, en casos graves, incluso a hacerse cargo de cuentas de usuario o obtener el control total del sitio web."
+  },
+  "xss_business_risks": {
+    "he": "עבור עסקים, זוהי סכנה ממשית – שכן כל פגיעה במידע המשתמשים או באמינות האתר יכולה לגרום לנזק כספי ותדמיתי קשה.",
+    "en": "For businesses, this is a real threat – as any damage to user data or the site's credibility can lead to significant financial and reputational damage.",
+    "es": "Para las empresas, esta es una amenaza real, ya que cualquier daño a los datos de los usuarios o a la credibilidad del sitio puede causar un daño financiero y de reputación significativo."
+  },
+  "xss_personal_learning": {
+    "he": "תהליך הלמידה שלי – התנסות מעשית בזיהוי חולשות XSS",
+    "en": "My Learning Process – Practical Experience with XSS Vulnerabilities",
+    "es": "Mi proceso de aprendizaje: experiencia práctica con vulnerabilidades XSS"
+  },
+  "xss_personal_challenge": {
+    "he": "בשבוע שעבר התחלנו בשיעור הסייבר ללמוד על חולשות XSS וכיצד להתמודד איתן. תכנון השיעור כלל התנסות מעשית באיתור וניצול החולשות הללו. אבל, בשל המצב הביטחוני, השיעור התבטל, והמרצה שלי שלח לנו תרגול אישי למי שרצה להמשיך ללמוד.",
+    "en": "Last week, in our cybersecurity class, we started learning about XSS vulnerabilities and how to deal with them. The lesson was designed to include practical exercises for identifying and exploiting these vulnerabilities. However, due to the security situation, the class was canceled, and our instructor sent us an optional personal exercise for those who wanted to continue learning.",
+    "es": "La semana pasada, en nuestra clase de ciberseguridad, comenzamos a aprender sobre las vulnerabilidades XSS y cómo tratarlas. La lección fue diseñada para incluir ejercicios prácticos para identificar y explotar estas vulnerabilidades. Sin embargo, debido a la situación de seguridad, la clase fue cancelada y nuestro instructor nos envió un ejercicio personal opcional para aquellos que quisieran continuar aprendiendo."
+  },
+  "xss_game_experience": {
+    "he": "בתור חובב אבטחת מידע, ניצלתי את ההזדמנות להתמודד עם אחד האתגרים המורכבים בתחום – משחק המדמה גילוי וניצול חולשות XSS. המטרה של המשחק הייתה למצוא דרכים להזריק קוד JavaScript זדוני שישתלב בתוך הדף באופן כזה שהאתר לא יזהה אותו כקוד מזיק.",
+    "en": "As a cybersecurity enthusiast, I took the opportunity to tackle one of the most complex challenges in the field – a game that simulates the discovery and exploitation of XSS vulnerabilities. The goal of the game was to find ways to inject malicious JavaScript code that would be embedded into the page without the website recognizing it as harmful.",
+    "es": "Como entusiasta de la ciberseguridad, aproveché la oportunidad para enfrentarme a uno de los desafíos más complejos del campo: un juego que simula el descubrimiento y la explotación de vulnerabilidades XSS. El objetivo del juego era encontrar formas de inyectar código JavaScript malicioso que se integrara en la página sin que el sitio lo reconociera como dañino."
+  },
+  "xss_how_i_solved": {
+    "he": "איך פתרתי את האתגרים – וההבנה שהעמיקה בעקבותיהם",
+    "en": "How I Solved the Challenges – and the Deeper Understanding I Gained",
+    "es": "Cómo resolví los desafíos y el conocimiento más profundo que obtuve"
+  },
+  "xss_solving_challenges": {
+    "he": "אחת המשימות המורכבות הייתה למצוא דרך לעקוף את המגבלות שהאתר הציב על טעינת קבצים חיצוניים. האתגר היה לגלות דרך חדשה להכניס את הקוד שלי כך שהוא ייטען באופן תקין וירוץ בלי לעורר חשד. אחרי ניסיונות רבים, הצלחתי לנצל את הפרוטוקול data: כדי לטעון קוד JavaScript ישירות מבלי להשתמש בכתובת URL חיצונית. מה שלימד אותי הרבה על המורכבות של זיהוי וניטרול קוד זדוני.",
+    "en": "One of the more complex tasks was finding a way to bypass the site's restrictions on loading external files. The challenge was to discover a new way to insert my code so that it would be loaded correctly and run without raising suspicion. After numerous attempts, I managed to exploit the data: protocol to load JavaScript code directly without using an external URL, teaching me a great deal about the complexity of detecting and neutralizing malicious code.",
+    "es": "Una de las tareas más complejas fue encontrar una forma de eludir las restricciones del sitio sobre la carga de archivos externos. El desafío era descubrir una nueva forma de insertar mi código para que se cargara correctamente y se ejecutara sin levantar sospechas. Después de numerosos intentos, logré explotar el protocolo data: para cargar código JavaScript directamente sin utilizar una URL externa, lo que me enseñó mucho sobre la complejidad de detectar y neutralizar el código malicioso."
+  },
+  "xss_lessons_learned": {
+    "he": "התרגול הזה עזר לי להבין את החשיבות של חשיבה כמו \"תוקף\" כדי להגן טוב יותר על מערכות ויישומים. הוא גם חידד את המיומנויות שלי במציאת דרכים יצירתיות לעקוף מנגנוני הגנה ולהיכנס לעומקם של תהליכים וטכנולוגיות באתרים.",
+    "en": "This exercise helped me understand the importance of thinking like an \"attacker\" to better protect systems and applications. It also sharpened my skills in finding creative ways to bypass defense mechanisms and delve into the depths of processes and technologies within websites.",
+    "es": "Este ejercicio me ayudó a comprender la importancia de pensar como un \"atacante\" para proteger mejor los sistemas y aplicaciones. También agudizó mis habilidades para encontrar formas creativas de eludir los mecanismos de defensa y profundizar en los procesos y tecnologías de los sitios web."
+  },
+  "xss_protection_tips": {
+    "he": "איך מתגוננים מפני XSS?",
+    "en": "How to Defend Against XSS?",
+    "es": "¿Cómo defenderse contra XSS?"
+  },
+  "xss_protection_importance": {
+    "he": "אם אתם מפתחים או בעלי אתרים, ההבנה של חולשות XSS והתגוננות מפניהן היא חיונית. הנה כמה עקרונות בסיסיים שיעזרו לכם להגן על האתר שלכם:",
+    "en": "If you are a developer or website owner, understanding XSS vulnerabilities and defending against them is essential. Here are some basic principles that will help protect your site:",
+    "es": "Si eres desarrollador o propietario de un sitio web, comprender las vulnerabilidades XSS y defenderse de ellas es esencial. Aquí hay algunos principios básicos que te ayudarán a proteger tu sitio:"
+  },
+  "xss_input_sanitization": {
+    "he": "סינון קלט: כל קלט ממשתמש צריך להיבדק בקפדנות לפני שהוא מוצג באתר. יש לוודא שהקלט אינו כולל תווים או מבני קוד שיכולים להיות זדוניים.",
+    "en": "Input Sanitization: All user input should be carefully checked before being displayed on the site. Ensure that the input does not include characters or code structures that can be malicious.",
+    "es": "Saneamiento de entrada: Toda entrada del usuario debe ser revisada cuidadosamente antes de mostrarse en el sitio. Asegúrate de que la entrada no incluya caracteres o estructuras de código que puedan ser maliciosos."
+  },
+  "xss_data_encoding": {
+    "he": "קידוד נתונים: כדי למנוע הזרקת קוד זדוני, יש לקודד את כל הנתונים שמוזנים למבנה HTML או JavaScript. לדוגמה, המרת תווים מסוכנים כמו < ו-> ליישות (entity) HTML.",
+    "en": "Data Encoding: To prevent the injection of malicious code, all data that is inserted into HTML or JavaScript structures should be encoded. For example, converting dangerous characters like < and > to HTML entities.",
+    "es": "Codificación de datos: Para evitar la inyección de código malicioso, todos los datos que se insertan en estructuras HTML o JavaScript deben ser codificados. Por ejemplo, convertir caracteres peligrosos como < y > a entidades HTML."
+  },
+  "xss_csp_policy": {
+    "he": "הגדרת מדיניות אבטחה (CSP): שימוש נכון ב-Content Security Policy יאפשר לכם להגדיר מדיניות אבטחה שתמנע טעינה והרצה של קבצים או קוד חיצוני שאינו מורשה. לדוגמה, אפשר למנוע טעינת JavaScript ממקורות חיצוניים לא מאובטחים.",
+    "en": "Setting a Security Policy (CSP): Proper use of the Content Security Policy will allow you to set a security policy that prevents the loading and execution of unauthorized external files or code. For example, preventing JavaScript from loading from unsecured external sources.",
+    "es": "Configuración de una política de seguridad (CSP): El uso adecuado de la Política de Seguridad de Contenido te permitirá establecer una política de seguridad que evite la carga y ejecución de archivos o código externo no autorizado. Por ejemplo, evitar que JavaScript se cargue de fuentes externas no seguras."
+  },
+  "xss_http_headers": {
+    "he": "אימות ושימוש בכותרות HTTP נכונות: כותרות כמו X-XSS-Protection ו-Strict-Transport-Security יכולות לעזור בהגנה על האתר מפני התקפות XSS והתקפות נוספות.",
+    "en": "Validating and Using Correct HTTP Headers: Headers like X-XSS-Protection and Strict-Transport-Security can help protect your site against XSS and other attacks.",
+    "es": "Validación y uso de encabezados HTTP correctos: Encabezados como X-XSS-Protection y Strict-Transport-Security pueden ayudar a proteger tu sitio contra ataques XSS y otros ataques."
+  },
+  "xss_security_testing": {
+    "he": "בדיקות אבטחה שוטפות: אחד הדברים הכי חשובים באבטחת אתרים הוא לבדוק את האתר שלכם לעיתים קרובות, לזהות חולשות קיימות ולתקן אותן לפני שתוקפים ינצלו אותן. בדיקות חדירה (Penetration Testing) הן כלי מצוין לזה.",
+    "en": "Regular Security Testing: One of the most important aspects of website security is to check your site frequently, identify existing vulnerabilities, and fix them before attackers can exploit them. Penetration Testing is an excellent tool for this.",
+    "es": "Pruebas de seguridad regulares: Uno de los aspectos más importantes de la seguridad de los sitios web es revisar tu sitio con frecuencia, identificar vulnerabilidades existentes y corregirlas antes de que los atacantes puedan explotarlas. Las pruebas de penetración son una herramienta excelente para esto."
+  },
+  "xss_summary": {
+    "he": "סיכום",
+    "en": "Summary",
+    "es": "Resumen"
+  },
+  "xss_summary_content": {
+    "he": "XSS היא אחת החולשות הנפוצות והמסוכנות ביותר בעולם האינטרנט, וההבנה כיצד להתגונן מפניה היא חיונית לשמירה על אבטחת האתר והמשתמשים. כמי שמתמחה באבטחת מידע, אני מאמין שזיהוי חולשות והתגוננות מהן היא לא רק עניין של אבטחה אלא גם של מתן חוויית משתמש בטוחה ואמינה.",
+    "en": "XSS is one of the most common and dangerous vulnerabilities in the world of the internet, and understanding how to defend against it is crucial to maintaining the security of your site and its users. As a cybersecurity professional, I believe that identifying vulnerabilities and defending against them is not just a matter of security but also of providing a safe and reliable user experience.",
+    "es": "XSS es una de las vulnerabilidades más comunes y peligrosas en el mundo de Internet, y comprender cómo defenderse contra ella es crucial para mantener la seguridad de su sitio y sus usuarios. Como profesional de ciberseguridad, creo que identificar vulnerabilidades y defenderse contra ellas no es solo una cuestión de seguridad, sino también de proporcionar una experiencia de usuario segura y confiable."
   }
 }
+  

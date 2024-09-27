@@ -125,7 +125,7 @@ function fallbackInitialization() {
 }
 
 // Load translations for the current language
-async function loadTranslations(lang) {
+async function loadTranslations() {
     try {
         const response = await fetch('/translations.json');
         if (!response.ok) {
