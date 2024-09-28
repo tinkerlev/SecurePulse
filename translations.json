@@ -3347,8 +3347,8 @@
   },
   "what_is_xss": {
     "he": "מה זה בכלל XSS, ולמה זה חשוב?",
-    "en": "What is XSS, and Why is it Important?",
-    "es": "¿Qué es XSS y por qué es importante?"
+    "en": "?What is XSS, and Why is it Important",
+    "es": "?Qué es XSS y por qué es importante¿"
   },
   "xss_explanation": {
     "he": "נתחיל מההתחלה – XSS (Cross-Site Scripting) היא חולשה שמאפשרת לתוקף להזריק קוד זדוני לדף אינטרנט כך שהקוד ירוץ בתוך הדפדפן של המשתמש (בצד הלקוח) מבלי שהמשתמש יידע. חולשה זו מתאפשרת כאשר דף אינטרנט מציג תוכן דינמי ללא סינון או קידוד של קלטים שהתקבלו מהמשתמשים.",
@@ -3397,8 +3397,8 @@
   },
   "xss_protection_tips": {
     "he": "איך מתגוננים מפני XSS?",
-    "en": "How to Defend Against XSS?",
-    "es": "¿Cómo defenderse contra XSS?"
+    "en": "?How to Defend Against XSS",
+    "es": "?Cómo defenderse contra XSS"
   },
   "xss_protection_importance": {
     "he": "אם אתם מפתחים או בעלי אתרים, ההבנה של חולשות XSS והתגוננות מפניהן היא חיונית. הנה כמה עקרונות בסיסיים שיעזרו לכם להגן על האתר שלכם:",
@@ -3439,6 +3439,115 @@
     "he": "XSS היא אחת החולשות הנפוצות והמסוכנות ביותר בעולם האינטרנט, וההבנה כיצד להתגונן מפניה היא חיונית לשמירה על אבטחת האתר והמשתמשים. כמי שמתמחה באבטחת מידע, אני מאמין שזיהוי חולשות והתגוננות מהן היא לא רק עניין של אבטחה אלא גם של מתן חוויית משתמש בטוחה ואמינה.",
     "en": "XSS is one of the most common and dangerous vulnerabilities in the world of the internet, and understanding how to defend against it is crucial to maintaining the security of your site and its users. As a cybersecurity professional, I believe that identifying vulnerabilities and defending against them is not just a matter of security but also of providing a safe and reliable user experience.",
     "es": "XSS es una de las vulnerabilidades más comunes y peligrosas en el mundo de Internet, y comprender cómo defenderse contra ella es crucial para mantener la seguridad de su sitio y sus usuarios. Como profesional de ciberseguridad, creo que identificar vulnerabilidades y defenderse contra ellas no es solo una cuestión de seguridad, sino también de proporcionar una experiencia de usuario segura y confiable."
+  },
+  "post_title_plaintext_passwords": {
+    "he": "מטא נקנסה ב-91 מיליון אירו – למה לשמור סיסמאות בטקסט גלוי זה מסוכן?",
+    "en": "Meta Fined €91 Million – Why Storing Passwords in Plaintext is a Risk",
+    "es": "Meta multada con €91 millones: ¿Por qué almacenar contraseñas en texto sin formato es un riesgo?"
+  },
+  "intro_plaintext_passwords": {
+    "he": "ב-2019 התגלה שמטא (פייסבוק דאז) שמרה סיסמאות של מאות מיליוני משתמשים בטקסט גלוי (plaintext), כלומר, כמו הודעה רגילה בלי הצפנה. תארו לעצמכם שאתם כותבים סיסמאות במחברת שכולם יכולים לראות - זה בערך אותו דבר. זו הסיבה שמטא נקנסה ב-91 מיליון אירו על הפרת תקנות GDPR באירופה.",
+    "en": "In 2019, Meta (formerly Facebook) stored passwords of millions of users in plaintext, meaning just like a regular message without encryption. Imagine writing down passwords in a notebook that anyone can see - that's pretty much what happened. This is why Meta was fined €91 million for violating GDPR regulations in Europe.",
+    "es": "En 2019, Meta (anteriormente Facebook) almacenó contraseñas de millones de usuarios en texto sin formato, es decir, como un mensaje regular sin cifrado. Imaginen escribir contraseñas en un cuaderno que cualquiera puede ver - eso fue lo que pasó. Por eso, Meta fue multada con €91 millones por violar las regulaciones GDPR en Europa."
+  },
+  "section_what_is_plaintext": {
+    "he": "מה זה פלאינ-טקסט (Plaintext)?",
+    "en": "?What is Plaintext",
+    "es": "?Qué es el texto sin formato (Plaintext)¿"
+  },
+  "what_is_plaintext": {
+    "he": "פלאינ-טקסט הוא פשוט טקסט גולמי, בדיוק כפי שהקלדתם אותו. דמיינו שלוקחים את הסיסמה שלכם, למשל “password123”, ושומרים אותה במערכת בדיוק כמו שהיא. אם מישהו מצליח לגשת למידע הזה – הוא רואה את הסיסמה שלכם כמו שהיא, בלי שום הצפנה או הגנה.",
+    "en": "Plaintext is simply raw text, exactly as you typed it. Imagine taking your password, like “password123”, and storing it in a system just as it is. If someone gains access to this data, they see your password exactly as it is, without any encryption or protection.",
+    "es": "El texto sin formato es simplemente texto en bruto, exactamente como lo escribiste. Imagina tomar tu contraseña, como “password123”, y almacenarla en un sistema tal como es. Si alguien accede a estos datos, verá tu contraseña tal como es, sin cifrado ni protección."
+  },
+  "plaintext_example": {
+    "he": "דוגמה: תחשבו שאתם מנהלים אתר שמאפשר למשתמשים להיכנס עם סיסמה. אם אתם מאחסנים את הסיסמאות שלהם בפלאינ-טקסט, כל עובד בחברה או תוקף סייבר שיצליח לגשת למידע הפנימי יוכל לראות את הסיסמאות עצמן, מה שעלול לחשוף את המשתמשים שלכם לסיכונים רבים.",
+    "en": "Example: Imagine you run a website that allows users to log in with a password. If you store their passwords in plaintext, any employee or cyber attacker who gains access to internal data can see the actual passwords, exposing your users to significant risks.",
+    "es": "Ejemplo: Imagina que administras un sitio web que permite a los usuarios iniciar sesión con una contraseña. Si almacenas sus contraseñas en texto sin formato, cualquier empleado o atacante cibernético que acceda a los datos internos podrá ver las contraseñas reales, exponiendo a tus usuarios a riesgos significativos."
+  },
+  "section_dangers_of_plaintext_storage": {
+    "he": "אז מה הסכנות של אחסון סיסמאות בפורמט גלוי?",
+    "en": "?So what are the risks of storing passwords in plaintext",
+    "es": "Entonces, ?cuáles son los riesgos de almacenar contraseñas en texto sin formato¿"
+  },
+  "danger_security_breach": {
+    "he": "פרצת אבטחה משמעותית: תחשבו על סיטואציה שבה הסיסמאות שלכם מאוחסנות ללא הצפנה. זה כמו לתת לגנב מפתח לדלת שלכם – קל מאוד לפרוץ לחשבונות.",
+    "en": "Significant security breach: Think about a situation where your passwords are stored without encryption. It's like giving a thief the key to your door – breaking into accounts becomes very easy.",
+    "es": "Brecha de seguridad significativa: Piensa en una situación en la que tus contraseñas se almacenan sin cifrado. Es como darle a un ladrón la llave de tu puerta: entrar en las cuentas es muy fácil."
+  },
+  "danger_regulations_fines": {
+    "he": "קנסות ורגולציה: כמו במקרה של מטא, עסקים חשופים לקנסות כבדים אם הם לא מאבטחים את הנתונים כמו שצריך. לא עומדים בתקנות? תתכוננו לשלם הרבה כסף.",
+    "en": "Regulations and fines: Like in Meta's case, businesses are subject to heavy fines if they don't properly secure user data. Not complying with regulations? Be prepared to pay a lot of money.",
+    "es": "Regulaciones y multas: Como en el caso de Meta, las empresas están sujetas a multas elevadas si no protegen adecuadamente los datos de los usuarios. ¿No cumples con las regulaciones? Prepárate para pagar mucho dinero."
+  },
+  "danger_loss_of_trust": {
+    "he": "איבוד אמון המשתמשים: לקוחות רוצים לדעת שהמידע שלהם בטוח. אם הסיסמאות שלהם נחשפות – האמון שלהם בכם מתערער, וייתכן שהם לא יחזרו להשתמש בשירותים שלכם.",
+    "en": "Loss of user trust: Customers want to know that their data is safe. If their passwords are exposed, their trust in you is compromised, and they may not return to use your services.",
+    "es": "Pérdida de confianza de los usuarios: Los clientes quieren saber que sus datos están seguros. Si sus contraseñas se exponen, su confianza en ti se ve comprometida y es posible que no vuelvan a usar tus servicios."
+  },
+  "section_how_to_secure_passwords": {
+    "he": "איך אפשר לאבטח סיסמאות כמו שצריך?",
+    "en": "?How to securely store passwords",
+    "es": "?Cómo almacenar contraseñas de forma segura¿"
+  },
+  "secure_password_hashing": {
+    "he": "האשינג (Hashing): זה תהליך שלוקח את הסיסמה וממיר אותה לרצף של תווים אקראיים וארוכים – כל כך ארוכים שאי אפשר להבין מהם את הסיסמה המקורית. למשל, אם הסיסמה שלכם היא \"password123\", לאחר האשינג היא תיראה כמו \"5f4dcc3b5aa765d61d8327deb882cf99\".",
+    "en": "Hashing: This is a process that takes a password and converts it into a long and random sequence of characters, so it's impossible to decipher the original password. For example, if your password is \"password123\", after hashing it might look like \"5f4dcc3b5aa765d61d8327deb882cf99\".",
+    "es": "Hashing: Este es un proceso que toma una contraseña y la convierte en una secuencia larga y aleatoria de caracteres, por lo que es imposible descifrar la contraseña original. Por ejemplo, si tu contraseña es \"password123\", después de hacer hashing se verá como \"5f4dcc3b5aa765d61d8327deb882cf99\"."
+  },
+  "secure_password_salting": {
+    "he": "מליחה (Salting): לפני שאתם ממירים את הסיסמה, מוסיפים לה \"מלח\" – תווים אקראיים – כך שאפילו אם יש שתי סיסמאות זהות, הן ייראו שונות לחלוטין במאגר הנתונים.",
+    "en": "Salting: Before you convert the password, you add a 'salt' – random characters – so even if there are two identical passwords, they will look completely different in the database.",
+    "es": "Salting: Antes de convertir la contraseña, se agrega una 'sal' – caracteres aleatorios – por lo que, incluso si hay dos contraseñas idénticas, se verán completamente diferentes en la base de datos."
+  },
+  "secure_two_factor_authentication": {
+    "he": "אימות דו-שלבי (Two-Factor Authentication): זו שכבת הגנה נוספת. גם אם יש למישהו את הסיסמה שלכם, הוא לא יוכל להתחבר בלי קוד נוסף שנשלח אליכם לטלפון.",
+    "en": "Two-Factor Authentication (2FA): This is an additional layer of security. Even if someone has your password, they won't be able to log in without an additional code sent to your phone.",
+    "es": "Autenticación de dos factores (2FA): Esta es una capa adicional de seguridad. Incluso si alguien tiene tu contraseña, no podrá iniciar sesión sin un código adicional enviado a tu teléfono."
+  },
+  "section_gdpr_implications": {
+    "he": "ה-GDPR וההשלכות המשפטיות",
+    "en": "GDPR and Legal Implications",
+    "es": "El GDPR y las implicaciones legales"
+  },
+  "gdpr_explanation": {
+    "he": "GDPR היא רגולציה אירופית מחמירה שמטרתה להגן על פרטיות המידע של משתמשים באירופה. עבירה על התקנות האלה יכולה להוביל לקנסות גבוהים – כמו במקרה של מטא. גם עסקים קטנים צריכים לשים לב לכך, כדי להימנע מקנסות ובעיות משפטיות.",
+    "en": "GDPR is a strict European regulation aimed at protecting the privacy of users' data in Europe. Violating these regulations can lead to high fines – as in the case of Meta. Even small businesses need to be aware of this to avoid fines and legal issues.",
+    "es": "El GDPR es una regulación europea estricta destinada a proteger la privacidad de los datos de los usuarios en Europa. Violar estas regulaciones puede llevar a multas altas, como en el caso de Meta. Incluso las pequeñas empresas deben tener en cuenta esto para evitar multas y problemas legales."
+  },
+  "section_lessons_for_business_and_users": {
+    "he": "לקחים לעסקים ואנשים פרטיים",
+    "en": "Lessons for Businesses and Individuals",
+    "es": "Lecciones para empresas y particulares"
+  },
+  "business_lessons": {
+    "he": "עסקים: אתם אחראים על אבטחת המידע שאתם אוספים. דאגו להצפין סיסמאות, להשתמש באימות דו-שלבי ולבצע בדיקות אבטחה תקופתיות כדי לוודא שהמערכות שלכם בטוחות.",
+    "en": "Businesses: You are responsible for securing the data you collect. Ensure that passwords are encrypted, implement two-factor authentication, and conduct regular security checks to make sure your systems are secure.",
+    "es": "Empresas: Eres responsable de asegurar los datos que recopilas. Asegúrate de que las contraseñas estén cifradas, implementa la autenticación de dos factores y realiza controles de seguridad periódicos para garantizar que tus sistemas sean seguros."
+  },
+  "user_lessons": {
+    "he": "משתמשים פרטיים: השתמשו בסיסמאות ייחודיות לכל שירות, הקפידו על סיסמאות חזקות והפעילו אימות דו-שלבי אם אפשר.",
+    "en": "Individuals: Use unique, strong passwords for each service, and enable two-factor authentication whenever possible.",
+    "es": "Particulares: Utiliza contraseñas únicas y fuertes para cada servicio, y habilita la autenticación de dos factores siempre que sea posible."
+  },
+  "section_conclusion_plaintext_passwords": {
+    "he": "סיכום – אבטחה היא אחריות משותפת",
+    "en": "Conclusion – Security is a Shared Responsibility",
+    "es": "Conclusión: la seguridad es una responsabilidad compartida"
+  },
+  "conclusion_plaintext_passwords": {
+    "he": "מקרה כמו זה של מטא מדגיש את החשיבות של שמירה על מידע רגיש בצורה מאובטחת. אל תיקחו סיכונים – דאגו לאבטחת המידע שלכם ושל הלקוחות שלכם.",
+    "en": "A case like Meta's highlights the importance of securely handling sensitive information. Don't take risks – ensure the security of your data and your customers' data.",
+    "es": "Un caso como el de Meta destaca la importancia de manejar la información sensible de manera segura. No corras riesgos: asegúrate de la seguridad de tus datos y los de tus clientes."
+  },
+  "cta_contact_us": {
+    "he": "רוצים להיות בטוחים שהעסק שלכם מוגן? פנו אלינו ב-Secure Pulses ואנחנו נדאג לבדוק את אבטחת הסייבר שלכם בצורה המקצועית והטובה ביותר.",
+    "en": "Want to make sure your business is protected? Contact us at Secure Pulses, and we will ensure your cybersecurity is thoroughly checked in the most professional way.",
+    "es": "¿Quieres asegurarte de que tu negocio esté protegido? Contáctanos en Secure Pulses y nos aseguraremos de que tu ciberseguridad sea revisada de la manera más profesional."
+  },
+  "post_date_plaintext_passwords": {
+    "he": "28 ספטמבר, 2024",
+    "en": "September 28, 2024",
+    "es": "28 de Septiembre de 2024"
   }
 }
-  
