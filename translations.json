@@ -3549,5 +3549,135 @@
     "he": "28 ספטמבר, 2024",
     "en": "September 28, 2024",
     "es": "28 de Septiembre de 2024"
+  },
+  "post_title_telegram_security": {
+    "he": "המלצות הגנה לחשבון הטלגרם",
+    "en": "Telegram Account Security Recommendations",
+    "es": "Recomendaciones de Seguridad para la Cuenta de Telegram"
+  },
+  "post_date_telegram_security": {
+    "he": "08 בנובמבר, 2024",
+    "en": "November 8, 2024",
+    "es": "8 de noviembre de 2024"
+  },
+  "intro_telegram_security": {
+    "he": "לאחרונה דווחו על מספר מקרים של שימוש במספרי טלפון לפתיחת חשבון טלגרם ללא ידיעת המשתמש. מערך הסייבר הלאומי הכין סדרת המלצות שיסייעו לכם להתמודד עם הבעיה ולמנוע שימוש לא מורשה במספר הטלפון שלכם.",
+    "en": "Recently, there have been reports of unauthorized use of phone numbers to open Telegram accounts without the user’s knowledge. The National Cyber Directorate has prepared a series of recommendations to help you address this issue and prevent unauthorized use of your phone number.",
+    "es": "Recientemente, se han reportado casos de uso no autorizado de números de teléfono para abrir cuentas de Telegram sin el conocimiento del usuario. La Dirección Nacional de Ciberseguridad ha preparado una serie de recomendaciones para ayudarte a abordar este problema y prevenir el uso no autorizado de tu número de teléfono."
+  },
+  "two_factor_auth_title_telegram": {
+    "he": "הפעילו אימות דו שלבי",
+    "en": "Enable Two-Factor Authentication",
+    "es": "Activa la Autenticación de Dos Factores"
+  },
+  "two_factor_auth_explanation_telegram": {
+    "he": "באפליקציית טלגרם אין סיסמה ראשונית כמו באפליקציות אחרות. כדי לשפר את האבטחה מעבר לקוד הראשוני, חשוב להגדיר אימות דו-שלבי.",
+    "en": "Telegram does not have an initial password like other apps. To enhance security beyond the initial code, it’s important to set up two-factor authentication.",
+    "es": "Telegram no tiene una contraseña inicial como otras aplicaciones. Para mejorar la seguridad más allá del código inicial, es importante configurar la autenticación de dos factores."
+  },
+  "two_factor_auth_step_1": {
+    "he": "גשו לתפריט על ידי לחיצה על שלושת הקווים בפינה העליונה או על סמל ההגדרות.",
+    "en": "Go to the menu by tapping the three lines at the top corner or the settings icon.",
+    "es": "Ve al menú tocando las tres líneas en la esquina superior o el ícono de configuración."
+  },
+  "two_factor_auth_step_2": {
+    "he": "בחרו באפשרות 'הגדרות' > 'פרטיות ואבטחה' > 'אימות דו-שלבי'.",
+    "en": "Select 'Settings' > 'Privacy and Security' > 'Two-Step Verification'.",
+    "es": "Selecciona 'Configuración' > 'Privacidad y Seguridad' > 'Verificación en Dos Pasos'."
+  },
+  "two_factor_auth_step_3": {
+    "he": "עקבו אחר ההנחיות ליצירת סיסמה נוספת לחשבון שלכם.",
+    "en": "Follow the prompts to create an additional password for your account.",
+    "es": "Sigue las indicaciones para crear una contraseña adicional para tu cuenta."
+  },
+  "two_factor_auth_step_4": {
+    "he": "הוסיפו כתובת אימייל לגיבוי.",
+    "en": "Add a backup email address.",
+    "es": "Agrega una dirección de correo electrónico de respaldo."
+  },
+  "voicemail_password_title": {
+    "he": "החליפו סיסמה לתא הקולי",
+    "en": "Change Your Voicemail Password",
+    "es": "Cambia la Contraseña del Buzón de Voz"
+  },
+  "voicemail_password_explanation": {
+    "he": "האקרים יכולים לקבל קוד אימות לטלגרם דרך שיחת טלפון לתא הקולי. ודאו שהסיסמה לתא הקולי אינה סיסמת ברירת המחדל.",
+    "en": "Hackers can get a Telegram verification code via voicemail. Ensure that your voicemail password is not the default.",
+    "es": "Los hackers pueden obtener el código de verificación de Telegram a través del buzón de voz. Asegúrate de que la contraseña de tu buzón de voz no sea la predeterminada."
+  },
+  "connected_devices_title": {
+    "he": "בדקו את ההגדרות לחשבונות מחוברים",
+    "en": "Check Connected Devices Settings",
+    "es": "Verifica la Configuración de Dispositivos Conectados"
+  },
+  "connected_devices_explanation": {
+    "he": "אם יש חשד לשימוש לא מורשה, התחברו לטלגרם ובדקו את רשימת המכשירים המחוברים לחשבון.",
+    "en": "If there is suspicion of unauthorized access, log into Telegram and check the list of devices connected to your account.",
+    "es": "Si sospechas de un acceso no autorizado, inicia sesión en Telegram y verifica la lista de dispositivos conectados a tu cuenta."
+  },
+  "connected_devices_step_1": {
+    "he": "גשו לתפריט ההגדרות > 'פרטיות ואבטחה' > 'מכשירים'.",
+    "en": "Go to Settings > 'Privacy and Security' > 'Devices'.",
+    "es": "Ve a Configuración > 'Privacidad y Seguridad' > 'Dispositivos'."
+  },
+  "connected_devices_step_2": {
+    "he": "נתקו כל מכשיר שאינכם מזהים.",
+    "en": "Disconnect any device you don’t recognize.",
+    "es": "Desconecta cualquier dispositivo que no reconozcas."
+  },
+  "keep_phone_private_title": {
+    "he": "שמרו על סודיות מספר הטלפון",
+    "en": "Keep Your Phone Number Private",
+    "es": "Mantén Privado tu Número de Teléfono"
+  },
+  "keep_phone_private_explanation": {
+    "he": "הימנעו מלפרסם את מספר הטלפון שלכם באינטרנט או ברשתות חברתיות. כך תוכלו להפחית את הסיכון לשימוש לרעה בו.",
+    "en": "Avoid posting your phone number online or on social media to reduce the risk of misuse.",
+    "es": "Evita publicar tu número de teléfono en línea o en redes sociales para reducir el riesgo de uso indebido."
+  },
+  "contact_support_title": {
+    "he": "צרו קשר עם תמיכת טלגרם במקרה הצורך",
+    "en": "Contact Telegram Support If Needed",
+    "es": "Contacta al Soporte de Telegram si es Necesario"
+  },
+  "contact_support_explanation": {
+    "he": "אם גיליתם שמישהו פתח חשבון עם המספר שלכם, פנו לתמיכת טלגרם ודווחו על הבעיה.",
+    "en": "If you discover someone has opened an account with your number, contact Telegram support to report the issue.",
+    "es": "Si descubres que alguien ha abierto una cuenta con tu número, contacta al soporte de Telegram para informar el problema."
+  },
+  "unknown_verification_code_title": {
+    "he": "היזהרו מהודעות ואישורים לא מוכרים",
+    "en": "Beware of Unknown Verification Messages",
+    "es": "Cuidado con Mensajes de Verificación Desconocidos"
+  },
+  "unknown_verification_code_explanation": {
+    "he": "אם קיבלתם הודעת אימות מבלי שביקשתם, אל תזינו את הקוד ואל תאשרו את הפנייה.",
+    "en": "If you receive a verification message you didn’t request, do not enter the code or approve the request.",
+    "es": "Si recibes un mensaje de verificación que no solicitaste, no ingreses el código ni apruebes la solicitud."
+  },
+  "protect_personal_info_title": {
+    "he": "הגנה על המידע האישי",
+    "en": "Protect Your Personal Information",
+    "es": "Protege Tu Información Personal"
+  },
+  "protect_personal_info_explanation": {
+    "he": "אל תשתפו פרטים אישיים כמו מספר הטלפון שלכם עם גורמים לא מוכרים או באתרים שאינם מאובטחים.",
+    "en": "Do not share personal details like your phone number with unknown entities or on insecure websites.",
+    "es": "No compartas detalles personales como tu número de teléfono con entidades desconocidas o en sitios web no seguros."
+  },
+  "closing_statement": {
+    "he": "ביצוע ההמלצות הללו יסייע לכם להגן על מספר הטלפון שלכם ולמנוע שימוש בלתי מורשה בו. במקרה של אירוע סייבר, פנו למערך הסייבר הלאומי בטופס המקוון או התקשרו למוקד 119.",
+    "en": "Following these recommendations will help you protect your phone number and prevent unauthorized use. In case of a cyber event, contact the National Cyber Directorate through the online form or call hotline 119.",
+    "es": "Seguir estas recomendaciones te ayudará a proteger tu número de teléfono y prevenir el uso no autorizado. En caso de un incidente cibernético, comunícate con la Dirección Nacional de Ciberseguridad mediante el formulario en línea o llama a la línea directa 119."
+  },
+  "post_title_telegram": {
+    "he": "כיצד להגן על חשבון הטלגרם שלכם מפני שימוש לא מורשה",
+    "en": "How to Protect Your Telegram Account from Unauthorized Access",
+    "es": "Cómo Proteger tu Cuenta de Telegram de Accesos No Autorizados"
+  },
+  "intro_telegram": {
+    "he": "בעקבות מקרים אחרונים של פריצות לחשבונות טלגרם באמצעות מספרי טלפון, מערך הסייבר הלאומי פרסם סדרת הנחיות שמטרתן לעזור להגן על חשבונכם מפני שימוש לא מורשה. במאמר זה נסקור את הסכנות ונראה איך תוכלו להפעיל אימות דו-שלבי ולהגן על המידע האישי שלכם.",
+    "en": "Following recent incidents of Telegram account breaches using phone numbers, the National Cyber Directorate has issued a series of guidelines to help protect your account from unauthorized access. In this article, we will review the dangers and show you how to enable two-factor authentication and secure your personal information.",
+    "es": "Tras incidentes recientes de brechas en cuentas de Telegram usando números de teléfono, la Dirección Nacional de Ciberseguridad ha emitido una serie de directrices para ayudar a proteger tu cuenta contra accesos no autorizados. En este artículo, revisaremos los riesgos y te mostraremos cómo activar la autenticación de dos factores y proteger tu información personal."
   }
 }
