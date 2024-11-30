@@ -1,6 +1,6 @@
 Restricted Private Use License
 
-SecurePulse
+SecurePulses
 
 Date: August 29, 2024
 
